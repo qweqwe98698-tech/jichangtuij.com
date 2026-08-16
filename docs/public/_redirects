@@ -1,0 +1,19 @@
+# 机场云 JichangCloud — Cloudflare Pages 重定向规则
+#
+# 说明：本站是静态多页面网站，每个 URL 都有对应的 index.html。
+# 因此这里绝对不能写 SPA 回退规则（/* /index.html 200），
+# 否则所有不存在的路径都会返回 200 首页内容，产生大量伪页面并破坏 404。
+
+# ---- 旧路径兼容 ----
+/index.html            /                                          301
+/airport-recommend     /recommend/                                301
+/airport-recommend/*   /recommend/                                301
+/tutorial              /clients/                                  301
+/tutorial/*            /clients/                                  301
+/blacklist             /warnings/status-and-blacklist-policy/     301
+/disclosure            /affiliate-policy/                         301
+/about-us              /about/                                    301
+/contact               /submit/                                   301
+/rss                   /feed.xml                                  301
+/rss.xml               /feed.xml                                  301
+/atom.xml              /feed.xml                                  301

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT27 jcD27">
+  <title id="jcT27">Android 息屏后省电策略导致代理中断的时间线</title>
+  <desc id="jcD27">时间线展示：连接正常使用中，用户息屏；一段时间后系统省电策略把客户端后台进程冻结或杀掉，代理静默中断；用户解锁手机时发现网络异常，需要重连。下方给出处理方式：在系统设置中为客户端关闭电池优化、允许后台运行与自启动，各厂商系统的入口名称不同但概念一致。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .axis{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .ok{stroke:#48b7c7;stroke-width:5;fill:none;stroke-linecap:round}
+    .dead{stroke:#cf8a8a;stroke-width:5;fill:none;stroke-linecap:round;stroke-dasharray:3 7}
+    .mark{stroke:#c07a2a;stroke-width:1.6;stroke-dasharray:5 4}
+  </style>
+
+  <text class="l" x="20" y="26">「白天好好的，一放下手机就断」——凶手通常是省电策略</text>
+
+  <line class="axis" x1="60" y1="140" x2="820" y2="140"/>
+
+  <path class="ok" d="M80 140 H300"/>
+  <text class="g" x="110" y="120">正常使用中</text>
+
+  <line class="mark" x1="300" y1="80" x2="300" y2="190"/>
+  <text class="s" x="262" y="70">息屏</text>
+
+  <path class="ok" d="M300 140 H430"/>
+  <text class="s" x="310" y="120">后台暂时存活</text>
+
+  <line class="mark" x1="430" y1="80" x2="430" y2="190"/>
+  <text class="r" x="376" y="70">省电策略介入</text>
+
+  <path class="dead" d="M430 140 H650"/>
+  <text class="r" x="446" y="120">进程被冻结或杀掉，代理静默中断</text>
+
+  <line class="mark" x1="650" y1="80" x2="650" y2="190"/>
+  <text class="s" x="618" y="70">解锁手机</text>
+
+  <path class="ok" d="M650 140 H800"/>
+  <text class="r" x="660" y="120">发现断网，重连</text>
+
+  <text class="s" x="80" y="172">中断发生在你看不到的时段，表现为「解锁后要重连」</text>
+
+  <text class="l" x="20" y="230">处理方式（概念在各厂商系统中一致，入口名称不同）</text>
+  <text class="s" x="40" y="256">· 为客户端关闭电池优化 / 省电限制</text>
+  <text class="s" x="40" y="278">· 允许后台运行与自启动</text>
+  <text class="s" x="40" y="300">· 部分系统还需在最近任务里锁定应用</text>
+  <text class="g" x="440" y="256">判断方法：放行后息屏同样时长再测；</text>
+  <text class="g" x="440" y="278">仍中断才继续排查网络切换与线路因素。</text>
+</svg>

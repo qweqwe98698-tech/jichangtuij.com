@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" width="880" height="600" role="img" aria-labelledby="spdT-guangsuyun spdD-guangsuyun">
+  <title id="spdT-guangsuyun">光速云测速报告（2026-08-03 晚高峰，香港 10G 测试机，本站实测）</title>
+  <desc id="spdD-guangsuyun">深色测速报告：光速云订阅 50 节点全量测试中六个代表性节点的握手延迟与平均速度，附条形图。汇总：50 节点全量 ｜ 香港区典型 390–555 MB/s ｜ 异常 2 节点：新加坡SIN-01（KB 级）、日本TYO-09（高延迟）。速度为香港 10G 测试机视角，家庭宽带用户以本地带宽为上限；延迟为完整链路握手耗时，与大陆家宽视角不同。</desc>
+  <style>
+    .t{font-family:"Cascadia Code","Microsoft YaHei",monospace;font-size:15px;font-weight:700;fill:#e8e8e8}
+    .s{font-family:"Cascadia Code","Microsoft YaHei",monospace;font-size:12.5px;fill:#9da5b4}
+    .sm{font-family:"Microsoft YaHei",sans-serif;font-size:11px;fill:#7a828e}
+    .wm{font-family:"Microsoft YaHei",sans-serif;font-size:12px;fill:#ffffff;opacity:0.3}
+  </style>
+  <rect x="0" y="0" width="880" height="600" fill="#1e1e1e"/>
+  <rect x="24" y="24" width="832" height="552" rx="10" fill="#252526" stroke="#3c3c3c" stroke-width="1"/>
+  <text class="t" x="48" y="64">🌐 光速云 测速报告 · 2026-08-03 晚高峰</text>
+  <line x1="48" y1="80" x2="832" y2="80" stroke="#3c3c3c"/>
+  <text class="s" x="48" y="104">工具：MiaoKo 订阅测速（50 节点全量）｜测试机：香港 · 10G 端口｜本站实测</text>
+  <line x1="48" y1="120" x2="832" y2="120" stroke="#3c3c3c"/>
+
+  <circle cx="58" cy="147" r="5" fill="#00e676"/>
+  <text class="t" x="76" y="152">香港 HKG-04</text>
+  <text class="s" x="420" y="152">握手延迟：104ms</text>
+  <text class="s" x="600" y="152">平均：554.6 MB/s</text>
+  <rect x="48" y="164" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="164" width="701" height="10" rx="5" fill="#00e676"/>
+
+  <circle cx="58" cy="209" r="5" fill="#00e676"/>
+  <text class="t" x="76" y="214">香港 HKG-12</text>
+  <text class="s" x="420" y="214">握手延迟：106ms</text>
+  <text class="s" x="600" y="214">平均：547.2 MB/s</text>
+  <rect x="48" y="226" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="226" width="692" height="10" rx="5" fill="#00e676"/>
+
+  <circle cx="58" cy="271" r="5" fill="#00e676"/>
+  <text class="t" x="76" y="276">新加坡 SIN-03</text>
+  <text class="s" x="420" y="276">握手延迟：109ms</text>
+  <text class="s" x="600" y="276">平均：460.5 MB/s</text>
+  <rect x="48" y="288" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="288" width="582" height="10" rx="5" fill="#00e676"/>
+
+  <circle cx="58" cy="333" r="5" fill="#00e676"/>
+  <text class="t" x="76" y="338">日本 TYO-05</text>
+  <text class="s" x="420" y="338">握手延迟：155ms</text>
+  <text class="s" x="600" y="338">平均：198.3 MB/s</text>
+  <rect x="48" y="350" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="350" width="251" height="10" rx="5" fill="#00e676"/>
+
+  <circle cx="58" cy="395" r="5" fill="#ffd54f"/>
+  <text class="t" x="76" y="400">台湾 TPE-03</text>
+  <text class="s" x="420" y="400">握手延迟：139ms</text>
+  <text class="s" x="600" y="400">平均：80.3 MB/s</text>
+  <rect x="48" y="412" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="412" width="102" height="10" rx="5" fill="#ffd54f"/>
+
+  <circle cx="58" cy="457" r="5" fill="#ffd54f"/>
+  <text class="t" x="76" y="462">美国 LAX-02</text>
+  <text class="s" x="420" y="462">握手延迟：245ms</text>
+  <text class="s" x="600" y="462">平均：18.1 MB/s</text>
+  <rect x="48" y="474" width="784" height="10" rx="5" fill="#3c3c3c"/>
+  <rect x="48" y="474" width="23" height="10" rx="5" fill="#ffd54f"/>
+  <line x1="48" y1="500" x2="832" y2="500" stroke="#3c3c3c"/>
+  <text class="s" x="48" y="524">汇总：50 节点全量 ｜ 香港区典型 390–555 MB/s ｜ 异常 2 节点：新加坡SIN-01（KB 级）、日本TYO-09（高延迟）</text>
+  <text class="sm" x="48" y="546">说明：速度为香港 10G 测试机视角，家庭宽带用户以本地带宽为上限；延迟为测试机经完整链路的握手耗时（TLS RTT），</text>
+  <text class="sm" x="48" y="562">与大陆家宽视角不同。完整 50 节点数据与异常节点记录见站内测试档案；结论仅代表本次测试时点。</text>
+  <text class="wm" x="716" y="546">jichangcloud.com</text>
+</svg>

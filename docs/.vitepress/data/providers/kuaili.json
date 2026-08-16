@@ -1,0 +1,72 @@
+{
+  "slug": "kuaili",
+  "name": "快狸",
+  "vendor": {
+    "entryPrice": "25元/月",
+    "traffic": "150GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持订阅导入，适配各大客户端",
+    "aiClaim": "资料显示覆盖常见流媒体及 AI 服务访问场景",
+    "streamingClaim": "资料显示覆盖常见流媒体及 AI 服务访问场景",
+    "establishedYear": 2023
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/kuaili-speedtest-2026-08-11.png",
+    "speedtestProtocol": "VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "kkk2222",
+    "discountDesc": "专属优惠码 kkk2222",
+    "affLink": "https://guangs.kuailicloud.cc/#/register?code=AiqyM8oG",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "25元档 / 150GB / 纯 VLESS 协议 / IEPL 专线 / 视频与AI综合型",
+    "positioning": "25元档 / 150GB / 综合型 / VLESS / IEPL",
+    "targetAudience": [
+      "视频、AI 和日常代理需求比较均衡的中等流量用户",
+      "偏好纯 VLESS 协议配置、看重 IEPL 专线低延迟稳定性的用户",
+      "月流量需求约 150GB 的多设备家庭或个人重度用户"
+    ],
+    "notRecommendedFor": [
+      "预算低于 20 元的平价需求用户"
+    ],
+    "pros": [
+      "采用纯 VLESS 协议并提供 IEPL 专线节点，传输协议现代化",
+      "25 元档提供 150GB 月流量，容量充足",
+      "提供自研客户端与第三方订阅无缝导入"
+    ],
+    "cons": [
+      "仅提供 VLESS 协议，老旧客户端可能需要升级内核",
+      "AI 与流媒体解锁仍待后续独立自动化批量实测"
+    ],
+    "priceSegment": "25",
+    "lastVerified": "2026-08-16"
+  }
+}

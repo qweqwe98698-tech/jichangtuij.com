@@ -1,0 +1,497 @@
+[
+  {
+    "id": "airport-service",
+    "term": "机场",
+    "en": "Airport Service",
+    "category": "基础概念",
+    "definition": "指提供节点订阅链接的代理服务商，用户用客户端导入订阅后即可使用其节点。",
+    "detail": "「机场」是中文社区对这类订阅式代理服务的俗称，来源是早期节点列表被称作「机场跑道」。它与传统 VPN 的差别在于：机场通常只提供订阅链接和节点，不提供自有客户端，用户需要自行选择 Clash、Shadowrocket、V2rayN 或 sing-box 等客户端。",
+    "related": ["subscription", "node", "client"]
+  },
+  {
+    "id": "subscription",
+    "term": "订阅",
+    "en": "Subscription",
+    "category": "基础概念",
+    "definition": "一条包含节点列表的链接，客户端定期访问该链接以获取最新的节点配置。",
+    "detail": "订阅链接本身就是凭证，任何拿到链接的人都可以使用你的流量，因此不能公开分享或粘贴到在线转换网站。订阅更新频率由客户端设置决定，常见为 24 小时一次。",
+    "related": ["airport-service", "node", "subscription-leak"]
+  },
+  {
+    "id": "node",
+    "term": "节点",
+    "en": "Node",
+    "category": "基础概念",
+    "definition": "订阅中的一条具体服务器配置，包含地址、端口、协议与加密参数。",
+    "detail": "节点是可以被客户端直接连接的最小单位。一个节点名称里出现的地区通常指出口地区，不代表数据只经过该地区。",
+    "related": ["route", "exit-ip", "entry"]
+  },
+  {
+    "id": "route",
+    "term": "线路",
+    "en": "Route",
+    "category": "线路类型",
+    "definition": "数据从本地到目标网站所经过的完整路径，包含入口、中转与出口环节。",
+    "detail": "线路描述的是路径质量，节点描述的是连接方式。同一个出口地区可以有质量差别很大的多条线路，这也是同为「香港节点」体验却完全不同的原因。",
+    "related": ["node", "relay", "direct-route"]
+  },
+  {
+    "id": "entry",
+    "term": "入口",
+    "en": "Entry / Ingress",
+    "category": "线路类型",
+    "definition": "线路中最先接收本地流量的服务器，通常决定国内段的延迟与晚高峰表现。",
+    "detail": "入口质量对中国大陆用户的体感影响最大。入口机房与本地运营商的互联质量差，即使出口在美国的带宽再大也无法弥补。",
+    "related": ["route", "relay", "bgp"]
+  },
+  {
+    "id": "relay",
+    "term": "中转",
+    "en": "Relay",
+    "category": "线路类型",
+    "definition": "流量先到达一台中间服务器，再由它转发到落地服务器的线路组织方式。",
+    "detail": "中转的目的是用一段优化过的国内到境外链路替换默认的公网路径。中转可以基于普通公网隧道，也可以基于专线，价格与稳定性差别很大。",
+    "related": ["direct-route", "iepl", "iplc"]
+  },
+  {
+    "id": "direct-route",
+    "term": "直连",
+    "en": "Direct Route",
+    "category": "线路类型",
+    "definition": "客户端直接连接落地服务器，中间不经过额外中转节点的线路方式。",
+    "detail": "直连成本最低、结构最简单，在网络环境宽松时速度可以很好，但受公网拥堵和封锁影响明显，晚高峰波动通常大于中转与专线。",
+    "related": ["relay", "route"]
+  },
+  {
+    "id": "iepl",
+    "term": "IEPL",
+    "en": "International Ethernet Private Line",
+    "category": "线路类型",
+    "definition": "国际以太网专线，运营商提供的跨境二层专用链路，不经过公共互联网出口。",
+    "detail": "IEPL 的价值在于链路独享和路径稳定，晚高峰不与公网流量竞争。但它成本高，机场通常以共享方式分摊带宽，因此「IEPL」并不自动等于「一定不卡」。",
+    "related": ["iplc", "relay", "route"]
+  },
+  {
+    "id": "iplc",
+    "term": "IPLC",
+    "en": "International Private Leased Circuit",
+    "category": "线路类型",
+    "definition": "国际专用租用电路，运营商提供的点到点跨境专线，带宽与路径固定独享。",
+    "detail": "IPLC 是更传统的企业级专线产品，早于 IEPL 出现，通常按点到点计费。在机场语境中，IPLC 与 IEPL 常被混用，实际差异体现在组网层次与计费方式上。",
+    "related": ["iepl", "relay"]
+  },
+  {
+    "id": "bgp",
+    "term": "BGP 线路",
+    "en": "Border Gateway Protocol Route",
+    "category": "线路类型",
+    "definition": "机房同时接入多家运营商，通过 BGP 协议为不同来源选择较优路径的接入方式。",
+    "detail": "BGP 描述的是机房的接入与选路能力，不是加速手段。它的价值是多线接入与故障自动切换，对多运营商环境和家庭宽带波动有帮助。",
+    "related": ["entry", "route"]
+  },
+  {
+    "id": "native-ip",
+    "term": "原生 IP",
+    "en": "Native IP",
+    "category": "IP 与出口",
+    "definition": "IP 的注册地与实际所在机房地区一致，通常被平台判定为本地用户。",
+    "detail": "原生 IP 主要影响流媒体地区库和部分 AI 平台的可用性。它与住宅 IP 不是同一件事：原生强调注册地一致，住宅强调归属类型为家庭宽带。",
+    "related": ["residential-ip", "exit-ip", "broadcast-ip"]
+  },
+  {
+    "id": "broadcast-ip",
+    "term": "广播 IP",
+    "en": "Broadcast IP",
+    "category": "IP 与出口",
+    "definition": "IP 注册信息被广播到目标地区，但实际服务器不在该地区的出口方式。",
+    "detail": "广播 IP 成本低于真实落地，常用于解锁部分地区内容。缺点是路径可能绕行，延迟高于原生落地，且平台策略调整时更容易失效。",
+    "related": ["native-ip", "exit-ip"]
+  },
+  {
+    "id": "residential-ip",
+    "term": "住宅 IP",
+    "en": "Residential IP",
+    "category": "IP 与出口",
+    "definition": "归属于家庭宽带运营商的 IP 地址，在风控系统中通常被视为普通个人用户。",
+    "detail": "住宅 IP 的信誉分较高，适合对 IP 类型敏感的注册与登录场景。它带宽有限、价格高，不适合长时间大流量下载。",
+    "related": ["native-ip", "exit-ip"]
+  },
+  {
+    "id": "exit-ip",
+    "term": "出口 IP",
+    "en": "Exit IP",
+    "category": "IP 与出口",
+    "definition": "目标网站最终看到的来源地址，决定地区判定、风控评分与内容库。",
+    "detail": "出口 IP 与节点名称显示的地区可能不一致。判断出口地区应以实际访问 IP 查询服务的结果为准，而不是节点名称。",
+    "related": ["native-ip", "residential-ip", "node"]
+  },
+  {
+    "id": "shadowsocks",
+    "term": "Shadowsocks",
+    "en": "Shadowsocks",
+    "category": "协议",
+    "definition": "一种轻量加密代理协议，结构简单、开销低，是机场早期最常见的协议之一。",
+    "detail": "Shadowsocks 以及 2022 版本的 AEAD 加密在性能上表现良好，兼容性极广。它的流量特征相对固定，在严格网络环境下可能不如带 TLS 伪装的协议稳定。",
+    "related": ["trojan", "vmess", "vless"]
+  },
+  {
+    "id": "trojan",
+    "term": "Trojan",
+    "en": "Trojan",
+    "category": "协议",
+    "definition": "把代理流量伪装成标准 HTTPS 流量的协议，依赖真实域名与 TLS 证书。",
+    "detail": "Trojan 的核心思路是「看起来就是普通网站访问」。它需要域名和证书，配置比 Shadowsocks 复杂，但在识别较严格的网络中通常更稳定。",
+    "related": ["shadowsocks", "tls", "sni"]
+  },
+  {
+    "id": "vmess",
+    "term": "VMess",
+    "en": "VMess",
+    "category": "协议",
+    "definition": "V2Ray 生态的自有协议，带有时间校验与动态 ID 机制，配置项较多。",
+    "detail": "VMess 依赖客户端与服务端时间同步，设备时间偏差过大会直接导致连接失败。它的额外校验带来了一定性能开销，因此逐步被 VLESS 取代。",
+    "related": ["vless", "shadowsocks", "trojan"]
+  },
+  {
+    "id": "vless",
+    "term": "VLESS",
+    "en": "VLESS",
+    "category": "协议",
+    "definition": "VMess 的轻量化后继协议，去掉自带加密与时间校验，加密交给 TLS 层完成。",
+    "detail": "VLESS 本身不加密，安全性依赖外层 TLS 或 REALITY 等传输方案。它开销更低、延迟更好，是当前较常见的高性能选择。",
+    "related": ["vmess", "tls", "reality"]
+  },
+  {
+    "id": "hysteria",
+    "term": "Hysteria",
+    "en": "Hysteria",
+    "category": "协议",
+    "definition": "基于 QUIC/UDP 的代理协议，针对高丢包链路做了拥塞控制优化。",
+    "detail": "Hysteria 在丢包较高的线路上体感提升明显，但对 UDP 支持有要求，部分校园网、企业网和移动网络会限制 UDP，导致完全不可用。",
+    "related": ["vless", "trojan"]
+  },
+  {
+    "id": "reality",
+    "term": "REALITY",
+    "en": "REALITY",
+    "category": "协议",
+    "definition": "一种借用真实网站 TLS 握手特征的传输方案，无需自备证书即可完成伪装。",
+    "detail": "REALITY 通常与 VLESS 搭配使用，规避了自签证书与域名管理成本。它对客户端版本有要求，老版本客户端无法连接。",
+    "related": ["vless", "tls", "sni"]
+  },
+  {
+    "id": "tls",
+    "term": "TLS",
+    "en": "Transport Layer Security",
+    "category": "传输",
+    "definition": "为连接提供加密与身份验证的传输层安全协议，也是 HTTPS 的基础。",
+    "detail": "在代理场景中，TLS 既提供加密，也提供「看起来像正常网站」的外观。证书过期、域名不匹配或设备时间错误都会导致握手失败。",
+    "related": ["websocket", "sni", "trojan"]
+  },
+  {
+    "id": "websocket",
+    "term": "WebSocket",
+    "en": "WebSocket",
+    "category": "传输",
+    "definition": "在 HTTP 连接上升级得到的全双工长连接通道，常用于代理流量的传输载体。",
+    "detail": "WebSocket 的优势是能穿过大多数只放行 HTTP/HTTPS 的网络，并且可以经过 CDN 中转。代价是相比裸 TCP 增加了一层封装开销。",
+    "related": ["tls", "grpc", "cdn"]
+  },
+  {
+    "id": "cdn",
+    "term": "CDN 中转",
+    "en": "Content Delivery Network Relay",
+    "category": "传输",
+    "definition": "把连接先接入内容分发网络的边缘节点，再由其回源到落地服务器的组织方式。",
+    "detail": "CDN 中转的好处是边缘节点通常与本地网络互联质量较好，且地址分散不易被单点影响。代价是多一层转发带来的额外延迟，并且受 CDN 服务商自身策略与限速影响。它常与 WebSocket 搭配使用。",
+    "related": ["websocket", "relay", "entry"]
+  },
+  {
+    "id": "grpc",
+    "term": "gRPC",
+    "en": "gRPC",
+    "category": "传输",
+    "definition": "基于 HTTP/2 的传输方式，多路复用能力强，适合高并发小请求场景。",
+    "detail": "gRPC 在部分线路上比 WebSocket 更稳定，但对中间设备的 HTTP/2 支持有要求，配置错误时表现为连接建立但无数据。",
+    "related": ["websocket", "tls"]
+  },
+  {
+    "id": "sni",
+    "term": "SNI",
+    "en": "Server Name Indication",
+    "category": "传输",
+    "definition": "TLS 握手中明文携带的目标域名字段，用于服务器选择对应证书。",
+    "detail": "SNI 是明文的，因此中间网络可以看到你要访问哪个域名（但看不到内容）。伪装类协议对 SNI 的选择直接影响可用性。",
+    "related": ["tls", "reality"]
+  },
+  {
+    "id": "clash",
+    "term": "Clash",
+    "en": "Clash",
+    "category": "客户端",
+    "definition": "以规则分流为核心的代理客户端内核，配置使用 YAML，生态与衍生版本众多。",
+    "detail": "Clash 系客户端的核心能力是按域名、IP、地理位置分流。原始 Clash 已停止维护，目前常见的是 Mihomo 内核与 Clash Verge、ClashX Meta 等图形客户端。",
+    "related": ["rule-mode", "tun-mode", "sing-box"]
+  },
+  {
+    "id": "shadowrocket",
+    "term": "Shadowrocket",
+    "en": "Shadowrocket",
+    "category": "客户端",
+    "definition": "iOS 平台上的付费代理客户端，中文社区常称「小火箭」，支持多协议与规则分流。",
+    "detail": "Shadowrocket 只在部分地区的 App Store 上架，购买需要对应地区账号。任何声称提供免费安装包的渠道都存在被篡改风险。",
+    "related": ["clash", "sing-box", "client"]
+  },
+  {
+    "id": "v2rayn",
+    "term": "V2rayN",
+    "en": "V2rayN",
+    "category": "客户端",
+    "definition": "Windows 平台的开源图形客户端，支持 V2Ray/Xray 内核与常见订阅格式。",
+    "detail": "V2rayN 提供直观的节点列表、订阅更新和系统代理开关，日志面板对排查连接问题很有价值。使用时应从官方仓库获取发行版。",
+    "related": ["clash", "sing-box", "client"]
+  },
+  {
+    "id": "sing-box",
+    "term": "sing-box",
+    "en": "sing-box",
+    "category": "客户端",
+    "definition": "跨平台的通用代理内核，用 JSON 配置，支持多协议、多入站与灵活路由。",
+    "detail": "sing-box 的配置能力强但门槛较高，通常配合机场提供的配置模板或转换服务使用。它在 Android、iOS、桌面端都有对应客户端。",
+    "related": ["clash", "v2rayn", "client"]
+  },
+  {
+    "id": "client",
+    "term": "客户端",
+    "en": "Client",
+    "category": "客户端",
+    "definition": "在本地运行、负责导入订阅并把系统流量按规则转发到节点的应用程序。",
+    "detail": "机场负责提供节点，客户端负责决定「哪些流量走节点、哪些直连」。同一份订阅在不同客户端上的表现差异，往往来自规则配置而不是线路。",
+    "related": ["clash", "shadowrocket", "rule-mode"]
+  },
+  {
+    "id": "rule-mode",
+    "term": "规则模式",
+    "en": "Rule Mode",
+    "category": "客户端",
+    "definition": "客户端按预设规则判断每个请求走代理还是直连的工作模式。",
+    "detail": "规则模式是日常使用的推荐模式：国内站点直连保证速度，境外站点走节点保证可达。规则集过旧是「某个网站突然打不开」的常见原因。",
+    "related": ["global-mode", "client", "tun-mode"]
+  },
+  {
+    "id": "global-mode",
+    "term": "全局模式",
+    "en": "Global Mode",
+    "category": "客户端",
+    "definition": "所有流量都通过节点转发，不做分流判断的工作模式。",
+    "detail": "全局模式常用于排查问题：如果全局可用而规则模式不可用，问题就在规则而不是线路。长期使用会浪费流量并拖慢国内站点访问。",
+    "related": ["rule-mode", "client"]
+  },
+  {
+    "id": "tun-mode",
+    "term": "TUN 模式",
+    "en": "TUN Mode",
+    "category": "客户端",
+    "definition": "创建虚拟网卡接管系统全部流量的模式，可代理不支持系统代理的程序。",
+    "detail": "TUN 模式需要较高系统权限，能覆盖游戏、命令行工具等不读取系统代理设置的程序。启用后如果出现全网不通，应优先检查 TUN 与 DNS 配置。",
+    "related": ["rule-mode", "dns", "client"]
+  },
+  {
+    "id": "dns",
+    "term": "DNS",
+    "en": "Domain Name System",
+    "category": "网络",
+    "definition": "把域名解析为 IP 地址的系统，解析结果直接影响能否连上正确的服务器。",
+    "detail": "在代理场景中 DNS 尤其关键：解析被污染会连到错误地址，解析泄漏会暴露真实位置并导致流媒体判定异常。多数客户端提供独立的 DNS 配置段。",
+    "related": ["dns-leak", "doh", "fake-ip"]
+  },
+  {
+    "id": "dns-leak",
+    "term": "DNS 泄漏",
+    "en": "DNS Leak",
+    "category": "网络",
+    "definition": "域名解析请求绕过代理直接发往本地运营商 DNS，暴露访问目标与真实地区。",
+    "detail": "DNS 泄漏最典型的表现是：节点显示为境外，流媒体却仍判定为本地地区。解决方式通常是启用客户端的远端解析或 fake-ip 模式。",
+    "related": ["dns", "doh", "fake-ip"]
+  },
+  {
+    "id": "doh",
+    "term": "DoH",
+    "en": "DNS over HTTPS",
+    "category": "网络",
+    "definition": "把 DNS 查询封装在 HTTPS 中传输的方式，避免解析过程被中间网络读取或篡改。",
+    "detail": "DoH 能有效缓解解析污染，但会略微增加首次解析延迟。部分客户端同时支持 DoT、DoQ，作用类似。",
+    "related": ["dns", "dns-leak"]
+  },
+  {
+    "id": "fake-ip",
+    "term": "fake-ip",
+    "en": "Fake IP",
+    "category": "网络",
+    "definition": "客户端先返回一个虚拟 IP，真实解析交给节点在远端完成的工作机制。",
+    "detail": "fake-ip 能显著减少解析泄漏并加快连接建立，是 Clash 系客户端的常见默认设置。副作用是部分依赖真实 IP 的本地程序可能出现异常。",
+    "related": ["dns", "dns-leak", "tun-mode"]
+  },
+  {
+    "id": "ipv6",
+    "term": "IPv6",
+    "en": "Internet Protocol version 6",
+    "category": "网络",
+    "definition": "新一代网际协议，使用 128 位地址，用于解决 IPv4 地址枯竭问题。",
+    "detail": "IPv6 并非普遍意义上「更快」。它在部分移动网络中路径更短，但也有很多网络对它的支持不完整，反而带来解析异常与连通性问题。选择依据是本地网络的支持完整度，而不是版本号大小。",
+    "related": ["dual-stack", "dns", "node"]
+  },
+  {
+    "id": "dual-stack",
+    "term": "双栈",
+    "en": "Dual Stack",
+    "category": "网络",
+    "definition": "设备或网络同时启用 IPv4 与 IPv6，按系统策略为每次连接选择其中一种。",
+    "detail": "双栈环境下，系统通常优先尝试 IPv6。当本地对 IPv6 的支持不完整时，这个优先级会导致连接先失败再回退，表现为「时好时坏」或首次连接明显变慢。排查时可临时禁用一种地址类型做对照。",
+    "related": ["ipv6", "dns", "latency"]
+  },
+  {
+    "id": "latency",
+    "term": "延迟",
+    "en": "Latency",
+    "category": "指标",
+    "definition": "数据往返一次所需要的时间，通常以毫秒计，决定操作的即时反馈感受。",
+    "detail": "客户端显示的延迟一般是到节点的握手耗时，不等于访问目标网站的实际延迟。判断体验应结合丢包与实际应用表现。",
+    "related": ["packet-loss", "jitter", "peak-hours"]
+  },
+  {
+    "id": "packet-loss",
+    "term": "丢包率",
+    "en": "Packet Loss",
+    "category": "指标",
+    "definition": "传输过程中未能到达目的地的数据包比例，直接影响连接稳定与重传次数。",
+    "detail": "丢包比延迟更能解释「延迟不高但是卡」。视频会议和游戏对丢包极其敏感，持续 2% 以上的丢包就会有明显体感。",
+    "related": ["latency", "jitter"]
+  },
+  {
+    "id": "jitter",
+    "term": "抖动",
+    "en": "Jitter",
+    "category": "指标",
+    "definition": "多次测量延迟之间的波动幅度，反映线路的稳定程度而不是绝对速度。",
+    "detail": "抖动大的线路即使平均延迟低，在语音通话和实时协作中也会出现断续。观察抖动需要连续测量而不是单次快照。",
+    "related": ["latency", "packet-loss"]
+  },
+  {
+    "id": "peak-hours",
+    "term": "晚高峰",
+    "en": "Peak Hours",
+    "category": "指标",
+    "definition": "每日约 20:00 至 24:00 的网络使用高峰时段，线路质量差异在此时最明显。",
+    "detail": "评估一条线路是否稳定，必须包含晚高峰观察。白天表现良好、晚高峰严重掉速，通常说明入口或中转带宽被超售。",
+    "related": ["latency", "oversell"]
+  },
+  {
+    "id": "oversell",
+    "term": "超售",
+    "en": "Oversell",
+    "category": "运营",
+    "definition": "服务商销售的总带宽或总流量远超实际可用容量的经营方式。",
+    "detail": "适度超售是行业常态，因为用户不会同时满速使用。问题在于超售比例过高，表现为晚高峰速度断崖式下降与节点频繁排队。",
+    "related": ["peak-hours", "exit-scam"]
+  },
+  {
+    "id": "exit-scam",
+    "term": "跑路",
+    "en": "Exit Scam",
+    "category": "风险",
+    "definition": "服务商在收取费用后停止服务并关闭联系渠道，用户无法使用也无法退款的情况。",
+    "detail": "跑路通常有前兆：异常大促、长期节点维护、客服响应变慢、支付方式频繁更换。分散付款周期比事后维权更有效。",
+    "related": ["shadow-airport", "lifetime-plan", "oversell"]
+  },
+  {
+    "id": "shadow-airport",
+    "term": "影子机场",
+    "en": "Shadow Airport",
+    "category": "风险",
+    "definition": "复用他人后端或品牌、以独立服务商身份销售的转售站点。",
+    "detail": "影子机场的典型特征是：站点上线时间很短、价格明显低于同类、售后仅有单一即时通讯渠道、节点与某个已知服务高度重合。上游一旦变动，它会立刻失效。",
+    "related": ["exit-scam", "fake-site"]
+  },
+  {
+    "id": "fake-site",
+    "term": "仿冒官网",
+    "en": "Fake Official Site",
+    "category": "风险",
+    "definition": "模仿真实服务商页面、诱导付款或窃取账号的钓鱼站点。",
+    "detail": "仿冒站常用相似域名、相似 Logo 与复制的文案。核验方法包括对照官方公告渠道、检查域名注册时间、确认支付页域名是否一致。",
+    "related": ["shadow-airport", "exit-scam"]
+  },
+  {
+    "id": "lifetime-plan",
+    "term": "永久套餐",
+    "en": "Lifetime Plan",
+    "category": "风险",
+    "definition": "一次付费、宣称永久可用的套餐形式，实际服务期受服务商存续时间限制。",
+    "detail": "「永久」的上限是服务商本身的寿命，而带宽成本是持续支出。这类套餐往往用于快速回笼现金，需要结合运营历史谨慎判断。",
+    "related": ["exit-scam", "non-expiring-plan"]
+  },
+  {
+    "id": "non-expiring-plan",
+    "term": "不限时套餐",
+    "en": "Non-expiring Data Plan",
+    "category": "套餐",
+    "definition": "只销售固定流量、不设置月度重置与到期时间的套餐类型。",
+    "detail": "不限时套餐适合作为备用线路或低频使用，优点是不浪费流量。需要确认的是「不限时」是否真的没有有效期，以及是否限制速度或节点范围。",
+    "related": ["lifetime-plan", "traffic-reset"]
+  },
+  {
+    "id": "traffic-reset",
+    "term": "流量重置",
+    "en": "Traffic Reset",
+    "category": "套餐",
+    "definition": "套餐流量在固定周期归零重新计算的机制，常见为每月按购买日重置。",
+    "detail": "重置日通常按购买日而非自然月计算，部分服务商提供付费手动重置。流量耗尽是订阅更新失败与节点全部不可用的常见原因之一。",
+    "related": ["non-expiring-plan", "subscription"]
+  },
+  {
+    "id": "multiplier",
+    "term": "流量倍率",
+    "en": "Traffic Multiplier",
+    "category": "套餐",
+    "definition": "不同节点按不同系数扣除流量的计费规则，专线节点倍率通常高于普通节点。",
+    "detail": "倍率为 2.0 表示使用 1GB 实际扣除 2GB。购买前应确认高倍率节点的范围，否则实际可用量会远低于套餐标称值。",
+    "related": ["traffic-reset", "iepl"]
+  },
+  {
+    "id": "device-limit",
+    "term": "设备数限制",
+    "en": "Device Limit",
+    "category": "套餐",
+    "definition": "同一账号允许同时在线的客户端数量上限，超出后可能被限速或断连。",
+    "detail": "手机、电脑、平板、路由器都会各占一个连接位，家庭共享时容易超限。表现常常是「某台设备突然全部节点超时」。",
+    "related": ["subscription", "traffic-reset"]
+  },
+  {
+    "id": "subscription-leak",
+    "term": "订阅泄漏",
+    "en": "Subscription Leak",
+    "category": "风险",
+    "definition": "订阅链接被他人获取并使用，导致流量异常消耗或账号被风控的情况。",
+    "detail": "常见泄漏途径包括：粘贴到在线转换网站、截图未打码、共享给他人、设备被他人使用。发现异常应立即在服务商后台重置订阅链接。",
+    "related": ["subscription", "device-limit"]
+  },
+  {
+    "id": "streaming-unlock",
+    "term": "流媒体解锁",
+    "en": "Streaming Unlock",
+    "category": "场景",
+    "definition": "出口 IP 未被流媒体平台判定为代理，可以正常播放该地区内容库的状态。",
+    "detail": "解锁是动态结果而不是固定属性，平台策略更新后随时可能失效。共享出口被大量使用是失效的主要原因，因此任何解锁结论都必须标注测试时间。",
+    "related": ["native-ip", "exit-ip", "dns-leak"]
+  },
+  {
+    "id": "ip-reputation",
+    "term": "IP 信誉",
+    "en": "IP Reputation",
+    "category": "场景",
+    "definition": "风控系统对一个 IP 的可信评分，受历史滥用行为与地址类型共同影响。",
+    "detail": "信誉低的 IP 会更频繁地触发验证码、登录校验和访问拒绝。这解释了为什么同一条线路访问普通网站正常，登录 AI 平台却反复失败。",
+    "related": ["residential-ip", "exit-ip", "streaming-unlock"]
+  }
+]

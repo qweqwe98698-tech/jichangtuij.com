@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT7 jcD7">
+  <title id="jcT7">四种出口 IP 类型的属性与适用场景对照图</title>
+  <desc id="jcD7">对照表比较机房 IP、广播 IP、原生 IP 与住宅 IP 四种出口地址：注册地是否与机房一致、归属类型、风控默认信任度、带宽与成本，以及各自适合的使用场景。原生强调注册地一致，住宅强调归属类型为家庭宽带，两者解决的问题不同。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .h{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12.5px;font-weight:700;fill:#ffffff}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#4c6480}
+    .k{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;font-weight:700;fill:#3d5a80}
+    .n{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#8a9ab0}
+  </style>
+  <text class="l" x="20" y="30">出口 IP 类型决定平台怎么看待你</text>
+
+  <rect x="20" y="48" width="180" height="38" rx="6" fill="#4a7fc1"/>
+  <rect x="204" y="48" width="160" height="38" rx="6" fill="#5b9fd0"/>
+  <rect x="368" y="48" width="160" height="38" rx="6" fill="#5b9fd0"/>
+  <rect x="532" y="48" width="160" height="38" rx="6" fill="#5b9fd0"/>
+  <rect x="696" y="48" width="164" height="38" rx="6" fill="#5b9fd0"/>
+  <text class="h" x="34" y="72">对比项</text>
+  <text class="h" x="248" y="72">机房 IP</text>
+  <text class="h" x="412" y="72">广播 IP</text>
+  <text class="h" x="576" y="72">原生 IP</text>
+  <text class="h" x="742" y="72">住宅 IP</text>
+
+  <text class="k" x="34" y="118">注册地与机房</text>
+  <text class="s" x="248" y="118">一致</text>
+  <text class="s" x="412" y="118">不一致</text>
+  <text class="s" x="576" y="118">一致</text>
+  <text class="s" x="742" y="118">一致</text>
+
+  <text class="k" x="34" y="156">归属类型</text>
+  <text class="s" x="248" y="156">数据中心</text>
+  <text class="s" x="412" y="156">数据中心</text>
+  <text class="s" x="576" y="156">数据中心</text>
+  <text class="s" x="742" y="156">家庭宽带</text>
+
+  <text class="k" x="34" y="194">风控默认信任</text>
+  <text class="s" x="248" y="194">较低</text>
+  <text class="s" x="412" y="194">较低</text>
+  <text class="s" x="576" y="194">中等</text>
+  <text class="s" x="742" y="194">较高</text>
+
+  <text class="k" x="34" y="232">带宽与成本</text>
+  <text class="s" x="248" y="232">大 / 低</text>
+  <text class="s" x="412" y="232">中 / 中</text>
+  <text class="s" x="576" y="232">中 / 较高</text>
+  <text class="s" x="742" y="232">小 / 高</text>
+
+  <text class="k" x="34" y="270">典型场景</text>
+  <text class="s" x="248" y="270">通用访问、下载</text>
+  <text class="s" x="412" y="270">部分地区内容</text>
+  <text class="s" x="576" y="270">地区内容库</text>
+  <text class="s" x="742" y="270">注册与验证</text>
+
+  <line x1="20" y1="96" x2="860" y2="96" stroke="#dce6f2"/>
+  <line x1="20" y1="134" x2="860" y2="134" stroke="#dce6f2"/>
+  <line x1="20" y1="172" x2="860" y2="172" stroke="#dce6f2"/>
+  <line x1="20" y1="210" x2="860" y2="210" stroke="#dce6f2"/>
+  <line x1="20" y1="248" x2="860" y2="248" stroke="#dce6f2"/>
+
+  <text class="n" x="20" y="304">原生强调「注册地与机房一致」，住宅强调「归属类型是家庭宽带」——两者解决的问题不同，可以同时成立，也可以互不相干。</text>
+  <text class="n" x="20" y="326">节点名称里的地区只是命名习惯；真实出口必须连接后通过 IP 归属查询确认。</text>
+</svg>

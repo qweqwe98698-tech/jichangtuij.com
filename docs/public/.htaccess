@@ -1,0 +1,131 @@
+# ==========================================================================
+# 机场推荐 JichangTuij — Apache 部署配置
+# 适用于老薛主机等传统虚拟主机以及任意支持 .htaccess 的 Apache 环境。
+#
+# 设计原则：
+#   1. 任何模块缺失都不会导致网站无法显示（全部规则包在 IfModule 中）
+#   2. 不写依赖具体主机路径的规则
+#   3. 不制造重定向循环
+#   4. 真实存在的文件与目录一律直接放行
+# ==========================================================================
+
+# 默认首页
+DirectoryIndex index.html
+
+# 目录列表关闭，避免暴露文件结构
+Options -Indexes +FollowSymLinks
+
+# 统一使用 UTF-8，避免中文内容乱码
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .html .css .js .json .xml .txt .svg
+  AddType image/webp .webp
+  AddType image/svg+xml .svg
+  AddType application/rss+xml .xml
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+# 自定义错误页（真实返回 404 状态，不做首页跳转）
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ---- 强制 HTTPS 且统一到无 www 主域 ----
+  # 合并成一条规则，避免 www + http 时发生两次跳转
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+  RewriteCond %{HTTP_HOST} ^www\.jichangtuij\.com$ [NC]
+  RewriteRule ^ https://jichangtuij.com%{REQUEST_URI} [R=301,L]
+
+  # ---- 真实文件与目录直接放行，后续规则不再处理 ----
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # ---- /path/index.html 统一收敛到 /path/ ----
+  RewriteCond %{THE_REQUEST} \s/(.*/)?index\.html[\s?] [NC]
+  RewriteRule ^(.*/)?index\.html$ /%1 [R=301,L]
+
+  # ---- /path.html 统一收敛到 /path/ ----
+  RewriteCond %{THE_REQUEST} \s/(.+)\.html[\s?] [NC]
+  RewriteCond %{REQUEST_URI} !^/404\.html$
+  RewriteRule ^(.+)\.html$ /$1/ [R=301,L]
+
+  # ---- /path 补全尾斜杠（仅当对应目录存在时） ----
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
+
+  # ---- 旧路径兼容，与 Cloudflare Pages 的 _redirects 保持一致 ----
+  RewriteRule ^airport-recommend/?$ /recommend/ [R=301,L]
+  RewriteRule ^tutorial/?$ /clients/ [R=301,L]
+  RewriteRule ^blacklist/?$ /warnings/status-and-blacklist-policy/ [R=301,L]
+  RewriteRule ^disclosure/?$ /affiliate-policy/ [R=301,L]
+  RewriteRule ^about-us/?$ /about/ [R=301,L]
+  RewriteRule ^contact/?$ /submit/ [R=301,L]
+  RewriteRule ^(rss|rss\.xml|atom\.xml)$ /feed.xml [R=301,L]
+</IfModule>
+
+# ==========================================================================
+# 缓存策略
+# 带指纹的静态资源长缓存，HTML 短缓存以保证内容更新可见
+# ==========================================================================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 hour"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/html "access plus 1 hour"
+  ExpiresByType application/xml "access plus 1 hour"
+  ExpiresByType text/plain "access plus 1 hour"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+
+  # 带内容指纹的资源可以安全长缓存
+  <FilesMatch "\.(css|js|woff2|webp|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # HTML 与索引文件保持较短缓存
+  <FilesMatch "\.(html|xml|txt|json)$">
+    Header set Cache-Control "public, max-age=3600, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ==========================================================================
+# 压缩：模块不存在时自动跳过，网站仍可正常显示
+# ==========================================================================
+<IfModule mod_deflate.c>
+  <IfModule mod_filter.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+    AddOutputFilterByType DEFLATE application/javascript text/javascript
+    AddOutputFilterByType DEFLATE application/json application/xml
+    AddOutputFilterByType DEFLATE image/svg+xml application/rss+xml
+  </IfModule>
+</IfModule>
+
+<IfModule mod_brotli.c>
+  <IfModule mod_filter.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/xml text/css
+    AddOutputFilterByType BROTLI_COMPRESS application/javascript text/javascript
+    AddOutputFilterByType BROTLI_COMPRESS application/json image/svg+xml
+  </IfModule>
+</IfModule>
+
+# 保护构建残留与隐藏文件
+<FilesMatch "^\.(?!well-known)">
+  Require all denied
+</FilesMatch>

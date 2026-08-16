@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT20 jcD20">
+  <title id="jcT20">官网真假核验的五步顺序</title>
+  <desc id="jcD20">五个依次相连的核验步骤：第一步逐字核对域名，第二步查询域名注册时间并与宣称的运营年限比对，第三步检查证书有效性与颁发对象，第四步与官方公告渠道交叉对照，第五步确认支付页域名与主站一致。任何一步发现不一致，都应立即停止操作，不输入任何信息。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .stop{fill:#ffffff;stroke:#cf8a8a;stroke-width:2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .bad{stroke:#cf8a8a;stroke-width:1.8;fill:none;stroke-dasharray:5 4}
+  </style>
+  <defs>
+    <marker id="jcAr20" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+    <marker id="jcAr20b" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#cf8a8a"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">五步核验：顺序执行，任何一步不一致就停止</text>
+
+  <rect class="box" x="30" y="60" width="150" height="52" rx="10"/>
+  <text class="l" x="46" y="83">① 域名</text>
+  <text class="s" x="46" y="102">逐字对比，勿信搜索</text>
+  <path class="flow" d="M180 86 H210" marker-end="url(#jcAr20)"/>
+
+  <rect class="box" x="220" y="60" width="150" height="52" rx="10"/>
+  <text class="l" x="236" y="83">② 注册时间</text>
+  <text class="s" x="236" y="102">与运营年限比对</text>
+  <path class="flow" d="M370 86 H400" marker-end="url(#jcAr20)"/>
+
+  <rect class="box" x="410" y="60" width="150" height="52" rx="10"/>
+  <text class="l" x="426" y="83">③ 证书</text>
+  <text class="s" x="426" y="102">有效性与颁发对象</text>
+  <path class="flow" d="M560 86 H590" marker-end="url(#jcAr20)"/>
+
+  <rect class="box" x="600" y="60" width="150" height="52" rx="10"/>
+  <text class="l" x="616" y="83">④ 公告渠道</text>
+  <text class="s" x="616" y="102">官方渠道交叉对照</text>
+  <path class="flow" d="M675 112 V150" marker-end="url(#jcAr20)"/>
+
+  <rect class="box" x="600" y="160" width="150" height="52" rx="10"/>
+  <text class="l" x="616" y="183">⑤ 支付页域名</text>
+  <text class="s" x="616" y="202">必须与主站一致</text>
+
+  <path class="flow" d="M600 186 H560" marker-end="url(#jcAr20)"/>
+  <rect class="box" x="400" y="160" width="160" height="52" rx="10" stroke="#48b7c7" stroke-width="2.2"/>
+  <text class="g" x="428" y="183">五步全部一致</text>
+  <text class="g" x="428" y="202">再进行注册或付款</text>
+
+  <!-- 停止分支 -->
+  <path class="bad" d="M105 112 V240 H310" marker-end="url(#jcAr20b)"/>
+  <path class="bad" d="M295 112 V240 H310" marker-end="url(#jcAr20b)"/>
+  <rect class="stop" x="320" y="216" width="220" height="48" rx="10"/>
+  <text class="r" x="338" y="238">任何一步不一致：立即停止，</text>
+  <text class="r" x="338" y="256">不输入任何账号或支付信息</text>
+
+  <text class="s" x="20" y="306">最可靠的入口永远是你此前核验并保存过的地址；搜索结果与他人发来的链接都只是待核验对象，不是依据。</text>
+</svg>

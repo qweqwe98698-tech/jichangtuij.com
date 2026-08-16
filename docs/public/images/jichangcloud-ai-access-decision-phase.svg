@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 350" width="880" height="350" role="img" aria-labelledby="jcT21 jcD21">
+  <title id="jcT21">AI 平台访问的两个阶段：判定发生在连接阶段，带宽作用在传输阶段</title>
+  <desc id="jcD21">上下两条阶段带。上方为连接阶段，依次是域名解析、握手与平台校验，校验输入包括出口地区、IP 类型与信誉、账号与出口一致性，数据量极小；下方为传输阶段，承载对话请求与流式响应，带宽在这里才起作用。右侧标注绝大多数访问失败发生在连接阶段，因此更换更快的线路无效。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .chk{fill:#ffffff;stroke:#c07a2a;stroke-width:1.8}
+    .ok{stroke:#48b7c7;stroke-width:2.2;fill:none}
+    .band{fill:#f4f8fd;stroke:#e3ebf5;stroke-width:1}
+  </style>
+  <defs>
+    <marker id="jcAr21" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">能不能用，在连接阶段就已经决定；快不快，才轮到传输阶段</text>
+
+  <!-- 阶段一 -->
+  <rect class="band" x="20" y="46" width="620" height="112" rx="10"/>
+  <text class="l" x="36" y="70">阶段 ① 建立连接</text>
+  <text class="s" x="150" y="70">数据量极小，带宽在这里不构成瓶颈</text>
+
+  <rect class="box" x="36" y="86" width="96" height="34" rx="8"/>
+  <text class="s" x="56" y="108">域名解析</text>
+  <path class="ok" d="M132 103 H176" marker-end="url(#jcAr21)"/>
+  <rect class="box" x="176" y="86" width="96" height="34" rx="8"/>
+  <text class="s" x="200" y="108">握手</text>
+  <path class="ok" d="M272 103 H316" marker-end="url(#jcAr21)"/>
+  <rect class="chk" x="316" y="86" width="308" height="34" rx="8"/>
+  <text class="r" x="336" y="108">平台校验：出口地区 · IP 类型与信誉 · 账号一致性</text>
+
+  <text class="s" x="36" y="142">这一步收发的只是握手与校验数据，链路再宽也不会让它更容易通过。</text>
+
+  <!-- 阶段二 -->
+  <rect class="band" x="20" y="176" width="620" height="112" rx="10"/>
+  <text class="l" x="36" y="200">阶段 ② 传输内容</text>
+  <text class="s" x="150" y="200">带宽与稳定性在这里起作用</text>
+
+  <rect class="box" x="36" y="216" width="128" height="34" rx="8"/>
+  <text class="s" x="60" y="238">发送提问</text>
+  <path class="ok" d="M164 233 H208" marker-end="url(#jcAr21)"/>
+  <rect class="box" x="208" y="216" width="160" height="34" rx="8"/>
+  <text class="s" x="234" y="238">流式返回响应</text>
+  <path class="ok" d="M368 233 H412" marker-end="url(#jcAr21)"/>
+  <rect class="box" x="412" y="216" width="212" height="34" rx="8" stroke="#48b7c7"/>
+  <text class="g" x="432" y="238">长连接需要全程保持不中断</text>
+
+  <text class="s" x="36" y="272">文本对话的持续带宽需求很低，真正影响体验的是连接会不会断，而不是能跑多快。</text>
+
+  <!-- 右侧结论 -->
+  <line x1="660" y1="46" x2="660" y2="288" stroke="#e3ebf5"/>
+  <text class="l" x="678" y="70">失败落在哪里</text>
+  <text class="r" x="678" y="98">「打不开、被拒绝、</text>
+  <text class="r" x="678" y="117">反复要求验证」</text>
+  <text class="r" x="678" y="136">→ 阶段 ①</text>
+  <text class="g" x="678" y="170">「能用但生成中断、</text>
+  <text class="g" x="678" y="189">长回答写一半断掉」</text>
+  <text class="g" x="678" y="208">→ 阶段 ②</text>
+  <text class="s" x="678" y="242">两类问题的处理方向</text>
+  <text class="s" x="678" y="261">完全不同，先分清</text>
+  <text class="s" x="678" y="280">属于哪一类再动手。</text>
+
+  <text class="s" x="20" y="316">这解释了一个常见的无效动作：为了「打不开」去换更快、更贵的线路 —— 带宽提升的是阶段 ②，而问题出在阶段 ①。</text>
+  <text class="s" x="20" y="336">同理，测速结果与能否访问 AI 平台之间没有对应关系，两者测的根本不是同一件事。</text>
+</svg>

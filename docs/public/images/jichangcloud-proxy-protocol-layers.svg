@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT8 jcD8">
+  <title id="jcT8">代理协议的三层职责与常见组合示意图</title>
+  <desc id="jcD8">上半部分把协议拆成加密、伪装与传输三层职责；下半部分列出四种常见组合：Shadowsocks 自带加密直接走 TCP，Trojan 与 VLESS 把加密交给 TLS 并可叠加 WebSocket 或 gRPC，Hysteria 基于 QUIC 走 UDP。图中说明每种组合各自的取舍。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .h{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12.5px;font-weight:700;fill:#ffffff}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#4c6480}
+    .n{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#8a9ab0}
+    .k{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;font-weight:700;fill:#3d5a80}
+  </style>
+
+  <text class="l" x="20" y="28">协议要同时解决三件事</text>
+  <rect x="20" y="42" width="266" height="46" rx="8" fill="#4a7fc1"/>
+  <rect x="298" y="42" width="266" height="46" rx="8" fill="#5b9fd0"/>
+  <rect x="576" y="42" width="284" height="46" rx="8" fill="#7bb8dc"/>
+  <text class="h" x="44" y="63">① 加密</text>
+  <text class="h" x="322" y="63">② 伪装</text>
+  <text class="h" x="600" y="63">③ 传输</text>
+  <text class="h" x="44" y="80" style="font-weight:400">内容不可读</text>
+  <text class="h" x="322" y="80" style="font-weight:400">流量看起来像什么</text>
+  <text class="h" x="600" y="80" style="font-weight:400">在网络上怎么承载</text>
+
+  <text class="l" x="20" y="126">四种常见组合</text>
+
+  <text class="k" x="20" y="158">Shadowsocks</text>
+  <rect x="150" y="142" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="168" y="160">自带加密</text>
+  <rect x="308" y="142" width="150" height="26" rx="5" fill="#f0f0f0"/>
+  <text class="s" x="326" y="160">无额外伪装</text>
+  <rect x="466" y="142" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="484" y="160">TCP</text>
+  <text class="n" x="632" y="160">开销最低，兼容最广，特征相对固定</text>
+
+  <text class="k" x="20" y="200">Trojan</text>
+  <rect x="150" y="184" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="168" y="202">交给 TLS</text>
+  <rect x="308" y="184" width="150" height="26" rx="5" fill="#cfe6f2"/>
+  <text class="s" x="326" y="202">伪装成 HTTPS</text>
+  <rect x="466" y="184" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="484" y="202">TCP + TLS</text>
+  <text class="n" x="632" y="202">需域名与证书，严格网络下更稳</text>
+
+  <text class="k" x="20" y="242">VLESS</text>
+  <rect x="150" y="226" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="168" y="244">交给 TLS</text>
+  <rect x="308" y="226" width="150" height="26" rx="5" fill="#cfe6f2"/>
+  <text class="s" x="326" y="244">TLS / REALITY</text>
+  <rect x="466" y="226" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="484" y="244">TCP / WS / gRPC</text>
+  <text class="n" x="632" y="244">本身不加密，安全性依赖外层</text>
+
+  <text class="k" x="20" y="284">Hysteria</text>
+  <rect x="150" y="268" width="150" height="26" rx="5" fill="#dbe9f6"/>
+  <text class="s" x="168" y="286">自带加密</text>
+  <rect x="308" y="268" width="150" height="26" rx="5" fill="#f0f0f0"/>
+  <text class="s" x="326" y="286">QUIC 特征</text>
+  <rect x="466" y="268" width="150" height="26" rx="5" fill="#f5e6d0"/>
+  <text class="s" x="484" y="286">UDP</text>
+  <text class="n" x="632" y="286">抗丢包，但限制 UDP 的网络不可用</text>
+
+  <text class="n" x="20" y="322">选择顺序：先看本地网络是否支持这种传输方式，再看客户端兼容性，最后才比较理论开销。</text>
+</svg>

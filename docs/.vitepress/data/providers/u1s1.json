@@ -1,0 +1,73 @@
+{
+  "slug": "u1s1",
+  "name": "U1S1",
+  "vendor": {
+    "entryPrice": "20元/月",
+    "traffic": "120GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持订阅导入，适配 Clash、Shadowrocket 等",
+    "aiClaim": "品牌资料显示支持常见 AI 工具",
+    "streamingClaim": "资料显示支持常见流媒体访问场景",
+    "establishedYear": 2023
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/u1s1-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "akaka",
+    "discountDesc": "专属优惠码 akaka",
+    "affLink": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "20元档 / 120GB / VLESS 协议 / IEPL 专线 / 均衡月付",
+    "positioning": "20元档 / 120GB / VLESS / IEPL",
+    "targetAudience": [
+      "希望购买 20 元档月付套餐，同时比较注重 IEPL 专线品质的普通用户",
+      "月流量在 100-120GB 之间的日常综合用户",
+      "多端设备使用且希望操作简便的用户"
+    ],
+    "notRecommendedFor": [
+      "需要每月 200GB+ 极高流量且预算仅 20 元的用户"
+    ],
+    "pros": [
+      "20 元提供 120GB 流量，在专线稳定性与流量之间取得平衡",
+      "支持 VLESS 协议与 IEPL 内网专线",
+      "支持自研客户端与通用第三方客户端订阅导入"
+    ],
+    "cons": [
+      "在 20 元档同价位中，流量略低于一翻云（150GB）与二猫云（130GB）",
+      "AI 解锁为官方声明，未做全量自动化复核"
+    ],
+    "priceSegment": "20",
+    "lastVerified": "2026-08-16"
+  }
+}

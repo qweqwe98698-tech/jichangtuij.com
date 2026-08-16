@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT19 jcD19">
+  <title id="jcT19">独立运营与影子机场在资源链路上的差异</title>
+  <desc id="jcD19">两行对比。上一行是独立运营：品牌站点背后有自有的线路采购、节点部署与运维能力，出现故障时能定位与修复。下一行是影子机场：多个不同品牌的外壳站点都指向同一个上游后端，自身没有线路与运维能力；上游一旦变动，所有外壳站点同时失效，用户无法向任何一方有效追责。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .shell{fill:#ffffff;stroke:#cf8a8a;stroke-width:1.8;stroke-dasharray:5 4}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr19" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">同样是一个「品牌」，背后的资源链路可以完全不同</text>
+
+  <!-- 独立运营 -->
+  <text class="l" x="20" y="70">独立运营</text>
+  <rect class="box" x="130" y="48" width="140" height="38" rx="9"/>
+  <text class="s" x="162" y="72">品牌站点</text>
+  <path class="flow" d="M270 67 H310" marker-end="url(#jcAr19)"/>
+  <rect class="box" x="320" y="48" width="160" height="38" rx="9"/>
+  <text class="s" x="338" y="72">自有线路与节点</text>
+  <path class="flow" d="M480 67 H520" marker-end="url(#jcAr19)"/>
+  <rect class="box" x="530" y="48" width="140" height="38" rx="9"/>
+  <text class="s" x="556" y="72">自有运维</text>
+  <text class="g" x="690" y="62">故障能定位、能修复，</text>
+  <text class="g" x="690" y="80">责任主体明确</text>
+
+  <!-- 影子机场 -->
+  <text class="l" x="20" y="160">影子机场</text>
+  <rect class="shell" x="130" y="126" width="130" height="34" rx="9"/>
+  <text class="s" x="152" y="148">外壳站点 A</text>
+  <rect class="shell" x="130" y="170" width="130" height="34" rx="9"/>
+  <text class="s" x="152" y="192">外壳站点 B</text>
+  <rect class="shell" x="130" y="214" width="130" height="34" rx="9"/>
+  <text class="s" x="152" y="236">外壳站点 C</text>
+
+  <path class="flow" d="M260 143 H330 V178 H400" marker-end="url(#jcAr19)"/>
+  <path class="flow" d="M260 187 H400" marker-end="url(#jcAr19)"/>
+  <path class="flow" d="M260 231 H330 V196 H400" marker-end="url(#jcAr19)"/>
+
+  <rect class="box" x="410" y="162" width="180" height="50" rx="10"/>
+  <text class="s" x="436" y="184">同一个上游后端</text>
+  <text class="s" x="436" y="202">（节点与面板）</text>
+
+  <text class="r" x="620" y="168">自身无线路、无运维；</text>
+  <text class="r" x="620" y="188">上游一变，全部外壳同时失效，</text>
+  <text class="r" x="620" y="208">且无法向任何一方追责</text>
+
+  <text class="s" x="20" y="290">识别要点：站点上线时间与宣称经验是否吻合、价格是否低得没有结构解释、节点命名与面板是否与某个已知服务高度重合。</text>
+  <text class="s" x="20" y="310">三项特征都需要独立核验，单独一项不足以下结论。</text>
+</svg>

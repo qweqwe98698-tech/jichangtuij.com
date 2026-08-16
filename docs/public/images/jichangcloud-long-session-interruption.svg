@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-labelledby="jcT22 jcD22">
+  <title id="jcT22">长会话被打断与完整返回的时间线对比</title>
+  <desc id="jcD22">两条并列时间线。上方为被打断的会话：提问后开始流式返回，中途发生网络切换或出口变化导致连接重建，正在生成的内容全部丢失，需要从头重来；下方为完整会话：全程保持同一出口与同一网络，流式返回不中断直至结束。图下列出三类常见断点：设备在无线与移动数据之间切换、连接空闲超时被断开、使用过程中手动更换节点。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .axis{stroke:#b8c8dc;stroke-width:1.6}
+    .flowbad{stroke:#cf8a8a;stroke-width:6;fill:none;stroke-linecap:round}
+    .flowok{stroke:#48b7c7;stroke-width:6;fill:none;stroke-linecap:round}
+    .dot{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .cut{stroke:#cf8a8a;stroke-width:2;stroke-dasharray:4 4}
+    .band{fill:#f4f8fd;stroke:#e3ebf5;stroke-width:1}
+  </style>
+  <defs>
+    <marker id="jcAr22" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">长回答是一条持续连接，断了就是丢失，而不是变慢</text>
+
+  <!-- 行一：被打断 -->
+  <text class="l" x="20" y="70">会话被打断</text>
+  <line class="axis" x1="150" y1="96" x2="700" y2="96" marker-end="url(#jcAr22)"/>
+  <path class="flowbad" d="M170 96 H420"/>
+  <line class="cut" x1="440" y1="62" x2="440" y2="130"/>
+  <circle class="dot" cx="170" cy="96" r="6"/>
+  <circle class="dot" cx="300" cy="96" r="6"/>
+  <text class="s" x="150" y="120">提问发出</text>
+  <text class="s" x="266" y="120">开始流式返回</text>
+  <text class="r" x="396" y="56">网络切换 / 出口变化</text>
+  <text class="r" x="460" y="100">连接重建</text>
+  <text class="r" x="460" y="120">已生成内容丢失，需要重来</text>
+
+  <!-- 行二：完整 -->
+  <text class="l" x="20" y="196">会话完整</text>
+  <line class="axis" x1="150" y1="222" x2="700" y2="222" marker-end="url(#jcAr22)"/>
+  <path class="flowok" d="M170 222 H640"/>
+  <circle class="dot" cx="170" cy="222" r="6"/>
+  <circle class="dot" cx="300" cy="222" r="6"/>
+  <circle class="dot" cx="640" cy="222" r="6" stroke="#48b7c7"/>
+  <text class="s" x="150" y="246">提问发出</text>
+  <text class="s" x="266" y="246">开始流式返回</text>
+  <text class="g" x="352" y="206">全程同一出口、同一网络</text>
+  <text class="g" x="596" y="246">完整返回</text>
+
+  <line x1="20" y1="150" x2="860" y2="150" stroke="#e3ebf5"/>
+
+  <!-- 断点清单 -->
+  <rect class="band" x="20" y="274" width="840" height="66" rx="10"/>
+  <text class="l" x="36" y="298">三类常见断点</text>
+  <text class="s" x="36" y="322">① 设备在无线与移动数据之间切换，客户端重连　② 连接空闲超时被断开　③ 使用过程中手动更换节点</text>
+  <text class="s" x="150" y="270">前两类与线路的连接保持能力有关，第三类完全可以避免 —— 生成进行中不要动节点。</text>
+</svg>

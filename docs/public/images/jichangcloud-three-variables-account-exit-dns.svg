@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT23 jcD23">
+  <title id="jcT23">账号地区、出口地区、解析路径三个独立变量及其一致性要求</title>
+  <desc id="jcD23">三个独立框：账号地区由注册与账号设置决定；出口地区由当前连接的节点决定；解析路径由 DNS 配置决定。三者两两之间用对照线连接，标注不一致时的表现：账号与出口不一致时部分功能受账号地区限制；出口与解析不一致时发生解析泄漏，平台按更保守的方式判定；账号与解析的不一致通常表现为反复要求验证。下方结论：三者需要各自核对，换其中一个不会改变另外两个。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .rel{stroke:#cf8a8a;stroke-width:1.8;stroke-dasharray:5 4;fill:none}
+  </style>
+
+  <text class="l" x="20" y="26">三个变量各自独立，换一个不会改变另外两个</text>
+
+  <!-- 三个顶点框 -->
+  <rect class="box" x="60" y="60" width="180" height="56" rx="10"/>
+  <text class="l" x="86" y="84">账号地区</text>
+  <text class="s" x="86" y="102">由注册与账号设置决定</text>
+
+  <rect class="box" x="640" y="60" width="180" height="56" rx="10"/>
+  <text class="l" x="672" y="84">出口地区</text>
+  <text class="s" x="666" y="102">由当前连接的节点决定</text>
+
+  <rect class="box" x="350" y="230" width="180" height="56" rx="10"/>
+  <text class="l" x="382" y="254">解析路径</text>
+  <text class="s" x="372" y="272">由 DNS 配置决定</text>
+
+  <!-- 连线与标注 -->
+  <path class="rel" d="M240 88 H640"/>
+  <text class="r" x="330" y="80">不一致 → 部分功能受账号地区限制</text>
+
+  <path class="rel" d="M150 116 L400 230"/>
+  <text class="r" x="130" y="176">不一致 →</text>
+  <text class="r" x="130" y="194">反复要求验证</text>
+
+  <path class="rel" d="M730 116 L490 230"/>
+  <text class="r" x="560" y="176">不一致 → 解析泄漏</text>
+  <text class="r" x="560" y="194">平台按更保守方式判定</text>
+
+  <line x1="20" y1="308" x2="860" y2="308" stroke="#e3ebf5"/>
+  <text class="s" x="20" y="330">排查顺序：先核对出口是否可查证，再核对解析是否与出口一致，最后判断账号层面的功能限制——三步互不替代。</text>
+</svg>

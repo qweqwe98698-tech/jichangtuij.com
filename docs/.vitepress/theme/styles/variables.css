@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Cloud Halo · 云境光域 — 设计令牌
+   机场云 JichangCloud 原创主题。默认为简白模式，深色模式为可选补充。
+   ========================================================================== */
+
+:root {
+  /* ---------- 品牌色板 ---------- */
+  --jc-bg: #f7faff;
+  --jc-surface: rgba(255, 255, 255, 0.82);
+  --jc-surface-solid: #ffffff;
+  --jc-text: #10233c;
+  --jc-text-soft: #50627a;
+  --jc-muted: #7e8da1;
+  --jc-border: rgba(20, 55, 90, 0.1);
+  --jc-primary: #246bfd;
+  --jc-primary-deep: #164ec5;
+  --jc-cyan: #21c3d6;
+  --jc-sky: #8dc8ff;
+  --jc-success: #159a69;
+  --jc-warning: #d88c19;
+  --jc-danger: #cf4b52;
+  --jc-shadow: 0 20px 60px rgba(24, 65, 110, 0.1);
+
+  /* ---------- 派生色 ---------- */
+  --jc-border-strong: rgba(20, 55, 90, 0.18);
+  --jc-surface-raised: rgba(255, 255, 255, 0.94);
+  --jc-surface-sunken: rgba(238, 245, 255, 0.72);
+  --jc-primary-soft: rgba(36, 107, 253, 0.09);
+  --jc-primary-softer: rgba(36, 107, 253, 0.05);
+  --jc-cyan-soft: rgba(33, 195, 214, 0.1);
+  --jc-success-soft: rgba(21, 154, 105, 0.1);
+  --jc-warning-soft: rgba(216, 140, 25, 0.11);
+  --jc-danger-soft: rgba(207, 75, 82, 0.09);
+  --jc-code-bg: rgba(232, 240, 252, 0.72);
+  --jc-selection: rgba(36, 107, 253, 0.16);
+
+  /* ---------- 阴影层级 ---------- */
+  --jc-shadow-xs: 0 1px 2px rgba(24, 65, 110, 0.06);
+  --jc-shadow-sm: 0 4px 14px rgba(24, 65, 110, 0.07);
+  --jc-shadow-md: 0 10px 30px rgba(24, 65, 110, 0.09);
+  --jc-shadow-lg: var(--jc-shadow);
+  --jc-ring: 0 0 0 3px rgba(36, 107, 253, 0.28);
+
+  /* ---------- 圆角 ---------- */
+  --jc-radius-xs: 6px;
+  --jc-radius-sm: 10px;
+  --jc-radius-md: 14px;
+  --jc-radius-lg: 20px;
+  --jc-radius-xl: 28px;
+  --jc-radius-pill: 999px;
+
+  /* ---------- 间距 ---------- */
+  --jc-space-1: 4px;
+  --jc-space-2: 8px;
+  --jc-space-3: 12px;
+  --jc-space-4: 16px;
+  --jc-space-5: 24px;
+  --jc-space-6: 32px;
+  --jc-space-7: 48px;
+  --jc-space-8: 64px;
+  --jc-space-9: 96px;
+
+  /* ---------- 版式 ---------- */
+  --jc-font-sans:
+    Inter, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --jc-font-mono:
+    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --jc-text-xs: 12px;
+  --jc-text-sm: 14px;
+  --jc-text-base: 16px;
+  --jc-text-md: 17px;
+  --jc-text-lg: 20px;
+  --jc-text-xl: 26px;
+  --jc-text-2xl: 32px;
+  --jc-text-3xl: 40px;
+  --jc-text-4xl: 52px;
+
+  --jc-leading-tight: 1.28;
+  --jc-leading-snug: 1.45;
+  --jc-leading-normal: 1.7;
+  --jc-leading-relaxed: 1.85;
+
+  /* ---------- 布局尺度 ---------- */
+  --jc-header-height: 68px;
+  --jc-container: 1220px;
+  --jc-container-narrow: 820px;
+  --jc-measure: 36em; /* 约 70 个中文字符 */
+  --jc-sidebar-width: 250px;
+
+  /* ---------- 动效 ---------- */
+  --jc-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --jc-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --jc-dur-fast: 140ms;
+  --jc-dur: 240ms;
+  --jc-dur-slow: 420ms;
+
+  /* ---------- 层级 ---------- */
+  --jc-z-backdrop: 0;
+  --jc-z-content: 1;
+  --jc-z-header: 60;
+  --jc-z-drawer: 80;
+  --jc-z-modal: 100;
+  --jc-z-toast: 120;
+
+  color-scheme: light;
+}
+
+/* ==========================================================================
+   深色模式（可选补充，默认仍为简白）
+   ========================================================================== */
+
+html.dark {
+  --jc-bg: #070d18;
+  --jc-surface: rgba(19, 30, 48, 0.78);
+  --jc-surface-solid: #101a2b;
+  --jc-text: #e6eefc;
+  --jc-text-soft: #a7b7cf;
+  --jc-muted: #7a8ba5;
+  --jc-border: rgba(150, 190, 240, 0.14);
+  --jc-primary: #5b93ff;
+  --jc-primary-deep: #8ab4ff;
+  --jc-cyan: #45d6e6;
+  --jc-sky: #6ba8ea;
+  --jc-success: #35c08c;
+  --jc-warning: #e5a63f;
+  --jc-danger: #e5757c;
+  --jc-shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+
+  --jc-border-strong: rgba(150, 190, 240, 0.24);
+  --jc-surface-raised: rgba(23, 35, 55, 0.92);
+  --jc-surface-sunken: rgba(12, 20, 34, 0.7);
+  --jc-primary-soft: rgba(91, 147, 255, 0.14);
+  --jc-primary-softer: rgba(91, 147, 255, 0.08);
+  --jc-cyan-soft: rgba(69, 214, 230, 0.13);
+  --jc-success-soft: rgba(53, 192, 140, 0.13);
+  --jc-warning-soft: rgba(229, 166, 63, 0.14);
+  --jc-danger-soft: rgba(229, 117, 124, 0.13);
+  --jc-code-bg: rgba(12, 21, 36, 0.86);
+  --jc-selection: rgba(91, 147, 255, 0.3);
+
+  --jc-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --jc-shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --jc-shadow-md: 0 12px 34px rgba(0, 0, 0, 0.45);
+  --jc-shadow-lg: var(--jc-shadow);
+  --jc-ring: 0 0 0 3px rgba(91, 147, 255, 0.4);
+
+  color-scheme: dark;
+}

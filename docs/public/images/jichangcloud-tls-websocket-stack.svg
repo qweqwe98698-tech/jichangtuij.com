@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="jcT10 jcD10">
+  <title id="jcT10">TLS 与 WebSocket 在协议栈中的位置示意图</title>
+  <desc id="jcD10">自下而上的协议栈分层图：TCP 提供可靠传输，TLS 在其上提供加密与身份验证并使流量呈现为标准 HTTPS，WebSocket 在 HTTP 之上升级为长连接通道，最上层是代理协议本身。右侧标注每一层出问题时的典型症状。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .t{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:13px;font-weight:700;fill:#ffffff}
+    .d{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#ffffff}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#4c6480}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .n{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#8a9ab0}
+  </style>
+
+  <text class="l" x="20" y="28">从下往上：每一层解决一个问题</text>
+  <text class="s" x="470" y="28">这一层出问题时的典型症状</text>
+
+  <rect x="20" y="44" width="420" height="46" rx="8" fill="#3f6fae"/>
+  <text class="t" x="42" y="64">代理协议（Trojan / VLESS …）</text>
+  <text class="d" x="42" y="82">决定认证方式与数据如何封装</text>
+  <text class="r" x="470" y="70">参数不匹配：连上但立刻断开</text>
+
+  <rect x="20" y="98" width="420" height="46" rx="8" fill="#4a7fc1"/>
+  <text class="t" x="42" y="118">WebSocket（可选）</text>
+  <text class="d" x="42" y="136">在 HTTP 上升级为长连接，可经 CDN 中转</text>
+  <text class="r" x="470" y="124">路径写错：连接建立但没有数据</text>
+
+  <rect x="20" y="152" width="420" height="46" rx="8" fill="#5b9fd0"/>
+  <text class="t" x="42" y="172">TLS</text>
+  <text class="d" x="42" y="190">提供加密与身份验证，让流量呈现为标准 HTTPS</text>
+  <text class="r" x="470" y="170">证书过期或域名不匹配：握手失败</text>
+  <text class="r" x="470" y="190">设备时间偏差过大：同样握手失败</text>
+
+  <rect x="20" y="206" width="420" height="46" rx="8" fill="#7bb8dc"/>
+  <text class="t" x="42" y="226">TCP</text>
+  <text class="d" x="42" y="244">提供可靠、有序的字节流传输</text>
+  <text class="r" x="470" y="232">端口被封：完全连不上</text>
+
+  <text class="n" x="20" y="284">SNI 在 TLS 握手中是明文的：中间网络能看到你要访问哪个域名，但看不到内容。</text>
+  <text class="n" x="20" y="304">排查顺序：先确认证书与域名 → 再确认设备时间 → 最后检查传输路径配置。</text>
+</svg>

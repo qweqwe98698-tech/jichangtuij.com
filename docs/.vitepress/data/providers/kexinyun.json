@@ -1,0 +1,73 @@
+{
+  "slug": "kexinyun",
+  "name": "可信云",
+  "vendor": {
+    "entryPrice": "25元/月",
+    "traffic": "150GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端，具体方式以官方说明为准",
+    "aiClaim": "当前没有统一实测数据，应避免写成“全部解锁”",
+    "streamingClaim": "当前没有统一实测数据，应避免写成“全部解锁”",
+    "establishedYear": 2024
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "待全量复核",
+    "screenshotPath": "/images/speedtest/kexinyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Review Required",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表原始截图证据，该截图缺乏完整年月日标注，数据状态标注为 Review Required 待复核。"
+  },
+  "commercial": {
+    "promoCode": "kkk333",
+    "discountDesc": "专属优惠码 kkk333",
+    "affLink": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "25元档 / 150GB / VLESS 协议 / IEPL 专线 / 专线大流量",
+    "positioning": "25元档 / 150GB / VLESS / IEPL",
+    "targetAudience": [
+      "每月需要约 150GB 流量，并偏好 VLESS 专线线路的用户",
+      "主要适用于日常网页浏览、视频播放和多设备日常使用场景的用户"
+    ],
+    "notRecommendedFor": [
+      "寻求 10-15 元超低预算套餐的用户",
+      "要求 100% 承诺 AI/流媒体全解锁凭证的用户（目前无统一实测）"
+    ],
+    "pros": [
+      "25 元档提供 150GB 大流量与 IEPL 内网专线",
+      "全节点支持 VLESS 与 Shadowsocks 协议",
+      "支持全平台客户端配置"
+    ],
+    "cons": [
+      "测速截图未包含完整年月日标注，本站严格标记为待复核状态",
+      "AI 与流媒体当前无本站实测数据，严禁宣传为“全部解锁”"
+    ],
+    "priceSegment": "25",
+    "lastVerified": "2026-08-16"
+  }
+}

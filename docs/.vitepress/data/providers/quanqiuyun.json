@@ -1,0 +1,73 @@
+{
+  "slug": "quanqiuyun",
+  "name": "全球云",
+  "vendor": {
+    "entryPrice": "20元/月",
+    "traffic": "120GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端订阅导入",
+    "aiClaim": "资料显示覆盖网页、视频流媒体以及 AI 工具访问场景",
+    "streamingClaim": "资料显示覆盖网页、视频流媒体以及 AI 工具访问场景",
+    "establishedYear": 2026
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/quanqiuyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "qqy7777",
+    "discountDesc": "专属优惠码 qqy7777",
+    "affLink": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "20元档 / 120GB / VLESS 协议 / IEPL 专线 / 2026 综合型专线",
+    "positioning": "20元档 / 120GB / VLESS / IEPL",
+    "targetAudience": [
+      "希望把预算控制在 20 元左右，日常流量需求约 100-120GB 的用户",
+      "注重 2026 年新开业节点低负载与 IEPL 专线稳定性的日常用户",
+      "需要兼顾网页浏览、流媒体以及基础 AI 访问场景的用户"
+    ],
+    "notRecommendedFor": [
+      "极低预算（<10元）轻度用户"
+    ],
+    "pros": [
+      "20 元入门套餐包含 120GB 流量，以 VLESS 与 IEPL 专线为核心卖点",
+      "2026 年新上线，节点带宽充裕度较好",
+      "全平台客户端支持与便捷支付宝/微信支付"
+    ],
+    "cons": [
+      "开业时间较新，需观察长周期晚高峰表现",
+      "AI 与流媒体目前属于厂商资料声明"
+    ],
+    "priceSegment": "20",
+    "lastVerified": "2026-08-16"
+  }
+}

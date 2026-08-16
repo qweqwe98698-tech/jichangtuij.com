@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-labelledby="jcT9 jcD9">
+  <title id="jcT9">三种 DNS 解析路径对比：污染、泄漏与远端解析</title>
+  <desc id="jcD9">三行对比图。第一行本地解析被污染，返回错误地址，表现为连上节点但网站打不开；第二行解析走本地运营商造成泄漏，出口在境外而解析在本地，平台按本地地区判定；第三行解析交给节点在远端完成，出口与解析一致，判定正确。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .bad{stroke:#cf8a8a;stroke-width:2;fill:none}
+    .ok{stroke:#48b7c7;stroke-width:2.2;fill:none}
+    .dim{stroke:#b8c8dc;stroke-width:1.8;fill:none;stroke-dasharray:5 5}
+  </style>
+  <defs>
+    <marker id="jcAr9" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">解析走哪条路，决定你连到哪里、平台把你判定在哪里</text>
+
+  <!-- 行一：解析污染 -->
+  <text class="l" x="20" y="72">① 解析污染</text>
+  <rect class="box" x="130" y="54" width="92" height="34" rx="8"/>
+  <text class="s" x="152" y="76">你的设备</text>
+  <path class="bad" d="M222 71 H320" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="320" y="54" width="110" height="34" rx="8"/>
+  <text class="s" x="336" y="76">本地 DNS</text>
+  <path class="bad" d="M430 71 H528" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="528" y="54" width="120" height="34" rx="8" stroke="#cf8a8a"/>
+  <text class="r" x="546" y="76">错误的 IP</text>
+  <text class="r" x="668" y="76">连上节点但网站打不开</text>
+
+  <!-- 行二：解析泄漏 -->
+  <text class="l" x="20" y="164">② 解析泄漏</text>
+  <rect class="box" x="130" y="130" width="92" height="34" rx="8"/>
+  <text class="s" x="152" y="152">你的设备</text>
+  <path class="bad" d="M176 164 V196 H320" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="320" y="180" width="110" height="34" rx="8"/>
+  <text class="s" x="336" y="202">本地 DNS</text>
+  <text class="r" x="440" y="202">解析在本地完成</text>
+
+  <path class="dim" d="M222 147 H528" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="528" y="130" width="120" height="34" rx="8"/>
+  <text class="s" x="548" y="152">境外出口</text>
+  <text class="r" x="668" y="147">出口在境外、解析在本地</text>
+  <text class="r" x="668" y="166">平台按更保守的方式判定</text>
+
+  <!-- 行三：远端解析 -->
+  <text class="l" x="20" y="278">③ 远端解析</text>
+  <rect class="box" x="130" y="260" width="92" height="34" rx="8"/>
+  <text class="s" x="152" y="282">你的设备</text>
+  <path class="ok" d="M222 277 H320" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="320" y="260" width="110" height="34" rx="8" stroke="#48b7c7"/>
+  <text class="s" x="342" y="282">节点</text>
+  <path class="ok" d="M430 277 H528" marker-end="url(#jcAr9)"/>
+  <rect class="box" x="528" y="260" width="120" height="34" rx="8" stroke="#48b7c7"/>
+  <text class="g" x="542" y="282">远端解析</text>
+  <text class="g" x="668" y="277">出口与解析一致，判定正确</text>
+
+  <line x1="20" y1="106" x2="860" y2="106" stroke="#e3ebf5"/>
+  <line x1="20" y1="232" x2="860" y2="232" stroke="#e3ebf5"/>
+
+  <text class="s" x="20" y="330">fake-ip 属于第三种：客户端先返回一个虚拟地址占位，真实解析由节点在远端完成，因此既减少泄漏，也加快首次连接建立。</text>
+  <text class="s" x="20" y="350">典型自查：节点显示在境外，平台却判定你在本地 —— 这几乎总是第二种情况。</text>
+</svg>

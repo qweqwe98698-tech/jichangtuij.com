@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT24 jcD24">
+  <title id="jcT24">流媒体平台判定出口是否为代理的流程</title>
+  <desc id="jcD24">流程图：连接请求进入平台后，依次检查出口 IP 类型与使用密度、解析路径是否与出口一致、账号地区设置，三项均通过才判定为正常，任一项异常则判定为代理并拒绝或降级服务。图中标出使用密度与解析一致性是最常见的失效点。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .chk{fill:#ffffff;stroke:#c07a2a;stroke-width:1.8}
+    .end{fill:#ffffff;stroke:#48b7c7;stroke-width:2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr24" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">三项检查全部通过才判定为正常，任一项异常即判定为代理</text>
+
+  <rect class="box" x="20" y="54" width="120" height="40" rx="8"/>
+  <text class="s" x="36" y="78">连接请求</text>
+  <path class="flow" d="M140 74 H196" marker-end="url(#jcAr24)"/>
+
+  <rect class="chk" x="196" y="54" width="164" height="40" rx="8"/>
+  <text class="r" x="206" y="72">出口 IP 类型</text>
+  <text class="r" x="206" y="88">与使用密度</text>
+  <path class="flow" d="M360 74 H416" marker-end="url(#jcAr24)"/>
+
+  <rect class="chk" x="416" y="54" width="164" height="40" rx="8"/>
+  <text class="r" x="428" y="72">解析路径是否</text>
+  <text class="r" x="428" y="88">与出口一致</text>
+  <path class="flow" d="M580 74 H636" marker-end="url(#jcAr24)"/>
+
+  <rect class="chk" x="636" y="54" width="164" height="40" rx="8"/>
+  <text class="r" x="656" y="78">账号地区设置</text>
+
+  <path class="flow" d="M718 94 V150 H460 V190" marker-end="url(#jcAr24)"/>
+  <rect class="end" x="360" y="190" width="200" height="40" rx="8"/>
+  <text class="g" x="384" y="214">判定为正常，内容库放行</text>
+
+  <path class="flow" d="M278 94 V150 H460" stroke-dasharray="4 4"/>
+  <path class="flow" d="M498 94 V150" stroke-dasharray="4 4"/>
+
+  <rect class="box" x="120" y="250" width="640" height="56" rx="10" stroke="#cf8a8a"/>
+  <text class="r" x="140" y="272">任一项异常 → 判定为代理，表现为地区不可用提示、内容库降级或直接拒绝</text>
+  <text class="s" x="140" y="292">最常见的失效点：使用密度过高（共享出口被大量会话使用）与解析不一致（DNS 泄漏）</text>
+
+  <path class="flow" d="M278 150 V250" marker-end="url(#jcAr24)" stroke="#cf8a8a"/>
+  <path class="flow" d="M498 150 V250" marker-end="url(#jcAr24)" stroke="#cf8a8a"/>
+  <path class="flow" d="M718 150 V250" marker-end="url(#jcAr24)" stroke="#cf8a8a"/>
+
+  <text class="s" x="20" y="330">判定是每次连接都会重新发生的动态过程，昨天通过不代表今天也通过。</text>
+</svg>

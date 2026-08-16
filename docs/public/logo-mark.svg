@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="机场云 JichangCloud 标识">
+  <title>机场云 JichangCloud</title>
+  <defs>
+    <linearGradient id="jcRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#21c3d6"/>
+      <stop offset="100%" stop-color="#246bfd"/>
+    </linearGradient>
+    <linearGradient id="jcCloud" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#246bfd"/>
+      <stop offset="100%" stop-color="#164ec5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 外环：开口朝右，轮廓读作字母 C -->
+  <path
+    d="M47.5 12.8A24 24 0 1 0 47.5 51.2"
+    fill="none"
+    stroke="url(#jcRing)"
+    stroke-width="4.6"
+    stroke-linecap="round"
+    opacity="0.5"
+  />
+
+  <!-- 云体：底部左侧带下垂钩笔，轮廓读作字母 J -->
+  <path
+    d="M23.4 41.6a8.6 8.6 0 0 1-.7-17.1 11.6 11.6 0 0 1 21.6-3.4 8.9 8.9 0 0 1 1 20.5h-8.5v6.2a6.4 6.4 0 0 1-11.4 4l-.3-.4"
+    fill="none"
+    stroke="url(#jcCloud)"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- 云内三节点 -->
+  <circle cx="24.6" cy="30.4" r="2.9" fill="#246bfd"/>
+  <circle cx="33.2" cy="24.6" r="2.9" fill="#21c3d6"/>
+  <circle cx="41.6" cy="31.6" r="2.9" fill="#246bfd"/>
+
+  <!-- 两条连接弧线 -->
+  <path d="M26.9 28.9a7.4 7.4 0 0 1 4.4-3.6" fill="none" stroke="#21c3d6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35.4 25.6a8.2 8.2 0 0 1 4.6 3.6" fill="none" stroke="#246bfd" stroke-width="2" stroke-linecap="round"/>
+</svg>

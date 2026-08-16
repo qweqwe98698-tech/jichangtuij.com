@@ -1,0 +1,25 @@
+{
+  "name": "机场推荐 JichangTuij",
+  "short_name": "机场推荐",
+  "description": "2026 机场推荐、IEPL专线解析、客户端教程与测速证据的独立中文知识平台。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7faff",
+  "theme_color": "#246bfd",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

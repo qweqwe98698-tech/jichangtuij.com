@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-labelledby="jcT30 jcD30">
+  <title id="jcT30">机场服务的成本构成与低价的三种来源</title>
+  <desc id="jcD30">左侧为成本堆叠图：跨境带宽占比最大且弹性最小，其次是服务器与入口资源、运维与故障响应、客服与面板。右侧列出低价的三种常见来源：压缩线路等级（改走公网中转）、提高超售比例（同样带宽卖更多用户）、削减服务（无公告无工单）。低价必然压缩其中至少一项，判断的关键是弄清压缩的是哪一项、自己能否接受。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .w{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;font-weight:700;fill:#ffffff}
+    .box{fill:#ffffff;stroke:#cf8a8a;stroke-width:1.6}
+  </style>
+
+  <text class="l" x="20" y="26">价格从哪来：一份订阅费的成本拆解</text>
+
+  <!-- 成本堆叠 -->
+  <rect x="60" y="60" width="240" height="110" fill="#5b8fd6"/>
+  <text class="w" x="80" y="105">跨境带宽（占比最大）</text>
+  <text class="w" x="80" y="126">弹性最小，压无可压</text>
+  <rect x="60" y="170" width="240" height="55" fill="#48b7c7"/>
+  <text class="w" x="80" y="202">服务器与入口资源</text>
+  <rect x="60" y="225" width="240" height="40" fill="#7fa8d9"/>
+  <text class="w" x="80" y="250">运维与故障响应</text>
+  <rect x="60" y="265" width="240" height="32" fill="#b8c8dc"/>
+  <text class="w" x="80" y="286">客服与面板</text>
+
+  <text class="s" x="60" y="322">跨境带宽是大头 —— 这就是「全专线 + 极低价」</text>
+  <text class="s" x="60" y="340">难以同时成立的原因。</text>
+
+  <!-- 低价来源 -->
+  <text class="l" x="400" y="66">低价的三种来源（必居其一）</text>
+
+  <rect class="box" x="400" y="84" width="450" height="60" rx="10"/>
+  <text class="l" x="418" y="108">① 压缩线路等级</text>
+  <text class="s" x="418" y="130">用公网直连或普通中转替代优化链路 —— 平时无感，晚高峰现形</text>
+
+  <rect class="box" x="400" y="156" width="450" height="60" rx="10"/>
+  <text class="l" x="418" y="180">② 提高超售比例</text>
+  <text class="s" x="418" y="202">同样的带宽卖给更多用户 —— 空闲时段测不出来，拥堵时段集体掉速</text>
+
+  <rect class="box" x="400" y="228" width="450" height="60" rx="10"/>
+  <text class="l" x="418" y="252">③ 削减服务</text>
+  <text class="s" x="418" y="274">无公告、无工单、故障靠等 —— 出问题之前感知不到它的价值</text>
+
+  <text class="g" x="400" y="318">合理的低价：说得清压缩了哪一项，且你恰好不需要那一项。</text>
+  <text class="r" x="400" y="340">危险的低价：什么都宣称不压缩，价格却低于带宽成本。</text>
+</svg>

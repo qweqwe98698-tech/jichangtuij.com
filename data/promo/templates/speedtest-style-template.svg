@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520" role="img" aria-labelledby="jcTplT jcTplD">
+  <title id="jcTplT">测速报告图样式模板（样例数据，非实测）</title>
+  <desc id="jcTplD">深色终端风格的测速报告版式模板：顶部为品牌与测试时间标题行，其下为软件环境行，中部为三行节点测速条目（状态灯、节点名、延迟、下载速度与进度条），底部为汇总行与水印位。模板内所有数字均为占位样例，正式使用前必须替换为带完整测试条件记录的真实数据。</desc>
+  <style>
+    .bg{fill:#1e1e1e}
+    .panel{fill:#252526;stroke:#3c3c3c;stroke-width:1}
+    .t{font-family:"Cascadia Code","Microsoft YaHei",monospace;font-size:15px;font-weight:700;fill:#e8e8e8}
+    .s{font-family:"Cascadia Code","Microsoft YaHei",monospace;font-size:12.5px;fill:#9da5b4}
+    .green{fill:#00e676}
+    .yellow{fill:#ffd54f}
+    .bar-bg{fill:#3c3c3c}
+    .bar-g{fill:#00e676}
+    .bar-y{fill:#ffd54f}
+    .wm{font-family:"Microsoft YaHei",sans-serif;font-size:12px;fill:#ffffff;opacity:0.3}
+    .warnband{fill:#c0392b;opacity:0.92}
+    .warntext{font-family:"Microsoft YaHei",sans-serif;font-size:16px;font-weight:700;fill:#ffffff}
+  </style>
+
+  <rect class="bg" x="0" y="0" width="880" height="520"/>
+  <rect class="panel" x="24" y="24" width="832" height="472" rx="10"/>
+
+  <!-- 标题区 -->
+  <text class="t" x="48" y="62">🌐 ［品牌名］测速报告（［日期 时段，须为真实测试时间］）</text>
+  <line x1="48" y1="78" x2="832" y2="78" stroke="#3c3c3c" stroke-width="1"/>
+  <text class="s" x="48" y="102">软件环境：［客户端与版本］ ｜ 测试点：［测试目标］ ｜ 口径：［单线程/多线程］ ｜ 本地基准：［直连测得值］</text>
+  <line x1="48" y1="118" x2="832" y2="118" stroke="#3c3c3c" stroke-width="1"/>
+
+  <!-- 节点行 1 -->
+  <circle class="green" cx="58" cy="152" r="5"/>
+  <text class="t" x="76" y="157">［节点名 A］</text>
+  <text class="s" x="360" y="157">延迟：--ms</text>
+  <text class="s" x="520" y="157">下载：--.- MB/s</text>
+  <rect class="bar-bg" x="48" y="172" width="784" height="12" rx="6"/>
+  <rect class="bar-g" x="48" y="172" width="640" height="12" rx="6"/>
+
+  <!-- 节点行 2 -->
+  <circle class="green" cx="58" cy="222" r="5"/>
+  <text class="t" x="76" y="227">［节点名 B］</text>
+  <text class="s" x="360" y="227">延迟：--ms</text>
+  <text class="s" x="520" y="227">下载：--.- MB/s</text>
+  <rect class="bar-bg" x="48" y="242" width="784" height="12" rx="6"/>
+  <rect class="bar-g" x="48" y="242" width="480" height="12" rx="6"/>
+
+  <!-- 节点行 3 -->
+  <circle class="yellow" cx="58" cy="292" r="5"/>
+  <text class="t" x="76" y="297">［节点名 C］</text>
+  <text class="s" x="360" y="297">延迟：--ms</text>
+  <text class="s" x="520" y="297">下载：--.- MB/s</text>
+  <rect class="bar-bg" x="48" y="312" width="784" height="12" rx="6"/>
+  <rect class="bar-y" x="48" y="312" width="260" height="12" rx="6"/>
+
+  <!-- 汇总 -->
+  <line x1="48" y1="352" x2="832" y2="352" stroke="#3c3c3c" stroke-width="1"/>
+  <text class="s" x="48" y="380">汇总：平均延迟 --ms ｜ 最高下载 --.- MB/s ｜ 丢包率 --%（连续测量 -- 分钟）</text>
+  <text class="s" x="48" y="404">测量次数与波动范围：［多次测量的中位值与范围，而非单次峰值］</text>
+
+  <!-- 样例声明横带：正式出图时以真实数据版式替换整个模板，此带为模板身份标识 -->
+  <rect class="warnband" x="24" y="428" width="832" height="40"/>
+  <text class="warntext" x="252" y="454">样式模板 · 占位样例 · 非实测数据，禁止直接发布</text>
+
+  <text class="wm" x="736" y="490">jichangcloud.com</text>
+</svg>

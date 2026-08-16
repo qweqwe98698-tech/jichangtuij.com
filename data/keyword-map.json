@@ -1,0 +1,429 @@
+[
+  {
+    "slug": "/about/",
+    "primaryKeyword": "关于机场推荐",
+    "pillar": "/about/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/affiliate-policy/",
+    "primaryKeyword": "推广披露",
+    "pillar": "/affiliate-policy/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/ai/airport/",
+    "primaryKeyword": "AI机场推荐",
+    "pillar": "/ai/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/ai/chatgpt/",
+    "primaryKeyword": "ChatGPT机场推荐",
+    "pillar": "/ai/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/ai/",
+    "primaryKeyword": "AI机场",
+    "pillar": "/ai/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/articles/",
+    "primaryKeyword": "机场文章库",
+    "pillar": "/articles/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/brands/ermaoyun/",
+    "primaryKeyword": "二猫云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/feimaoyun/",
+    "primaryKeyword": "飞猫云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/guangnianti/",
+    "primaryKeyword": "光年梯",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/guangsuyun/",
+    "primaryKeyword": "光速云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/",
+    "primaryKeyword": "机场品牌资料库",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/brands/jilianyun/",
+    "primaryKeyword": "极连云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/kexinyun/",
+    "primaryKeyword": "可信云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/kuaili/",
+    "primaryKeyword": "快狸",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/lingmao/",
+    "primaryKeyword": "灵猫网络",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/quanqiuyun/",
+    "primaryKeyword": "全球云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/sogoyun/",
+    "primaryKeyword": "SOGO 云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/sujie/",
+    "primaryKeyword": "速界",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/u1s1/",
+    "primaryKeyword": "U1S1",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/weitu/",
+    "primaryKeyword": "唯兔云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/xingdaomeng/",
+    "primaryKeyword": "星岛梦",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/yifanyun/",
+    "primaryKeyword": "一翻云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/yuzhouyun/",
+    "primaryKeyword": "宇宙云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/clients/clash/",
+    "primaryKeyword": "Clash教程",
+    "pillar": "/clients/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/clients/",
+    "primaryKeyword": "机场客户端",
+    "pillar": "/clients/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/clients/shadowrocket/",
+    "primaryKeyword": "Shadowrocket教程",
+    "pillar": "/clients/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/clients/v2rayn/",
+    "primaryKeyword": "v2rayN教程",
+    "pillar": "/clients/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/compare/ermaoyun-vs-quanqiuyun/",
+    "primaryKeyword": "二猫云对比全球云",
+    "pillar": "/compare/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/compare/feimaoyun-vs-xingdaomeng/",
+    "primaryKeyword": "飞猫云对比星岛梦",
+    "pillar": "/compare/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/compare/",
+    "primaryKeyword": "机场对比",
+    "pillar": "/compare/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/compare/sujie-vs-kuaili/",
+    "primaryKeyword": "速界对比快狸",
+    "pillar": "/compare/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/compare/weitu-vs-yuzhouyun/",
+    "primaryKeyword": "唯兔云对比宇宙云",
+    "pillar": "/compare/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/editorial-policy/",
+    "primaryKeyword": "编辑原则",
+    "pillar": "/editorial-policy/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/free/",
+    "primaryKeyword": "免费节点",
+    "pillar": "/free/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/glossary/",
+    "primaryKeyword": "机场术语词典",
+    "pillar": "/glossary/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/guides/beginner/",
+    "primaryKeyword": "什么是机场",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/guides/foreign-websites-inaccessible/",
+    "primaryKeyword": "国外网站打不开",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/guides/how-to-choose/",
+    "primaryKeyword": "机场怎么选",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/guides/",
+    "primaryKeyword": "机场使用指南",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/guides/vpn-vs-airport/",
+    "primaryKeyword": "VPN与机场区别",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/",
+    "primaryKeyword": "机场推荐",
+    "pillar": "//",
+    "intent": "informational",
+    "pageType": "home"
+  },
+  {
+    "slug": "/methodology/",
+    "primaryKeyword": "机场评测方法",
+    "pillar": "/methodology/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/network/",
+    "primaryKeyword": "机场线路",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/network/iplc-vs-iepl/",
+    "primaryKeyword": "IPLC 与 IEPL 区别",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/network/vless/",
+    "primaryKeyword": "VLESS协议",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/privacy/",
+    "primaryKeyword": "隐私政策",
+    "pillar": "/privacy/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/ranking/",
+    "primaryKeyword": "机场排行榜",
+    "pillar": "/ranking/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/recommend/beginner/",
+    "primaryKeyword": "新手机场推荐",
+    "pillar": "/recommend/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/recommend/cheap/",
+    "primaryKeyword": "便宜机场推荐",
+    "pillar": "/recommend/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/recommend/",
+    "primaryKeyword": "机场推荐中心",
+    "pillar": "/recommend/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/recommend/stable/",
+    "primaryKeyword": "稳定机场推荐",
+    "pillar": "/recommend/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/recommend/value/",
+    "primaryKeyword": "高性价比机场推荐",
+    "pillar": "/recommend/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/search/",
+    "primaryKeyword": "站内搜索",
+    "pillar": "/search/",
+    "intent": "informational",
+    "pageType": "utility"
+  },
+  {
+    "slug": "/streaming/airport/",
+    "primaryKeyword": "流媒体机场推荐",
+    "pillar": "/streaming/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/streaming/",
+    "primaryKeyword": "流媒体机场",
+    "pillar": "/streaming/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/streaming/netflix/",
+    "primaryKeyword": "Netflix机场推荐",
+    "pillar": "/streaming/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/terms/",
+    "primaryKeyword": "使用条款",
+    "pillar": "/terms/",
+    "intent": "informational",
+    "pageType": "policy"
+  },
+  {
+    "slug": "/topics/",
+    "primaryKeyword": "机场专题",
+    "pillar": "/topics/",
+    "intent": "informational",
+    "pageType": "topic"
+  },
+  {
+    "slug": "/troubleshooting/",
+    "primaryKeyword": "机场故障排查",
+    "pillar": "/troubleshooting/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
+    "slug": "/troubleshooting/node-timeout/",
+    "primaryKeyword": "节点超时",
+    "pillar": "/troubleshooting/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/troubleshooting/subscription-failed/",
+    "primaryKeyword": "订阅更新失败",
+    "pillar": "/troubleshooting/",
+    "intent": "informational",
+    "pageType": "article"
+  }
+]

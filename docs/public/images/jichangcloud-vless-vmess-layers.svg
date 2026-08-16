@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT16 jcD16">
+  <title id="jcT16">VMess 与 VLESS 的职责划分对比</title>
+  <desc id="jcD16">两行对比。上一行是 VMess：协议内部包含认证、自带加密与时间校验三个职责，其中时间校验依赖设备时间同步，偏差过大会认证失败。下一行是 VLESS：协议内部只保留认证与路由，加密与伪装完全交给外层的 TLS 或 REALITY；外层正确启用时安全性相当，未启用时数据为明文。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .outer{fill:none;stroke:#48b7c7;stroke-width:2;stroke-dasharray:0}
+    .warn{fill:#ffffff;stroke:#cf8a8a;stroke-width:1.8}
+  </style>
+
+  <text class="l" x="20" y="26">VLESS 不是「更好的 VMess」，而是把职责搬了家</text>
+
+  <!-- VMess -->
+  <text class="l" x="20" y="72">VMess</text>
+  <rect class="outer" x="130" y="50" width="470" height="64" rx="10"/>
+  <text class="g" x="140" y="44">协议内部完成全部职责</text>
+  <rect class="box" x="146" y="62" width="120" height="40" rx="8"/>
+  <text class="s" x="178" y="87">认证</text>
+  <rect class="box" x="286" y="62" width="140" height="40" rx="8"/>
+  <text class="s" x="312" y="87">自带加密</text>
+  <rect class="warn" x="446" y="62" width="140" height="40" rx="8"/>
+  <text class="s" x="470" y="87">时间校验</text>
+  <text class="r" x="620" y="72">依赖设备时间同步，</text>
+  <text class="r" x="620" y="92">偏差过大直接认证失败</text>
+
+  <!-- VLESS -->
+  <text class="l" x="20" y="180">VLESS</text>
+  <rect class="outer" x="130" y="158" width="180" height="64" rx="10"/>
+  <text class="g" x="140" y="152">协议内部只留最小集</text>
+  <rect class="box" x="146" y="170" width="148" height="40" rx="8"/>
+  <text class="s" x="172" y="195">认证与路由</text>
+
+  <rect class="outer" x="350" y="158" width="250" height="64" rx="10"/>
+  <text class="g" x="360" y="152">加密与伪装交给外层</text>
+  <rect class="box" x="366" y="170" width="100" height="40" rx="8"/>
+  <text class="s" x="398" y="195">TLS</text>
+  <rect class="box" x="482" y="170" width="100" height="40" rx="8"/>
+  <text class="s" x="500" y="195">REALITY</text>
+
+  <text class="g" x="620" y="180">外层正确启用：</text>
+  <text class="g" x="620" y="198">安全性与 Trojan 相当</text>
+  <text class="r" x="620" y="222">外层未启用：明文传输</text>
+
+  <text class="s" x="20" y="272">VMess 的额外校验带来开销与时间同步依赖；VLESS 换来更低开销，同时把安全性押在外层配置的正确性上。</text>
+  <text class="s" x="20" y="292">因此使用 VLESS 时，「确认外层方案确实生效」比比较协议开销重要得多。</text>
+</svg>

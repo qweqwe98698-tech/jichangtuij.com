@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT17 jcD17">
+  <title id="jcT17">订阅更新链路与各环节的失败点</title>
+  <desc id="jcD17">一次订阅更新依次经过四个环节：客户端发起请求、解析订阅域名、访问订阅服务器、返回并解析节点列表。每个环节下方标注了对应的失败点：客户端侧是缓存与格式不匹配；解析环节是域名解析失败或被本地网络限制；服务器环节是链接被重置、套餐到期；返回环节是流量耗尽导致的空列表。浏览器直接访问订阅链接可以跳过客户端，快速区分前后两类问题。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .bracket{stroke:#48b7c7;stroke-width:2;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr17" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">一次订阅更新要经过四个环节，每个环节的失败表现不同</text>
+
+  <!-- 链路 -->
+  <rect class="box" x="30" y="60" width="150" height="40" rx="9"/>
+  <text class="s" x="60" y="85">① 客户端发起</text>
+  <path class="flow" d="M180 80 H220" marker-end="url(#jcAr17)"/>
+  <rect class="box" x="230" y="60" width="150" height="40" rx="9"/>
+  <text class="s" x="256" y="85">② 解析订阅域名</text>
+  <path class="flow" d="M380 80 H420" marker-end="url(#jcAr17)"/>
+  <rect class="box" x="430" y="60" width="150" height="40" rx="9"/>
+  <text class="s" x="456" y="85">③ 订阅服务器</text>
+  <path class="flow" d="M580 80 H620" marker-end="url(#jcAr17)"/>
+  <rect class="box" x="630" y="60" width="170" height="40" rx="9"/>
+  <text class="s" x="650" y="85">④ 返回节点列表</text>
+
+  <!-- 失败点 -->
+  <text class="r" x="30" y="136">缓存了旧结果</text>
+  <text class="r" x="30" y="154">格式与客户端不匹配</text>
+  <text class="r" x="230" y="136">域名解析失败</text>
+  <text class="r" x="230" y="154">被本地网络限制</text>
+  <text class="r" x="430" y="136">链接已被重置</text>
+  <text class="r" x="430" y="154">套餐到期</text>
+  <text class="r" x="630" y="136">流量耗尽 → 空列表</text>
+  <text class="r" x="630" y="154">返回内容异常</text>
+
+  <!-- 浏览器快速判断 -->
+  <path class="bracket" d="M230 196 v14 h570 v-14"/>
+  <text class="g" x="300" y="236">用浏览器直接访问订阅链接 = 跳过客户端，单独检验 ②③④ 这三段</text>
+
+  <text class="s" x="20" y="286">能返回一段文本内容 → ②③④ 正常，问题在客户端（①）；</text>
+  <text class="s" x="20" y="306">返回空白、报错或打不开 → 问题在账号、链接或网络（②③④），换任何客户端都无济于事。</text>
+</svg>

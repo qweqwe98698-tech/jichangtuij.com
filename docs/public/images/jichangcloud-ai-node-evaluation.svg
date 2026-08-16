@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT14 jcD14">
+  <title id="jcT14">AI 场景的节点评估维度与测速维度的对比</title>
+  <desc id="jcD14">左侧虚线框表示测速能告诉你的信息：带宽、峰值速度与下载耗时，对 AI 场景几乎没有判别力。右侧实线框列出 AI 场景真正需要评估的三个维度：出口地区一致性（会话中途出口是否漂移）、IP 类型与信誉（共享程度与验证频率）、长会话稳定性（长连接是否断流）。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .dim{fill:#ffffff;stroke:#b8c8dc;stroke-width:1.8;stroke-dasharray:5 5}
+    .ok{fill:#ffffff;stroke:#48b7c7;stroke-width:2}
+  </style>
+
+  <text class="l" x="20" y="26">带宽维度与判定维度：测速回答不了 AI 场景的问题</text>
+
+  <!-- 左：测速维度 -->
+  <rect class="dim" x="30" y="56" width="330" height="220" rx="12"/>
+  <text class="l" x="54" y="90">测速能告诉你的</text>
+  <text class="s" x="54" y="122">· 带宽与峰值速度</text>
+  <text class="s" x="54" y="150">· 下载一个文件要多久</text>
+  <text class="s" x="54" y="178">· 视频能开多高的清晰度</text>
+  <text class="r" x="54" y="222">AI 工具的判定发生在连接与校验阶段，</text>
+  <text class="r" x="54" y="242">与带宽无关 —— 这些数字没有判别力。</text>
+
+  <!-- 右：AI 评估维度 -->
+  <rect class="ok" x="420" y="56" width="430" height="60" rx="10"/>
+  <text class="l" x="440" y="82">① 出口地区一致性</text>
+  <text class="s" x="440" y="104">长时间使用中出口是否漂移 —— 中途切换比「不够快」更危险</text>
+
+  <rect class="ok" x="420" y="136" width="430" height="60" rx="10"/>
+  <text class="l" x="440" y="162">② IP 类型与信誉</text>
+  <text class="s" x="440" y="184">机房、广播、住宅的敏感度不同；共享越重，验证越频繁</text>
+
+  <rect class="ok" x="420" y="216" width="430" height="60" rx="10"/>
+  <text class="l" x="440" y="242">③ 长会话稳定性</text>
+  <text class="s" x="440" y="264">长连接是否断流、网络切换与空闲恢复后的表现</text>
+
+  <text class="g" x="420" y="316">三个维度都要在你自己的账号与网络环境下验证，别人的结论不能直接搬用。</text>
+</svg>

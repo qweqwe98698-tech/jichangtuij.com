@@ -1,0 +1,157 @@
+# 机场推荐 JichangTuij
+
+> 从价格、流量、线路类型、客户端兼容、AI/流媒体场景与本站测试记录等维度进行整理，帮助你根据实际需求选择更适合自己的机场。机场推荐（jichangtuij.com）是独立透明的机场评测与决策参考平台，所有品牌资料与实测证据严格分离展示。
+
+站点语言：简体中文（zh-CN）
+站点类型：机场代理、机场推荐、机场导航、机场评测、线路知识、客户端教程、故障排查与风险预警的独立信息平台
+正式域名：https://jichangtuij.com
+内容负责方：机场推荐评测实验室
+最后生成时间：2026-08-16T09:12:56.449Z
+
+## 引用说明
+
+- 本站不销售、不代理、不运营任何机场或网络服务。
+- 在没有可核验的真实测试数据之前，本站不发布速度、延迟、解锁结论与品牌排名。
+- 引用本站内容时请注明页面标题与链接，并保留页面上标注的更新时间。
+- 仅下列 URL 属于正式发布内容，其余为未完成草稿，不应被引用。
+- 每篇正式文章顶部的「快速回答」是可以独立引用的结论摘要，本文件已一并给出。
+
+## 主题专题（跨栏目聚合）
+
+- 暂无
+
+## 核心栏目
+
+- [机场推荐中心](https://jichangtuij.com/recommend/): 按稳定、预算、性价比、新手与大流量分类精选（主题词：机场推荐中心）
+- [2026 机场排行榜](https://jichangtuij.com/ranking/): 稳定、便宜、专线机场综合评选与选型梯队（主题词：机场排行榜）
+- [机场品牌资料库](https://jichangtuij.com/brands/): 16家主流机场品牌档案、套餐与节点测速证据（主题词：机场品牌资料库）
+- [品牌对比中心](https://jichangtuij.com/compare/): 同价位、同流量与同场景横向真实选型对比（主题词：机场对比）
+- [客户端教程](https://jichangtuij.com/clients/): Clash、Shadowrocket、v2rayN 与 sing-box 配置指南（主题词：机场客户端）
+- [线路与协议知识](https://jichangtuij.com/network/): IEPL、IPLC 专线、BGP 中转与 VLESS 协议全解析（主题词：机场线路）
+- [免费节点与订阅指南](https://jichangtuij.com/free/): 公开免费节点风险防范与付费机场对比（主题词：免费节点）
+- [AI 工具机场专区](https://jichangtuij.com/ai/): ChatGPT、Claude 与 Gemini 节点选择与访问排障（主题词：AI机场）
+- [流媒体解锁专区](https://jichangtuij.com/streaming/): Netflix、YouTube 4K 与 Disney+ 解锁与播放指南（主题词：流媒体机场）
+- [故障排查中心](https://jichangtuij.com/troubleshooting/): 节点超时、全红、订阅失败与无法连接排查指南（主题词：机场故障排查）
+- [新手使用指南](https://jichangtuij.com/guides/): 机场小白入门、选型标准、VPN 区别与避坑清单（主题词：机场使用指南）
+- [机场术语词典](https://jichangtuij.com/glossary/): 一站查清所有代理、专线、协议与网络名词（主题词：机场术语词典）
+- [机场核心专题](https://jichangtuij.com/topics/): 按核心问题横向聚合的深度主题（主题词：机场专题）
+- [全站文章库](https://jichangtuij.com/articles/): 按时间与分类归档的深度分析与评测长文（主题词：机场文章库）
+- [标签索引](https://jichangtuij.com/tags/): 按主题标签横向浏览全站内容（主题词：机场标签索引）
+
+## 正式发布页面
+
+- [2026 AI工具机场推荐：ChatGPT、Claude与Gemini原生解锁节点选择](https://jichangtuij.com/ai/airport/): 2026 AI工具机场推荐：深度评测适合频繁使用 ChatGPT Plus、Claude Pro 与 Gemini Advanced 的优质专线机场，精选速界、光速云与 SOGO 云等优化品牌。
+- [ChatGPT 机场节点推荐：OpenAI 与 Claude 专属原生 IP 选型与防封指南](https://jichangtuij.com/ai/chatgpt/): 精选针对 OpenAI、ChatGPT 4o、Claude 3.5 Sonnet 与 Midjourney 优化的原生 IP 机场节点，详解如何解决 Access Denied、1020 报错与防封号技巧。
+- [二猫云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/ermaoyun/): 二猫云详细评测档案：2026最新入门价格20元/月，130GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [飞猫云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/feimaoyun/): 飞猫云详细评测档案：2026最新入门价格约7元/月 (年付折算)，50GB/月，采用IEPL 专线与Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [光年梯怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/guangnianti/): 光年梯详细评测档案：2026最新入门价格18元/月，110GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [光速云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/guangsuyun/): 光速云详细评测档案：2026最新入门价格17元/月，110GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [极连云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/jilianyun/): 极连云详细评测档案：2026最新入门价格18元/月，100GB/月，采用IEPL 专线与Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [可信云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/kexinyun/): 可信云详细评测档案：2026最新入门价格25元/月，150GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [快狸怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/kuaili/): 快狸详细评测档案：2026最新入门价格25元/月，150GB/月，采用IEPL 专线与VLESS协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [灵猫网络怎么样？2026套餐价格、企业级内网专线实测与官网地址](https://jichangtuij.com/brands/lingmao/): 灵猫网络详细评测档案：2026最新入门价格19元/月，150GB/月，采用企业级内网专线与Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [全球云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/quanqiuyun/): 全球云详细评测档案：2026最新入门价格20元/月，120GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [SOGO 云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/sogoyun/): SOGO 云详细评测档案：2026最新入门价格25元/月，150GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [速界怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/sujie/): 速界详细评测档案：2026最新入门价格25元/月，150GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [U1S1怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/u1s1/): U1S1详细评测档案：2026最新入门价格20元/月，120GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [唯兔云怎么样？2026套餐价格、三网优化实测与官网地址](https://jichangtuij.com/brands/weitu/): 唯兔云详细评测档案：2026最新入门价格14.9元/月，100GB/月，采用三网优化、智能负载均衡、IEPL 专线（服务商标注）与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [星岛梦怎么样？2026套餐价格、企业级内网专线实测与官网地址](https://jichangtuij.com/brands/xingdaomeng/): 星岛梦详细评测档案：2026最新入门价格约8元/月 (年付折算)，60GB/月，采用企业级内网专线与Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [一翻云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/yifanyun/): 一翻云详细评测档案：2026最新入门价格20元/月，150GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [宇宙云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/yuzhouyun/): 宇宙云详细评测档案：2026最新入门价格14.9元/月，100GB/月，采用IEPL 专线与VLESS协议，附2026-08-11本站实测测速截图证据与优惠码。
+- [Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程](https://jichangtuij.com/clients/clash/): 2026 最新 Clash / Clash Verge Rev / Clash Meta 客户端下载与订阅导入完整图文教程，详解规则分流、TUN 虚拟网卡、开机自启与节点超时排障。
+- [Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南](https://jichangtuij.com/clients/shadowrocket/): 2026 最新 Shadowrocket（小火箭）iOS 客户端下载、美区 Apple ID 获取、机场订阅一键导入、规则分流与节点测速完整图文配置教程。
+- [v2rayN Windows 客户端配置教程：从下载到订阅导入完整指南](https://jichangtuij.com/clients/v2rayn/): 2026 最新 v2rayN 客户端下载、Xray 内核更新、机场订阅导入、路由规则分流与系统代理设置完整图文教程。
+- [二猫云 vs 全球云：20元档130GB与120GB专线深度对比](https://jichangtuij.com/compare/ermaoyun-vs-quanqiuyun/): 二猫云对比全球云：针对20元价格区间的两家热门专线机场，全面对比价格流量比、VLESS协议支持、IEPL专线表现与适合人群。
+- [飞猫云 vs 星岛梦：7元与8元低价年付轻度套餐对比](https://jichangtuij.com/compare/feimaoyun-vs-xingdaomeng/): 飞猫云对比星岛梦：深度评测两家低价年付机场在单价、月均流量（50GB vs 60GB）、专线类型与不限时套餐上的核心差异。
+- [速界 vs 快狸：25元150GB AI与流媒体场景综合对比](https://jichangtuij.com/compare/sujie-vs-kuaili/): 速界对比快狸：全面对比两家25元150GB专线机场在ChatGPT/Claude等AI工具优化、纯VLESS协议支持与流媒体播放上的差异。
+- [唯兔云 vs 宇宙云：14.9元档节点调度与专线性价比对比](https://jichangtuij.com/compare/weitu-vs-yuzhouyun/): 唯兔云对比宇宙云：两家14.9元平价机场的深度对比，解析60+多节点三网优化调度与纯VLESS+IEPL专线的取舍。
+- [新手小白科普：什么是机场、代理与节点？一文看懂核心概念](https://jichangtuij.com/guides/beginner/): 机场新手入门完全科普：用最通俗易懂的语言解释什么是机场、节点、代理协议（Shadowsocks/VLESS）、订阅链接与客户端分流原理，帮新手彻底消除认知盲区。
+- [国外网站打不开？2026海外网站无法访问排查5步法](https://jichangtuij.com/guides/foreign-websites-inaccessible/): 国外网站打不开、Google/GitHub无法访问怎么办？排查本地网络、DNS 污染、防火墙拦截与代理客户端配置，5 步快速恢复海外网络畅通。
+- [机场怎么选？2026新手选型避坑法则与四大硬性指标](https://jichangtuij.com/guides/how-to-choose/): 机场怎么选完全选型指南：从线路类型、入口冗余、计费周期到客户端兼容性，教你用 4 个步骤快速找到最适合自己网络环境与预算的稳定机场，远离跑路盘。
+- [VPN 与机场有什么区别？2026底层技术、隐私安全与速度深度对比](https://jichangtuij.com/guides/vpn-vs-airport/): VPN 与机场有什么区别完全科普：深度对比传统企业级 VPN（WireGuard/OpenVPN）与现代化专线机场（IEPL/Shadowsocks/VLESS）在底层协议、分流机制、速度延迟与抗封锁能力上的本质区别。
+- [IPLC 与 IEPL 专线有什么区别？深度解析跨境内网物理专线原理](https://jichangtuij.com/network/iplc-vs-iepl/): 深入对比 IPLC 与 IEPL 专线在底层网络层级、传输延迟、抖动控制、抗封锁能力与成本结构上的本质差异，教你如何通过技术手段辨别真假专线。
+- [VLESS 协议与 Reality 握手原理：2026新一代代理协议深度解析](https://jichangtuij.com/network/vless/): 深入解析 VLESS 协议与 Reality 伪装技术的底层网络原理，对比 VMess、Trojan 与 Shadowsocks，剖析为什么 VLESS 是 2026 代理服务抗封锁与低延迟的标配。
+- [2026新手机场推荐：小白零门槛一键上手与避坑指南](https://jichangtuij.com/recommend/beginner/): 新手机场推荐与入门指南：专为完全不懂网络术语的小白用户设计，精选提供一键自研客户端、完善在线客服与全平台配置指引的机场品牌，附购买前检查清单。
+- [2026便宜机场推荐：10元平价月付与低预算避坑完全指南](https://jichangtuij.com/recommend/cheap/): 便宜机场推荐：系统梳理10元档平价机场与高性价比月付方案。评测飞猫云、微图、快狸、一翻云等平价代表服务商，揭秘低价背后的成本结构与避坑法则。
+- [2026稳定机场推荐：高可用IEPL专线与晚高峰不卡顿选型指南](https://jichangtuij.com/recommend/stable/): 稳定机场推荐：深度解析为什么IEPL/IPLC内网专线是晚高峰稳定性的唯一物理基石。精选光速云、宇宙云、二猫云、SOGO云等标配专线服务商，附稳定性实测指标与避坑指南。
+- [2026高性价比机场推荐：15~20元黄金档平衡之选](https://jichangtuij.com/recommend/value/): 高性价比机场推荐：解析15至20元黄金价格区间的最佳平衡点。精选宇宙云、二猫云、光速云、一翻云等在专线性能、流量配额与价格之间取得极致平衡的代表品牌。
+- [2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南](https://jichangtuij.com/streaming/airport/): 2026流媒体机场推荐：评测适合观看 Netflix 4K HDR、YouTube 60fps 与 Disney+ 的高速专线机场，精选一翻云、灵猫网络、二猫云与快狸等大流量服务商。
+- [Netflix 4K 流媒体解锁机场选型指南：奈飞多区版权与秒开实测](https://jichangtuij.com/streaming/netflix/): 2026 Netflix 4K 流媒体解锁机场推荐与技术解析：揭秘非自制剧解锁原理、DNS 解锁与原生 IP 解锁区别，提供香港/美区/日区/新加坡 4K 追剧选型方案。
+- [节点超时与全部 TIMEOUT 怎么办？2026节点全红急救排查指南](https://jichangtuij.com/troubleshooting/node-timeout/): 机场节点全部超时、全红或 TIMEOUT 报错怎么解决？系统化拆解本地系统时间误差、TUN 网卡冲突、DNS 污染、防火墙拦截与订阅过期的 5 大根本原因与 1 分钟急救方案。
+- [机场订阅更新失败怎么办？2026订阅链接无法更新与报错排障指南](https://jichangtuij.com/troubleshooting/subscription-failed/): 订阅链接下载失败、提示 Fetch Error、Invalid Config 或更新超时怎么办？系统讲解订阅转换接口异常、URL 编码错误、本地防火墙拦截与安全节点更新的排查方案。
+
+## 术语实体表
+
+以下术语在全站只维护一处定义，可作为实体消歧依据：
+
+- 机场（Airport Service）：指提供节点订阅链接的代理服务商，用户用客户端导入订阅后即可使用其节点。 → https://jichangtuij.com/glossary/airport-terms/#airport-service
+- 订阅（Subscription）：一条包含节点列表的链接，客户端定期访问该链接以获取最新的节点配置。 → https://jichangtuij.com/glossary/airport-terms/#subscription
+- 节点（Node）：订阅中的一条具体服务器配置，包含地址、端口、协议与加密参数。 → https://jichangtuij.com/glossary/airport-terms/#node
+- 线路（Route）：数据从本地到目标网站所经过的完整路径，包含入口、中转与出口环节。 → https://jichangtuij.com/glossary/airport-terms/#route
+- 入口（Entry / Ingress）：线路中最先接收本地流量的服务器，通常决定国内段的延迟与晚高峰表现。 → https://jichangtuij.com/glossary/airport-terms/#entry
+- 中转（Relay）：流量先到达一台中间服务器，再由它转发到落地服务器的线路组织方式。 → https://jichangtuij.com/glossary/airport-terms/#relay
+- 直连（Direct Route）：客户端直接连接落地服务器，中间不经过额外中转节点的线路方式。 → https://jichangtuij.com/glossary/airport-terms/#direct-route
+- IEPL（International Ethernet Private Line）：国际以太网专线，运营商提供的跨境二层专用链路，不经过公共互联网出口。 → https://jichangtuij.com/glossary/airport-terms/#iepl
+- IPLC（International Private Leased Circuit）：国际专用租用电路，运营商提供的点到点跨境专线，带宽与路径固定独享。 → https://jichangtuij.com/glossary/airport-terms/#iplc
+- BGP 线路（Border Gateway Protocol Route）：机房同时接入多家运营商，通过 BGP 协议为不同来源选择较优路径的接入方式。 → https://jichangtuij.com/glossary/airport-terms/#bgp
+- 原生 IP（Native IP）：IP 的注册地与实际所在机房地区一致，通常被平台判定为本地用户。 → https://jichangtuij.com/glossary/airport-terms/#native-ip
+- 广播 IP（Broadcast IP）：IP 注册信息被广播到目标地区，但实际服务器不在该地区的出口方式。 → https://jichangtuij.com/glossary/airport-terms/#broadcast-ip
+- 住宅 IP（Residential IP）：归属于家庭宽带运营商的 IP 地址，在风控系统中通常被视为普通个人用户。 → https://jichangtuij.com/glossary/airport-terms/#residential-ip
+- 出口 IP（Exit IP）：目标网站最终看到的来源地址，决定地区判定、风控评分与内容库。 → https://jichangtuij.com/glossary/airport-terms/#exit-ip
+- Shadowsocks（Shadowsocks）：一种轻量加密代理协议，结构简单、开销低，是机场早期最常见的协议之一。 → https://jichangtuij.com/glossary/airport-terms/#shadowsocks
+- Trojan（Trojan）：把代理流量伪装成标准 HTTPS 流量的协议，依赖真实域名与 TLS 证书。 → https://jichangtuij.com/glossary/airport-terms/#trojan
+- VMess（VMess）：V2Ray 生态的自有协议，带有时间校验与动态 ID 机制，配置项较多。 → https://jichangtuij.com/glossary/airport-terms/#vmess
+- VLESS（VLESS）：VMess 的轻量化后继协议，去掉自带加密与时间校验，加密交给 TLS 层完成。 → https://jichangtuij.com/glossary/airport-terms/#vless
+- Hysteria（Hysteria）：基于 QUIC/UDP 的代理协议，针对高丢包链路做了拥塞控制优化。 → https://jichangtuij.com/glossary/airport-terms/#hysteria
+- REALITY（REALITY）：一种借用真实网站 TLS 握手特征的传输方案，无需自备证书即可完成伪装。 → https://jichangtuij.com/glossary/airport-terms/#reality
+- TLS（Transport Layer Security）：为连接提供加密与身份验证的传输层安全协议，也是 HTTPS 的基础。 → https://jichangtuij.com/glossary/airport-terms/#tls
+- WebSocket（WebSocket）：在 HTTP 连接上升级得到的全双工长连接通道，常用于代理流量的传输载体。 → https://jichangtuij.com/glossary/airport-terms/#websocket
+- CDN 中转（Content Delivery Network Relay）：把连接先接入内容分发网络的边缘节点，再由其回源到落地服务器的组织方式。 → https://jichangtuij.com/glossary/airport-terms/#cdn
+- gRPC（gRPC）：基于 HTTP/2 的传输方式，多路复用能力强，适合高并发小请求场景。 → https://jichangtuij.com/glossary/airport-terms/#grpc
+- SNI（Server Name Indication）：TLS 握手中明文携带的目标域名字段，用于服务器选择对应证书。 → https://jichangtuij.com/glossary/airport-terms/#sni
+- Clash（Clash）：以规则分流为核心的代理客户端内核，配置使用 YAML，生态与衍生版本众多。 → https://jichangtuij.com/glossary/airport-terms/#clash
+- Shadowrocket（Shadowrocket）：iOS 平台上的付费代理客户端，中文社区常称「小火箭」，支持多协议与规则分流。 → https://jichangtuij.com/glossary/airport-terms/#shadowrocket
+- V2rayN（V2rayN）：Windows 平台的开源图形客户端，支持 V2Ray/Xray 内核与常见订阅格式。 → https://jichangtuij.com/glossary/airport-terms/#v2rayn
+- sing-box（sing-box）：跨平台的通用代理内核，用 JSON 配置，支持多协议、多入站与灵活路由。 → https://jichangtuij.com/glossary/airport-terms/#sing-box
+- 客户端（Client）：在本地运行、负责导入订阅并把系统流量按规则转发到节点的应用程序。 → https://jichangtuij.com/glossary/airport-terms/#client
+- 规则模式（Rule Mode）：客户端按预设规则判断每个请求走代理还是直连的工作模式。 → https://jichangtuij.com/glossary/airport-terms/#rule-mode
+- 全局模式（Global Mode）：所有流量都通过节点转发，不做分流判断的工作模式。 → https://jichangtuij.com/glossary/airport-terms/#global-mode
+- TUN 模式（TUN Mode）：创建虚拟网卡接管系统全部流量的模式，可代理不支持系统代理的程序。 → https://jichangtuij.com/glossary/airport-terms/#tun-mode
+- DNS（Domain Name System）：把域名解析为 IP 地址的系统，解析结果直接影响能否连上正确的服务器。 → https://jichangtuij.com/glossary/airport-terms/#dns
+- DNS 泄漏（DNS Leak）：域名解析请求绕过代理直接发往本地运营商 DNS，暴露访问目标与真实地区。 → https://jichangtuij.com/glossary/airport-terms/#dns-leak
+- DoH（DNS over HTTPS）：把 DNS 查询封装在 HTTPS 中传输的方式，避免解析过程被中间网络读取或篡改。 → https://jichangtuij.com/glossary/airport-terms/#doh
+- fake-ip（Fake IP）：客户端先返回一个虚拟 IP，真实解析交给节点在远端完成的工作机制。 → https://jichangtuij.com/glossary/airport-terms/#fake-ip
+- IPv6（Internet Protocol version 6）：新一代网际协议，使用 128 位地址，用于解决 IPv4 地址枯竭问题。 → https://jichangtuij.com/glossary/airport-terms/#ipv6
+- 双栈（Dual Stack）：设备或网络同时启用 IPv4 与 IPv6，按系统策略为每次连接选择其中一种。 → https://jichangtuij.com/glossary/airport-terms/#dual-stack
+- 延迟（Latency）：数据往返一次所需要的时间，通常以毫秒计，决定操作的即时反馈感受。 → https://jichangtuij.com/glossary/airport-terms/#latency
+- 丢包率（Packet Loss）：传输过程中未能到达目的地的数据包比例，直接影响连接稳定与重传次数。 → https://jichangtuij.com/glossary/airport-terms/#packet-loss
+- 抖动（Jitter）：多次测量延迟之间的波动幅度，反映线路的稳定程度而不是绝对速度。 → https://jichangtuij.com/glossary/airport-terms/#jitter
+- 晚高峰（Peak Hours）：每日约 20:00 至 24:00 的网络使用高峰时段，线路质量差异在此时最明显。 → https://jichangtuij.com/glossary/airport-terms/#peak-hours
+- 超售（Oversell）：服务商销售的总带宽或总流量远超实际可用容量的经营方式。 → https://jichangtuij.com/glossary/airport-terms/#oversell
+- 跑路（Exit Scam）：服务商在收取费用后停止服务并关闭联系渠道，用户无法使用也无法退款的情况。 → https://jichangtuij.com/glossary/airport-terms/#exit-scam
+- 影子机场（Shadow Airport）：复用他人后端或品牌、以独立服务商身份销售的转售站点。 → https://jichangtuij.com/glossary/airport-terms/#shadow-airport
+- 仿冒官网（Fake Official Site）：模仿真实服务商页面、诱导付款或窃取账号的钓鱼站点。 → https://jichangtuij.com/glossary/airport-terms/#fake-site
+- 永久套餐（Lifetime Plan）：一次付费、宣称永久可用的套餐形式，实际服务期受服务商存续时间限制。 → https://jichangtuij.com/glossary/airport-terms/#lifetime-plan
+- 不限时套餐（Non-expiring Data Plan）：只销售固定流量、不设置月度重置与到期时间的套餐类型。 → https://jichangtuij.com/glossary/airport-terms/#non-expiring-plan
+- 流量重置（Traffic Reset）：套餐流量在固定周期归零重新计算的机制，常见为每月按购买日重置。 → https://jichangtuij.com/glossary/airport-terms/#traffic-reset
+- 流量倍率（Traffic Multiplier）：不同节点按不同系数扣除流量的计费规则，专线节点倍率通常高于普通节点。 → https://jichangtuij.com/glossary/airport-terms/#multiplier
+- 设备数限制（Device Limit）：同一账号允许同时在线的客户端数量上限，超出后可能被限速或断连。 → https://jichangtuij.com/glossary/airport-terms/#device-limit
+- 订阅泄漏（Subscription Leak）：订阅链接被他人获取并使用，导致流量异常消耗或账号被风控的情况。 → https://jichangtuij.com/glossary/airport-terms/#subscription-leak
+- 流媒体解锁（Streaming Unlock）：出口 IP 未被流媒体平台判定为代理，可以正常播放该地区内容库的状态。 → https://jichangtuij.com/glossary/airport-terms/#streaming-unlock
+- IP 信誉（IP Reputation）：风控系统对一个 IP 的可信评分，受历史滥用行为与地址类型共同影响。 → https://jichangtuij.com/glossary/airport-terms/#ip-reputation
+
+## 编辑与信任
+
+- [关于机场推荐](https://jichangtuij.com/about/): 我们是谁、做什么、不做什么
+- [评测方法](https://jichangtuij.com/methodology/): 样本、周期、环境与结论边界
+- [编辑原则](https://jichangtuij.com/editorial-policy/): 事实核验、修订与独立性承诺
+- [推广披露](https://jichangtuij.com/affiliate-policy/): 推广关系与排序原则
+- [隐私政策](https://jichangtuij.com/privacy/): 访问者隐私保护政策
+- [使用条款](https://jichangtuij.com/terms/): 免责声明与合规提醒
+
+## 机器可读入口
+
+- Sitemap: https://jichangtuij.com/sitemap.xml
+- Feed: https://jichangtuij.com/feed.xml
+- Robots: https://jichangtuij.com/robots.txt
+- 站内搜索: https://jichangtuij.com/search/?q={关键词}

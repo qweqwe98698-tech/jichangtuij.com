@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT28 jcD28">
+  <title id="jcT28">v2rayN 中系统代理与路由规则共同决定流量走向</title>
+  <desc id="jcD28">流量走向由两道关卡依次决定：第一道是系统代理设置，决定程序的流量是否进入 v2rayN，未开启时流量直接出去；第二道是路由模式，对进入的流量按规则分配去向——绕过局域网与大陆地址时国内目标直连、其余走节点，全局模式下全部走节点。两道关卡独立工作：系统代理负责「进不进来」，路由负责「怎么分」。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .core{fill:#ffffff;stroke:#48b7c7;stroke-width:2.2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .leak{stroke:#cf8a8a;stroke-width:1.8;fill:none;stroke-dasharray:5 4}
+  </style>
+  <defs>
+    <marker id="jcAr28" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+    <marker id="jcAr28b" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#cf8a8a"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">两道独立的关卡：系统代理管「进不进来」，路由管「怎么分」</text>
+
+  <rect class="box" x="30" y="110" width="130" height="40" rx="9"/>
+  <text class="s" x="52" y="135">程序流量</text>
+
+  <path class="flow" d="M160 130 H220" marker-end="url(#jcAr28)"/>
+
+  <!-- 关卡一 -->
+  <rect class="core" x="230" y="90" width="180" height="80" rx="12"/>
+  <text class="l" x="248" y="118">关卡一：系统代理</text>
+  <text class="s" x="248" y="140">是否把流量交给 v2rayN</text>
+
+  <path class="leak" d="M320 170 V220 H520" marker-end="url(#jcAr28b)"/>
+  <text class="r" x="330" y="212">未开启系统代理：流量不进来，规则再对也无用</text>
+
+  <path class="flow" d="M410 130 H470" marker-end="url(#jcAr28)"/>
+
+  <!-- 关卡二 -->
+  <rect class="core" x="480" y="70" width="200" height="120" rx="12"/>
+  <text class="l" x="498" y="98">关卡二：路由模式</text>
+  <text class="s" x="498" y="120">绕过大陆：国内直连、</text>
+  <text class="s" x="498" y="138">其余走节点</text>
+  <text class="s" x="498" y="160">全局：全部走节点</text>
+
+  <path class="flow" d="M680 110 H740" marker-end="url(#jcAr28)"/>
+  <text class="g" x="748" y="106">节点</text>
+  <path class="flow" d="M680 160 H740" marker-end="url(#jcAr28)"/>
+  <text class="g" x="748" y="164">直连</text>
+
+  <text class="s" x="20" y="266">排查时先分清是哪道关卡的问题：完全没有流量经过 v2rayN，查系统代理；流量进来了但去向不对，查路由模式与规则。</text>
+  <text class="s" x="20" y="288">异常退出后「断网」的原因通常是系统代理残留——程序不在了，系统还在把流量交给一个不存在的端口。</text>
+</svg>

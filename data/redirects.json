@@ -1,0 +1,38 @@
+[
+  {
+    "from": "/index.html",
+    "to": "/",
+    "status": 301,
+    "reason": "统一首页入口，避免 / 与 /index.html 重复收录。"
+  },
+  {
+    "from": "/recommend/index.html",
+    "to": "/recommend/",
+    "status": 301,
+    "reason": "栏目页统一使用尾斜杠形式。"
+  },
+  {
+    "from": "/airport-recommend",
+    "to": "/recommend/",
+    "status": 301,
+    "reason": "早期规划路径，保留兼容。"
+  },
+  {
+    "from": "/tutorial",
+    "to": "/clients/",
+    "status": 301,
+    "reason": "教程入口统一收敛到客户端教程栏目。"
+  },
+  {
+    "from": "/blacklist",
+    "to": "/warnings/status-and-blacklist-policy/",
+    "status": 301,
+    "reason": "黑名单说明页固定路径。"
+  },
+  {
+    "from": "/disclosure",
+    "to": "/affiliate-policy/",
+    "status": 301,
+    "reason": "推广披露页固定路径。"
+  }
+]

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="jcT4 jcD4">
+  <title id="jcT4">稳定性观察方法示意图</title>
+  <desc id="jcD4">折线图对比两条线路在一天不同时段的相对表现。线路 A 全天波动小，线路 B 白天正常但在晚高峰出现断崖式下降，说明只在白天测试会漏掉最影响体验的问题。图中不含任何真实测速数值。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#6b7f99}
+    .ax{stroke:#c5d3e4;stroke-width:1.5}
+    .gr{stroke:#e3ebf5;stroke-width:1}
+    .a{stroke:#48b7c7;stroke-width:2.8;fill:none;stroke-linejoin:round}
+    .b{stroke:#d99a4e;stroke-width:2.8;fill:none;stroke-linejoin:round;stroke-dasharray:8 6}
+  </style>
+  <text class="l" x="20" y="30">同一条线路，只测白天与覆盖晚高峰，结论完全不同</text>
+
+  <rect x="600" y="56" width="180" height="180" fill="#f2d9b8" opacity="0.35"/>
+  <text class="s" x="608" y="74">晚高峰 20:00—24:00</text>
+
+  <line class="ax" x1="70" y1="236" x2="840" y2="236"/>
+  <line class="ax" x1="70" y1="56" x2="70" y2="236"/>
+  <line class="gr" x1="70" y1="176" x2="840" y2="176"/>
+  <line class="gr" x1="70" y1="116" x2="840" y2="116"/>
+
+  <path class="a" d="M90 100 L200 96 L320 104 L440 98 L560 106 L680 118 L780 112"/>
+  <path class="b" d="M90 104 L200 100 L320 108 L440 102 L560 118 L680 210 L780 224"/>
+
+  <text class="s" x="72" y="256">06:00</text>
+  <text class="s" x="300" y="256">12:00</text>
+  <text class="s" x="536" y="256">18:00</text>
+  <text class="s" x="752" y="256">24:00</text>
+  <text class="s" x="24" y="62">好</text>
+  <text class="s" x="24" y="236">差</text>
+
+  <line class="a" x1="90" y1="288" x2="140" y2="288"/>
+  <text class="s" x="150" y="293">线路 A：全天波动小，属于可预期</text>
+  <line class="b" x1="440" y1="288" x2="490" y2="288"/>
+  <text class="s" x="500" y="293">线路 B：白天正常，晚高峰断崖式下降</text>
+</svg>

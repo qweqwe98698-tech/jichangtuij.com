@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT13 jcD13">
+  <title id="jcT13">流媒体解锁判定的三个输入变量</title>
+  <desc id="jcD13">左侧三个并列的输入框：出口地区（真实出口的归属，而不是节点名称）、解析路径（解析是否泄漏到本地）、账号地区（注册与付款信息）。三个箭头汇入中间的「平台判定」框，右侧列出三种可能的结果：内容库正确、内容库不符、提示检测到代理。底部注明：只改其中一个变量而不检查另外两个，测试结果无法解释也无法复现。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .core{fill:#ffffff;stroke:#48b7c7;stroke-width:2.2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr13" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">平台判定不是只看节点：三个变量共同决定你看到什么</text>
+
+  <!-- 输入变量 -->
+  <rect class="box" x="30" y="60" width="200" height="56" rx="10"/>
+  <text class="l" x="46" y="84">出口地区</text>
+  <text class="s" x="46" y="104">真实出口归属，不是节点名称</text>
+
+  <rect class="box" x="30" y="140" width="200" height="56" rx="10"/>
+  <text class="l" x="46" y="164">解析路径</text>
+  <text class="s" x="46" y="184">解析是否泄漏到本地网络</text>
+
+  <rect class="box" x="30" y="220" width="200" height="56" rx="10"/>
+  <text class="l" x="46" y="244">账号地区</text>
+  <text class="s" x="46" y="264">注册与付款信息所属地区</text>
+
+  <path class="flow" d="M230 88 H330 V150 H382" marker-end="url(#jcAr13)"/>
+  <path class="flow" d="M230 168 H382" marker-end="url(#jcAr13)"/>
+  <path class="flow" d="M230 248 H330 V186 H382" marker-end="url(#jcAr13)"/>
+
+  <!-- 判定 -->
+  <rect class="core" x="390" y="134" width="150" height="68" rx="12"/>
+  <text class="l" x="428" y="164">平台判定</text>
+  <text class="s" x="406" y="188">三个信号交叉核对</text>
+
+  <path class="flow" d="M540 150 H620 V96 H648" marker-end="url(#jcAr13)"/>
+  <path class="flow" d="M540 168 H648" marker-end="url(#jcAr13)"/>
+  <path class="flow" d="M540 186 H620 V240 H648" marker-end="url(#jcAr13)"/>
+
+  <!-- 结果 -->
+  <text class="g" x="656" y="100">内容库正确</text>
+  <text class="r" x="656" y="172">内容库不符（信号矛盾）</text>
+  <text class="r" x="656" y="244">提示检测到代理</text>
+
+  <text class="s" x="20" y="316">只改其中一个变量、不检查另外两个，得到的结果既无法解释，也无法复现 ——</text>
+  <text class="s" x="20" y="334">这就是「同一个节点别人能看我不能看」最常见的原因。</text>
+</svg>

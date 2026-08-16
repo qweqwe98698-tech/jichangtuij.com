@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-labelledby="jcT3 jcD3">
+  <title id="jcT3">性价比机场的成本构成与压缩位置示意图</title>
+  <desc id="jcD3">上半部分是堆叠条形图，展示跨境带宽、服务器机房、运维与客服四项成本的相对占比；下半部分标出低价套餐通常压缩的三个位置。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12.5px;fill:#6b7f99}
+    .t{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;font-weight:700;fill:#ffffff}
+    .n{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#c07a2a}
+  </style>
+  <text class="l" x="20" y="34">价格差异对应的是哪一项成本被压缩</text>
+
+  <rect x="20" y="60" width="430" height="52" rx="8" fill="#4a7fc1"/>
+  <rect x="450" y="60" width="180" height="52" fill="#5b9fd0"/>
+  <rect x="630" y="60" width="130" height="52" fill="#7bb8dc"/>
+  <rect x="760" y="60" width="100" height="52" rx="8" fill="#a8cfe8"/>
+  <text class="t" x="150" y="92">跨境带宽采购</text>
+  <text class="t" x="484" y="92">服务器与机房</text>
+  <text class="t" x="664" y="92">运维</text>
+  <text class="t" x="790" y="92">客服</text>
+  <text class="s" x="20" y="134">典型成本结构：跨境带宽占比最高，且弹性最小</text>
+
+  <text class="l" x="20" y="184">低价套餐通常压缩这三处</text>
+  <rect x="20" y="200" width="270" height="52" rx="8" fill="none" stroke="#d99a4e" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="s" x="38" y="224">① 降低线路等级</text>
+  <text class="n" x="38" y="244">专线 → 公网中转 → 直连</text>
+
+  <rect x="305" y="200" width="270" height="52" rx="8" fill="none" stroke="#d99a4e" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="s" x="323" y="224">② 提高超售比例</text>
+  <text class="n" x="323" y="244">同样带宽卖给更多用户</text>
+
+  <rect x="590" y="200" width="270" height="52" rx="8" fill="none" stroke="#d99a4e" stroke-width="2" stroke-dasharray="6 5"/>
+  <text class="s" x="608" y="224">③ 削减服务</text>
+  <text class="n" x="608" y="244">无工单、无公告、无故障响应</text>
+
+  <text class="s" x="20" y="292">判断性价比的方法：先确认压缩的是哪一项，再判断这个取舍你能否接受。</text>
+  <text class="s" x="20" y="316">「全专线」与「极低价格」难以同时成立，两者中至少有一项不属实。</text>
+</svg>

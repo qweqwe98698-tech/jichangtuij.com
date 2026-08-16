@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT18 jcD18">
+  <title id="jcT18">延迟分段测量的定位逻辑</title>
+  <desc id="jcD18">上方是访问链路：本地设备经节点、出口到目标网站。下方两段测量：A 段测本地到节点，B 段测通过节点访问目标。三种组合对应不同结论：A 高 B 正常，问题在本地网络或入口段；A 正常 B 高，问题在跨境段、出口或目标服务器；A 与 B 都只在晚间升高，指向晚高峰拥堵而不是故障。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .segA{stroke:#48b7c7;stroke-width:3;fill:none}
+    .segB{stroke:#c07a2a;stroke-width:3;fill:none}
+    .tick{stroke-width:1.6}
+  </style>
+  <defs>
+    <marker id="jcAr18" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">先分段，再下结论：两段测量的组合直接指出问题位置</text>
+
+  <!-- 链路 -->
+  <rect class="box" x="40" y="52" width="120" height="36" rx="8"/>
+  <text class="s" x="72" y="75">本地设备</text>
+  <path class="flow" d="M160 70 H240" marker-end="url(#jcAr18)"/>
+  <rect class="box" x="250" y="52" width="110" height="36" rx="8"/>
+  <text class="s" x="290" y="75">节点</text>
+  <path class="flow" d="M360 70 H440" marker-end="url(#jcAr18)"/>
+  <rect class="box" x="450" y="52" width="110" height="36" rx="8"/>
+  <text class="s" x="490" y="75">出口</text>
+  <path class="flow" d="M560 70 H640" marker-end="url(#jcAr18)"/>
+  <rect class="box" x="650" y="52" width="130" height="36" rx="8"/>
+  <text class="s" x="676" y="75">目标网站</text>
+
+  <!-- A 段 -->
+  <path class="segA" d="M100 118 H305"/>
+  <line class="segA tick" x1="100" y1="110" x2="100" y2="126"/>
+  <line class="segA tick" x1="305" y1="110" x2="305" y2="126"/>
+  <text class="g" x="120" y="144">A 段：本地 → 节点（客户端列表测的就是它）</text>
+
+  <!-- B 段 -->
+  <path class="segB" d="M305 170 H715"/>
+  <line class="segB tick" x1="305" y1="162" x2="305" y2="178"/>
+  <line class="segB tick" x1="715" y1="162" x2="715" y2="178"/>
+  <text class="r" x="330" y="196">B 段：通过节点访问目标（决定实际体验的是它）</text>
+
+  <!-- 判定 -->
+  <text class="l" x="20" y="240">三种组合，三个方向</text>
+  <text class="s" x="40" y="266">· A 高、B 正常 —— 问题在本地网络或入口段：先查 WiFi，再考虑换入口</text>
+  <text class="s" x="40" y="288">· A 正常、B 高 —— 问题在跨境段、出口或目标服务器：换出口地区更有效</text>
+  <text class="s" x="40" y="310">· 两段都只在晚间升高 —— 晚高峰拥堵的规律性表现，不是突发故障</text>
+</svg>

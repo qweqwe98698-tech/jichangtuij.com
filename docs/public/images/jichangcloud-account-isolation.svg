@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT22 jcD22">
+  <title id="jcT22">账号隔离与最小信息原则示意</title>
+  <desc id="jcD22">左侧是隔离结构：一个专用的独立邮箱加独立密码，只用于机场账号，与主邮箱、常用密码和其他重要账号完全分开，任何一侧泄漏都不会波及另一侧。右侧是信息分级：邮箱属于必要信息；昵称等属于可选；身份证件、社交账号绑定、通讯录权限属于异常要求，遇到即应放弃该服务。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .ok{fill:#ffffff;stroke:#48b7c7;stroke-width:2}
+    .bad{fill:#ffffff;stroke:#cf8a8a;stroke-width:1.8}
+    .wall{stroke:#c07a2a;stroke-width:2.4;stroke-dasharray:7 5}
+  </style>
+
+  <text class="l" x="20" y="26">两道防线：账号隔离 + 最小信息</text>
+
+  <!-- 左：隔离结构 -->
+  <text class="l" x="30" y="66">账号隔离</text>
+  <rect class="ok" x="30" y="84" width="180" height="56" rx="10"/>
+  <text class="s" x="48" y="108">专用独立邮箱</text>
+  <text class="s" x="48" y="126">+ 独立密码，仅此一用</text>
+
+  <line class="wall" x1="250" y1="70" x2="250" y2="240"/>
+  <text class="r" x="222" y="262">隔离墙</text>
+
+  <rect class="box" x="290" y="84" width="180" height="56" rx="10"/>
+  <text class="s" x="308" y="108">主邮箱与常用密码</text>
+  <text class="s" x="308" y="126">社交、支付等重要账号</text>
+
+  <text class="g" x="30" y="176">任何一侧发生泄漏，</text>
+  <text class="g" x="30" y="194">都不会波及另一侧；</text>
+  <text class="g" x="30" y="212">这是成本最低的防护。</text>
+
+  <!-- 右：信息分级 -->
+  <text class="l" x="530" y="66">最小信息原则</text>
+  <rect class="ok" x="530" y="84" width="320" height="44" rx="10"/>
+  <text class="g" x="548" y="102">必要：邮箱（用于登录与通知）</text>
+  <text class="s" x="548" y="120">正常服务通常只需要这一项</text>
+
+  <rect class="box" x="530" y="140" width="320" height="44" rx="10"/>
+  <text class="s" x="548" y="158">可选：昵称等不影响服务的信息</text>
+  <text class="s" x="548" y="176">可留可不留，建议从简</text>
+
+  <rect class="bad" x="530" y="196" width="320" height="56" rx="10"/>
+  <text class="r" x="548" y="216">异常：身份证件、社交账号绑定、</text>
+  <text class="r" x="548" y="234">通讯录权限、与服务无关的资料</text>
+
+  <text class="r" x="530" y="282">遇到异常要求，正确动作不是配合，而是放弃该服务。</text>
+  <text class="s" x="30" y="316">配套动作：付款保留订单凭证，购买前截图条款页面，记录服务状态变化的时间点。</text>
+</svg>

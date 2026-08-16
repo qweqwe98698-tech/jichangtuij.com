@@ -1,0 +1,73 @@
+{
+  "slug": "yifanyun",
+  "name": "一翻云",
+  "vendor": {
+    "entryPrice": "20元/月",
+    "traffic": "150GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "55+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持订阅导入，适配主流客户端",
+    "aiClaim": "资料显示兼顾流媒体与 AI 工具使用",
+    "streamingClaim": "资料显示兼顾流媒体与 AI 工具使用",
+    "establishedYear": 2024
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/yifanyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "yfy6666",
+    "discountDesc": "专属优惠码 yfy6666",
+    "affLink": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "20元档大流量 / 150GB / VLESS 协议 / IEPL 专线 / 大流量首选",
+    "positioning": "20元档大流量 / 150GB / VLESS / IEPL",
+    "targetAudience": [
+      "每月流量需求超过 100GB，希望提高 20 元档流量性价比的用户",
+      "高频看 YouTube 4K、TikTok 视频与下载日常资源的用户",
+      "需要 VLESS 协议与 IEPL 专线结合的个人/多设备用户"
+    ],
+    "notRecommendedFor": [
+      "寻找 10 元以下超低价套餐的轻度用户"
+    ],
+    "pros": [
+      "20 元档提供高达 150GB 流量，同价位专线中流量规格最突出",
+      "标配 VLESS 协议与 IEPL 专线",
+      "推广注册链接 Hash 路径已原样保存"
+    ],
+    "cons": [
+      "需注意高倍率节点的流量扣除倍率规则",
+      "AI 解锁状态为品牌声明，未经过本站批量自动化检测"
+    ],
+    "priceSegment": "20",
+    "lastVerified": "2026-08-16"
+  }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT23 jcD23">
+  <title id="jcT23">订阅链接泄漏后的处理顺序</title>
+  <desc id="jcD23">四个依次执行的步骤：第一步立即在服务商面板重置订阅链接，旧链接立刻失效；第二步逐台设备删除旧订阅并导入新链接，包括路由器等长期运行设备；第三步检查在线转换工具、脚本与备份中是否留存旧链接，虽然已失效但要切断泄漏习惯；第四步核对流量记录估计泄漏时长，并建立截图打码、不用在线转换的预防习惯。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .first{fill:#ffffff;stroke:#48b7c7;stroke-width:2.2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr23" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">发现异常后的处理顺序：先切断，再清理，最后防复发</text>
+
+  <rect class="first" x="30" y="60" width="390" height="56" rx="10"/>
+  <text class="l" x="48" y="84">① 立即重置订阅链接</text>
+  <text class="s" x="48" y="103">在服务商面板操作，旧链接立刻永久失效——这一步先做，其他都可以慢慢来</text>
+
+  <path class="flow" d="M225 116 V140" marker-end="url(#jcAr23)"/>
+
+  <rect class="box" x="30" y="150" width="390" height="56" rx="10"/>
+  <text class="l" x="48" y="174">② 逐台设备更换新链接</text>
+  <text class="s" x="48" y="193">删除旧订阅、导入新链接；别漏掉路由器等长期运行设备</text>
+
+  <path class="flow" d="M225 206 V230" marker-end="url(#jcAr23)"/>
+
+  <rect class="box" x="30" y="240" width="390" height="56" rx="10"/>
+  <text class="l" x="48" y="264">③ 清查第三方留存</text>
+  <text class="s" x="48" y="283">在线转换记录、脚本、云备份、聊天记录里的旧链接</text>
+
+  <path class="flow" d="M420 268 H460" marker-end="url(#jcAr23)"/>
+
+  <rect class="box" x="470" y="240" width="380" height="56" rx="10"/>
+  <text class="l" x="488" y="264">④ 核对流量并建立预防习惯</text>
+  <text class="s" x="488" y="283">估计泄漏时长；此后截图打码、不用在线转换服务</text>
+
+  <text class="g" x="470" y="84">为什么①最优先：链接本身就是凭证，</text>
+  <text class="g" x="470" y="103">拿到即可用，且你无法知道有多少人在用；</text>
+  <text class="g" x="470" y="122">重置是唯一能立即切断所有未授权使用的动作。</text>
+  <text class="s" x="470" y="160">判断泄漏的典型信号：流量消耗速度异常、</text>
+  <text class="s" x="470" y="178">设备数频繁触顶、出现你未使用时段的消耗。</text>
+</svg>

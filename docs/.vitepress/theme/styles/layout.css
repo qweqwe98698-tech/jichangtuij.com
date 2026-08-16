@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Cloud Halo — 页面骨架与栅格
+   ========================================================================== */
+
+.jc-shell {
+  position: relative;
+  z-index: var(--jc-z-content);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.jc-container {
+  width: 100%;
+  max-width: var(--jc-container);
+  margin: 0 auto;
+  padding-inline: var(--jc-space-5);
+}
+
+.jc-container--narrow {
+  max-width: var(--jc-container-narrow);
+}
+
+.jc-main {
+  flex: 1 0 auto;
+  padding-top: var(--jc-header-height);
+}
+
+/* ---------- 通用区块 ---------- */
+
+.jc-section {
+  padding-block: var(--jc-space-9);
+}
+
+.jc-section--tight {
+  padding-block: var(--jc-space-7);
+}
+
+.jc-section--alt {
+  position: relative;
+}
+
+.jc-section-head {
+  max-width: 760px;
+  margin-bottom: var(--jc-space-6);
+}
+
+.jc-section-head--center {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.jc-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: var(--jc-space-3);
+  padding: 5px 12px;
+  border: 1px solid var(--jc-border);
+  border-radius: var(--jc-radius-pill);
+  background: var(--jc-primary-softer);
+  color: var(--jc-primary-deep);
+  font-size: var(--jc-text-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.jc-section-title {
+  font-size: var(--jc-text-2xl);
+  margin-bottom: var(--jc-space-3);
+}
+
+.jc-section-desc {
+  color: var(--jc-text-soft);
+  font-size: var(--jc-text-md);
+  line-height: var(--jc-leading-relaxed);
+  max-width: var(--jc-measure);
+}
+
+.jc-section-head--center .jc-section-desc {
+  margin-inline: auto;
+}
+
+/* ---------- 栅格 ---------- */
+
+.jc-grid {
+  display: grid;
+  gap: var(--jc-space-5);
+}
+
+.jc-grid--2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.jc-grid--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.jc-grid--4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.jc-grid--auto {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* ---------- 文档页三栏骨架 ---------- */
+
+.jc-doc {
+  display: grid;
+  grid-template-columns: var(--jc-sidebar-width) minmax(0, 1fr) 236px;
+  gap: var(--jc-space-7);
+  align-items: start;
+  padding-block: var(--jc-space-6) var(--jc-space-9);
+}
+
+.jc-doc--no-aside {
+  grid-template-columns: var(--jc-sidebar-width) minmax(0, 1fr);
+}
+
+.jc-doc--plain {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: var(--jc-container-narrow);
+}
+
+.jc-doc__nav {
+  position: sticky;
+  top: calc(var(--jc-header-height) + var(--jc-space-5));
+  max-height: calc(100vh - var(--jc-header-height) - var(--jc-space-7));
+  overflow-y: auto;
+  padding-right: var(--jc-space-2);
+}
+
+.jc-doc__aside {
+  position: sticky;
+  top: calc(var(--jc-header-height) + var(--jc-space-5));
+  max-height: calc(100vh - var(--jc-header-height) - var(--jc-space-7));
+  overflow-y: auto;
+}
+
+.jc-doc__body {
+  min-width: 0;
+}
+
+/* ---------- 页脚 ---------- */
+
+.jc-footer {
+  flex-shrink: 0;
+  margin-top: var(--jc-space-8);
+  border-top: 1px solid var(--jc-border);
+  background: var(--jc-surface);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}

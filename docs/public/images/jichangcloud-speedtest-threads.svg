@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT12 jcD12">
+  <title id="jcT12">多线程测速与单线程测速回答的是不同问题</title>
+  <desc id="jcD12">图顶部有一条虚线表示本地带宽上限，任何测速结果都不会超过它。下方两行对比：多线程测速用多条并发连接一起填满带宽，容易得到接近上限的数字，但会掩盖单个连接受限的问题；单线程测速只用一条连接，更接近单个应用的真实体验。两种口径的数字不能互相比较。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .pipe{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .cap{stroke:#c07a2a;stroke-width:1.8;stroke-dasharray:6 5}
+    .t{stroke:#48b7c7;stroke-width:5;fill:none;stroke-linecap:round}
+    .t1{stroke:#5b8fd6;stroke-width:5;fill:none;stroke-linecap:round}
+  </style>
+
+  <text class="l" x="20" y="26">同一条线路，两种测法：数字不同，回答的问题也不同</text>
+
+  <!-- 本地上限 -->
+  <line class="cap" x1="120" y1="56" x2="760" y2="56"/>
+  <text class="r" x="20" y="60">本地带宽上限</text>
+  <text class="r" x="530" y="48">任何测速结果都不可能超过这条线</text>
+
+  <!-- 多线程 -->
+  <text class="l" x="20" y="118">多线程测速</text>
+  <rect class="pipe" x="120" y="92" width="440" height="72" rx="10"/>
+  <path class="t" d="M136 106 H540"/>
+  <path class="t" d="M136 122 H540"/>
+  <path class="t" d="M136 138 H540"/>
+  <path class="t" d="M136 154 H540"/>
+  <text class="s" x="580" y="118">多条连接一起填满带宽</text>
+  <text class="s" x="580" y="138">数字接近上限，但会掩盖</text>
+  <text class="s" x="580" y="158">单个连接受限的问题</text>
+
+  <!-- 单线程 -->
+  <text class="l" x="20" y="226">单线程测速</text>
+  <rect class="pipe" x="120" y="200" width="440" height="72" rx="10"/>
+  <path class="t1" d="M136 236 H420"/>
+  <text class="g" x="580" y="226">只用一条连接，更接近</text>
+  <text class="g" x="580" y="246">单个应用（网页、视频、下载）</text>
+  <text class="g" x="580" y="266">的真实体验</text>
+
+  <text class="s" x="20" y="312">两种口径各有用途：多线程回答「线路总容量还剩多少」，单线程回答「一个应用实际能跑多快」。</text>
+  <text class="s" x="20" y="330">用 A 口径的数字去和 B 口径比较，或与他人未注明口径的截图比较，都得不出有效结论。</text>
+</svg>

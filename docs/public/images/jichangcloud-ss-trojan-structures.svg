@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT15 jcD15">
+  <title id="jcT15">Shadowsocks 与 Trojan 的封装结构对比</title>
+  <desc id="jcD15">两行对比。上一行是 Shadowsocks：应用数据经过协议自带的加密后直接走 TCP 传输，层数少、开销低，但流量特征相对固定。下一行是 Trojan：应用数据经过 Trojan 封装后，放进使用真实域名与有效证书的 TLS 通道，再走 TCP，外观与访问普通 HTTPS 网站一致，但需要域名与证书。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .tlsbox{fill:#ffffff;stroke:#48b7c7;stroke-width:2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr15" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">同样的数据，两种包法：层数与外观是这组取舍的核心</text>
+
+  <!-- Shadowsocks -->
+  <text class="l" x="20" y="80">Shadowsocks</text>
+  <rect class="box" x="170" y="58" width="130" height="36" rx="8"/>
+  <text class="s" x="200" y="81">应用数据</text>
+  <path class="flow" d="M300 76 H340" marker-end="url(#jcAr15)"/>
+  <rect class="box" x="350" y="58" width="150" height="36" rx="8"/>
+  <text class="s" x="366" y="81">自带加密（AEAD）</text>
+  <path class="flow" d="M500 76 H540" marker-end="url(#jcAr15)"/>
+  <rect class="box" x="550" y="58" width="110" height="36" rx="8"/>
+  <text class="s" x="580" y="81">TCP 传输</text>
+  <text class="g" x="690" y="70">层数少、开销低</text>
+  <text class="r" x="690" y="90">流量特征相对固定</text>
+
+  <!-- Trojan -->
+  <text class="l" x="20" y="180">Trojan</text>
+  <rect class="box" x="170" y="158" width="130" height="36" rx="8"/>
+  <text class="s" x="200" y="181">应用数据</text>
+  <path class="flow" d="M300 176 H340" marker-end="url(#jcAr15)"/>
+  <rect class="box" x="350" y="158" width="130" height="36" rx="8"/>
+  <text class="s" x="372" y="181">Trojan 封装</text>
+  <path class="flow" d="M480 176 H520" marker-end="url(#jcAr15)"/>
+  <rect class="tlsbox" x="530" y="146" width="220" height="60" rx="10"/>
+  <text class="s" x="546" y="170">TLS 通道</text>
+  <text class="g" x="546" y="192">真实域名 + 有效证书</text>
+  <path class="flow" d="M750 176 H790" marker-end="url(#jcAr15)"/>
+  <text class="s" x="798" y="181">TCP</text>
+
+  <text class="g" x="170" y="232">外观与访问普通 HTTPS 网站一致，适合识别严格的网络</text>
+  <text class="r" x="170" y="252">代价：需要域名与证书；证书过期或域名不匹配会直接握手失败</text>
+
+  <text class="s" x="20" y="300">两者的差别不是快慢档次，而是「把重点放在哪一层」：Shadowsocks 押注低开销与兼容性，Trojan 押注外观伪装。</text>
+  <text class="s" x="20" y="320">选择依据是你所处网络的识别严格程度，以及客户端与设备的支持情况。</text>
+</svg>

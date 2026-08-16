@@ -1,0 +1,73 @@
+{
+  "slug": "ermaoyun",
+  "name": "二猫云",
+  "vendor": {
+    "entryPrice": "20元/月",
+    "traffic": "130GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持订阅导入，适配 Clash、Shadowrocket 等",
+    "aiClaim": "品牌资料显示支持相关使用场景，实际能力建议结合具体节点测试",
+    "streamingClaim": "品牌资料显示支持相关使用场景，实际能力建议结合具体节点测试",
+    "establishedYear": 2023
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天/晚高峰",
+    "screenshotPath": "/images/speedtest/ermaoyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "ermao5555",
+    "discountDesc": "专属优惠码 ermao5555",
+    "affLink": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "20元档 / 130GB / VLESS 协议 / IEPL 专线 / 流量与专线均衡",
+    "positioning": "20元档 / 130GB / VLESS / IEPL",
+    "targetAudience": [
+      "每月中等偏大流量需求（130GB），希望兼顾专线品质的个人用户",
+      "日常进行社交媒体、AI 对话及视频浏览的综合用户",
+      "偏好 20 元月付、注重线路冗余稳定性的用户"
+    ],
+    "notRecommendedFor": [
+      "需要每月 300GB+ 极高流量的重度下载用户"
+    ],
+    "pros": [
+      "20 元提供 130GB 流量，介于 U1S1（120GB）与一翻云（150GB）之间，平衡性强",
+      "全节点标配 VLESS 协议与 IEPL 内网专线",
+      "支持快捷支付与第三方客户端订阅一键导入"
+    ],
+    "cons": [
+      "AI 与流媒体能力目前属于品牌资料声明，未提供独立批量实测",
+      "无免费试用体验，需直接购买月付套餐"
+    ],
+    "priceSegment": "20",
+    "lastVerified": "2026-08-16"
+  }
+}

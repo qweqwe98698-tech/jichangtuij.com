@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT25 jcD25">
+  <title id="jcT25">sing-box 配置的三段结构：入站、路由、出站</title>
+  <desc id="jcD25">流量从左到右经过三段：入站定义流量从哪里进来（TUN 或本地代理端口）；路由按规则决定每条流量的去向，规则自上而下匹配、第一条命中即生效；出站定义流量往哪里去（某个节点、直连或拦截）。规则顺序写错是路由不生效最常见的原因。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .core{fill:#ffffff;stroke:#48b7c7;stroke-width:2.2}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr25" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">一份 sing-box 配置回答三个问题：从哪进、怎么分、往哪出</text>
+
+  <!-- 入站 -->
+  <rect class="box" x="30" y="70" width="200" height="130" rx="12"/>
+  <text class="l" x="50" y="98">入站 inbounds</text>
+  <text class="s" x="50" y="124">流量从哪里进来</text>
+  <text class="s" x="50" y="146">· TUN（接管全部流量）</text>
+  <text class="s" x="50" y="166">· 本地代理端口</text>
+
+  <path class="flow" d="M230 135 H290" marker-end="url(#jcAr25)"/>
+
+  <!-- 路由 -->
+  <rect class="core" x="300" y="52" width="260" height="166" rx="12"/>
+  <text class="l" x="320" y="80">路由 route</text>
+  <text class="s" x="320" y="104">按规则决定每条流量的去向</text>
+  <text class="g" x="320" y="130">① 规则自上而下匹配</text>
+  <text class="g" x="320" y="150">② 第一条命中即生效</text>
+  <text class="g" x="320" y="170">③ 都未命中时走默认出站</text>
+  <text class="r" x="320" y="198">顺序写错 = 规则「不生效」的头号原因</text>
+
+  <path class="flow" d="M560 135 H620" marker-end="url(#jcAr25)"/>
+
+  <!-- 出站 -->
+  <rect class="box" x="630" y="70" width="220" height="130" rx="12"/>
+  <text class="l" x="650" y="98">出站 outbounds</text>
+  <text class="s" x="650" y="124">流量往哪里去</text>
+  <text class="s" x="650" y="146">· 某个节点 / 节点组</text>
+  <text class="s" x="650" y="166">· 直连（direct）</text>
+  <text class="s" x="650" y="186">· 拦截（block）</text>
+
+  <text class="s" x="20" y="266">图形客户端（Clash 系等）在同样的三段结构外包了一层界面；直接使用 sing-box，等于自己面对这三段配置。</text>
+  <text class="s" x="20" y="288">这就是它「能力强但门槛高」的原因：没有界面替你隐藏任何细节，也没有界面替你挡住任何错误。</text>
+</svg>

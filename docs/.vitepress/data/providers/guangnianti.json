@@ -1,0 +1,73 @@
+{
+  "slug": "guangnianti",
+  "name": "光年梯",
+  "vendor": {
+    "entryPrice": "18元/月",
+    "traffic": "110GB/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端订阅导入",
+    "aiClaim": "资料显示支持常见 AI 工具和主流流媒体场景",
+    "streamingClaim": "资料显示支持常见 AI 工具和主流流媒体场景",
+    "establishedYear": 2025
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/guangnianti-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks / VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "gnt6666",
+    "discountDesc": "专属优惠码 gnt6666",
+    "affLink": "https://guangs.gntaff.com/#/?code=X1FoxjGE",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "18元档 / 110GB / VLESS 协议 / IEPL 专线 / 新锐专线方案",
+    "positioning": "18元档 / 110GB / VLESS / IEPL",
+    "targetAudience": [
+      "想购买中低价位专线套餐（18元），同时有 AI、流媒体和日常代理需求的用户",
+      "月流量约 110GB 的日常白领与学生群体",
+      "偏好 VLESS 协议与新开业高带宽冗余线路的用户"
+    ],
+    "notRecommendedFor": [
+      "对服务商运营年份有硬性要求（>3年）的保守型用户"
+    ],
+    "pros": [
+      "18 元提供 110GB 流量，比同价位极连云多出 10GB 流量",
+      "提供 VLESS 协议与 IEPL 内网专线组合",
+      "支持支付宝/微信支付与全平台自研客户端"
+    ],
+    "cons": [
+      "2025 年新开业，需持续关注晚高峰抗拥堵持续性",
+      "AI 解锁仍属品牌声明阶段"
+    ],
+    "priceSegment": "18",
+    "lastVerified": "2026-08-16"
+  }
+}

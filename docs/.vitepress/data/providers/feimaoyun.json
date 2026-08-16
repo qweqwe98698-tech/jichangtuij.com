@@ -1,0 +1,73 @@
+{
+  "slug": "feimaoyun",
+  "name": "飞猫云",
+  "vendor": {
+    "entryPrice": "约7元/月 (年付折算)",
+    "traffic": "50GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "35+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端，订阅导入方式需咨询客服",
+    "aiClaim": "品牌资料显示覆盖常见 AI 工具使用场景",
+    "streamingClaim": "品牌资料显示覆盖主流海外流媒体",
+    "establishedYear": 2023
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "晚高峰时段",
+    "screenshotPath": "/images/speedtest/feimaoyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "flycat888",
+    "discountDesc": "新用户季付及以上 8 折",
+    "affLink": "https://guangs.flycataff.com/#/?code=6uq0Xe9y",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "低价小流量 / 年付折算约7元 / IEPL 专线 / 轻度用户首选",
+    "positioning": "低价小流量 / 年付 / IEPL / 轻度用户",
+    "targetAudience": [
+      "日常流量消耗较小（每月约 30-50GB）的轻度用户",
+      "希望将长期年持有成本控制在百元以内的预算优先型用户",
+      "需要 IEPL 专线基础稳定性的个人浏览用户"
+    ],
+    "notRecommendedFor": [
+      "需要每月按月支付、排斥年付付款周期的用户",
+      "视频常开、流量需求 > 100GB 的大流量用户"
+    ],
+    "pros": [
+      "年付折合约 7 元/月，是 16 家品牌中专线年付门槛最低之一",
+      "标配 IEPL 专线与自研客户端支持",
+      "新用户季付及以上可享 8 折优惠码 flycat888"
+    ],
+    "cons": [
+      "7 元/月为年付折算价格，不可误解为直接月付 7 元",
+      "月流量 50GB 偏小，需注意流量消耗节奏"
+    ],
+    "priceSegment": "7",
+    "lastVerified": "2026-08-16"
+  }
+}

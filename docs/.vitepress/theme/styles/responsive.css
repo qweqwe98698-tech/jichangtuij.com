@@ -1,0 +1,372 @@
+/* ==========================================================================
+   Cloud Halo — 响应式
+   断点：1440 / 1200 / 1024 / 860 / 768 / 480 / 360
+   ========================================================================== */
+
+@media (max-width: 1440px) {
+  :root {
+    --jc-container: 1160px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --jc-sidebar-width: 218px;
+  }
+
+  .jc-doc {
+    grid-template-columns: var(--jc-sidebar-width) minmax(0, 1fr);
+    gap: var(--jc-space-6);
+  }
+
+  .jc-doc__aside {
+    display: none;
+  }
+
+  .jc-toc-mobile {
+    display: block;
+  }
+
+  .jc-footer__top {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .jc-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --jc-header-height: 62px;
+  }
+
+  .jc-nav {
+    display: none;
+  }
+
+  .jc-drawer-toggle {
+    display: inline-flex;
+  }
+
+  .jc-hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--jc-space-6);
+  }
+
+  .jc-console {
+    max-width: 560px;
+  }
+
+  .jc-grid--4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jc-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jc-trust {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jc-doc {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-doc__nav {
+    display: none;
+  }
+
+  .jc-section {
+    padding-block: var(--jc-space-8);
+  }
+
+  /* 移动端降低背景复杂度 */
+  .jc-backdrop__grid {
+    opacity: 0.5;
+  }
+
+  .jc-halo {
+    filter: blur(56px);
+    opacity: 0.38;
+  }
+
+  .jc-halo--d,
+  .jc-halo--e {
+    display: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .jc-grid--3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .jc-follow {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-footer__top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --jc-text-base: 16px;
+    --jc-text-md: 16px;
+    --jc-text-2xl: 26px;
+    --jc-space-9: 64px;
+  }
+
+  .jc-container {
+    padding-inline: var(--jc-space-4);
+  }
+
+  .jc-grid--2,
+  .jc-grid--3,
+  .jc-grid--4,
+  .jc-grid--auto {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-steps {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  /* 移动端步骤变成纵向时间轴 */
+  .jc-step {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    padding: var(--jc-space-5) 0 var(--jc-space-5) var(--jc-space-6);
+  }
+
+  .jc-step::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 30px;
+    bottom: -1px;
+    width: 1px;
+    background: var(--jc-border);
+  }
+
+  .jc-step::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 26px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: var(--jc-surface-solid);
+    border: 2px solid var(--jc-primary);
+  }
+
+  .jc-step:last-child::before {
+    display: none;
+  }
+
+  .jc-trust {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-prevnext {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-prevnext__item--next {
+    text-align: left;
+  }
+
+  .jc-hero {
+    padding-block: var(--jc-space-7) var(--jc-space-6);
+  }
+
+  .jc-hero__actions .jc-btn {
+    flex: 1 1 auto;
+  }
+
+  .jc-search-modal {
+    padding: 0;
+  }
+
+  .jc-search-modal__panel {
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+  }
+
+  .jc-footer__top {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--jc-space-5);
+  }
+
+  .jc-footer__group {
+    border-top: 1px solid var(--jc-border);
+    padding-top: var(--jc-space-4);
+  }
+
+  .jc-footer__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    display: grid;
+  }
+
+  /* 移动端进一步降低背景负担 */
+  .jc-backdrop__canvas {
+    opacity: 0.55;
+  }
+
+  .jc-backdrop__pointer {
+    display: none;
+  }
+}
+
+/* ---------- 触摸设备与窄屏：保证按钮触控区域不小于 44px ---------- */
+
+@media (max-width: 768px), (pointer: coarse) {
+  .jc-btn--sm,
+  .jc-btn--quiet {
+    min-height: 44px;
+  }
+
+  .jc-filter-chip {
+    min-height: 40px;
+    padding-inline: 14px;
+  }
+
+  .jc-faq__q,
+  .jc-toc-mobile > summary {
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --jc-space-9: 56px;
+    --jc-radius-lg: 16px;
+    --jc-radius-xl: 20px;
+  }
+
+  .jc-container {
+    padding-inline: var(--jc-space-4);
+  }
+
+  .jc-logo__en {
+    display: none;
+  }
+
+  .jc-hero__title {
+    font-size: clamp(27px, 8vw, 34px);
+  }
+
+  .jc-card {
+    padding: var(--jc-space-4);
+  }
+
+  .jc-risk {
+    padding: var(--jc-space-5) var(--jc-space-4);
+  }
+
+  .jc-footer__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .jc-backtop {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* 移动端 (<= 480px / 430px / 390px / 360px) 表格与长代码块超宽自适应 */
+  .jc-table-wrap,
+  .jc-prose table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    border-radius: var(--jc-radius-md);
+  }
+
+  .jc-table-wrap::-webkit-scrollbar,
+  .jc-prose table::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .jc-table-wrap::-webkit-scrollbar-thumb,
+  .jc-prose table::-webkit-scrollbar-thumb {
+    background: var(--jc-border);
+    border-radius: 2px;
+  }
+
+  .jc-prose a,
+  .jc-prose code {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --jc-text-2xl: 24px;
+    --jc-text-xl: 21px;
+    --jc-space-4: 12px;
+  }
+
+  .jc-container {
+    padding-inline: 12px;
+  }
+
+  .jc-hero__searchbar {
+    padding-left: 12px;
+  }
+
+  .jc-hero__kbd {
+    display: none;
+  }
+
+  .jc-table-wrap,
+  .jc-prose table {
+    font-size: var(--jc-text-xs);
+  }
+
+  .jc-table th,
+  .jc-table td,
+  .jc-prose th,
+  .jc-prose td {
+    padding: 8px 10px;
+  }
+}
+
+/* ---------- 指针设备：只有真实鼠标才启用指针光晕 ---------- */
+
+@media (hover: none), (pointer: coarse) {
+  .jc-backdrop__pointer {
+    display: none !important;
+  }
+}
+
+/* ---------- 高对比度偏好 ---------- */
+
+@media (prefers-contrast: more) {
+  :root {
+    --jc-text-soft: #33455c;
+    --jc-muted: #566880;
+    --jc-border: rgba(20, 55, 90, 0.24);
+  }
+
+  .jc-backdrop__grid,
+  .jc-backdrop__canvas {
+    display: none;
+  }
+}
+

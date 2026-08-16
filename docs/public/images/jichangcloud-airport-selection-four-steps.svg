@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 380" width="880" height="380" role="img" aria-labelledby="jcT29 jcD29">
+  <title id="jcT29">选机场的四步判断流程</title>
+  <desc id="jcD29">四个依次执行的步骤，每一步产出一个明确结论：第一步把用途拆成技术要求，产出「我需要什么」；第二步用预算框定线路类型，产出「我买得到什么」；第三步评估本地网络，产出「什么在我这里能用」；第四步核对线路说明与套餐条款，产出「这一家是否可信」。四项都确认再付款，任何一步存疑就停下。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .flow{stroke:#7f95b0;stroke-width:1.8;fill:none}
+  </style>
+  <defs>
+    <marker id="jcAr29" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">四步各产出一个结论，四项确认再付款</text>
+
+  <rect class="box" x="30" y="52" width="195" height="120" rx="12"/>
+  <text class="l" x="48" y="82">① 用途 → 技术要求</text>
+  <text class="s" x="48" y="106">AI：出口一致与 IP 信誉</text>
+  <text class="s" x="48" y="124">流媒体：地区库与共享度</text>
+  <text class="s" x="48" y="142">办公：长连接与低抖动</text>
+  <text class="g" x="48" y="164">产出：我需要什么</text>
+
+  <path class="flow" d="M225 112 H245" marker-end="url(#jcAr29)"/>
+
+  <rect class="box" x="250" y="52" width="195" height="120" rx="12"/>
+  <text class="l" x="268" y="82">② 预算 → 线路类型</text>
+  <text class="s" x="268" y="106">价格决定线路上限</text>
+  <text class="s" x="268" y="124">但不决定超售下限</text>
+  <text class="s" x="268" y="142">用倍率反推单位成本</text>
+  <text class="g" x="268" y="164">产出：我买得到什么</text>
+
+  <path class="flow" d="M445 112 H465" marker-end="url(#jcAr29)"/>
+
+  <rect class="box" x="470" y="52" width="195" height="120" rx="12"/>
+  <text class="l" x="488" y="82">③ 本地网络评估</text>
+  <text class="s" x="488" y="106">运营商与接入方式</text>
+  <text class="s" x="488" y="124">常用时段（晚高峰？）</text>
+  <text class="s" x="488" y="142">入口质量决定国内段</text>
+  <text class="g" x="488" y="164">产出：什么在我这能用</text>
+
+  <path class="flow" d="M665 112 H685" marker-end="url(#jcAr29)"/>
+
+  <rect class="box" x="690" y="52" width="165" height="120" rx="12"/>
+  <text class="l" x="706" y="82">④ 条款核验</text>
+  <text class="s" x="706" y="106">线路说明是否具体</text>
+  <text class="s" x="706" y="124">倍率 / 设备数 / 重置</text>
+  <text class="s" x="706" y="142">域名与渠道核验</text>
+  <text class="g" x="706" y="164">产出：是否可信</text>
+
+  <text class="r" x="30" y="216">任何一步存疑就停下 —— 停下的成本是几分钟，买错的成本是整个套餐周期。</text>
+
+  <text class="l" x="30" y="262">付款后：试用期观察</text>
+  <text class="s" x="48" y="288">· 连续多天覆盖晚高峰，记录延迟、丢包与波动范围（单次测试没有结论资格）</text>
+  <text class="s" x="48" y="310">· 首次购买只买短周期；主力与备用分属不同服务商，且不要同时到期</text>
+  <text class="s" x="48" y="332">· 观察故障时的公告与响应 —— 恢复能力比日常表现更能区分服务商</text>
+</svg>

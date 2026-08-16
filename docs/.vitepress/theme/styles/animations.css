@@ -1,0 +1,388 @@
+/* ==========================================================================
+   Cloud Halo — 背景层与动效
+   五层结构：基础渐变 / 云雾光团 / 精细网格 / 节点星图 / 指针光晕
+   ========================================================================== */
+
+.jc-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: var(--jc-z-backdrop);
+  pointer-events: none;
+  overflow: hidden;
+  contain: strict;
+}
+
+/* ---------- 第一层：基础渐变 ---------- */
+
+.jc-backdrop__base {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 78% at 50% -12%, rgba(255, 255, 255, 0.96) 0%, rgba(247, 250, 255, 0) 62%),
+    radial-gradient(90% 60% at 8% 4%, rgba(141, 200, 255, 0.24) 0%, rgba(247, 250, 255, 0) 58%),
+    radial-gradient(80% 56% at 96% 8%, rgba(33, 195, 214, 0.16) 0%, rgba(247, 250, 255, 0) 56%),
+    linear-gradient(180deg, #fbfdff 0%, var(--jc-bg) 38%, #f2f7ff 100%);
+}
+
+html.dark .jc-backdrop__base {
+  background:
+    radial-gradient(120% 78% at 50% -12%, rgba(38, 62, 104, 0.5) 0%, rgba(7, 13, 24, 0) 62%),
+    radial-gradient(90% 60% at 8% 4%, rgba(36, 107, 253, 0.2) 0%, rgba(7, 13, 24, 0) 58%),
+    radial-gradient(80% 56% at 96% 8%, rgba(33, 195, 214, 0.14) 0%, rgba(7, 13, 24, 0) 56%),
+    linear-gradient(180deg, #0a1120 0%, var(--jc-bg) 42%, #050a13 100%);
+}
+
+/* ---------- 第二层：云雾光团 ---------- */
+
+.jc-backdrop__halos {
+  position: absolute;
+  inset: 0;
+}
+
+.jc-halo {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(72px);
+  opacity: 0.5;
+  will-change: transform;
+}
+
+.jc-halo--a {
+  top: -12vh;
+  left: -8vw;
+  width: 44vw;
+  height: 44vw;
+  min-width: 320px;
+  min-height: 320px;
+  background: radial-gradient(circle, rgba(141, 200, 255, 0.62), rgba(141, 200, 255, 0) 68%);
+  animation: jc-drift-a 46s var(--jc-ease) infinite alternate;
+}
+
+.jc-halo--b {
+  top: -16vh;
+  right: -10vw;
+  width: 40vw;
+  height: 40vw;
+  min-width: 300px;
+  min-height: 300px;
+  background: radial-gradient(circle, rgba(33, 195, 214, 0.42), rgba(33, 195, 214, 0) 68%);
+  animation: jc-drift-b 54s var(--jc-ease) infinite alternate;
+}
+
+.jc-halo--c {
+  top: 8vh;
+  left: 34vw;
+  width: 46vw;
+  height: 30vw;
+  min-width: 340px;
+  min-height: 240px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0) 66%);
+  filter: blur(60px);
+  opacity: 0.72;
+  animation: jc-pulse 38s ease-in-out infinite;
+}
+
+.jc-halo--d {
+  top: 92vh;
+  left: 6vw;
+  width: 52vw;
+  height: 32vw;
+  min-width: 340px;
+  min-height: 220px;
+  background: radial-gradient(circle, rgba(36, 107, 253, 0.2), rgba(36, 107, 253, 0) 70%);
+  opacity: 0.42;
+  animation: jc-drift-c 62s var(--jc-ease) infinite alternate;
+}
+
+.jc-halo--e {
+  bottom: -18vh;
+  right: -6vw;
+  width: 46vw;
+  height: 34vw;
+  min-width: 320px;
+  min-height: 240px;
+  background: radial-gradient(circle, rgba(124, 128, 246, 0.2), rgba(124, 128, 246, 0) 70%);
+  opacity: 0.36;
+  animation: jc-drift-b 58s var(--jc-ease) infinite alternate-reverse;
+}
+
+html.dark .jc-halo--c {
+  background: radial-gradient(circle, rgba(90, 140, 220, 0.24), rgba(90, 140, 220, 0) 66%);
+  opacity: 0.4;
+}
+
+@keyframes jc-drift-a {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(4vw, 3vh, 0) scale(1.08);
+  }
+}
+
+@keyframes jc-drift-b {
+  from {
+    transform: translate3d(0, 0, 0) scale(1.04);
+  }
+  to {
+    transform: translate3d(-3.5vw, 4vh, 0) scale(1);
+  }
+}
+
+@keyframes jc-drift-c {
+  from {
+    transform: translate3d(-2vw, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(3vw, -2vh, 0) scale(1.06);
+  }
+}
+
+@keyframes jc-pulse {
+  0%,
+  100% {
+    opacity: 0.72;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.06);
+  }
+}
+
+/* ---------- 第三层：精细网格 ---------- */
+
+.jc-backdrop__grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(24, 65, 110, 0.055) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(24, 65, 110, 0.055) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(100% 62% at 50% 24%, #000 0%, rgba(0, 0, 0, 0.45) 46%, transparent 78%);
+  -webkit-mask-image: radial-gradient(
+    100% 62% at 50% 24%,
+    #000 0%,
+    rgba(0, 0, 0, 0.45) 46%,
+    transparent 78%
+  );
+  opacity: 0.9;
+}
+
+html.dark .jc-backdrop__grid {
+  background-image:
+    linear-gradient(to right, rgba(150, 190, 240, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(150, 190, 240, 0.06) 1px, transparent 1px);
+}
+
+/* ---------- 第四层：节点星图 ---------- */
+
+.jc-backdrop__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* ---------- 第五层：指针光晕 ---------- */
+
+.jc-backdrop__pointer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 460px;
+  height: 460px;
+  margin: -230px 0 0 -230px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(36, 107, 253, 0.13) 0%,
+    rgba(33, 195, 214, 0.07) 42%,
+    rgba(36, 107, 253, 0) 70%
+  );
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: opacity 600ms var(--jc-ease);
+}
+
+.jc-backdrop__pointer.is-visible {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   入场与交互动效
+   ========================================================================== */
+
+@keyframes jc-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes jc-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes jc-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.jc-reveal {
+  animation: jc-fade-up 640ms var(--jc-ease-out) both;
+}
+
+.jc-reveal--d1 {
+  animation-delay: 80ms;
+}
+
+.jc-reveal--d2 {
+  animation-delay: 160ms;
+}
+
+.jc-reveal--d3 {
+  animation-delay: 240ms;
+}
+
+.jc-fade-enter-active,
+.jc-fade-leave-active {
+  transition: opacity var(--jc-dur) var(--jc-ease);
+}
+
+.jc-fade-enter-from,
+.jc-fade-leave-to {
+  opacity: 0;
+}
+
+.jc-modal-enter-active,
+.jc-modal-leave-active {
+  transition:
+    opacity var(--jc-dur) var(--jc-ease),
+    transform var(--jc-dur) var(--jc-ease-out);
+}
+
+.jc-modal-enter-from,
+.jc-modal-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+
+.jc-drawer-enter-active,
+.jc-drawer-leave-active {
+  transition: opacity var(--jc-dur) var(--jc-ease);
+}
+
+.jc-drawer-enter-active .jc-drawer__panel,
+.jc-drawer-leave-active .jc-drawer__panel {
+  transition: transform var(--jc-dur-slow) var(--jc-ease-out);
+}
+
+.jc-drawer-enter-from,
+.jc-drawer-leave-to {
+  opacity: 0;
+}
+
+.jc-drawer-enter-from .jc-drawer__panel,
+.jc-drawer-leave-to .jc-drawer__panel {
+  transform: translateX(100%);
+}
+
+/* Hero 控制台内的线路流动 */
+
+.jc-flow-line {
+  stroke-dasharray: 5 9;
+  animation: jc-flow 9s linear infinite;
+}
+
+.jc-flow-line--slow {
+  animation-duration: 14s;
+}
+
+@keyframes jc-flow {
+  to {
+    stroke-dashoffset: -140;
+  }
+}
+
+.jc-node-ping {
+  transform-origin: center;
+  animation: jc-ping 4.2s ease-out infinite;
+}
+
+.jc-node-ping--b {
+  animation-delay: 1.4s;
+}
+
+.jc-node-ping--c {
+  animation-delay: 2.8s;
+}
+
+@keyframes jc-ping {
+  0% {
+    r: 4;
+    opacity: 0.5;
+  }
+  70% {
+    r: 15;
+    opacity: 0;
+  }
+  100% {
+    r: 15;
+    opacity: 0;
+  }
+}
+
+/* ==========================================================================
+   降级：用户要求减少动态效果
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .jc-halo {
+    animation: none !important;
+  }
+
+  .jc-backdrop__canvas,
+  .jc-backdrop__pointer {
+    display: none !important;
+  }
+
+  .jc-flow-line,
+  .jc-node-ping {
+    animation: none !important;
+  }
+
+  .jc-node-ping {
+    opacity: 0 !important;
+  }
+}

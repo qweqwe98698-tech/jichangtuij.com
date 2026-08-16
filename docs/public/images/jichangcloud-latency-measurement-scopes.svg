@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-labelledby="jcT10 jcD10">
+  <title id="jcT10">三种延迟测量口径覆盖的路径段对比</title>
+  <desc id="jcD10">上方是一条从你的设备经节点、出口到目标网站的访问链路。下方三条横线表示三种测量口径的覆盖范围：握手延迟只覆盖本地到节点一段；网络层往返覆盖本地到目标地址的完整路径；应用层耗时在完整路径之外还包含目标服务器的处理时间。三个数字覆盖范围不同，不能互相比较。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .m1{stroke:#48b7c7;stroke-width:3;fill:none}
+    .m2{stroke:#5b8fd6;stroke-width:3;fill:none}
+    .m3{stroke:#c07a2a;stroke-width:3;fill:none}
+    .link{stroke:#7f95b0;stroke-width:1.8;fill:none}
+    .tick{stroke-width:1.6}
+  </style>
+  <defs>
+    <marker id="jcAr10" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#7f95b0"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">一次访问的完整链路，与三种「延迟」各自覆盖的范围</text>
+
+  <!-- 链路 -->
+  <rect class="box" x="40" y="48" width="110" height="34" rx="8"/>
+  <text class="s" x="70" y="70">你的设备</text>
+  <path class="link" d="M150 65 H240" marker-end="url(#jcAr10)"/>
+  <rect class="box" x="250" y="48" width="110" height="34" rx="8"/>
+  <text class="s" x="290" y="70">节点</text>
+  <path class="link" d="M360 65 H450" marker-end="url(#jcAr10)"/>
+  <rect class="box" x="460" y="48" width="110" height="34" rx="8"/>
+  <text class="s" x="500" y="70">出口</text>
+  <path class="link" d="M570 65 H660" marker-end="url(#jcAr10)"/>
+  <rect class="box" x="670" y="48" width="130" height="34" rx="8"/>
+  <text class="s" x="694" y="70">目标网站</text>
+
+  <!-- ① 握手延迟 -->
+  <text class="l" x="20" y="140">① 握手延迟</text>
+  <path class="m1" d="M95 158 H305"/>
+  <line class="m1 tick" x1="95" y1="150" x2="95" y2="166"/>
+  <line class="m1 tick" x1="305" y1="150" x2="305" y2="166"/>
+  <text class="g" x="330" y="162">只覆盖本地到节点这一段 —— 客户端列表里显示的通常是它</text>
+
+  <!-- ② 网络层往返 -->
+  <text class="l" x="20" y="210">② 网络层往返</text>
+  <path class="m2" d="M95 228 H735"/>
+  <line class="m2 tick" x1="95" y1="220" x2="95" y2="236"/>
+  <line class="m2 tick" x1="735" y1="220" x2="735" y2="236"/>
+  <text class="s" x="140" y="252">本地到目标地址的完整往返（常用 ICMP，即 ping）</text>
+
+  <!-- ③ 应用层耗时 -->
+  <text class="l" x="20" y="290">③ 应用层耗时</text>
+  <path class="m3" d="M95 308 H735"/>
+  <line class="m3 tick" x1="95" y1="300" x2="95" y2="316"/>
+  <line class="m3 tick" x1="735" y1="300" x2="735" y2="316"/>
+  <rect x="745" y="296" width="115" height="24" rx="6" fill="none" stroke="#c07a2a" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text class="r" x="752" y="312">+ 服务器处理</text>
+
+  <text class="r" x="140" y="340">三个数字覆盖的范围不同，用其中一种的结果去和另一种比较，结论从一开始就不成立。</text>
+</svg>

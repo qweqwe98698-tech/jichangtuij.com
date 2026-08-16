@@ -1,0 +1,48 @@
+{
+  "brand": {
+    "nameZh": "机场云",
+    "nameEn": "JichangCloud",
+    "domain": "jichangcloud.com",
+    "origin": "https://jichangcloud.com",
+    "lang": "zh-CN",
+    "slogan": "把复杂线路讲明白，帮你选择真正适合的机场",
+    "sloganSub": "机场推荐、线路解析、客户端教程与风险预警",
+    "author": "机场云编辑部",
+    "foundedNote": "机场云是独立的中文信息与知识平台，不销售、不代理、不运营任何机场或网络服务。"
+  },
+  "seo": {
+    "title": "机场云｜机场推荐、稳定机场评测与节点使用指南",
+    "description": "机场云专注于机场推荐、机场评测、线路知识、Clash与Shadowrocket客户端教程、AI工具访问、流媒体解锁和机场避坑预警，帮助用户根据预算、设备、网络和实际用途选择合适的机场服务。",
+    "h1": "找到真正适合你的机场",
+    "subtitle": "从线路类型、套餐价格、客户端兼容、AI访问、流媒体解锁到风险判断，机场云用清晰的方法帮助你完成选择。",
+    "defaultOg": "/og/default-og.webp",
+    "twitterCard": "summary_large_image"
+  },
+  "build": {
+    "outDir": "docs/.vitepress/dist",
+    "nodeVersion": "22",
+    "buildCommand": "npm run build",
+    "zipName": "jichangcloud-cloudflare-upload.zip"
+  },
+  "contentStatus": [
+    "outline",
+    "researching",
+    "writing",
+    "reviewing",
+    "published",
+    "archived"
+  ],
+  "publishRule": {
+    "indexableWhen": {
+      "draft": false,
+      "noindex": false
+    },
+    "note": "只有 draft:false 且 noindex:false 的页面才会进入 sitemap.xml、feed.xml、Pagefind 索引、首页文章流和相关推荐。"
+  },
+  "editorialRules": {
+    "noFakeMetrics": "没有真实测试数据时，不输出速度、延迟、解锁结论与评分。",
+    "noFakeBrands": "providers.json 为空时，不展示任何机场品牌名称或排行榜。",
+    "noPaidRemoval": "不接受付费删除真实风险记录。",
+    "correctionChannel": "品牌方与读者均可提交纠错材料，核实后更新并保留修订说明。"
+  }
+}

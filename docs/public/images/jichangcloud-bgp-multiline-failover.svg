@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="jcT6 jcD6">
+  <title id="jcT6">单线接入与 BGP 多线接入在上游故障时的对比图</title>
+  <desc id="jcD6">左侧单线机房只接入一家运营商，该上游故障时全部用户中断；右侧 BGP 机房同时接入三家运营商，单条上游故障时流量自动切换到其余线路，服务继续可用。图中说明 BGP 提升的是覆盖与容错，而不是带宽上限。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:15px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#6b7f99}
+    .w{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .n{fill:#ffffff;stroke:#5b8fd6;stroke-width:2}
+    .p{stroke:#9bb6d8;stroke-width:2.2;fill:none}
+    .dead{stroke:#cf8a8a;stroke-width:2.2;fill:none;stroke-dasharray:5 5}
+    .ok{stroke:#48b7c7;stroke-width:2.6;fill:none}
+  </style>
+
+  <text class="l" x="20" y="30">单线接入</text>
+  <text class="s" x="20" y="52">只接入一家运营商</text>
+  <rect class="n" x="20" y="70" width="120" height="44" rx="10"/>
+  <text class="s" x="46" y="97">机房</text>
+  <path class="dead" d="M140 92 H300"/>
+  <text class="w" x="176" y="84">上游故障</text>
+  <path d="M206 80 L226 104 M226 80 L206 104" stroke="#cf8a8a" stroke-width="2.4"/>
+  <rect class="n" x="300" y="70" width="110" height="44" rx="10"/>
+  <text class="s" x="320" y="97">运营商 A</text>
+  <text class="w" x="20" y="142">结果：全部用户中断，只能等上游恢复</text>
+
+  <line x1="20" y1="168" x2="860" y2="168" stroke="#dce6f2" stroke-width="1"/>
+
+  <text class="l" x="20" y="200">BGP 多线接入</text>
+  <text class="s" x="20" y="222">同时接入多家运营商，按来源自动选路</text>
+  <rect class="n" x="20" y="240" width="120" height="44" rx="10"/>
+  <text class="s" x="46" y="267">机房</text>
+
+  <path class="dead" d="M140 262 C 220 262, 240 214, 320 214"/>
+  <path d="M216 226 L234 246 M234 226 L216 246" stroke="#cf8a8a" stroke-width="2.2"/>
+  <rect class="n" x="320" y="192" width="110" height="42" rx="10"/>
+  <text class="s" x="340" y="218">运营商 A</text>
+
+  <path class="ok" d="M140 262 H320"/>
+  <rect class="n" x="320" y="241" width="110" height="42" rx="10"/>
+  <text class="s" x="340" y="267">运营商 B</text>
+
+  <path class="ok" d="M140 262 C 220 262, 240 300, 320 300"/>
+  <rect class="n" x="320" y="279" width="110" height="42" rx="10"/>
+  <text class="s" x="340" y="305">运营商 C</text>
+
+  <text class="s" x="460" y="218">A 故障时，B 与 C 继续承载</text>
+  <text class="s" x="460" y="248">不同来源的用户各自走较优路径</text>
+  <text class="w" x="460" y="278">注意：提升的是覆盖与容错</text>
+  <text class="w" x="460" y="300">不是带宽上限，也不改变跨境拥堵</text>
+</svg>

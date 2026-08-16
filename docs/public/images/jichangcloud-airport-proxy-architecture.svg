@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT1 jcD1">
+  <title id="jcT1">机场代理的四层结构示意图</title>
+  <desc id="jcD1">从左到右依次为本地设备、客户端、机场订阅与节点、目标服务四层，箭头表示流量方向，每一层下方标注它各自决定的因素，底部给出按层定位故障的方法。</desc>
+  <style>
+    .b{fill:none;stroke:#5b8fd6;stroke-width:2}
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:17px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12.5px;fill:#6b7f99}
+    .c{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:12px;fill:#8a9ab0}
+    .a{stroke:#48b7c7;stroke-width:2.4;fill:none;stroke-linecap:round}
+  </style>
+  <defs>
+    <marker id="jcArrow1" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 z" fill="#48b7c7"/>
+    </marker>
+  </defs>
+
+  <text class="c" x="20" y="30">机场代理不是单一产品，而是四层组件的协作</text>
+
+  <rect class="b" x="20" y="60" width="185" height="120" rx="14"/>
+  <text class="l" x="42" y="98">① 本地设备</text>
+  <text class="s" x="42" y="124">手机 / 电脑 / 路由器</text>
+  <text class="s" x="42" y="146">决定：并发连接数</text>
+  <text class="s" x="42" y="166">决定：本地网络质量</text>
+
+  <rect class="b" x="243" y="60" width="185" height="120" rx="14"/>
+  <text class="l" x="265" y="98">② 客户端</text>
+  <text class="s" x="265" y="124">Clash / 小火箭 / sing-box</text>
+  <text class="s" x="265" y="146">决定：分流规则</text>
+  <text class="s" x="265" y="166">决定：DNS 解析方式</text>
+
+  <rect class="b" x="466" y="60" width="185" height="120" rx="14"/>
+  <text class="l" x="488" y="98">③ 订阅与节点</text>
+  <text class="s" x="488" y="124">机场提供的节点列表</text>
+  <text class="s" x="488" y="146">决定：线路类型</text>
+  <text class="s" x="488" y="166">决定：出口 IP 类型</text>
+
+  <rect class="b" x="689" y="60" width="171" height="120" rx="14"/>
+  <text class="l" x="711" y="98">④ 目标服务</text>
+  <text class="s" x="711" y="124">AI / 流媒体 / 网站</text>
+  <text class="s" x="711" y="146">决定：地区判定</text>
+  <text class="s" x="711" y="166">决定：风控策略</text>
+
+  <path class="a" d="M205 120 H238" marker-end="url(#jcArrow1)"/>
+  <path class="a" d="M428 120 H461" marker-end="url(#jcArrow1)"/>
+  <path class="a" d="M651 120 H684" marker-end="url(#jcArrow1)"/>
+
+  <text class="c" x="20" y="228">排查任何问题时，先判断故障发生在哪一层：</text>
+  <text class="s" x="20" y="256">· 全部节点都不行 → 多在 ① 或 ③（本地网络、订阅状态、设备数超限）</text>
+  <text class="s" x="20" y="280">· 部分网站不行 → 多在 ②（分流规则、DNS 解析泄漏）</text>
+  <text class="s" x="20" y="304">· 平台提示地区异常 → 多在 ③ 与 ④ 之间（出口 IP 类型与信誉）</text>
+</svg>

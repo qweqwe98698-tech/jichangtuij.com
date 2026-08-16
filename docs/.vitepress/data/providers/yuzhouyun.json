@@ -1,0 +1,72 @@
+{
+  "slug": "yuzhouyun",
+  "name": "宇宙云",
+  "vendor": {
+    "entryPrice": "14.9元/月",
+    "traffic": "100GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "lines": [
+      "IEPL 专线"
+    ],
+    "nodeCount": "45+",
+    "customClients": [
+      "Windows",
+      "Android",
+      "macOS"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端，具体订阅导入方式需咨询客服",
+    "aiClaim": "品牌资料显示覆盖常见 AI 浏览场景",
+    "streamingClaim": "资料显示覆盖常见流媒体使用场景",
+    "establishedYear": 2023
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "晚间时段",
+    "screenshotPath": "/images/speedtest/yuzhouyun-speedtest-2026-08-11.png",
+    "speedtestProtocol": "VLESS",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "YUZHOU553",
+    "discountDesc": "专属优惠码 YUZHOU553",
+    "affLink": "https://guangs.yuzoucloud.cc/#/register?code=yrThwMP1",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "15元档 / VLESS 协议 / IEPL 专线 / 性价比专线标杆",
+    "positioning": "15元档 / VLESS / IEPL / 性价比",
+    "targetAudience": [
+      "希望把月付预算严格控制在 15 元以内，同时明确要求 IEPL 专线的用户",
+      "月流量需求约 100GB 的日常影音与学习办公用户",
+      "偏好纯 VLESS 协议现代化连接的用户"
+    ],
+    "notRecommendedFor": [
+      "需要每月 300GB+ 极高流量下载的大户"
+    ],
+    "pros": [
+      "14.9 元档即可获得 100GB IEPL 专线，性价比十分突出",
+      "全面支持 VLESS 协议，抗封锁与传输效率良好",
+      "提供自研客户端与第三方订阅导入支持"
+    ],
+    "cons": [
+      "入门套餐不支持过多设备同时高并发占用",
+      "流媒体/AI 解锁以品牌资料为准，需结合实测节点"
+    ],
+    "priceSegment": "15",
+    "lastVerified": "2026-08-16"
+  }
+}

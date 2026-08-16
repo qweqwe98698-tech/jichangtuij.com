@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-labelledby="jcT24 jcD24">
+  <title id="jcT24">系统代理与 TUN 模式的流量接管范围对比</title>
+  <desc id="jcD24">两行对比。上一行是系统代理：只有遵守系统代理设置的程序（浏览器与多数常见应用）的流量进入客户端，命令行工具、部分游戏与后台服务不读系统代理，流量直接出去。下一行是 TUN 模式：在系统网络层创建虚拟网卡，所有程序的流量都先经过客户端，覆盖完整但需要更高权限，并且对 DNS 配置更敏感。</desc>
+  <style>
+    .l{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:14px;font-weight:700;fill:#3d5a80}
+    .s{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#6b7f99}
+    .r{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#c07a2a}
+    .g{font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:11.5px;fill:#2f8f7a}
+    .box{fill:#ffffff;stroke:#5b8fd6;stroke-width:1.8}
+    .core{fill:#ffffff;stroke:#48b7c7;stroke-width:2.2}
+    .flow{stroke:#48b7c7;stroke-width:2;fill:none}
+    .leak{stroke:#cf8a8a;stroke-width:2;fill:none;stroke-dasharray:5 4}
+  </style>
+  <defs>
+    <marker id="jcAr24" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#48b7c7"/>
+    </marker>
+    <marker id="jcAr24b" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#cf8a8a"/>
+    </marker>
+  </defs>
+
+  <text class="l" x="20" y="26">同一台设备，两种接管方式，覆盖范围完全不同</text>
+
+  <!-- 系统代理 -->
+  <text class="l" x="20" y="66">系统代理</text>
+  <rect class="box" x="130" y="48" width="150" height="34" rx="8"/>
+  <text class="s" x="146" y="70">浏览器等常见应用</text>
+  <path class="flow" d="M280 65 H370" marker-end="url(#jcAr24)"/>
+  <rect class="core" x="380" y="48" width="110" height="34" rx="8"/>
+  <text class="s" x="404" y="70">客户端</text>
+
+  <rect class="box" x="130" y="96" width="150" height="34" rx="8"/>
+  <text class="s" x="140" y="118">命令行 / 部分游戏</text>
+  <path class="leak" d="M280 113 H610" marker-end="url(#jcAr24b)"/>
+  <text class="r" x="620" y="117">不读系统代理，直接出去</text>
+
+  <text class="g" x="510" y="70">设置简单、无需额外权限</text>
+  <text class="r" x="510" y="88">覆盖不完整</text>
+
+  <!-- TUN -->
+  <text class="l" x="20" y="200">TUN 模式</text>
+  <rect class="box" x="130" y="168" width="150" height="34" rx="8"/>
+  <text class="s" x="146" y="190">全部程序</text>
+  <rect class="box" x="130" y="212" width="150" height="34" rx="8"/>
+  <text class="s" x="140" y="234">含后台与命令行</text>
+
+  <path class="flow" d="M280 185 H340 V206 H370" marker-end="url(#jcAr24)"/>
+  <path class="flow" d="M280 229 H340 V212 H370" marker-end="url(#jcAr24)"/>
+  <rect class="core" x="380" y="190" width="150" height="40" rx="8"/>
+  <text class="s" x="398" y="215">虚拟网卡 → 客户端</text>
+
+  <text class="g" x="560" y="200">系统层接管，覆盖完整</text>
+  <text class="r" x="560" y="220">需要更高权限授权，</text>
+  <text class="r" x="560" y="238">对 DNS 配置更敏感</text>
+
+  <text class="s" x="20" y="290">选择原则：日常浏览用系统代理足够；需要覆盖不读系统代理的程序时用 TUN。</text>
+  <text class="s" x="20" y="310">开启 TUN 后全网不通，第一个该检查的是 DNS 配置，而不是线路。</text>
+</svg>

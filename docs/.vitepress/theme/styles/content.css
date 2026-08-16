@@ -1,0 +1,352 @@
+/* ==========================================================================
+   Cloud Halo — 正文排版
+   ========================================================================== */
+
+.jc-prose {
+  font-size: var(--jc-text-md);
+  line-height: var(--jc-leading-relaxed);
+  color: var(--jc-text);
+}
+
+.jc-prose > * {
+  max-width: var(--jc-measure);
+}
+
+.jc-prose > .jc-table-wrap,
+.jc-prose > .jc-answer,
+.jc-prose > .jc-facts,
+.jc-prose > .jc-notice,
+.jc-prose > .jc-faq,
+.jc-prose > .jc-update-notice,
+.jc-prose > figure,
+.jc-prose > .jc-figure,
+.jc-prose > div[class*='language-'] {
+  max-width: none;
+}
+
+/* ---------- 标题 ---------- */
+
+.jc-prose h1 {
+  font-size: clamp(28px, 4vw, var(--jc-text-3xl));
+  line-height: 1.22;
+  margin-bottom: var(--jc-space-4);
+}
+
+.jc-prose h2 {
+  font-size: var(--jc-text-xl);
+  margin-top: var(--jc-space-8);
+  margin-bottom: var(--jc-space-4);
+  padding-top: var(--jc-space-4);
+  border-top: 1px solid var(--jc-border);
+  scroll-margin-top: calc(var(--jc-header-height) + 24px);
+}
+
+.jc-prose h3 {
+  font-size: var(--jc-text-lg);
+  margin-top: var(--jc-space-6);
+  margin-bottom: var(--jc-space-3);
+  scroll-margin-top: calc(var(--jc-header-height) + 24px);
+}
+
+.jc-prose h4 {
+  font-size: var(--jc-text-md);
+  margin-top: var(--jc-space-5);
+  margin-bottom: var(--jc-space-2);
+  color: var(--jc-text-soft);
+  scroll-margin-top: calc(var(--jc-header-height) + 24px);
+}
+
+.jc-prose h2 .header-anchor,
+.jc-prose h3 .header-anchor,
+.jc-prose h4 .header-anchor {
+  display: none;
+}
+
+/* ---------- 段落与列表 ---------- */
+
+.jc-prose p {
+  margin-block: var(--jc-space-4);
+}
+
+.jc-prose ul,
+.jc-prose ol {
+  margin-block: var(--jc-space-4);
+  padding-left: 1.3em;
+}
+
+.jc-prose li {
+  margin-block: 7px;
+}
+
+.jc-prose li > ul,
+.jc-prose li > ol {
+  margin-block: 7px;
+}
+
+.jc-prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.jc-prose ul > li {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.jc-prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0.25em;
+  top: 0.72em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--jc-sky);
+}
+
+.jc-prose ul ul > li::before {
+  background: transparent;
+  border: 1px solid var(--jc-sky);
+}
+
+.jc-prose ol {
+  list-style: none;
+  counter-reset: jc-ol;
+  padding-left: 0;
+}
+
+.jc-prose ol > li {
+  position: relative;
+  padding-left: 2em;
+  counter-increment: jc-ol;
+}
+
+.jc-prose ol > li::before {
+  content: counter(jc-ol);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: var(--jc-primary-soft);
+  color: var(--jc-primary-deep);
+  font-size: 0.78em;
+  font-weight: 700;
+}
+
+/* ---------- 强调与行内元素 ---------- */
+
+.jc-prose strong {
+  font-weight: 700;
+  color: var(--jc-text);
+}
+
+.jc-prose em {
+  font-style: normal;
+  color: var(--jc-primary-deep);
+  font-weight: 600;
+}
+
+.jc-prose a {
+  font-weight: 500;
+  border-bottom: 1px solid rgba(36, 107, 253, 0.28);
+  transition:
+    border-color var(--jc-dur-fast) var(--jc-ease),
+    color var(--jc-dur-fast) var(--jc-ease);
+}
+
+.jc-prose a:hover {
+  border-bottom-color: var(--jc-primary);
+}
+
+.jc-prose code {
+  padding: 2px 6px;
+  border-radius: var(--jc-radius-xs);
+  background: var(--jc-code-bg);
+  color: var(--jc-primary-deep);
+  font-size: 0.88em;
+  word-break: break-word;
+}
+
+.jc-prose a code {
+  color: inherit;
+}
+
+/* ---------- 引用 ---------- */
+
+.jc-prose blockquote {
+  margin: var(--jc-space-5) 0;
+  padding: var(--jc-space-4) var(--jc-space-5);
+  border-left: 3px solid var(--jc-sky);
+  border-radius: 0 var(--jc-radius-md) var(--jc-radius-md) 0;
+  background: var(--jc-surface-sunken);
+  color: var(--jc-text-soft);
+}
+
+.jc-prose blockquote p:first-child {
+  margin-top: 0;
+}
+
+.jc-prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- 表格 ---------- */
+
+.jc-prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  margin: var(--jc-space-5) 0;
+  border: 1px solid var(--jc-border);
+  border-radius: var(--jc-radius-md);
+  background: var(--jc-surface-raised);
+  font-size: var(--jc-text-sm);
+  -webkit-overflow-scrolling: touch;
+}
+
+.jc-prose th,
+.jc-prose td {
+  padding: 11px var(--jc-space-4);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--jc-border);
+  line-height: var(--jc-leading-snug);
+}
+
+.jc-prose thead th {
+  background: var(--jc-surface-sunken);
+  font-size: var(--jc-text-xs);
+  font-weight: 700;
+  color: var(--jc-text-soft);
+  white-space: nowrap;
+}
+
+.jc-prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---------- 代码块 ---------- */
+
+.jc-prose div[class*='language-'] {
+  position: relative;
+  margin: var(--jc-space-5) 0;
+  border: 1px solid var(--jc-border);
+  border-radius: var(--jc-radius-md);
+  background: var(--jc-code-bg);
+  overflow: hidden;
+}
+
+.jc-prose div[class*='language-'] pre {
+  margin: 0;
+  padding: var(--jc-space-4) var(--jc-space-5);
+  overflow-x: auto;
+  background: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jc-prose div[class*='language-'] code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 13.5px;
+  line-height: 1.7;
+  white-space: pre;
+}
+
+.jc-prose div[class*='language-']::before {
+  content: attr(data-lang);
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  font-size: 11px;
+  font-family: var(--jc-font-mono);
+  color: var(--jc-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  pointer-events: none;
+}
+
+.jc-prose .shiki span {
+  color: var(--shiki-light);
+}
+
+html.dark .jc-prose .shiki span {
+  color: var(--shiki-dark);
+}
+
+/* ---------- 图片与图示 ---------- */
+
+.jc-prose img {
+  margin: var(--jc-space-5) 0;
+  border-radius: var(--jc-radius-md);
+}
+
+.jc-figure {
+  margin: var(--jc-space-5) 0;
+}
+
+.jc-figure figcaption {
+  margin-top: var(--jc-space-2);
+  font-size: var(--jc-text-xs);
+  color: var(--jc-muted);
+  text-align: center;
+}
+
+/* ---------- VitePress 容器（提示块） ---------- */
+
+.jc-prose .custom-block {
+  margin: var(--jc-space-5) 0;
+  padding: var(--jc-space-4) var(--jc-space-5);
+  border: 1px solid var(--jc-border);
+  border-left-width: 3px;
+  border-radius: var(--jc-radius-md);
+  background: var(--jc-surface-sunken);
+  font-size: var(--jc-text-sm);
+  line-height: var(--jc-leading-relaxed);
+}
+
+.jc-prose .custom-block p {
+  margin-block: 8px;
+}
+
+.jc-prose .custom-block-title {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.jc-prose .custom-block.tip {
+  border-left-color: var(--jc-primary);
+  background: var(--jc-primary-softer);
+}
+
+.jc-prose .custom-block.info {
+  border-left-color: var(--jc-cyan);
+  background: var(--jc-cyan-soft);
+}
+
+.jc-prose .custom-block.warning {
+  border-left-color: var(--jc-warning);
+  background: var(--jc-warning-soft);
+}
+
+.jc-prose .custom-block.danger {
+  border-left-color: var(--jc-danger);
+  background: var(--jc-danger-soft);
+}
+
+/* ---------- 分隔线 ---------- */
+
+.jc-prose hr {
+  margin-block: var(--jc-space-7);
+}
+
+/* ---------- 栏目页正文（略宽） ---------- */
+
+.jc-prose--wide > * {
+  max-width: 44em;
+}

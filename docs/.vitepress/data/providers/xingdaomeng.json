@@ -1,0 +1,72 @@
+{
+  "slug": "xingdaomeng",
+  "name": "星岛梦",
+  "vendor": {
+    "entryPrice": "约8元/月 (年付折算)",
+    "traffic": "60GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "lines": [
+      "企业级内网专线"
+    ],
+    "nodeCount": "40+",
+    "customClients": [
+      "Windows",
+      "Android"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持第三方客户端订阅导入，具体方式可咨询官方客服",
+    "aiClaim": "品牌资料标注支持日常跨境与基础 AI 浏览",
+    "streamingClaim": "支持常见海外流媒体基础播放",
+    "establishedYear": 2020
+  },
+  "measured": {
+    "hasSpeedtest": true,
+    "testDate": "2026-08-11",
+    "testTime": "白天时段",
+    "screenshotPath": "/images/speedtest/xingdaomeng-speedtest-2026-08-11.png",
+    "speedtestProtocol": "Shadowsocks",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Measured",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "nmw888",
+    "discountDesc": "新人注册 9 折",
+    "affLink": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
+    "hasHashLink": true,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": true
+  },
+  "editorial": {
+    "oneSentenceTagline": "低价年付 / 套餐丰富 / 不限时套餐 / 轻量备用方案",
+    "positioning": "低价年付 / 套餐丰富 / 不限时套餐",
+    "targetAudience": [
+      "预算有限、日常流量需求在 60GB 以内的小流量用户",
+      "希望购买不限时流量包作为长期备用线路的用户",
+      "能够接受年付付款周期的个人轻度用户"
+    ],
+    "notRecommendedFor": [
+      "仅愿意按月支付（不接受年付预付）的用户",
+      "每月需要大流量下载或高频 4K 视频的用户"
+    ],
+    "pros": [
+      "年付折算低至约 8 元/月，长期持有成本极低",
+      "提供不限时套餐选项，适合作为备用防失联",
+      "运营时间较长（2020开业），支持支付宝/微信支付"
+    ],
+    "cons": [
+      "8 元/月属于年付折算单价，不应与常规月付直接横比",
+      "单月 60GB 流量较小，不适合重度多设备家庭共享"
+    ],
+    "priceSegment": "8",
+    "lastVerified": "2026-08-16"
+  }
+}
