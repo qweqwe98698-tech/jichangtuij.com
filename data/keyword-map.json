@@ -371,6 +371,13 @@
     "pageType": "utility"
   },
   {
+    "slug": "/sitemap/",
+    "primaryKeyword": "网站地图",
+    "pillar": "/sitemap/",
+    "intent": "informational",
+    "pageType": "hub"
+  },
+  {
     "slug": "/streaming/airport/",
     "primaryKeyword": "流媒体机场推荐",
     "pillar": "/streaming/",

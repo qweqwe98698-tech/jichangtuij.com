@@ -96,6 +96,7 @@ export const footerGroups: NavGroup[] = [
       { text: '标签索引', link: '/tags/' },
       { text: '隐私政策', link: '/privacy/' },
       { text: '使用条款', link: '/terms/' },
+      { text: '网站全景地图', link: '/sitemap/' },
       { text: '站内全文搜索', link: '/search/' }
     ]
   }

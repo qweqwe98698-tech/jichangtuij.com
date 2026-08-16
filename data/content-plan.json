@@ -371,6 +371,13 @@
     "status": "published"
   },
   {
+    "url": "/sitemap/",
+    "title": "网站地图 · 全站内容与导航全景索引",
+    "pillar": "/sitemap/",
+    "primaryKeyword": "网站地图",
+    "status": "published"
+  },
+  {
     "url": "/streaming/airport/",
     "title": "2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南",
     "pillar": "/streaming/",
