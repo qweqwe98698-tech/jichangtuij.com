@@ -14,7 +14,7 @@ interface MatchResult {
 // 筛选状态
 const selectedDevice = ref<'all' | 'ios' | 'windows' | 'mac' | 'android'>('all')
 const selectedScenario = ref<'ai' | 'streaming' | 'stable' | 'light'>('ai')
-const selectedBudget = ref<'all' | 'budget' | 'balanced' | 'premium'>('balanced')
+const selectedBudget = ref<'all' | 'budget' | 'balanced' | 'premium'>('budget')
 
 const devices = [
   { id: 'all', label: '📱 全部设备', hint: '多端通用' },

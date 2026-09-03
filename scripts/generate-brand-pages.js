@@ -60,6 +60,18 @@ for (const p of BRANDS) {
 - **流媒体（Netflix / YouTube 4K）**：**品牌声明 (Vendor Claim)**。${fullData.vendor.streamingClaim}。
 - **实测提示**：流媒体与 AI 解锁属于动态风控结果，节点 IP 状态可能随平台策略变动，请以实时连接为准。`
 
+  const spotlightBanner = fullData.slug === 'guangsuyun'
+    ? `<div class="jc-spotlight-banner" style="background: linear-gradient(135deg, rgba(36, 107, 253, 0.08) 0%, rgba(0, 242, 254, 0.1) 100%); border: 1.5px solid var(--jc-primary); border-radius: 8px; padding: 16px 20px; margin: 20px 0 24px 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+  <div>
+    <span style="font-size: 11px; font-weight: 800; color: #fff; background: var(--jc-primary); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 4px;">👑 本站 2026 年度重点主推服务商</span>
+    <p style="margin: 0; font-size: 14px; font-weight: 700; color: var(--jc-text-strong);">光速云：2020老牌运营 · 全IEPL内网专线 · 晚高峰低延迟 · 17元/月标杆首选</p>
+  </div>
+  <SponsoredLink href="${fullData.commercial.affLink}" class="jc-btn jc-btn--primary jc-btn--sm">
+    官网直达 (券码 ${fullData.commercial.promoCode}) →
+  </SponsoredLink>
+</div>\n\n`
+    : ''
+
   const md = `---
 title: "${fullData.name}怎么样？2026套餐价格、${fullData.vendor.lines[0]}实测与官网地址"
 description: "${fullData.name}详细评测档案：2026最新入门价格${fullData.vendor.entryPrice}，${fullData.vendor.traffic}，采用${fullData.vendor.lines.join('、')}与${fullData.vendor.protocols.join('/')}协议，附2026-08-11本站实测测速截图证据与优惠码。"
@@ -75,7 +87,7 @@ verified: 2026-08-16
 
 # ${fullData.name}怎么样？2026套餐价格、${fullData.vendor.lines[0]}实测与官网地址
 
-**${fullData.name}** 是一家开业于 **${fullData.vendor.establishedYear} 年**的代理节点订阅服务（俗称机场），入门套餐为 **${fullData.vendor.entryPrice}**（包含 **${fullData.vendor.traffic}** 流量），主要采用 **${fullData.vendor.lines.join('、')}** 搭配 **${fullData.vendor.protocols.join('/')}** 传输协议。本文为您整合官方规格、本站 2026-08-11 测速证据、适合人群与使用限制。
+${spotlightBanner}**${fullData.name}** 是一家开业于 **${fullData.vendor.establishedYear} 年**的代理节点订阅服务（俗称机场），入门套餐为 **${fullData.vendor.entryPrice}**（包含 **${fullData.vendor.traffic}** 流量），主要采用 **${fullData.vendor.lines.join('、')}** 搭配 **${fullData.vendor.protocols.join('/')}** 传输协议。本文为您整合官方规格、本站 2026-08-11 测速证据、适合人群与使用限制。
 
 ---
 
@@ -182,3 +194,4 @@ ${fullData.name} 提供了完善的客户端支持与在线客服指引，新手
 }
 
 console.log('All 16 brand pages generated successfully!')
+

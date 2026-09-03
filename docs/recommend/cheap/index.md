@@ -46,16 +46,17 @@ faq:
 
 ## 2026 代表性平价/便宜机场品牌一览
 
-结合实测可信度与公开门槛，我们筛选出以下支持平价月付的代表性服务商：
+结合实测可信度与官方公开门槛，筛选出以下支持平价周期的代表性服务商：
 
-| 品牌名称 | 入门月付资费 | 基础流量 | 线路架构 | 适用场景 | 品牌档案 |
-|---|---|---|---|---|---|
-| **飞猫云** | ¥10.00 / 月 | 80GB | BGP 中转 / 专线 | 网页文献、学生党、轻度日常 | [查看飞猫云档案](/brands/feimaoyun/) |
-| **微图** | ¥12.00 / 月 | 100GB | BGP 中转 | 社交外贸、常规流媒体 | [查看微图档案](/brands/weitu/) |
-| **快狸** | ¥12.00 / 月 | 100GB | 优质中转 | 4K 视频加速、移动宽带适配 | [查看快狸档案](/brands/kuaili/) |
-| **星岛梦** | ¥10.00 / 月 | 60GB | 中转线路 | 备用节点、低频查资料 | [查看星岛梦档案](/brands/xingdaomeng/) |
-| **一翻云** | ¥20.00 / 月 (年折¥12) | 150GB | IEPL 专线 | 性价比专线、大流量需求 | [查看一翻云档案](/brands/yifanyun/) |
-| **宇宙云** | ¥14.90 / 月 | 100GB | IEPL 专线 | 平价专线标杆、全天稳定 | [查看宇宙云档案](/brands/yuzhouyun/) |
+| 品牌名称 | 入门资费 | 基础流量 | 线路架构 | 适用场景 | 品牌档案 | 官网注册 |
+|---|---|---|---|---|---|---|
+| **飞猫云** | 约7元/月 (年付折算) | 50GB | IEPL 物理专线 | 网页文献、学生备用、轻度日常 | [查看飞猫云档案](/brands/feimaoyun/) | <SponsoredLink href="https://guangs.flycataff.com/#/?code=6uq0Xe9y">官网注册</SponsoredLink> |
+| **星岛梦** | 约8元/月 (年付折算) | 60GB | 企业级内网专线 | 备用节点、低频查资料、不限时 | [查看星岛梦档案](/brands/xingdaomeng/) | <SponsoredLink href="https://guangs.xingdaomeng.com/#/?code=1TynBYnR">官网注册</SponsoredLink> |
+| **宇宙云** | 14.9元/月 | 100GB | IEPL 物理专线 | 平价专线标杆、全天稳定 | [查看宇宙云档案](/brands/yuzhouyun/) | <SponsoredLink href="https://guangs.yuzoucloud.cc/#/register?code=yrThwMP1">官网注册</SponsoredLink> |
+| **唯兔云** | 14.9元/月 | 100GB | 三网优化 / 智能调度 | 节点丰富、社交与轻度流媒体 | [查看唯兔云档案](/brands/weitu/) | <SponsoredLink href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA">官网注册</SponsoredLink> |
+| **光速云** | 17元/月 | 110GB | IEPL 物理专线 | 2020老牌、多入口冗余、综合首选 | [查看光速云档案](/brands/guangsuyun/) | <SponsoredLink href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y">官网注册</SponsoredLink> |
+| **极连云** | 18元/月 | 100GB | IEPL 物理专线 | 20元以内平价专线备选 | [查看极连云档案](/brands/jilianyun/) | <SponsoredLink href="https://guangs.jlyvipaff.com/#/?code=VM1rKGUu">官网注册</SponsoredLink> |
+| **一翻云** | 20元/月 | 150GB | IEPL 物理专线 | 性价比专线、大流量视频需求 | [查看一翻云档案](/brands/yifanyun/) | <SponsoredLink href="https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r">官网注册</SponsoredLink> |
 
 ---
 

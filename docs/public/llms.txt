@@ -6,7 +6,7 @@
 站点类型：机场代理、机场推荐、机场导航、机场评测、线路知识、客户端教程、故障排查与风险预警的独立信息平台
 正式域名：https://jichangtuij.com
 内容负责方：机场推荐评测实验室
-最后生成时间：2026-08-16T09:19:16.968Z
+最后生成时间：2026-09-03T09:27:38.873Z
 
 ## 引用说明
 
@@ -40,6 +40,17 @@
 
 ## 正式发布页面
 
+- [Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程](https://jichangtuij.com/clients/clash/): 2026 最新 Clash / Clash Verge Rev / Clash Meta 全平台配置与订阅导入完全指南。深度解析规则分流原理、Fake-IP 与 TUN 虚拟网卡底层机制，提供 Windows、macOS 与 Android 端手把手图文实战、YAML 规则定制与高频排障决策树。
+- [Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南](https://jichangtuij.com/clients/shadowrocket/): 2026 最新 Shadowrocket（小火箭）iOS 客户端下载、美区 Apple ID 获取、机场订阅一键导入、规则分流、HTTPS 解密与节点测速完整图文配置教程。深度解析 iOS NetworkExtension 底层机制与高频排障决策树。
+- [v2rayN Windows 客户端配置教程：从下载到订阅导入完整指南](https://jichangtuij.com/clients/v2rayn/): 2026 最新 v2rayN 客户端下载、.NET 运行库安装、Xray / Sing-box 多内核切换、机场订阅一键导入、绕过大陆路由规则与 TUN 虚拟网卡全流量接管完整图文教程。深度解析底层路由架构与高频排障决策树。
+- [新手小白科普：什么是机场、代理与节点？一文看懂核心概念](https://jichangtuij.com/guides/beginner/): 机场新手入门完全科普指南：用通俗易懂的语言系统拆解什么是机场、节点、代理协议（Shadowsocks/VLESS Reality）、订阅链接、分流规则与专线原理，帮新手彻底消除认知盲区并避开购买大坑。
+- [国外网站打不开？2026海外网站无法访问排查5步法](https://jichangtuij.com/guides/foreign-websites-inaccessible/): 国外网站打不开、Google/GitHub/ChatGPT 无法访问怎么办？深度解析 DNS 污染、SNI 阻断、系统代理失效与目标机房风控四大阻碍，手把手提供 5 步排查定位法、命令行诊断工具与高可用分流配置方案。
+- [机场怎么选？2026新手选型避坑法则与四大硬性指标](https://jichangtuij.com/guides/how-to-choose/): 机场怎么选完全选型避坑指南：系统拆解物理专线架构（IEPL/IPLC）、国内多线 BGP 入口、协议抗封锁能力与流媒体/AI 解锁四大硬性指标，结合宽带运营商适配、10 大营销套路与实战避坑案例，手把手教你挑选最适合的高速稳定服务商。
+- [VPN 与机场有什么区别？2026底层技术、隐私安全与速度深度对比](https://jichangtuij.com/guides/vpn-vs-airport/): VPN 与机场有什么区别完全科普指南：从 OSI 网络模型、加密协议机制、DPI 抗封锁能力、物理专线传输、智能分流与隐私威胁模型等多维度，系统深度对比传统商业 VPN 与现代专线机场的本质区别与选型建议。
+- [IPLC 与 IEPL 专线有什么区别？深度解析跨境内网物理专线原理](https://jichangtuij.com/network/iplc-vs-iepl/): 深入对比 IPLC 与 IEPL 专线在 OSI 底层网络层级、传输延迟、抖动控制、抗封锁能力与成本结构上的本质差异。详解跨境物理内网光纤不过墙原理、真假专线 MTR 鉴别技术与高可用容灾拓扑。
+- [VLESS 协议与 Reality 握手原理：2026新一代代理协议深度解析](https://jichangtuij.com/network/vless/): 深入解析 VLESS 协议二进制报文结构、XTLS-rprx-vision 流控黑科技与 Reality 借鸡生蛋伪装技术。对比 VMess、Trojan、Shadowsocks 与 Hysteria2，剖析 2026 代理服务顶级抗封锁底层机制与高频排障决策树。
+- [节点超时与全部 TIMEOUT 怎么办？2026节点全红急救排查指南](https://jichangtuij.com/troubleshooting/node-timeout/): 机场节点全部超时、全红或 TIMEOUT 报错怎么解决？系统化拆解本地系统时间误差、TUN 网卡驱动死锁、DNS 污染、杀毒软件拦截与订阅过期的 5 大根本原因与 1 分钟急救方案。
+- [机场订阅更新失败怎么办？2026订阅链接无法更新与报错排障指南](https://jichangtuij.com/troubleshooting/subscription-failed/): 订阅链接下载失败、提示 Fetch Error、Invalid Config、401 Unauthorized 或更新超时怎么办？系统拆解订阅分发流程、DNS 污染阻断、User-Agent 过滤、订阅转换劫持风险与 10 大经典实战排障方案。
 - [2026 AI工具机场推荐：ChatGPT、Claude与Gemini原生解锁节点选择](https://jichangtuij.com/ai/airport/): 2026 AI工具机场推荐：深度评测适合频繁使用 ChatGPT Plus、Claude Pro 与 Gemini Advanced 的优质专线机场，精选速界、光速云与 SOGO 云等优化品牌。
 - [ChatGPT 机场节点推荐：OpenAI 与 Claude 专属原生 IP 选型与防封指南](https://jichangtuij.com/ai/chatgpt/): 精选针对 OpenAI、ChatGPT 4o、Claude 3.5 Sonnet 与 Midjourney 优化的原生 IP 机场节点，详解如何解决 Access Denied、1020 报错与防封号技巧。
 - [二猫云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/ermaoyun/): 二猫云详细评测档案：2026最新入门价格20元/月，130GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
@@ -58,27 +69,16 @@
 - [星岛梦怎么样？2026套餐价格、企业级内网专线实测与官网地址](https://jichangtuij.com/brands/xingdaomeng/): 星岛梦详细评测档案：2026最新入门价格约8元/月 (年付折算)，60GB/月，采用企业级内网专线与Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
 - [一翻云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/yifanyun/): 一翻云详细评测档案：2026最新入门价格20元/月，150GB/月，采用IEPL 专线与VLESS/Shadowsocks协议，附2026-08-11本站实测测速截图证据与优惠码。
 - [宇宙云怎么样？2026套餐价格、IEPL 专线实测与官网地址](https://jichangtuij.com/brands/yuzhouyun/): 宇宙云详细评测档案：2026最新入门价格14.9元/月，100GB/月，采用IEPL 专线与VLESS协议，附2026-08-11本站实测测速截图证据与优惠码。
-- [Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程](https://jichangtuij.com/clients/clash/): 2026 最新 Clash / Clash Verge Rev / Clash Meta 客户端下载与订阅导入完整图文教程，详解规则分流、TUN 虚拟网卡、开机自启与节点超时排障。
-- [Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南](https://jichangtuij.com/clients/shadowrocket/): 2026 最新 Shadowrocket（小火箭）iOS 客户端下载、美区 Apple ID 获取、机场订阅一键导入、规则分流与节点测速完整图文配置教程。
-- [v2rayN Windows 客户端配置教程：从下载到订阅导入完整指南](https://jichangtuij.com/clients/v2rayn/): 2026 最新 v2rayN 客户端下载、Xray 内核更新、机场订阅导入、路由规则分流与系统代理设置完整图文教程。
 - [二猫云 vs 全球云：20元档130GB与120GB专线深度对比](https://jichangtuij.com/compare/ermaoyun-vs-quanqiuyun/): 二猫云对比全球云：针对20元价格区间的两家热门专线机场，全面对比价格流量比、VLESS协议支持、IEPL专线表现与适合人群。
 - [飞猫云 vs 星岛梦：7元与8元低价年付轻度套餐对比](https://jichangtuij.com/compare/feimaoyun-vs-xingdaomeng/): 飞猫云对比星岛梦：深度评测两家低价年付机场在单价、月均流量（50GB vs 60GB）、专线类型与不限时套餐上的核心差异。
 - [速界 vs 快狸：25元150GB AI与流媒体场景综合对比](https://jichangtuij.com/compare/sujie-vs-kuaili/): 速界对比快狸：全面对比两家25元150GB专线机场在ChatGPT/Claude等AI工具优化、纯VLESS协议支持与流媒体播放上的差异。
 - [唯兔云 vs 宇宙云：14.9元档节点调度与专线性价比对比](https://jichangtuij.com/compare/weitu-vs-yuzhouyun/): 唯兔云对比宇宙云：两家14.9元平价机场的深度对比，解析60+多节点三网优化调度与纯VLESS+IEPL专线的取舍。
-- [新手小白科普：什么是机场、代理与节点？一文看懂核心概念](https://jichangtuij.com/guides/beginner/): 机场新手入门完全科普：用最通俗易懂的语言解释什么是机场、节点、代理协议（Shadowsocks/VLESS）、订阅链接与客户端分流原理，帮新手彻底消除认知盲区。
-- [国外网站打不开？2026海外网站无法访问排查5步法](https://jichangtuij.com/guides/foreign-websites-inaccessible/): 国外网站打不开、Google/GitHub无法访问怎么办？排查本地网络、DNS 污染、防火墙拦截与代理客户端配置，5 步快速恢复海外网络畅通。
-- [机场怎么选？2026新手选型避坑法则与四大硬性指标](https://jichangtuij.com/guides/how-to-choose/): 机场怎么选完全选型指南：从线路类型、入口冗余、计费周期到客户端兼容性，教你用 4 个步骤快速找到最适合自己网络环境与预算的稳定机场，远离跑路盘。
-- [VPN 与机场有什么区别？2026底层技术、隐私安全与速度深度对比](https://jichangtuij.com/guides/vpn-vs-airport/): VPN 与机场有什么区别完全科普：深度对比传统企业级 VPN（WireGuard/OpenVPN）与现代化专线机场（IEPL/Shadowsocks/VLESS）在底层协议、分流机制、速度延迟与抗封锁能力上的本质区别。
-- [IPLC 与 IEPL 专线有什么区别？深度解析跨境内网物理专线原理](https://jichangtuij.com/network/iplc-vs-iepl/): 深入对比 IPLC 与 IEPL 专线在底层网络层级、传输延迟、抖动控制、抗封锁能力与成本结构上的本质差异，教你如何通过技术手段辨别真假专线。
-- [VLESS 协议与 Reality 握手原理：2026新一代代理协议深度解析](https://jichangtuij.com/network/vless/): 深入解析 VLESS 协议与 Reality 伪装技术的底层网络原理，对比 VMess、Trojan 与 Shadowsocks，剖析为什么 VLESS 是 2026 代理服务抗封锁与低延迟的标配。
 - [2026新手机场推荐：小白零门槛一键上手与避坑指南](https://jichangtuij.com/recommend/beginner/): 新手机场推荐与入门指南：专为完全不懂网络术语的小白用户设计，精选提供一键自研客户端、完善在线客服与全平台配置指引的机场品牌，附购买前检查清单。
 - [2026便宜机场推荐：10元平价月付与低预算避坑完全指南](https://jichangtuij.com/recommend/cheap/): 便宜机场推荐：系统梳理10元档平价机场与高性价比月付方案。评测飞猫云、微图、快狸、一翻云等平价代表服务商，揭秘低价背后的成本结构与避坑法则。
 - [2026稳定机场推荐：高可用IEPL专线与晚高峰不卡顿选型指南](https://jichangtuij.com/recommend/stable/): 稳定机场推荐：深度解析为什么IEPL/IPLC内网专线是晚高峰稳定性的唯一物理基石。精选光速云、宇宙云、二猫云、SOGO云等标配专线服务商，附稳定性实测指标与避坑指南。
 - [2026高性价比机场推荐：15~20元黄金档平衡之选](https://jichangtuij.com/recommend/value/): 高性价比机场推荐：解析15至20元黄金价格区间的最佳平衡点。精选宇宙云、二猫云、光速云、一翻云等在专线性能、流量配额与价格之间取得极致平衡的代表品牌。
 - [2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南](https://jichangtuij.com/streaming/airport/): 2026流媒体机场推荐：评测适合观看 Netflix 4K HDR、YouTube 60fps 与 Disney+ 的高速专线机场，精选一翻云、灵猫网络、二猫云与快狸等大流量服务商。
 - [Netflix 4K 流媒体解锁机场选型指南：奈飞多区版权与秒开实测](https://jichangtuij.com/streaming/netflix/): 2026 Netflix 4K 流媒体解锁机场推荐与技术解析：揭秘非自制剧解锁原理、DNS 解锁与原生 IP 解锁区别，提供香港/美区/日区/新加坡 4K 追剧选型方案。
-- [节点超时与全部 TIMEOUT 怎么办？2026节点全红急救排查指南](https://jichangtuij.com/troubleshooting/node-timeout/): 机场节点全部超时、全红或 TIMEOUT 报错怎么解决？系统化拆解本地系统时间误差、TUN 网卡冲突、DNS 污染、防火墙拦截与订阅过期的 5 大根本原因与 1 分钟急救方案。
-- [机场订阅更新失败怎么办？2026订阅链接无法更新与报错排障指南](https://jichangtuij.com/troubleshooting/subscription-failed/): 订阅链接下载失败、提示 Fetch Error、Invalid Config 或更新超时怎么办？系统讲解订阅转换接口异常、URL 编码错误、本地防火墙拦截与安全节点更新的排查方案。
 
 ## 术语实体表
 

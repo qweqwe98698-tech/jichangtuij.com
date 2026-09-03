@@ -33,8 +33,17 @@ verified: 2026-08-16
 
 ## 核心差异与选型建议
 
-1. **绝对价格门槛**：飞猫云年付折算约 7 元/月，是专线机场中年付门槛最低的代表之一。
-2. **不限时备用灵活性**：星岛梦除常规年付外，还提供不限时套餐，非常适合作为防失联的永久备用卡。
+1. **绝对价格门槛**：飞猫云年付折算约 7 元/月，是专线机场中年付门槛较低的代表之一。
+2. **不限时备用灵活性**：星岛梦除常规年付外，还提供不限时套餐，适合作为防失联的备用方案。
 3. **选型结论**：
-   - 纯粹看重**极低年付预算**：选择 [飞猫云](/brands/feimaoyun/)。
+   - 看重**极低年付预算**：选择 [飞猫云](/brands/feimaoyun/)。
    - 需要**不限时流量包当备用**：选择 [星岛梦](/brands/xingdaomeng/)。
+
+<div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+  <SponsoredLink href="https://guangs.flycataff.com/#/?code=6uq0Xe9y" class="jc-btn jc-btn--primary">
+    前往 飞猫云 官网 (券码 flycat888) →
+  </SponsoredLink>
+  <SponsoredLink href="https://guangs.xingdaomeng.com/#/?code=1TynBYnR" class="jc-btn jc-btn--ghost">
+    前往 星岛梦 官网 (券码 nmw888) →
+  </SponsoredLink>
+</div>

@@ -35,3 +35,12 @@ verified: 2026-08-16
 
 - 重点用于 **ChatGPT、Claude 编程与学术科研**：推荐选择 [速界](/brands/sujie/)。
 - 偏好 **纯 VLESS 协议与大屏流媒体播放**：推荐选择 [快狸](/brands/kuaili/)。
+
+<div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+  <SponsoredLink href="https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB" class="jc-btn jc-btn--primary">
+    前往 速界 官网 (券码 sss1111) →
+  </SponsoredLink>
+  <SponsoredLink href="https://guangs.kuailicloud.cc/#/register?code=AiqyM8oG" class="jc-btn jc-btn--ghost">
+    前往 快狸 官网 (券码 kkk2222) →
+  </SponsoredLink>
+</div>

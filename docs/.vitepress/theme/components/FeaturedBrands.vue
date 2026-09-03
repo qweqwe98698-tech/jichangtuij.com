@@ -5,7 +5,7 @@ import SponsoredLink from './SponsoredLink.vue'
 import { providersData } from '../data/providersData'
 
 // 首页精选 6 家具有典型代表性的品牌
-const FEATURED_SLUGS = ['guangsuyun', 'yuzhouyun', 'feimaoyun', 'lingmao', 'ermaoyun', 'sogoyun']
+const FEATURED_SLUGS = ['guangsuyun', 'feimaoyun', 'xingdaomeng', 'lingmao', 'ermaoyun', 'sogoyun']
 
 const featuredList = computed(() => {
   return FEATURED_SLUGS.map((slug) => providersData.find((p) => p.slug === slug || p.id === slug)).filter(Boolean)

@@ -35,3 +35,12 @@ verified: 2026-08-16
 
 - 如果看重 **节点地区广泛覆盖与负载均衡自动切换**：选择 [唯兔云](/brands/weitu/)。
 - 如果追求 **纯粹的 IEPL 内网专线与 VLESS 低延迟**：选择 [宇宙云](/brands/yuzhouyun/)。
+
+<div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+  <SponsoredLink href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA" class="jc-btn jc-btn--primary">
+    前往 唯兔云 官网 (券码 rabbit) →
+  </SponsoredLink>
+  <SponsoredLink href="https://guangs.yuzoucloud.cc/#/register?code=yrThwMP1" class="jc-btn jc-btn--ghost">
+    前往 宇宙云 官网 (券码 YUZHOU553) →
+  </SponsoredLink>
+</div>

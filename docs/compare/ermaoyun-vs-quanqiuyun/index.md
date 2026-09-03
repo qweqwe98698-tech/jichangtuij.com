@@ -39,3 +39,12 @@ verified: 2026-08-16
 3. **选型结论**：
    - 如果追求**更高流量与成熟运营**：推荐选择 [二猫云](/brands/ermaoyun/)。
    - 如果偏好**新开业高带宽冗余**：推荐选择 [全球云](/brands/quanqiuyun/)。
+
+<div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+  <SponsoredLink href="https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW" class="jc-btn jc-btn--primary">
+    前往 二猫云 官网 (券码 ermao5555) →
+  </SponsoredLink>
+  <SponsoredLink href="https://guangs.gcvipaff.com/#/?code=Ov2nvU9C" class="jc-btn jc-btn--ghost">
+    前往 全球云 官网 (券码 qqy7777) →
+  </SponsoredLink>
+</div>

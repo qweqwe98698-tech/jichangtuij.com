@@ -34,13 +34,15 @@ faq:
 
 ## 2026 黄金性价比代表品牌横向对比
 
-| 品牌名称 | 月付价格 | 包含流量 | 专线架构 | 核心优势 | 深度档案 |
-|---|---|---|---|---|---|
-| **宇宙云** | ¥14.90 / 月 | 100GB | IEPL 专线 | 14.9元专线破局者，晚高峰延迟低至 35ms | [查看宇宙云档案](/brands/yuzhouyun/) |
-| **光速云** | ¥17.00 / 月 | 110GB | IEPL 专线 | 2020年稳定老牌，技术支持与冗余度极高 | [查看光速云档案](/brands/guangsuyun/) |
-| **二猫云** | ¥20.00 / 月 | 130GB | IEPL 专线 | 原生 IP 出口多，ChatGPT 与 Netflix 兼容极佳 | [查看二猫云档案](/brands/ermaoyun/) |
-| **一翻云** | ¥20.00 / 月 | 150GB | IEPL 专线 | 150G 大流量专线，性价比十分突出 | [查看一翻云档案](/brands/yifanyun/) |
-| **速捷** | ¥18.00 / 月 | 120GB | IEPL 专线 | 出口协议多，外贸业务流控稳定 | [查看速捷档案](/brands/sujie/) |
+| 品牌名称 | 月付价格 | 包含流量 | 专线架构 | 核心优势 | 品牌深度档案 | 官网注册 |
+|---|---|---|---|---|---|---|
+| **宇宙云** | 14.9元/月 | 100GB | IEPL 专线 | 15元档专线标杆，晚高峰延迟低 | [查看宇宙云档案](/brands/yuzhouyun/) | <SponsoredLink href="https://guangs.yuzoucloud.cc/#/register?code=yrThwMP1">官网注册</SponsoredLink> |
+| **光速云** | 17元/月 | 110GB | IEPL 专线 | 2020年老牌，全IEPL多入口冗余 | [查看光速云档案](/brands/guangsuyun/) | <SponsoredLink href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y">官网注册</SponsoredLink> |
+| **唯兔云** | 14.9元/月 | 100GB | 三网优化 | 节点调度灵活，三网延迟均衡 | [查看唯兔云档案](/brands/weitu/) | <SponsoredLink href="https://guangs.v2yunvipaff.com/#/?code=xIutqOBA">官网注册</SponsoredLink> |
+| **二猫云** | 20元/月 | 130GB | IEPL 专线 | 出口纯净度高，流媒体与AI表现平稳 | [查看二猫云档案](/brands/ermaoyun/) | <SponsoredLink href="https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW">官网注册</SponsoredLink> |
+| **极连云** | 18元/月 | 100GB | IEPL 专线 | 18元档平价专线，适合日常综合使用 | [查看极连云档案](/brands/jilianyun/) | <SponsoredLink href="https://guangs.jlyvipaff.com/#/?code=VM1rKGUu">官网注册</SponsoredLink> |
+| **一翻云** | 20元/月 | 150GB | IEPL 专线 | 150GB大流量专线，性价比突出 | [查看一翻云档案](/brands/yifanyun/) | <SponsoredLink href="https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r">官网注册</SponsoredLink> |
+| **U1S1** | 20元/月 | 120GB | IEPL 专线 | 20元档专线月付，配置简单 | [查看 U1S1 档案](/brands/u1s1/) | <SponsoredLink href="https://guangs.vipaff.cc/#/?code=xhX5X22f">官网注册</SponsoredLink> |
 
 ---
 

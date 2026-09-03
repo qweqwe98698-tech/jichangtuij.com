@@ -38,14 +38,14 @@ faq:
 
 ## 2026 代表性支持 AI 场景的专线品牌一览
 
-以下服务商在出口节点中针对 AI 进行了专门的路由策略与原生 IP 部署：
+以下服务商在出口节点中针对 AI 进行了路由策略与原生 IP 部署：
 
-| 品牌名称 | 入门月付价格 | 专线架构 | AI/大模型支持特性 | 品牌档案 |
-|---|---|---|---|---|
-| **速捷** | ¥18.00 / 月 | IEPL 专线 | 标配 AI 专用美国/新加坡流控出口，会话保持极佳 | [查看速捷档案](/brands/sujie/) |
-| **SOGO 云** | ¥25.00 / 月 | IEPL 专线 | 原生纯净 IP 池，支持 Claude 3.5 与 ChatGPT Team | [查看 SOGO 云档案](/brands/sogoyun/) |
-| **光速云** | ¥17.00 / 月 | IEPL 专线 | 智能分流规则自动绕过香港，直连美日原生节点 | [查看光速云档案](/brands/guangsuyun/) |
-| **二猫云** | ¥20.00 / 月 | IEPL 专线 | 高纯净出口，适合写代码与 Copilot 高频调用 | [查看二猫云档案](/brands/ermaoyun/) |
+| 品牌名称 | 入门月付价格 | 专线架构 | AI/大模型支持特性 | 品牌档案 | 官网注册 |
+|---|---|---|---|---|---|
+| **光速云** | 17元/月 (110GB) | IEPL 专线 | 2020老牌，美日新加坡多出口冗余，会话保持平稳 | [查看光速云档案](/brands/guangsuyun/) | <SponsoredLink href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y">官网注册</SponsoredLink> |
+| **速界** | 25元/月 (150GB) | IEPL 专线 | 针对 AI 会话流控优化，支持主流代码助手 | [查看速界档案](/brands/sujie/) | <SponsoredLink href="https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB">官网注册</SponsoredLink> |
+| **SOGO 云** | 25元/月 (150GB) | IEPL 专线 | 2026新专线大容量，支持 Claude 3.5 与 ChatGPT Team | [查看 SOGO 云档案](/brands/sogoyun/) | <SponsoredLink href="https://guangs.sogoyunaff.cc/#/?code=327Vs0w7">官网注册</SponsoredLink> |
+| **二猫云** | 20元/月 (130GB) | IEPL 专线 | 出口纯净度高，适合日常科研与 Copilot 高频调用 | [查看二猫云档案](/brands/ermaoyun/) | <SponsoredLink href="https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW">官网注册</SponsoredLink> |
 
 ---
 

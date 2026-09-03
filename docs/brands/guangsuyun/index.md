@@ -16,7 +16,7 @@ verified: 2026-08-16
 <div class="jc-spotlight-banner" style="background: linear-gradient(135deg, rgba(36, 107, 253, 0.08) 0%, rgba(0, 242, 254, 0.1) 100%); border: 1.5px solid var(--jc-primary); border-radius: 8px; padding: 16px 20px; margin: 20px 0 24px 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
   <div>
     <span style="font-size: 11px; font-weight: 800; color: #fff; background: var(--jc-primary); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 4px;">👑 本站 2026 年度重点主推服务商</span>
-    <p style="margin: 0; font-size: 14px; font-weight: 700; color: var(--jc-text-strong);">光速云：2020老牌运营 · 全IEPL内网专线 · 晚高峰0丢包 · 17元/月标杆首选</p>
+    <p style="margin: 0; font-size: 14px; font-weight: 700; color: var(--jc-text-strong);">光速云：2020老牌运营 · 全IEPL内网专线 · 晚高峰低延迟 · 17元/月标杆首选</p>
   </div>
   <SponsoredLink href="https://sahude.gsyvipaff.com/#/?code=keqgvT5Y" class="jc-btn jc-btn--primary jc-btn--sm">
     官网直达 (券码 AMM) →
