@@ -1,0 +1,308 @@
+[
+  {
+    "id": "matrix-001",
+    "status": "pending",
+    "pillar": "network",
+    "slug": "iepl-iplc-backbone-latency-jitter-optimization",
+    "targetKeyword": "IEPL专线延迟优化",
+    "secondaryKeywords": ["IEPL与IPLC对比", "跨境专线抖动控制", "BGP中转入口调度", "晚高峰丢包率分析"],
+    "tags": ["专线", "晚高峰", "线路类型"],
+    "coreProblem": "全面拆解物理专线（IEPL/IPLC）在跨境数据传输中的底层链路架构、晚高峰抖动控制与 BGP 入口智能调度优化方案。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-002",
+    "status": "pending",
+    "pillar": "ai",
+    "slug": "llm-streaming-api-connection-resilience-guide",
+    "targetKeyword": "ChatGPT长连接防断开",
+    "secondaryKeywords": [
+      "大模型API流式传输优化",
+      "Claude长会话超时解决",
+      "OpenAI出口IP信誉评级",
+      "AI代理网络设置"
+    ],
+    "tags": [
+      "AI",
+      "网络场景",
+      "协议"
+    ],
+    "coreProblem": "针对 ChatGPT、Claude 等大模型流式 API 调用过程中的长会话中断、403 风控拦截与网络抖动，提供端到端链路保持与网络调优方案。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-003",
+    "status": "pending",
+    "pillar": "network",
+    "slug": "tcp-congestion-control-bbr-cross-border-tuning",
+    "targetKeyword": "BBR拥塞控制算法调优",
+    "secondaryKeywords": [
+      "BBRv3与BBRv1对比",
+      "高延迟丢包网络调优",
+      "Cubic拥塞控制",
+      "Linux内核网络参数"
+    ],
+    "tags": [
+      "协议",
+      "线路类型",
+      "晚高峰"
+    ],
+    "coreProblem": "系统性评测 BBRv1、BBRv3 与 Cubic 在 150ms~300ms 跨洋高延迟弱网环境下的吞吐表现，提供真实的 Linux 内核参数调优指南。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-004",
+    "status": "pending",
+    "pillar": "guides",
+    "slug": "clash-mihomo-vs-sing-box-core-performance-benchmark",
+    "targetKeyword": "Mihomo与Singbox对比评测",
+    "secondaryKeywords": [
+      "Clash内核性能评测",
+      "Sing-box内存占用测试",
+      "TUN虚拟网卡性能",
+      "分流规则效率基准"
+    ],
+    "tags": [
+      "客户端",
+      "协议",
+      "教程"
+    ],
+    "coreProblem": "对当前两大主流内核 Mihomo 与 Sing-box 开展多设备硬件上的并发吞吐、内存占用、CPU 能耗与 TUN 虚拟网卡转发基准实测对比。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-005",
+    "status": "pending",
+    "pillar": "streaming",
+    "slug": "residential-vs-datacenter-ip-fraud-score-streaming-unlock",
+    "targetKeyword": "住宅IP与机房IP区别",
+    "secondaryKeywords": [
+      "IP欺诈分查询",
+      "Netflix风控判定原理",
+      "原生IP与广播IP",
+      "流媒体分流解锁技巧"
+    ],
+    "tags": [
+      "出口 IP",
+      "流媒体",
+      "网络场景"
+    ],
+    "coreProblem": "深入剖析 IP 纯净度体系、Fraud Score 欺诈分判定逻辑，以及商业数据中心广播 IP 与原生住宅 IP 在流媒体和风控平台中的识别差异。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-006",
+    "status": "pending",
+    "pillar": "network",
+    "slug": "vless-reality-encryption-overhead-transport-efficiency",
+    "targetKeyword": "VLESS Reality协议原理与能耗",
+    "secondaryKeywords": [
+      "Shadowsocks与VLESS对比",
+      "XTLS Reality握手分析",
+      "代理协议解包开销",
+      "移动设备省电配置"
+    ],
+    "tags": [
+      "协议",
+      "专线",
+      "基础概念"
+    ],
+    "coreProblem": "从协议数据包封装层级、TLS 握手往返时延（RTT）及 CPU 加解密运算开销维度，深度解析现代轻量协议的性能优势与实践配置。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-007",
+    "status": "pending",
+    "pillar": "guides",
+    "slug": "openwrt-transparent-proxy-gateway-architecture",
+    "targetKeyword": "软路由透明代理架构",
+    "secondaryKeywords": [
+      "OpenWrt旁路由设置",
+      "TProxy与TUN模式对比",
+      "局域网防DNS泄漏",
+      "家庭全设备分流"
+    ],
+    "tags": [
+      "客户端",
+      "教程",
+      "网络场景"
+    ],
+    "coreProblem": "详述基于 OpenWrt / iStoreOS 打造低延迟、防 DNS 污染、支持全家多设备智能分流的透明网关架构设计与落地踩坑记录。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-008",
+    "status": "pending",
+    "pillar": "ai",
+    "slug": "enterprise-ai-developer-cross-border-network-blueprint",
+    "targetKeyword": "企业出海AI研发网络方案",
+    "secondaryKeywords": [
+      "Docker容器代理配置",
+      "Git代码拉取加速",
+      "HuggingFace模型下载优化",
+      "企业研发合规网络"
+    ],
+    "tags": [
+      "AI",
+      "网络场景",
+      "专线"
+    ],
+    "coreProblem": "针对 AI 研发团队日常高频遭遇的 Docker 镜像拉取超时、HuggingFace 巨型模型下载断流与 API 并发限制，提供高可用网络蓝图。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-009",
+    "status": "pending",
+    "pillar": "troubleshooting",
+    "slug": "packet-analysis-dns-pollution-sni-blocking-deep-dive",
+    "targetKeyword": "DNS污染与SNI阻断抓包分析",
+    "secondaryKeywords": [
+      "Wireshark网络抓包教程",
+      "TCP RST复位报文定位",
+      "DoH与DoT加密DNS",
+      "跨境连接超时溯源"
+    ],
+    "tags": [
+      "DNS",
+      "故障排查",
+      "基础概念"
+    ],
+    "coreProblem": "利用 Wireshark 与 tcpdump 工具对跨境通信中常见的 DNS 污染、SNI 握手重置与 TCP RST 报文进行实战抓包分析与根因定位排障。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-010",
+    "status": "pending",
+    "pillar": "streaming",
+    "slug": "ultra-hd-8k-video-streaming-cdn-throughput-architecture",
+    "targetKeyword": "8K高清流媒体网络要求",
+    "secondaryKeywords": [
+      "YouTube 4K缓冲速度优化",
+      "视频播放缓冲区机制",
+      "CDN边缘节点命中率",
+      "大带宽机场选型"
+    ],
+    "tags": [
+      "流媒体",
+      "晚高峰",
+      "专线"
+    ],
+    "coreProblem": "剖析高码率 4K/8K 视频流媒体的分片加载机制、TCP 初始窗口尺寸（initcwnd）及播放器缓冲区对跨境网络带宽的严苛要求与优化方案。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-011",
+    "status": "pending",
+    "pillar": "network",
+    "slug": "quic-http3-transport-layer-loss-recovery-cross-border",
+    "targetKeyword": "QUIC协议跨境网络表现",
+    "secondaryKeywords": [
+      "HTTP3丢包恢复机制",
+      "UDP QoS限速应对",
+      "0-RTT握手实测",
+      "跨境弱网协议选择"
+    ],
+    "tags": [
+      "协议",
+      "线路类型",
+      "晚高峰"
+    ],
+    "coreProblem": "深度剖析 QUIC 协议的多路复用、连接迁移与前向纠错机制，实测国内运营商对 UDP 协议的 QoS 限速特性与优化策略。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-012",
+    "status": "pending",
+    "pillar": "guides",
+    "slug": "high-availability-proxy-failover-health-check-design",
+    "targetKeyword": "代理节点高可用自动容灾",
+    "secondaryKeywords": [
+      "健康检查探测算法",
+      "秒级故障自动漂移",
+      "客户端Fallback策略",
+      "节点池负载均衡"
+    ],
+    "tags": [
+      "节点",
+      "客户端",
+      "教程"
+    ],
+    "coreProblem": "设计科学的节点健康检查探测算法（Passive vs Active Check），在客户端配置毫秒级无感漂移策略组，杜绝单点服务器故障断网。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-013",
+    "status": "pending",
+    "pillar": "troubleshooting",
+    "slug": "virtual-network-adapter-tun-driver-deadlock-conflict-resolution",
+    "targetKeyword": "TUN虚拟网卡驱动冲突解决",
+    "secondaryKeywords": [
+      "WFP网络过滤平台排错",
+      "系统代理注册表残留",
+      "TUN死锁无法联网",
+      "TAP网卡冲突急救"
+    ],
+    "tags": [
+      "客户端",
+      "故障排查",
+      "新手入门"
+    ],
+    "coreProblem": "深入剖析 Windows 过滤平台（WFP）与 TUN 虚拟网卡驱动的底层交互机制，提供驱动死锁、路由黑洞与残留代理的系统级急救清单。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-014",
+    "status": "pending",
+    "pillar": "ai",
+    "slug": "openai-anthropic-waf-browser-fingerprint-mitigation",
+    "targetKeyword": "OpenAI防风控防封号指南",
+    "secondaryKeywords": [
+      "Cloudflare挑战绕过原理解析",
+      "TLS指纹JA3与JA4",
+      "浏览器Canvas指纹防关联",
+      "AI工具稳定连接"
+    ],
+    "tags": [
+      "AI",
+      "出口 IP",
+      "协议"
+    ],
+    "coreProblem": "解析主流 AI 平台背后 Cloudflare 与 DataDome 的 WAF 行为指纹模型（JA3/JA4 TLS 指纹、HTTP/2 参数、IP 纯净度），提供规避误伤的技术规范。",
+    "publishedAt": null,
+    "publishedUrl": null
+  },
+  {
+    "id": "matrix-015",
+    "status": "pending",
+    "pillar": "network",
+    "slug": "multi-ingress-bgp-anycast-routing-redundancy-architecture",
+    "targetKeyword": "多入口BGP智能容灾调度",
+    "secondaryKeywords": [
+      "Anycast任播网络架构",
+      "三网优化入口解析",
+      "边界网关协议BGP选路",
+      "物理光纤跨洋专线"
+    ],
+    "tags": [
+      "专线",
+      "线路类型",
+      "网络场景"
+    ],
+    "coreProblem": "全面揭秘顶级网络服务商如何利用 BGP 多线接入与 Anycast 智能路由技术，抵御区域性本地宽带劣化与骨干网突发抖动。",
+    "publishedAt": null,
+    "publishedUrl": null
+  }
+]
