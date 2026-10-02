@@ -1,25 +1,54 @@
 ---
-title: "Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程"
-description: "2026 最新 Clash / Clash Verge Rev / Clash Meta 全平台配置与订阅导入完全指南。深度解析规则分流原理、Fake-IP 与 TUN 虚拟网卡底层机制，提供 Windows、macOS 与 Android 端手把手图文实战、YAML 规则定制与高频排障决策树。"
-keywords: ["Clash教程", "Clash Verge配置", "Clash下载", "Clash订阅导入", "Clash怎么用", "Clash分流规则", "Clash TUN模式", "Mihomo Party教程", "Clash Meta配置"]
+title: Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程
+description: >-
+  2026 最新 Clash / Clash Verge Rev / Clash Meta 全平台配置与订阅导入完全指南。深度解析规则分流原理、Fake-IP
+  与 TUN 虚拟网卡底层机制，提供 Windows、macOS 与 Android 端手把手图文实战、YAML 规则定制与高频排障决策树。
+keywords:
+  - Clash教程
+  - Clash Verge配置
+  - Clash下载
+  - Clash订阅导入
+  - Clash怎么用
+  - Clash分流规则
+  - Clash TUN模式
+  - Mihomo Party教程
+  - Clash Meta配置
 layout: doc
 pageType: article
 status: published
 author: 机场推荐评测实验室
-created: 2026-08-16
-updated: 2026-09-03
-verified: 2026-09-03
+created: 2026-08-16T00:00:00.000Z
+updated: 2026-09-03T00:00:00.000Z
+verified: 2026-09-03T00:00:00.000Z
 faq:
-  - q: "原版 Clash Premium 停更后，2026 年桌面端首选哪个客户端？"
-    a: "推荐使用开源活跃的 Clash Verge Rev 或 Mihomo Party。它们基于开源 Mihomo（原 Clash Meta）内核构建，全面支持 VLESS、Reality、Hysteria2 与 TUIC 现代协议，支持 TUN 虚拟网卡与一键导入机场订阅。"
-  - q: "Clash 的「规则模式 (Rule)」与「全局模式 (Global)」有什么区别？"
-    a: "规则模式会根据访问的目标域名与 IP 执行智能分流：访问国内服务走本地直连，不消耗机场流量且速度最快；访问 Google、GitHub、YouTube、ChatGPT 时自动走境外节点。全局模式则将所有流量无论境内外强制走代理，容易导致国内应用定位异常并消耗套餐流量。"
-  - q: "什么是 TUN 模式？为什么有些软件开启系统代理后依然无法联网？"
-    a: "系统代理仅对遵循系统 HTTP/HTTPS 代理环境的软件（如 Edge、Chrome 浏览器）生效；而命令行终端（Git、PowerShell、SSH）、游戏客户端（Steam、Epic）及 UWP 应用不主动读取系统代理设置。开启 TUN 模式后，系统会创建一张虚拟网卡接管操作系统全部网络层的流量，实现真正的底层全局代理。"
-  - q: "Clash 导入机场订阅提示 invalid YAML 或网络超时怎么处理？"
-    a: "常见原因有三：一是复制订阅链接时前后夹带了空格或特殊字符；二是机场订阅下发接口被本地网络阻断，可尝试在浏览器中直接打开订阅链接下载本地 yaml 文件再导入；三是订阅中包含了旧版内核不支持的新协议字段，升级客户端至最新 Clash Verge Rev 即可解决。"
-  - q: "为什么同一个节点在 Clash 中测试延迟显示为 50ms，打开网页却依然缓慢？"
-    a: "Clash 节点列表中的延迟测试通常是向特定测试目标（如 google.com 204 探测点）发送 TCP 握手或 HTTP GET 探测的时间，仅反映第一跳握手延迟，不代表实际下载带宽与落地机房的实时拥堵程度。若网页加载缓慢，通常是因为该落地节点当前带宽已被其他并发用户占满，建议切换其他备用节点。"
+  - q: 原版 Clash Premium 停更后，2026 年桌面端首选哪个客户端？
+    a: >-
+      推荐使用开源活跃的 Clash Verge Rev 或 Mihomo Party。它们基于开源 Mihomo（原 Clash
+      Meta）内核构建，全面支持 VLESS、Reality、Hysteria2 与 TUIC 现代协议，支持 TUN 虚拟网卡与一键导入机场订阅。
+  - q: Clash 的「规则模式 (Rule)」与「全局模式 (Global)」有什么区别？
+    a: >-
+      规则模式会根据访问的目标域名与 IP 执行智能分流：访问国内服务走本地直连，不消耗机场流量且速度最快；访问
+      Google、GitHub、YouTube、ChatGPT
+      时自动走境外节点。全局模式则将所有流量无论境内外强制走代理，容易导致国内应用定位异常并消耗套餐流量。
+  - q: 什么是 TUN 模式？为什么有些软件开启系统代理后依然无法联网？
+    a: >-
+      系统代理仅对遵循系统 HTTP/HTTPS 代理环境的软件（如 Edge、Chrome
+      浏览器）生效；而命令行终端（Git、PowerShell、SSH）、游戏客户端（Steam、Epic）及 UWP 应用不主动读取系统代理设置。开启
+      TUN 模式后，系统会创建一张虚拟网卡接管操作系统全部网络层的流量，实现真正的底层全局代理。
+  - q: Clash 导入机场订阅提示 invalid YAML 或网络超时怎么处理？
+    a: >-
+      常见原因有三：一是复制订阅链接时前后夹带了空格或特殊字符；二是机场订阅下发接口被本地网络阻断，可尝试在浏览器中直接打开订阅链接下载本地 yaml
+      文件再导入；三是订阅中包含了旧版内核不支持的新协议字段，升级客户端至最新 Clash Verge Rev 即可解决。
+  - q: 为什么同一个节点在 Clash 中测试延迟显示为 50ms，打开网页却依然缓慢？
+    a: >-
+      Clash 节点列表中的延迟测试通常是向特定测试目标（如 google.com 204 探测点）发送 TCP 握手或 HTTP GET
+      探测的时间，仅反映第一跳握手延迟，不代表实际下载带宽与落地机房的实时拥堵程度。若网页加载缓慢，通常是因为该落地节点当前带宽已被其他并发用户占满，建议切换其他备用节点。
+tags:
+  - 客户端
+  - 教程
+  - 订阅
+  - 基础概念
+  - DNS
 ---
 
 # Clash 全平台配置完全指南：Windows、Mac 与 Android 订阅导入教程

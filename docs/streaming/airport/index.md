@@ -1,14 +1,25 @@
 ---
-title: "2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南"
-description: "2026流媒体机场推荐：评测适合观看 Netflix 4K HDR、YouTube 60fps 与 Disney+ 的高速专线机场，精选一翻云、灵猫网络、二猫云与快狸等大流量服务商。"
-keywords: ["流媒体机场推荐", "Netflix机场推荐", "4K机场推荐", "YouTube机场", "大流量流媒体机场"]
+title: 2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南
+description: >-
+  2026流媒体机场推荐：评测适合观看 Netflix 4K HDR、YouTube 60fps 与 Disney+
+  的高速专线机场，精选一翻云、灵猫网络、二猫云与快狸等大流量服务商。
+keywords:
+  - 流媒体机场推荐
+  - Netflix机场推荐
+  - 4K机场推荐
+  - YouTube机场
+  - 大流量流媒体机场
 layout: doc
 pageType: article
 status: published
 author: 机场推荐评测实验室
-created: 2026-08-16
-updated: 2026-08-16
-verified: 2026-08-16
+created: 2026-08-16T00:00:00.000Z
+updated: 2026-08-16T00:00:00.000Z
+verified: 2026-08-16T00:00:00.000Z
+tags:
+  - 流媒体
+  - 出口 IP
+  - 网络场景
 ---
 
 # 2026流媒体机场推荐：Netflix、YouTube 4K与Disney+原生解锁指南

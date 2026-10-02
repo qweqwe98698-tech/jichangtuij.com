@@ -4,7 +4,7 @@ title: "流媒体相关内容"
 description: "带「流媒体」标签的已发布内容：Netflix、YouTube 4K、Disney+、Hulu、HBO 等平台的解锁原理、画质保障与电视端观影配置。"
 tag: "流媒体"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -12,11 +12,11 @@ keywords: ["流媒体解锁与机场线路","流媒体相关文章","机场标�
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「流媒体」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「流媒体」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "为什么 Netflix 只能看自制剧（Netflix Originals），看不了第三方版权剧？"
@@ -35,10 +35,6 @@ faq:
 这个标签聚合了流媒体场景下的全套知识体系：**主流平台解锁机制**（Netflix 各种错误码解读、Disney+ 区域限制）、**晚高峰画质保障**（单线程下载速度与码率换算）、**大屏电视端（Apple TV / Android TV / Fire TV）代理配置**。
 
 阅读这些文章可以帮助你搭建流畅的家庭观影环境：从选择具备流媒体解锁承诺的节点，到在客户端中设置正确的自动分流策略。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

@@ -16,6 +16,7 @@
     "check:links": "node scripts/check-links.mjs",
     "check:seo": "node scripts/check-seo.mjs",
     "check:all": "npm run check:links && npm run check:seo && npm run verify",
+    "ping:indexnow": "node scripts/ping-indexnow.mjs",
     "build": "npm run build:data && npm run build:vitepress && npm run build:search && npm run check:all",
     "preview": "vitepress preview docs"
   },

@@ -4,7 +4,7 @@ title: "教程主题相关内容"
 description: "带「教程」标签的全部已发布内容：Clash Verge、Shadowrocket、v2rayN、sing-box 等主流客户端在多平台上的完整配置与排错指南。"
 tag: "教程"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -12,11 +12,11 @@ keywords: ["机场使用教程主题","教程相关文章","机场标签"]
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「教程」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「教程」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "新手第一次配置客户端，推荐从哪个软件开始？"
@@ -35,10 +35,6 @@ faq:
 这个标签聚合的内容涵盖**多端客户端图文教程**（Windows 端的 Clash Verge Rev / v2rayN、iOS 端的 Shadowrocket、macOS 与 Android 端的通用配置）、**核心功能操作说明**（订阅链接导入、分流规则更新、全局/规则模式切换、TUN 模式开启），以及**配置完成后验证步骤**。
 
 无论你使用的是哪个软件，操作逻辑都是通用的：获取订阅 → 导入客户端 → 选择规则模式 → 启动系统代理。建议先找到自己设备对应的教程完成首配，再阅读原理文章了解分流与 DNS 机制。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

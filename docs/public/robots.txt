@@ -1,6 +1,12 @@
 # 机场推荐 JichangTuij — https://jichangtuij.com
 # 本站为独立信息与知识平台，欢迎正常抓取与引用，请保留页面标注的更新时间。
 
+User-agent: bingbot
+Allow: /
+Disallow: /search/
+Disallow: /pagefind/
+Crawl-delay: 1
+
 User-agent: *
 Allow: /
 
@@ -13,4 +19,5 @@ Disallow: /pagefind/
 # 注意：不要屏蔽 /assets/。样式表与脚本存放于该目录，
 # 搜索引擎需要抓取它们才能正确渲染与评估页面（含移动端适配判断）。
 
+Sitemap: https://jichangtuij.com/sitemap-index.xml
 Sitemap: https://jichangtuij.com/sitemap.xml

@@ -4,7 +4,7 @@ title: "对比主题相关内容"
 description: "带「对比」标签的全部已发布内容：专线与直连、IEPL 与 IPLC、Shadowsocks 与 Trojan、月付与年付等核心概念的横向对比与决策表。"
 tag: "对比"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -12,11 +12,11 @@ keywords: ["机场对比与选择主题","对比相关文章","机场标签"]
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「对比」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「对比」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "这些对比文章里的结论是绝对的吗？"
@@ -35,10 +35,6 @@ faq:
 这个标签横向聚合了四组关键横向对比：**线路架构对比**（直连 vs 中转 vs 专线）、**专线规格对比**（IEPL vs IPLC）、**代理协议对比**（Shadowsocks vs Trojan vs VLESS）、**商业周期对比**（月付 vs 年付 vs 不限时流量包）。
 
 对比文章不给盲目的单一结论，而是给出完整的**决策矩阵**：在什么预算、什么网络运营商、什么使用场景下该选 A，什么情况下该选 B。你可以直接对照自己的实际情况查表决策。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

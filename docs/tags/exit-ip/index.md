@@ -2,21 +2,21 @@
 pageType: tag
 title: "出口IP相关内容"
 description: "带「出口IP」标签的已发布内容：原生 IP、广播 IP、机房 IP、住宅 IP 的区别，以及 IP 信誉与流媒体/AI 解锁的关系。"
-tag: "出口IP"
+tag: "出口 IP"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Sun Aug 16 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
-keywords: ["机场出口IP与解锁机制","出口IP相关文章","机场标签"]
+keywords: ["机场出口IP与解锁机制","出口 IP相关文章","机场标签"]
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「出口IP」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「出口 IP」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "什么是原生 IP？它和广播 IP 有什么本质区别？"
@@ -35,10 +35,6 @@ faq:
 这个标签聚合的内容深入拆解出口 IP 的本质：**IP 类型区分**（原生 IP vs 广播 IP vs 住宅 IP）、**IP 数据库地理定位**（MaxMind / IPinfo 判定原理）、**IP 欺诈评分 (Fraud Score)**，以及为什么节点名称写着「美国」但访问某些网站却显示在「欧洲」。
 
 搞懂出口 IP 的机制，你就学会了如何看穿宣传噱头：不再为虚无缥缈的广告词买单，学会使用公开工具真实核验节点的出口类型与解锁状态。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

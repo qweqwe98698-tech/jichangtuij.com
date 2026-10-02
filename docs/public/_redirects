@@ -10,10 +10,10 @@
 /airport-recommend/*   /recommend/                                301
 /tutorial              /clients/                                  301
 /tutorial/*            /clients/                                  301
-/blacklist             /warnings/status-and-blacklist-policy/     301
+/blacklist             /editorial-policy/                         301
 /disclosure            /affiliate-policy/                         301
 /about-us              /about/                                    301
-/contact               /submit/                                   301
+/contact               /about/                                    301
 /rss                   /feed.xml                                  301
 /rss.xml               /feed.xml                                  301
 /atom.xml              /feed.xml                                  301

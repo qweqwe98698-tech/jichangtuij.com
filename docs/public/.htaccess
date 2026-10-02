@@ -61,10 +61,10 @@ ErrorDocument 404 /404.html
   # ---- 旧路径兼容，与 Cloudflare Pages 的 _redirects 保持一致 ----
   RewriteRule ^airport-recommend/?$ /recommend/ [R=301,L]
   RewriteRule ^tutorial/?$ /clients/ [R=301,L]
-  RewriteRule ^blacklist/?$ /warnings/status-and-blacklist-policy/ [R=301,L]
+  RewriteRule ^blacklist/?$ /editorial-policy/ [R=301,L]
   RewriteRule ^disclosure/?$ /affiliate-policy/ [R=301,L]
   RewriteRule ^about-us/?$ /about/ [R=301,L]
-  RewriteRule ^contact/?$ /submit/ [R=301,L]
+  RewriteRule ^contact/?$ /about/ [R=301,L]
   RewriteRule ^(rss|rss\.xml|atom\.xml)$ /feed.xml [R=301,L]
 </IfModule>
 

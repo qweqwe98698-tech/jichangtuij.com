@@ -13,12 +13,12 @@ verified: 2026-08-16
 
 # 网站地图 · 全站内容与导航全景索引
 
-欢迎查阅 **机场推荐（jichangtuij.com）** 全站内容地图。本页汇总了全站所有正式发布的核心推荐、16 家服务商档案、客户端教程、网络协议科普与故障排查指南，方便读者与搜索引擎快速检索。
+欢迎查阅 **机场推荐**（jichangtuij.com）全站内容地图。本页汇总了全站所有正式发布的核心推荐、16 家服务商档案、客户端教程、网络协议科普与故障排查指南，方便读者与搜索引擎快速检索。
 
 ::: tip 🤖 机器可读站点地图与 RSS 订阅
-- **XML 机器站点地图 (Sitemap)**：[\`https://jichangtuij.com/sitemap.xml\`](/sitemap.xml)（供 Googlebot / Bingbot 等爬虫自动抓取）
-- **RSS 内容订阅源 (Feed)**：[\`https://jichangtuij.com/feed.xml\`](/feed.xml)（及时获取最新评测与测速更新）
-- **公开数据集 (Open Dataset)**：[\`https://jichangtuij.com/dataset/manifest.json\`](/dataset/manifest.json)
+- **XML 索引站点地图 (Sitemap Index)**：[`https://jichangtuij.com/sitemap-index.xml`](/sitemap-index.xml) 与 [`/sitemap.xml`](/sitemap.xml)（供 Googlebot / Bingbot 等爬虫自动抓取）
+- **RSS 内容订阅源 (Feed)**：[`https://jichangtuij.com/feed.xml`](/feed.xml)（及时获取最新评测与测速更新）
+- **公开数据集 (Open Dataset)**：[`https://jichangtuij.com/dataset/manifest.json`](/dataset/manifest.json)
 :::
 
 ---

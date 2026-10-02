@@ -85,6 +85,7 @@ const entries = []
 for (const tag of REGISTRY) {
   const count = counts.get(tag.name) || 0
   const indexable = count >= THRESHOLD
+  if (!indexable) continue
   const dir = path.join(TAGS_DIR, tag.slug)
   fs.mkdirSync(dir, { recursive: true })
 

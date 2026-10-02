@@ -4,7 +4,7 @@ title: "AI 相关内容"
 description: "带「AI」标签的已发布内容：ChatGPT、Claude、Gemini、Midjourney 等 AI 工具对节点出口 IP、DNS 解析与防封策略的专项说明。"
 tag: "AI"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -12,11 +12,11 @@ keywords: ["AI访问与机场节点需求","AI相关文章","机场标签"]
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「AI」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「AI」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "访问 ChatGPT 经常出现 1020 报错或 Access Denied 怎么解决？"
@@ -35,10 +35,6 @@ faq:
 这个标签聚合的内容专注于 **AI 访问场景下的技术细节**：分析 ChatGPT / Claude 拒绝访问的原因（Access Denied / 1020 报错）、原生 IP 与住宅 IP 在 AI 解锁中的作用、客户端分流规则配置，以及长会话不中断的节点保持技巧。
 
 想要顺畅使用 AI 工具，关键不在于节点速度有多快，而在于出口 IP 的「干净程度」与 DNS 解析的稳定性。阅读本标签内容可帮你快速建立正确的节点选择标准。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

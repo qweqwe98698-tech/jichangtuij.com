@@ -4,7 +4,7 @@ title: "协议相关内容"
 description: "带「协议」标签的已发布内容：Shadowsocks、Trojan、VMess、VLESS、Hysteria 的取舍差异，以及 TLS、WebSocket 这些传输层组件各自的职责。"
 tag: "协议"
 date: "2026-08-02"
-updated: "2026-08-02"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -12,11 +12,11 @@ keywords: ["机场协议对比","协议相关文章","机场标签"]
 outline: [2, 3]
 contentType: hub
 intent: navigational
-status: outline
+status: published
 draft: false
-noindex: true
+noindex: false
 cover: /og/default-og.webp
-answer: "「协议」标签聚合了全站 0 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「协议」标签聚合了全站 8 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "需要先学会所有协议才能用机场吗？"
@@ -35,10 +35,6 @@ faq:
 这个标签聚合的内容按这个框架展开：各协议在三层上的分工与取舍、外层传输组件（TLS、WebSocket、gRPC）分别解决什么问题，以及每一层出错时的典型症状 —— 证书过期、设备时间偏差、传输路径写错，表现出来都是「连不上」，但排查方向完全不同。
 
 贯穿这些内容的一个判断原则是：**选择依据是网络适配，而不是理论性能**。在识别严格的网络里，能稳定连上的协议才是最快的协议。
-
-::: info 这个标签页当前不进入索引
-本站的规则是：聚合到 3 篇及以上已发布文章的标签才进入站点地图与全文搜索。当前这个标签聚合了 0 篇，尚未达到门槛，因此页面输出 `noindex` —— 它依然可以正常访问和抓取，只是不参与索引，以免产生只有几条链接的低价值页面。随着相关文章发布，它会自动转为可索引。
-:::
 
 ## 本标签下的文章
 

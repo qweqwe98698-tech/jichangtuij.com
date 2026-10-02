@@ -253,7 +253,7 @@ export const tags = [
     ]
   },
   {
-    slug: 'testing',
+    slug: 'measurement',
     name: '测试方法',
     title: '测试方法相关内容',
     primaryKeyword: '机场测试方法',
@@ -576,7 +576,7 @@ export const tags = [
   },
   {
     slug: 'exit-ip',
-    name: '出口IP',
+    name: '出口 IP',
     title: '出口IP相关内容',
     primaryKeyword: '机场出口IP与解锁机制',
     description:
@@ -657,8 +657,8 @@ export const tags = [
   },
   {
     slug: 'beginner',
-    name: '新手',
-    title: '新手相关内容',
+    name: '新手入门',
+    title: '新手入门相关内容',
     primaryKeyword: '机场新手入门知识',
     description:
       '带「新手」标签的已发布内容：第一次买机场、概念区分、软件下载、套餐选择与防骗避坑的全流程入门指南。',

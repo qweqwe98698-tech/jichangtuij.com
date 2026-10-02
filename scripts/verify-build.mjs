@@ -47,6 +47,7 @@ const required = [
   ['404.html', 1000],
   ['robots.txt', 20],
   ['sitemap.xml', 100],
+  ['sitemap-index.xml', 50],
   ['feed.xml', 200],
   ['llms.txt', 200],
   ['favicon.svg', 100],
@@ -59,6 +60,7 @@ for (const [f, minBytes] of required) mustExist(f, { minBytes })
 /** ---------- 2. 关键页面 ---------- */
 
 const keyPages = [
+  'vpn/index.html',
   'recommend/index.html',
   'ranking/index.html',
   'brands/index.html',

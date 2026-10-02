@@ -1,17 +1,31 @@
 ---
-title: "Netflix 4K 流媒体解锁机场选型指南：奈飞多区版权与秒开实测"
-description: "2026 Netflix 4K 流媒体解锁机场推荐与技术解析：揭秘非自制剧解锁原理、DNS 解锁与原生 IP 解锁区别，提供香港/美区/日区/新加坡 4K 追剧选型方案。"
-keywords: ["Netflix机场推荐","奈飞解锁机场","Netflix 4K机场","流媒体机场","Disney+机场","YouTube 4K翻墙"]
-layout: "doc"
-pageType: "article"
-status: "published"
-author: "机场推荐评测实验室"
-created: "2026-08-16"
-updated: "2026-08-16"
-verified: "2026-08-16"
+title: Netflix 4K 流媒体解锁机场选型指南：奈飞多区版权与秒开实测
+description: >-
+  2026 Netflix 4K 流媒体解锁机场推荐与技术解析：揭秘非自制剧解锁原理、DNS 解锁与原生 IP 解锁区别，提供香港/美区/日区/新加坡 4K
+  追剧选型方案。
+keywords:
+  - Netflix机场推荐
+  - 奈飞解锁机场
+  - Netflix 4K机场
+  - 流媒体机场
+  - Disney+机场
+  - YouTube 4K翻墙
+layout: doc
+pageType: article
+status: published
+author: 机场推荐评测实验室
+created: '2026-08-16'
+updated: '2026-08-16'
+verified: '2026-08-16'
 faq:
-  - q: "什么是 Netflix“全解锁”与“仅自制剧”的区别？"
-    a: "如果节点 IP 未被 Netflix 识别为原生版权 IP，Netflix 只会允许你观看其拥有全球版权的“自制剧（Netflix Originals）”，而无法观看各地区独占的第三方电影或电视剧。真正的流媒体解锁机场能够解锁当地全部第三方版权影片。"
+  - q: 什么是 Netflix“全解锁”与“仅自制剧”的区别？
+    a: >-
+      如果节点 IP 未被 Netflix 识别为原生版权 IP，Netflix 只会允许你观看其拥有全球版权的“自制剧（Netflix
+      Originals）”，而无法观看各地区独占的第三方电影或电视剧。真正的流媒体解锁机场能够解锁当地全部第三方版权影片。
+tags:
+  - 流媒体
+  - 出口 IP
+  - 网络场景
 ---
 # Netflix 4K 流媒体解锁机场选型指南：奈飞多区版权与秒开实测
 

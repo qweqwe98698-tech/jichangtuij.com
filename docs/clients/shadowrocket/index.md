@@ -1,25 +1,53 @@
 ---
-title: "Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南"
-description: "2026 最新 Shadowrocket（小火箭）iOS 客户端下载、美区 Apple ID 获取、机场订阅一键导入、规则分流、HTTPS 解密与节点测速完整图文配置教程。深度解析 iOS NetworkExtension 底层机制与高频排障决策树。"
-keywords: ["Shadowrocket教程", "小火箭配置", "小火箭订阅导入", "小火箭下载", "iOS翻墙教程", "Shadowrocket分流规则", "小火箭节点", "小火箭规则", "小火箭MITM"]
+title: Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南
+description: >-
+  2026 最新 Shadowrocket（小火箭）iOS 客户端下载、美区 Apple ID 获取、机场订阅一键导入、规则分流、HTTPS
+  解密与节点测速完整图文配置教程。深度解析 iOS NetworkExtension 底层机制与高频排障决策树。
+keywords:
+  - Shadowrocket教程
+  - 小火箭配置
+  - 小火箭订阅导入
+  - 小火箭下载
+  - iOS翻墙教程
+  - Shadowrocket分流规则
+  - 小火箭节点
+  - 小火箭规则
+  - 小火箭MITM
 layout: doc
 pageType: article
 status: published
 author: 机场推荐评测实验室
-created: 2026-08-16
-updated: 2026-09-03
-verified: 2026-09-03
+created: 2026-08-16T00:00:00.000Z
+updated: 2026-09-03T00:00:00.000Z
+verified: 2026-09-03T00:00:00.000Z
 faq:
-  - q: "中国大陆 App Store 搜不到 Shadowrocket 怎么办？"
-    a: "Shadowrocket（小火箭）在大陆地区 App Store 已下架。用户需要使用海外（如美区/港区）Apple ID 登录 App Store 后购买下载（官方售价 2.99 美元），切记仅在 App Store 内登录，严禁在 iPhone 系统设置的 iCloud 中登录他人共享账号，防止设备被恶意远程锁定。"
-  - q: "Shadowrocket 的「配置 (Config)」、「代理 (Proxy)」和「直连 (Direct)」有什么区别？"
-    a: "「配置」模式即智能规则分流模式，自动根据访问的目标域名分流（国内直连不耗流量，国外走代理），是日常使用最推荐的标准模式；「代理」模式为全局代理，所有流量均走境外节点，容易导致国内微信、网银等 App 定位异常；「直连」模式则彻底绕过代理，所有流量均由本地网络直出。"
-  - q: "开启 Shadowrocket 后 iPhone 锁屏容易断连或后台被杀怎么解决？"
-    a: "iOS 系统对 NetworkExtension 扩展进程设置了严格的内存上限（通常为 15MB 至 50MB）。若订阅中节点过多（超过 500 个）或开启了过于复杂的重写脚本，容易触发系统的 Jetsam 机制被强杀。解决办法是精简订阅节点、关闭非必要的脚本重写，并在 iOS 设置中保持蜂窝网络的「低数据模式」处于关闭状态。"
-  - q: "导入机场订阅链接时提示「格式错误」或「节点为空」如何排查？"
-    a: "常见原因包括：复制订阅链接时前后夹带了多余的空格或回车；机场订阅下发接口被本地网络运营商拦截阻断；或者该订阅链接为专属 Clash 格式。可在导入时在类型一栏尝试选择「Subscribe」或通过 Safari 浏览器打开订阅链接下载本地配置后再导入。"
-  - q: "Shadowrocket 可以将代理网络通过个人热点共享给电脑或游戏主机吗？"
-    a: "可以。在 Shadowrocket 的「设置」中找到「代理」→「代理共享」，开启开关后即可查看本机在局域网中的 IP 地址与端口号（默认 1082）。在 Windows 电脑、Mac 或任天堂 Switch 的 Wi-Fi 高级设置中配置该 HTTP 代理 IP 与端口，即可实现免客户端全设备加速。"
+  - q: 中国大陆 App Store 搜不到 Shadowrocket 怎么办？
+    a: >-
+      Shadowrocket（小火箭）在大陆地区 App Store 已下架。用户需要使用海外（如美区/港区）Apple ID 登录 App Store
+      后购买下载（官方售价 2.99 美元），切记仅在 App Store 内登录，严禁在 iPhone 系统设置的 iCloud
+      中登录他人共享账号，防止设备被恶意远程锁定。
+  - q: Shadowrocket 的「配置 (Config)」、「代理 (Proxy)」和「直连 (Direct)」有什么区别？
+    a: >-
+      「配置」模式即智能规则分流模式，自动根据访问的目标域名分流（国内直连不耗流量，国外走代理），是日常使用最推荐的标准模式；「代理」模式为全局代理，所有流量均走境外节点，容易导致国内微信、网银等
+      App 定位异常；「直连」模式则彻底绕过代理，所有流量均由本地网络直出。
+  - q: 开启 Shadowrocket 后 iPhone 锁屏容易断连或后台被杀怎么解决？
+    a: >-
+      iOS 系统对 NetworkExtension 扩展进程设置了严格的内存上限（通常为 15MB 至 50MB）。若订阅中节点过多（超过 500
+      个）或开启了过于复杂的重写脚本，容易触发系统的 Jetsam 机制被强杀。解决办法是精简订阅节点、关闭非必要的脚本重写，并在 iOS
+      设置中保持蜂窝网络的「低数据模式」处于关闭状态。
+  - q: 导入机场订阅链接时提示「格式错误」或「节点为空」如何排查？
+    a: >-
+      常见原因包括：复制订阅链接时前后夹带了多余的空格或回车；机场订阅下发接口被本地网络运营商拦截阻断；或者该订阅链接为专属 Clash
+      格式。可在导入时在类型一栏尝试选择「Subscribe」或通过 Safari 浏览器打开订阅链接下载本地配置后再导入。
+  - q: Shadowrocket 可以将代理网络通过个人热点共享给电脑或游戏主机吗？
+    a: >-
+      可以。在 Shadowrocket 的「设置」中找到「代理」→「代理共享」，开启开关后即可查看本机在局域网中的 IP 地址与端口号（默认
+      1082）。在 Windows 电脑、Mac 或任天堂 Switch 的 Wi-Fi 高级设置中配置该 HTTP 代理 IP
+      与端口，即可实现免客户端全设备加速。
+tags:
+  - 客户端
+  - 教程
+  - 订阅
 ---
 
 # Shadowrocket 小火箭配置完全教程：iOS 订阅导入与规则分流指南

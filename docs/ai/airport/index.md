@@ -1,14 +1,25 @@
 ---
-title: "2026 AI工具机场推荐：ChatGPT、Claude与Gemini原生解锁节点选择"
-description: "2026 AI工具机场推荐：深度评测适合频繁使用 ChatGPT Plus、Claude Pro 与 Gemini Advanced 的优质专线机场，精选速界、光速云与 SOGO 云等优化品牌。"
-keywords: ["AI机场推荐", "ChatGPT机场推荐", "Claude机场", "Gemini节点", "AI专用节点"]
+title: 2026 AI工具机场推荐：ChatGPT、Claude与Gemini原生解锁节点选择
+description: >-
+  2026 AI工具机场推荐：深度评测适合频繁使用 ChatGPT Plus、Claude Pro 与 Gemini Advanced
+  的优质专线机场，精选速界、光速云与 SOGO 云等优化品牌。
+keywords:
+  - AI机场推荐
+  - ChatGPT机场推荐
+  - Claude机场
+  - Gemini节点
+  - AI专用节点
 layout: doc
 pageType: article
 status: published
 author: 机场推荐评测实验室
-created: 2026-08-16
-updated: 2026-08-16
-verified: 2026-08-16
+created: 2026-08-16T00:00:00.000Z
+updated: 2026-08-16T00:00:00.000Z
+verified: 2026-08-16T00:00:00.000Z
+tags:
+  - AI
+  - 出口 IP
+  - 网络场景
 ---
 
 # 2026 AI工具机场推荐：ChatGPT、Claude与Gemini原生解锁节点选择

@@ -81,6 +81,7 @@ export const footerGroups: NavGroup[] = [
       { text: '机场怎么选避坑指南', link: '/guides/how-to-choose/' },
       { text: '国外网站打不开排查', link: '/guides/foreign-websites-inaccessible/' },
       { text: 'VPN与机场有什么区别', link: '/guides/vpn-vs-airport/' },
+      { text: 'VPN与机场选型指南', link: '/vpn/' },
       { text: '故障排查急救中心', link: '/troubleshooting/' },
       { text: '机场术语词典', link: '/glossary/' }
     ]
