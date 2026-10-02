@@ -13,7 +13,7 @@ const DIST_DIR = path.join(ROOT_DIR, 'docs/.vitepress/dist')
 const SITEMAP_PATH = path.join(DIST_DIR, 'sitemap.xml')
 
 const HOST = 'jichangtuij.com'
-const KEY = 'e703c43003e64892b327be00b0d067ad'
+const KEY = '1d24090832404c3bae3799acec195451'
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`
 
 if (!fs.existsSync(SITEMAP_PATH)) {
