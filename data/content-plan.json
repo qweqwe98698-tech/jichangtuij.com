@@ -294,6 +294,13 @@
     "status": "published"
   },
   {
+    "url": "/network/iepl-iplc-backbone-latency-jitter-optimization/",
+    "title": "IEPL专线延迟优化深度拆解：IEPL与IPLC对比、跨境专线抖动控制、BGP中转入口调度与晚高峰丢包率分析",
+    "pillar": "/network/",
+    "primaryKeyword": "IEPL专线延迟优化",
+    "status": "published"
+  },
+  {
     "url": "/network/",
     "title": "线路与协议知识中心：IEPL、IPLC 专线、BGP 中转与 VLESS 协议全解析",
     "pillar": "/network/",

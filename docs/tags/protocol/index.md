@@ -4,7 +4,7 @@ title: "协议相关内容"
 description: "带「协议」标签的已发布内容：Shadowsocks、Trojan、VMess、VLESS、Hysteria 的取舍差异，以及 TLS、WebSocket 这些传输层组件各自的职责。"
 tag: "协议"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

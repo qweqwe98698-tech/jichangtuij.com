@@ -1,15 +1,24 @@
 [
   {
     "id": "matrix-001",
-    "status": "pending",
+    "status": "published",
     "pillar": "network",
     "slug": "iepl-iplc-backbone-latency-jitter-optimization",
     "targetKeyword": "IEPL专线延迟优化",
-    "secondaryKeywords": ["IEPL与IPLC对比", "跨境专线抖动控制", "BGP中转入口调度", "晚高峰丢包率分析"],
-    "tags": ["专线", "晚高峰", "线路类型"],
+    "secondaryKeywords": [
+      "IEPL与IPLC对比",
+      "跨境专线抖动控制",
+      "BGP中转入口调度",
+      "晚高峰丢包率分析"
+    ],
+    "tags": [
+      "专线",
+      "晚高峰",
+      "线路类型"
+    ],
     "coreProblem": "全面拆解物理专线（IEPL/IPLC）在跨境数据传输中的底层链路架构、晚高峰抖动控制与 BGP 入口智能调度优化方案。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-02",
+    "publishedUrl": "/network/iepl-iplc-backbone-latency-jitter-optimization/"
   },
   {
     "id": "matrix-002",

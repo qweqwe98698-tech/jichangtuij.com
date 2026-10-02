@@ -4,7 +4,7 @@ title: "线路类型相关内容"
 description: "带「线路类型」标签的已发布内容：直连、中转与专线的结构差异、成本取舍与适用场景。"
 tag: "线路类型"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「线路类型」标签聚合了全站 3 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「线路类型」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "这三种线路类型有没有绝对的好坏排序？"

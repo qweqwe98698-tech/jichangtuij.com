@@ -4,7 +4,7 @@ title: "客户端相关内容"
 description: "带「客户端」标签的全部已发布内容：客户端在整个链路中的位置、分流规则与 DNS 配置，以及配置错误导致的典型故障。"
 tag: "客户端"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

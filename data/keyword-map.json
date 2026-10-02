@@ -294,6 +294,13 @@
     "pageType": "policy"
   },
   {
+    "slug": "/network/iepl-iplc-backbone-latency-jitter-optimization/",
+    "primaryKeyword": "IEPL专线延迟优化",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/network/",
     "primaryKeyword": "机场线路",
     "pillar": "/network/",

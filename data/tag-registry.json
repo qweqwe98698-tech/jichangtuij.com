@@ -7,7 +7,7 @@
       "name": "专线",
       "title": "专线相关内容",
       "primaryKeyword": "机场专线",
-      "count": 22,
+      "count": 23,
       "indexable": true,
       "path": "/tags/dedicated-line/"
     },
@@ -30,15 +30,6 @@
       "path": "/tags/cost-structure/"
     },
     {
-      "slug": "network-scenario",
-      "name": "网络场景",
-      "title": "网络场景相关内容",
-      "primaryKeyword": "网络使用场景与线路需求",
-      "count": 8,
-      "indexable": true,
-      "path": "/tags/network-scenario/"
-    },
-    {
       "slug": "protocol",
       "name": "协议",
       "title": "协议相关内容",
@@ -46,6 +37,15 @@
       "count": 8,
       "indexable": true,
       "path": "/tags/protocol/"
+    },
+    {
+      "slug": "network-scenario",
+      "name": "网络场景",
+      "title": "网络场景相关内容",
+      "primaryKeyword": "网络使用场景与线路需求",
+      "count": 8,
+      "indexable": true,
+      "path": "/tags/network-scenario/"
     },
     {
       "slug": "client",
@@ -66,15 +66,6 @@
       "path": "/tags/beginner/"
     },
     {
-      "slug": "compare",
-      "name": "对比",
-      "title": "对比主题相关内容",
-      "primaryKeyword": "机场对比与选择主题",
-      "count": 6,
-      "indexable": true,
-      "path": "/tags/compare/"
-    },
-    {
       "slug": "basics",
       "name": "基础概念",
       "title": "基础概念相关内容",
@@ -84,6 +75,15 @@
       "path": "/tags/basics/"
     },
     {
+      "slug": "compare",
+      "name": "对比",
+      "title": "对比主题相关内容",
+      "primaryKeyword": "机场对比与选择主题",
+      "count": 6,
+      "indexable": true,
+      "path": "/tags/compare/"
+    },
+    {
       "slug": "streaming",
       "name": "流媒体",
       "title": "流媒体相关内容",
@@ -91,6 +91,15 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/streaming/"
+    },
+    {
+      "slug": "ai",
+      "name": "AI",
+      "title": "AI 相关内容",
+      "primaryKeyword": "AI访问与机场节点需求",
+      "count": 4,
+      "indexable": true,
+      "path": "/tags/ai/"
     },
     {
       "slug": "exit-ip",
@@ -111,6 +120,24 @@
       "path": "/tags/tutorial/"
     },
     {
+      "slug": "peak-hours",
+      "name": "晚高峰",
+      "title": "晚高峰相关内容",
+      "primaryKeyword": "机场晚高峰",
+      "count": 4,
+      "indexable": true,
+      "path": "/tags/peak-hours/"
+    },
+    {
+      "slug": "route-type",
+      "name": "线路类型",
+      "title": "线路类型相关内容",
+      "primaryKeyword": "机场线路类型",
+      "count": 4,
+      "indexable": true,
+      "path": "/tags/route-type/"
+    },
+    {
       "slug": "node",
       "name": "节点",
       "title": "节点相关内容",
@@ -120,22 +147,13 @@
       "path": "/tags/node/"
     },
     {
-      "slug": "ai",
-      "name": "AI",
-      "title": "AI 相关内容",
-      "primaryKeyword": "AI访问与机场节点需求",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/ai/"
-    },
-    {
-      "slug": "subscription",
-      "name": "订阅",
-      "title": "订阅相关内容",
-      "primaryKeyword": "机场订阅",
+      "slug": "dns",
+      "name": "DNS",
+      "title": "DNS 相关内容",
+      "primaryKeyword": "机场DNS问题",
       "count": 3,
       "indexable": true,
-      "path": "/tags/subscription/"
+      "path": "/tags/dns/"
     },
     {
       "slug": "troubleshooting",
@@ -147,31 +165,13 @@
       "path": "/tags/troubleshooting/"
     },
     {
-      "slug": "peak-hours",
-      "name": "晚高峰",
-      "title": "晚高峰相关内容",
-      "primaryKeyword": "机场晚高峰",
+      "slug": "subscription",
+      "name": "订阅",
+      "title": "订阅相关内容",
+      "primaryKeyword": "机场订阅",
       "count": 3,
       "indexable": true,
-      "path": "/tags/peak-hours/"
-    },
-    {
-      "slug": "route-type",
-      "name": "线路类型",
-      "title": "线路类型相关内容",
-      "primaryKeyword": "机场线路类型",
-      "count": 3,
-      "indexable": true,
-      "path": "/tags/route-type/"
-    },
-    {
-      "slug": "dns",
-      "name": "DNS",
-      "title": "DNS 相关内容",
-      "primaryKeyword": "机场DNS问题",
-      "count": 3,
-      "indexable": true,
-      "path": "/tags/dns/"
+      "path": "/tags/subscription/"
     }
   ]
 }

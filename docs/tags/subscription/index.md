@@ -4,7 +4,7 @@ title: "订阅相关内容"
 description: "带「订阅」标签的全部已发布内容：订阅链接的工作机制、更新逻辑、失效原因、凭证属性与泄漏后的处理顺序。"
 tag: "订阅"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

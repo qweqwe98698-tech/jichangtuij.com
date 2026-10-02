@@ -4,7 +4,7 @@ title: "节点相关内容"
 description: "带「节点」标签的已发布内容：节点的构成、命名误区、与线路的区别，以及节点异常的排查方向。"
 tag: "节点"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

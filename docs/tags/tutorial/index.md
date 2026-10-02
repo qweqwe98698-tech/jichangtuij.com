@@ -4,7 +4,7 @@ title: "教程主题相关内容"
 description: "带「教程」标签的全部已发布内容：Clash Verge、Shadowrocket、v2rayN、sing-box 等主流客户端在多平台上的完整配置与排错指南。"
 tag: "教程"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

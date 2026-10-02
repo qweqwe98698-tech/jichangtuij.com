@@ -4,7 +4,7 @@ title: "基础概念相关内容"
 description: "带「基础概念」标签的全部已发布内容：订阅、节点、线路、客户端四个核心概念的定义、关系与常见混用。"
 tag: "基础概念"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

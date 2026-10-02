@@ -4,7 +4,7 @@ title: "专线相关内容"
 description: "带「专线」标签的已发布内容：IEPL 与 IPLC 的定义、差异、价格结构与真假识别方法。"
 tag: "专线"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「专线」标签聚合了全站 22 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「专线」标签聚合了全站 23 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "看到「专线」两个字就应该优先选吗？"
