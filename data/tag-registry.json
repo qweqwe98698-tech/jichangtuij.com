@@ -34,7 +34,7 @@
       "name": "协议",
       "title": "协议相关内容",
       "primaryKeyword": "机场协议对比",
-      "count": 8,
+      "count": 9,
       "indexable": true,
       "path": "/tags/protocol/"
     },
@@ -43,7 +43,7 @@
       "name": "网络场景",
       "title": "网络场景相关内容",
       "primaryKeyword": "网络使用场景与线路需求",
-      "count": 8,
+      "count": 9,
       "indexable": true,
       "path": "/tags/network-scenario/"
     },
@@ -84,6 +84,15 @@
       "path": "/tags/compare/"
     },
     {
+      "slug": "ai",
+      "name": "AI",
+      "title": "AI 相关内容",
+      "primaryKeyword": "AI访问与机场节点需求",
+      "count": 5,
+      "indexable": true,
+      "path": "/tags/ai/"
+    },
+    {
       "slug": "streaming",
       "name": "流媒体",
       "title": "流媒体相关内容",
@@ -91,15 +100,6 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/streaming/"
-    },
-    {
-      "slug": "ai",
-      "name": "AI",
-      "title": "AI 相关内容",
-      "primaryKeyword": "AI访问与机场节点需求",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/ai/"
     },
     {
       "slug": "exit-ip",

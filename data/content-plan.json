@@ -35,6 +35,13 @@
     "status": "published"
   },
   {
+    "url": "/ai/llm-streaming-api-connection-resilience-guide/",
+    "title": "ChatGPT长连接防断开实战：从RFC 9000流控到OpenAI出口IP信誉评级的端到端链路保持与网络调优",
+    "pillar": "/ai/",
+    "primaryKeyword": "ChatGPT长连接防断开",
+    "status": "published"
+  },
+  {
     "url": "/articles/",
     "title": "全站文章归档库：深度评测、使用教程与行业分析知识全景",
     "pillar": "/articles/",

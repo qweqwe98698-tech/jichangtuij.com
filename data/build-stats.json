@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T10:15:07.398Z",
-  "totalPages": 84,
-  "indexablePages": 83,
+  "generatedAt": "2026-10-05T08:45:57.844Z",
+  "totalPages": 85,
+  "indexablePages": 84,
   "draftPages": 0,
-  "publishedArticles": 59,
+  "publishedArticles": 60,
   "outDir": "docs/.vitepress/dist"
 }

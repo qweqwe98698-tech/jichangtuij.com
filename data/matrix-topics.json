@@ -22,7 +22,7 @@
   },
   {
     "id": "matrix-002",
-    "status": "pending",
+    "status": "published",
     "pillar": "ai",
     "slug": "llm-streaming-api-connection-resilience-guide",
     "targetKeyword": "ChatGPT长连接防断开",
@@ -38,8 +38,8 @@
       "协议"
     ],
     "coreProblem": "针对 ChatGPT、Claude 等大模型流式 API 调用过程中的长会话中断、403 风控拦截与网络抖动，提供端到端链路保持与网络调优方案。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-05",
+    "publishedUrl": "/ai/llm-streaming-api-connection-resilience-guide/"
   },
   {
     "id": "matrix-003",

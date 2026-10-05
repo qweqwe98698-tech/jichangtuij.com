@@ -35,6 +35,13 @@
     "pageType": "hub"
   },
   {
+    "slug": "/ai/llm-streaming-api-connection-resilience-guide/",
+    "primaryKeyword": "ChatGPT长连接防断开",
+    "pillar": "/ai/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/articles/",
     "primaryKeyword": "机场文章库",
     "pillar": "/articles/",
