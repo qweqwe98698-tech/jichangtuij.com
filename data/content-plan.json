@@ -322,6 +322,13 @@
     "status": "published"
   },
   {
+    "url": "/network/tcp-congestion-control-bbr-cross-border-tuning/",
+    "title": "BBR拥塞控制算法调优实战：BBRv1、BBRv3与Cubic在150ms~300ms跨洋弱网环境下的吞吐评测与Linux内核参数精调指南",
+    "pillar": "/network/",
+    "primaryKeyword": "BBR拥塞控制算法调优",
+    "status": "published"
+  },
+  {
     "url": "/network/vless/",
     "title": "VLESS 协议与 Reality 握手原理：2026新一代代理协议深度解析",
     "pillar": "/network/",

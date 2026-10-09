@@ -43,7 +43,7 @@
   },
   {
     "id": "matrix-003",
-    "status": "pending",
+    "status": "published",
     "pillar": "network",
     "slug": "tcp-congestion-control-bbr-cross-border-tuning",
     "targetKeyword": "BBR拥塞控制算法调优",
@@ -59,8 +59,8 @@
       "晚高峰"
     ],
     "coreProblem": "系统性评测 BBRv1、BBRv3 与 Cubic 在 150ms~300ms 跨洋高延迟弱网环境下的吞吐表现，提供真实的 Linux 内核参数调优指南。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-09",
+    "publishedUrl": "/network/tcp-congestion-control-bbr-cross-border-tuning/"
   },
   {
     "id": "matrix-004",

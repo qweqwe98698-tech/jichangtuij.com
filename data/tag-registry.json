@@ -21,6 +21,15 @@
       "path": "/tags/recommend/"
     },
     {
+      "slug": "protocol",
+      "name": "协议",
+      "title": "协议相关内容",
+      "primaryKeyword": "机场协议对比",
+      "count": 10,
+      "indexable": true,
+      "path": "/tags/protocol/"
+    },
+    {
       "slug": "cost-structure",
       "name": "成本结构",
       "title": "成本结构相关内容",
@@ -28,15 +37,6 @@
       "count": 10,
       "indexable": true,
       "path": "/tags/cost-structure/"
-    },
-    {
-      "slug": "protocol",
-      "name": "协议",
-      "title": "协议相关内容",
-      "primaryKeyword": "机场协议对比",
-      "count": 9,
-      "indexable": true,
-      "path": "/tags/protocol/"
     },
     {
       "slug": "network-scenario",
@@ -93,6 +93,15 @@
       "path": "/tags/ai/"
     },
     {
+      "slug": "peak-hours",
+      "name": "晚高峰",
+      "title": "晚高峰相关内容",
+      "primaryKeyword": "机场晚高峰",
+      "count": 5,
+      "indexable": true,
+      "path": "/tags/peak-hours/"
+    },
+    {
       "slug": "streaming",
       "name": "流媒体",
       "title": "流媒体相关内容",
@@ -100,6 +109,15 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/streaming/"
+    },
+    {
+      "slug": "route-type",
+      "name": "线路类型",
+      "title": "线路类型相关内容",
+      "primaryKeyword": "机场线路类型",
+      "count": 5,
+      "indexable": true,
+      "path": "/tags/route-type/"
     },
     {
       "slug": "exit-ip",
@@ -118,24 +136,6 @@
       "count": 4,
       "indexable": true,
       "path": "/tags/tutorial/"
-    },
-    {
-      "slug": "peak-hours",
-      "name": "晚高峰",
-      "title": "晚高峰相关内容",
-      "primaryKeyword": "机场晚高峰",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/peak-hours/"
-    },
-    {
-      "slug": "route-type",
-      "name": "线路类型",
-      "title": "线路类型相关内容",
-      "primaryKeyword": "机场线路类型",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/route-type/"
     },
     {
       "slug": "node",

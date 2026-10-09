@@ -322,6 +322,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/network/tcp-congestion-control-bbr-cross-border-tuning/",
+    "primaryKeyword": "BBR拥塞控制算法调优",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/network/vless/",
     "primaryKeyword": "VLESS协议",
     "pillar": "/network/",
