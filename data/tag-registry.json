@@ -25,7 +25,7 @@
       "name": "协议",
       "title": "协议相关内容",
       "primaryKeyword": "机场协议对比",
-      "count": 10,
+      "count": 11,
       "indexable": true,
       "path": "/tags/protocol/"
     },
@@ -52,7 +52,7 @@
       "name": "客户端",
       "title": "客户端相关内容",
       "primaryKeyword": "机场客户端配置",
-      "count": 7,
+      "count": 8,
       "indexable": true,
       "path": "/tags/client/"
     },
@@ -93,6 +93,15 @@
       "path": "/tags/ai/"
     },
     {
+      "slug": "tutorial",
+      "name": "教程",
+      "title": "教程主题相关内容",
+      "primaryKeyword": "机场使用教程主题",
+      "count": 5,
+      "indexable": true,
+      "path": "/tags/tutorial/"
+    },
+    {
       "slug": "peak-hours",
       "name": "晚高峰",
       "title": "晚高峰相关内容",
@@ -127,15 +136,6 @@
       "count": 4,
       "indexable": true,
       "path": "/tags/exit-ip/"
-    },
-    {
-      "slug": "tutorial",
-      "name": "教程",
-      "title": "教程主题相关内容",
-      "primaryKeyword": "机场使用教程主题",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/tutorial/"
     },
     {
       "slug": "node",

@@ -4,7 +4,7 @@ title: "协议相关内容"
 description: "带「协议」标签的已发布内容：Shadowsocks、Trojan、VMess、VLESS、Hysteria 的取舍差异，以及 TLS、WebSocket 这些传输层组件各自的职责。"
 tag: "协议"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Tue Oct 13 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「协议」标签聚合了全站 10 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「协议」标签聚合了全站 11 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "需要先学会所有协议才能用机场吗？"

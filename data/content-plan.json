@@ -259,6 +259,13 @@
     "status": "published"
   },
   {
+    "url": "/guides/clash-mihomo-vs-sing-box-core-performance-benchmark/",
+    "title": "Mihomo与Singbox对比评测：多设备并发吞吐、内存占用、CPU能耗与TUN虚拟网卡转发基准实测",
+    "pillar": "/guides/",
+    "primaryKeyword": "Mihomo与Singbox对比评测",
+    "status": "published"
+  },
+  {
     "url": "/guides/foreign-websites-inaccessible/",
     "title": "国外网站打不开？2026海外网站无法访问排查5步法",
     "pillar": "/guides/",

@@ -4,7 +4,7 @@ title: "客户端相关内容"
 description: "带「客户端」标签的全部已发布内容：客户端在整个链路中的位置、分流规则与 DNS 配置，以及配置错误导致的典型故障。"
 tag: "客户端"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Tue Oct 13 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「客户端」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「客户端」标签聚合了全站 8 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "客户端标签和具体的客户端教程有什么区别？"

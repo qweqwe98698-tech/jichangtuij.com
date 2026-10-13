@@ -259,6 +259,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/guides/clash-mihomo-vs-sing-box-core-performance-benchmark/",
+    "primaryKeyword": "Mihomo与Singbox对比评测",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/guides/foreign-websites-inaccessible/",
     "primaryKeyword": "国外网站打不开",
     "pillar": "/guides/",

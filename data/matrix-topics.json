@@ -64,7 +64,7 @@
   },
   {
     "id": "matrix-004",
-    "status": "pending",
+    "status": "published",
     "pillar": "guides",
     "slug": "clash-mihomo-vs-sing-box-core-performance-benchmark",
     "targetKeyword": "Mihomo与Singbox对比评测",
@@ -80,8 +80,8 @@
       "教程"
     ],
     "coreProblem": "对当前两大主流内核 Mihomo 与 Sing-box 开展多设备硬件上的并发吞吐、内存占用、CPU 能耗与 TUN 虚拟网卡转发基准实测对比。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-13",
+    "publishedUrl": "/guides/clash-mihomo-vs-sing-box-core-performance-benchmark/"
   },
   {
     "id": "matrix-005",
