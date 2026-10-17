@@ -6,7 +6,7 @@
 站点类型：机场代理、机场推荐、机场导航、机场评测、线路知识、客户端教程、故障排查与风险预警的独立信息平台
 正式域名：https://jichangtuij.com
 内容负责方：机场推荐评测实验室
-最后生成时间：2026-10-13T09:12:46.642Z
+最后生成时间：2026-10-17T06:49:12.092Z
 
 ## 引用说明
 
@@ -53,12 +53,13 @@
 - [节点相关内容](https://jichangtuij.com/tags/node/): 带「节点」标签的已发布内容：节点的构成、命名误区、与线路的区别，以及节点异常的排查方向。 快速回答：「节点」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [推荐主题相关内容](https://jichangtuij.com/tags/recommend/): 带「推荐」标签的全部已发布内容：如何根据场景、预算、设备与稳定性要求选择真正适合自己的机场服务。 快速回答：「推荐」标签聚合了全站 14 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [线路类型相关内容](https://jichangtuij.com/tags/route-type/): 带「线路类型」标签的已发布内容：直连、中转与专线的结构差异、成本取舍与适用场景。 快速回答：「线路类型」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [流媒体相关内容](https://jichangtuij.com/tags/streaming/): 带「流媒体」标签的已发布内容：Netflix、YouTube 4K、Disney+、Hulu、HBO 等平台的解锁原理、画质保障与电视端观影配置。 快速回答：「流媒体」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [流媒体相关内容](https://jichangtuij.com/tags/streaming/): 带「流媒体」标签的已发布内容：Netflix、YouTube 4K、Disney+、Hulu、HBO 等平台的解锁原理、画质保障与电视端观影配置。 快速回答：「流媒体」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [订阅相关内容](https://jichangtuij.com/tags/subscription/): 带「订阅」标签的全部已发布内容：订阅链接的工作机制、更新逻辑、失效原因、凭证属性与泄漏后的处理顺序。 快速回答：「订阅」标签聚合了全站 3 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [故障排查相关内容](https://jichangtuij.com/tags/troubleshooting/): 带「故障排查」标签的已发布内容：节点超时、订阅更新失败、WiFi能用流量不能用、特定网站打不开等故障的阶梯式排查指南。 快速回答：「故障排查」标签聚合了全站 3 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [出口IP相关内容](https://jichangtuij.com/tags/exit-ip/): 带「出口IP」标签的已发布内容：原生 IP、广播 IP、机房 IP、住宅 IP 的区别，以及 IP 信誉与流媒体/AI 解锁的关系。 快速回答：「出口 IP」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [网络场景相关内容](https://jichangtuij.com/tags/network-scenario/): 带「网络场景」标签的已发布内容：AI 访问、流媒体解锁、远程办公、跨国会议与游戏加速等场景对线路与出口的差异化要求。 快速回答：「网络场景」标签聚合了全站 9 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [出口IP相关内容](https://jichangtuij.com/tags/exit-ip/): 带「出口IP」标签的已发布内容：原生 IP、广播 IP、机房 IP、住宅 IP 的区别，以及 IP 信誉与流媒体/AI 解锁的关系。 快速回答：「出口 IP」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [网络场景相关内容](https://jichangtuij.com/tags/network-scenario/): 带「网络场景」标签的已发布内容：AI 访问、流媒体解锁、远程办公、跨国会议与游戏加速等场景对线路与出口的差异化要求。 快速回答：「网络场景」标签聚合了全站 10 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [晚高峰相关内容](https://jichangtuij.com/tags/peak-hours/): 带「晚高峰」标签的已发布内容：晚高峰为什么是唯一有判别力的观察窗口，以及掉速的成因与记录方法。 快速回答：「晚高峰」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [住宅IP与机房IP区别深度拆解：IP纯净度体系、Fraud Score判定逻辑与流媒体风控识别差异](https://jichangtuij.com/streaming/residential-vs-datacenter-ip-fraud-score-streaming-unlock/): 从BGP ASN归属、WHOIS注册类型、TLS指纹与TCP时延特征出发，系统剖析住宅IP与机房IP区别，给出IP欺诈分查询方法、Netflix风控判定原理、原生IP与广播IP的识别路径，以及可落地的流媒体分流解锁技巧与Linux内核调优参数。
 - [Mihomo与Singbox对比评测：多设备并发吞吐、内存占用、CPU能耗与TUN虚拟网卡转发基准实测](https://jichangtuij.com/guides/clash-mihomo-vs-sing-box-core-performance-benchmark/): 针对Mihomo与Sing-box两大内核在多设备硬件上的并发吞吐、内存占用、CPU能耗及TUN虚拟网卡转发进行基准实测。文章覆盖RFC 9000/8446/8999协议栈差异、TCP/TLS 1.3握手RTT、Linux sysctl调优、Wireshark报文分析、分流规则效率基准，给出可复现的工程选型结论与排障命令。
 - [BBR拥塞控制算法调优实战：BBRv1、BBRv3与Cubic在150ms~300ms跨洋弱网环境下的吞吐评测与Linux内核参数精调指南](https://jichangtuij.com/network/tcp-congestion-control-bbr-cross-border-tuning/): 面向跨洋高延迟弱网场景，系统性评测BBRv1、BBRv3与Cubic的吞吐表现。基于RFC 9000/8446协议栈，结合tcpdump报文分析与Linux sysctl内核参数，给出BBR拥塞控制算法调优的工程化配置与选型决策，解决长肥管道下带宽利用率低、丢包误判与队列积压问题。
 - [ChatGPT长连接防断开实战：从RFC 9000流控到OpenAI出口IP信誉评级的端到端链路保持与网络调优](https://jichangtuij.com/ai/llm-streaming-api-connection-resilience-guide/): 面向大模型流式API的长会话中断、403风控拦截与网络抖动问题，提供从TCP/TLS/QUIC协议栈、Linux内核sysctl调优、BGP出口选路到客户端代理配置的完整工程方案。涵盖Wireshark报文级排障、TLS 1.3 0-RTT恢复、出口IP信誉评级与心跳保活策略，给出可落地的参数阈值与配置模板。

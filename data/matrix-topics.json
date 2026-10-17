@@ -85,7 +85,7 @@
   },
   {
     "id": "matrix-005",
-    "status": "pending",
+    "status": "published",
     "pillar": "streaming",
     "slug": "residential-vs-datacenter-ip-fraud-score-streaming-unlock",
     "targetKeyword": "住宅IP与机房IP区别",
@@ -101,8 +101,8 @@
       "网络场景"
     ],
     "coreProblem": "深入剖析 IP 纯净度体系、Fraud Score 欺诈分判定逻辑，以及商业数据中心广播 IP 与原生住宅 IP 在流媒体和风控平台中的识别差异。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-17",
+    "publishedUrl": "/streaming/residential-vs-datacenter-ip-fraud-score-streaming-unlock/"
   },
   {
     "id": "matrix-006",

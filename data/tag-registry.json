@@ -43,7 +43,7 @@
       "name": "网络场景",
       "title": "网络场景相关内容",
       "primaryKeyword": "网络使用场景与线路需求",
-      "count": 9,
+      "count": 10,
       "indexable": true,
       "path": "/tags/network-scenario/"
     },
@@ -84,6 +84,15 @@
       "path": "/tags/compare/"
     },
     {
+      "slug": "streaming",
+      "name": "流媒体",
+      "title": "流媒体相关内容",
+      "primaryKeyword": "流媒体解锁与机场线路",
+      "count": 6,
+      "indexable": true,
+      "path": "/tags/streaming/"
+    },
+    {
       "slug": "ai",
       "name": "AI",
       "title": "AI 相关内容",
@@ -91,6 +100,15 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/ai/"
+    },
+    {
+      "slug": "exit-ip",
+      "name": "出口 IP",
+      "title": "出口IP相关内容",
+      "primaryKeyword": "机场出口IP与解锁机制",
+      "count": 5,
+      "indexable": true,
+      "path": "/tags/exit-ip/"
     },
     {
       "slug": "tutorial",
@@ -111,15 +129,6 @@
       "path": "/tags/peak-hours/"
     },
     {
-      "slug": "streaming",
-      "name": "流媒体",
-      "title": "流媒体相关内容",
-      "primaryKeyword": "流媒体解锁与机场线路",
-      "count": 5,
-      "indexable": true,
-      "path": "/tags/streaming/"
-    },
-    {
       "slug": "route-type",
       "name": "线路类型",
       "title": "线路类型相关内容",
@@ -127,15 +136,6 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/route-type/"
-    },
-    {
-      "slug": "exit-ip",
-      "name": "出口 IP",
-      "title": "出口IP相关内容",
-      "primaryKeyword": "机场出口IP与解锁机制",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/exit-ip/"
     },
     {
       "slug": "node",

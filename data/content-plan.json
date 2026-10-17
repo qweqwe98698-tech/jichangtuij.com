@@ -427,6 +427,13 @@
     "status": "published"
   },
   {
+    "url": "/streaming/residential-vs-datacenter-ip-fraud-score-streaming-unlock/",
+    "title": "住宅IP与机房IP区别深度拆解：IP纯净度体系、Fraud Score判定逻辑与流媒体风控识别差异",
+    "pillar": "/streaming/",
+    "primaryKeyword": "住宅IP与机房IP区别",
+    "status": "published"
+  },
+  {
     "url": "/terms/",
     "title": "服务条款与使用协议：内容版权、免责声明与用户行为规范",
     "pillar": "/terms/",

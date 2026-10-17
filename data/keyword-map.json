@@ -427,6 +427,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/streaming/residential-vs-datacenter-ip-fraud-score-streaming-unlock/",
+    "primaryKeyword": "住宅IP与机房IP区别",
+    "pillar": "/streaming/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/terms/",
     "primaryKeyword": "服务条款",
     "pillar": "/terms/",
