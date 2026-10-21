@@ -343,6 +343,13 @@
     "status": "published"
   },
   {
+    "url": "/network/vless-reality-encryption-overhead-transport-efficiency/",
+    "title": "VLESS Reality协议原理与能耗深度解析：数据包封装层级、TLS握手RTT及CPU加解密开销下的轻量协议性能优势与移动设备省电配置实践",
+    "pillar": "/network/",
+    "primaryKeyword": "VLESS Reality协议原理与能耗",
+    "status": "published"
+  },
+  {
     "url": "/privacy/",
     "title": "隐私政策与数据保护声明：无日志记录、本地化处理与访客隐私保护",
     "pillar": "/privacy/",

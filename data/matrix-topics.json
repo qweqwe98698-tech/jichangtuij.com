@@ -106,7 +106,7 @@
   },
   {
     "id": "matrix-006",
-    "status": "pending",
+    "status": "published",
     "pillar": "network",
     "slug": "vless-reality-encryption-overhead-transport-efficiency",
     "targetKeyword": "VLESS Reality协议原理与能耗",
@@ -122,8 +122,8 @@
       "基础概念"
     ],
     "coreProblem": "从协议数据包封装层级、TLS 握手往返时延（RTT）及 CPU 加解密运算开销维度，深度解析现代轻量协议的性能优势与实践配置。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-21",
+    "publishedUrl": "/network/vless-reality-encryption-overhead-transport-efficiency/"
   },
   {
     "id": "matrix-007",

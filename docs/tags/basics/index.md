@@ -4,7 +4,7 @@ title: "基础概念相关内容"
 description: "带「基础概念」标签的全部已发布内容：订阅、节点、线路、客户端四个核心概念的定义、关系与常见混用。"
 tag: "基础概念"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Wed Oct 21 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「基础概念」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「基础概念」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "一定要先看完这个标签的内容才能买机场吗？"

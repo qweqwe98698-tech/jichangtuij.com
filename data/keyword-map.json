@@ -343,6 +343,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/network/vless-reality-encryption-overhead-transport-efficiency/",
+    "primaryKeyword": "VLESS Reality协议原理与能耗",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/privacy/",
     "primaryKeyword": "隐私政策",
     "pillar": "/privacy/",

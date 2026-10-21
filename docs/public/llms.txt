@@ -6,7 +6,7 @@
 站点类型：机场代理、机场推荐、机场导航、机场评测、线路知识、客户端教程、故障排查与风险预警的独立信息平台
 正式域名：https://jichangtuij.com
 内容负责方：机场推荐评测实验室
-最后生成时间：2026-10-17T06:49:12.092Z
+最后生成时间：2026-10-21T07:23:40.587Z
 
 ## 引用说明
 
@@ -40,15 +40,15 @@
 
 ## 正式发布页面
 
+- [基础概念相关内容](https://jichangtuij.com/tags/basics/): 带「基础概念」标签的全部已发布内容：订阅、节点、线路、客户端四个核心概念的定义、关系与常见混用。 快速回答：「基础概念」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [专线相关内容](https://jichangtuij.com/tags/dedicated-line/): 带「专线」标签的已发布内容：IEPL 与 IPLC 的定义、差异、价格结构与真假识别方法。 快速回答：「专线」标签聚合了全站 24 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [协议相关内容](https://jichangtuij.com/tags/protocol/): 带「协议」标签的已发布内容：Shadowsocks、Trojan、VMess、VLESS、Hysteria 的取舍差异，以及 TLS、WebSocket 这些传输层组件各自的职责。 快速回答：「协议」标签聚合了全站 12 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [客户端相关内容](https://jichangtuij.com/tags/client/): 带「客户端」标签的全部已发布内容：客户端在整个链路中的位置、分流规则与 DNS 配置，以及配置错误导致的典型故障。 快速回答：「客户端」标签聚合了全站 8 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [协议相关内容](https://jichangtuij.com/tags/protocol/): 带「协议」标签的已发布内容：Shadowsocks、Trojan、VMess、VLESS、Hysteria 的取舍差异，以及 TLS、WebSocket 这些传输层组件各自的职责。 快速回答：「协议」标签聚合了全站 11 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [教程主题相关内容](https://jichangtuij.com/tags/tutorial/): 带「教程」标签的全部已发布内容：Clash Verge、Shadowrocket、v2rayN、sing-box 等主流客户端在多平台上的完整配置与排错指南。 快速回答：「教程」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [AI 相关内容](https://jichangtuij.com/tags/ai/): 带「AI」标签的已发布内容：ChatGPT、Claude、Gemini、Midjourney 等 AI 工具对节点出口 IP、DNS 解析与防封策略的专项说明。 快速回答：「AI」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [基础概念相关内容](https://jichangtuij.com/tags/basics/): 带「基础概念」标签的全部已发布内容：订阅、节点、线路、客户端四个核心概念的定义、关系与常见混用。 快速回答：「基础概念」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [新手入门相关内容](https://jichangtuij.com/tags/beginner/): 带「新手」标签的已发布内容：第一次买机场、概念区分、软件下载、套餐选择与防骗避坑的全流程入门指南。 快速回答：「新手入门」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [对比主题相关内容](https://jichangtuij.com/tags/compare/): 带「对比」标签的全部已发布内容：专线与直连、IEPL 与 IPLC、Shadowsocks 与 Trojan、月付与年付等核心概念的横向对比与决策表。 快速回答：「对比」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [成本结构相关内容](https://jichangtuij.com/tags/cost-structure/): 带「成本结构」标签的已发布内容：带宽与线路成本分别产生在哪一段、价格差异对应什么取舍，以及一个报价是否具备成本可行性。 快速回答：「成本结构」标签聚合了全站 10 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
-- [专线相关内容](https://jichangtuij.com/tags/dedicated-line/): 带「专线」标签的已发布内容：IEPL 与 IPLC 的定义、差异、价格结构与真假识别方法。 快速回答：「专线」标签聚合了全站 23 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [DNS 相关内容](https://jichangtuij.com/tags/dns/): 带「DNS」标签的已发布内容：解析在代理链路中的位置、污染与泄漏的区别、fake-ip 与远端解析机制，以及解析问题在排查与测试中的识别方法。 快速回答：「DNS」标签聚合了全站 3 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [节点相关内容](https://jichangtuij.com/tags/node/): 带「节点」标签的已发布内容：节点的构成、命名误区、与线路的区别，以及节点异常的排查方向。 快速回答：「节点」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [推荐主题相关内容](https://jichangtuij.com/tags/recommend/): 带「推荐」标签的全部已发布内容：如何根据场景、预算、设备与稳定性要求选择真正适合自己的机场服务。 快速回答：「推荐」标签聚合了全站 14 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
@@ -59,6 +59,7 @@
 - [出口IP相关内容](https://jichangtuij.com/tags/exit-ip/): 带「出口IP」标签的已发布内容：原生 IP、广播 IP、机房 IP、住宅 IP 的区别，以及 IP 信誉与流媒体/AI 解锁的关系。 快速回答：「出口 IP」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [网络场景相关内容](https://jichangtuij.com/tags/network-scenario/): 带「网络场景」标签的已发布内容：AI 访问、流媒体解锁、远程办公、跨国会议与游戏加速等场景对线路与出口的差异化要求。 快速回答：「网络场景」标签聚合了全站 10 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
 - [晚高峰相关内容](https://jichangtuij.com/tags/peak-hours/): 带「晚高峰」标签的已发布内容：晚高峰为什么是唯一有判别力的观察窗口，以及掉速的成因与记录方法。 快速回答：「晚高峰」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。
+- [VLESS Reality协议原理与能耗深度解析：数据包封装层级、TLS握手RTT及CPU加解密开销下的轻量协议性能优势与移动设备省电配置实践](https://jichangtuij.com/network/vless-reality-encryption-overhead-transport-efficiency/): 针对代理协议在移动端高能耗与握手延迟痛点，从协议封装层级、TLS 1.3握手RTT（RFC 8446）、XTLS Reality的CPU加解密开销三个维度，对比Shadowsocks与VLESS的性能差异。提供Wireshark报文分析、Linux sysctl调优参数、BGP选路权重配置及真实客户端省电配置模板，解决工程选型与部署中的实际性能瓶颈。
 - [住宅IP与机房IP区别深度拆解：IP纯净度体系、Fraud Score判定逻辑与流媒体风控识别差异](https://jichangtuij.com/streaming/residential-vs-datacenter-ip-fraud-score-streaming-unlock/): 从BGP ASN归属、WHOIS注册类型、TLS指纹与TCP时延特征出发，系统剖析住宅IP与机房IP区别，给出IP欺诈分查询方法、Netflix风控判定原理、原生IP与广播IP的识别路径，以及可落地的流媒体分流解锁技巧与Linux内核调优参数。
 - [Mihomo与Singbox对比评测：多设备并发吞吐、内存占用、CPU能耗与TUN虚拟网卡转发基准实测](https://jichangtuij.com/guides/clash-mihomo-vs-sing-box-core-performance-benchmark/): 针对Mihomo与Sing-box两大内核在多设备硬件上的并发吞吐、内存占用、CPU能耗及TUN虚拟网卡转发进行基准实测。文章覆盖RFC 9000/8446/8999协议栈差异、TCP/TLS 1.3握手RTT、Linux sysctl调优、Wireshark报文分析、分流规则效率基准，给出可复现的工程选型结论与排障命令。
 - [BBR拥塞控制算法调优实战：BBRv1、BBRv3与Cubic在150ms~300ms跨洋弱网环境下的吞吐评测与Linux内核参数精调指南](https://jichangtuij.com/network/tcp-congestion-control-bbr-cross-border-tuning/): 面向跨洋高延迟弱网场景，系统性评测BBRv1、BBRv3与Cubic的吞吐表现。基于RFC 9000/8446协议栈，结合tcpdump报文分析与Linux sysctl内核参数，给出BBR拥塞控制算法调优的工程化配置与选型决策，解决长肥管道下带宽利用率低、丢包误判与队列积压问题。
