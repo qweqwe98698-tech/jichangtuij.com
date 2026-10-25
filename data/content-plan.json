@@ -287,6 +287,13 @@
     "status": "published"
   },
   {
+    "url": "/guides/openwrt-transparent-proxy-gateway-architecture/",
+    "title": "软路由透明代理架构实战：OpenWrt/iStoreOS 低延迟防污染与全家智能分流设计及踩坑复盘",
+    "pillar": "/guides/",
+    "primaryKeyword": "软路由透明代理架构",
+    "status": "published"
+  },
+  {
     "url": "/guides/vpn-vs-airport/",
     "title": "VPN 与机场有什么区别？2026底层技术、隐私安全与速度深度对比",
     "pillar": "/guides/",

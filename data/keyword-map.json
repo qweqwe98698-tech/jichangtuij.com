@@ -287,6 +287,13 @@
     "pageType": "hub"
   },
   {
+    "slug": "/guides/openwrt-transparent-proxy-gateway-architecture/",
+    "primaryKeyword": "软路由透明代理架构",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/guides/vpn-vs-airport/",
     "primaryKeyword": "VPN与机场区别",
     "pillar": "/guides/",

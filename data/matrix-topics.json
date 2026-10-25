@@ -127,7 +127,7 @@
   },
   {
     "id": "matrix-007",
-    "status": "pending",
+    "status": "published",
     "pillar": "guides",
     "slug": "openwrt-transparent-proxy-gateway-architecture",
     "targetKeyword": "软路由透明代理架构",
@@ -143,8 +143,8 @@
       "网络场景"
     ],
     "coreProblem": "详述基于 OpenWrt / iStoreOS 打造低延迟、防 DNS 污染、支持全家多设备智能分流的透明网关架构设计与落地踩坑记录。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-25",
+    "publishedUrl": "/guides/openwrt-transparent-proxy-gateway-architecture/"
   },
   {
     "id": "matrix-008",

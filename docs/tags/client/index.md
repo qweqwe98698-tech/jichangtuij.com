@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「客户端」标签聚合了全站 8 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「客户端」标签聚合了全站 9 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "客户端标签和具体的客户端教程有什么区别？"

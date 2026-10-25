@@ -30,6 +30,15 @@
       "path": "/tags/protocol/"
     },
     {
+      "slug": "network-scenario",
+      "name": "网络场景",
+      "title": "网络场景相关内容",
+      "primaryKeyword": "网络使用场景与线路需求",
+      "count": 11,
+      "indexable": true,
+      "path": "/tags/network-scenario/"
+    },
+    {
       "slug": "cost-structure",
       "name": "成本结构",
       "title": "成本结构相关内容",
@@ -39,20 +48,11 @@
       "path": "/tags/cost-structure/"
     },
     {
-      "slug": "network-scenario",
-      "name": "网络场景",
-      "title": "网络场景相关内容",
-      "primaryKeyword": "网络使用场景与线路需求",
-      "count": 10,
-      "indexable": true,
-      "path": "/tags/network-scenario/"
-    },
-    {
       "slug": "client",
       "name": "客户端",
       "title": "客户端相关内容",
       "primaryKeyword": "机场客户端配置",
-      "count": 8,
+      "count": 9,
       "indexable": true,
       "path": "/tags/client/"
     },
@@ -84,6 +84,15 @@
       "path": "/tags/compare/"
     },
     {
+      "slug": "tutorial",
+      "name": "教程",
+      "title": "教程主题相关内容",
+      "primaryKeyword": "机场使用教程主题",
+      "count": 6,
+      "indexable": true,
+      "path": "/tags/tutorial/"
+    },
+    {
       "slug": "streaming",
       "name": "流媒体",
       "title": "流媒体相关内容",
@@ -109,15 +118,6 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/exit-ip/"
-    },
-    {
-      "slug": "tutorial",
-      "name": "教程",
-      "title": "教程主题相关内容",
-      "primaryKeyword": "机场使用教程主题",
-      "count": 5,
-      "indexable": true,
-      "path": "/tags/tutorial/"
     },
     {
       "slug": "peak-hours",
