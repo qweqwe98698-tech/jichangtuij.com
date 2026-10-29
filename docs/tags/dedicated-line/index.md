@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「专线」标签聚合了全站 24 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「专线」标签聚合了全站 25 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "看到「专线」两个字就应该优先选吗？"

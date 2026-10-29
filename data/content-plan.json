@@ -28,6 +28,13 @@
     "status": "published"
   },
   {
+    "url": "/ai/enterprise-ai-developer-cross-border-network-blueprint/",
+    "title": "企业出海AI研发网络方案：Docker拉取超时、HuggingFace断流与API限流的协议级高可用架构",
+    "pillar": "/ai/",
+    "primaryKeyword": "企业出海AI研发网络方案",
+    "status": "published"
+  },
+  {
     "url": "/ai/",
     "title": "AI 工具机场专区：ChatGPT、Claude 与 Gemini 节点选型与排障指南",
     "pillar": "/ai/",

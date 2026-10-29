@@ -7,7 +7,7 @@
       "name": "专线",
       "title": "专线相关内容",
       "primaryKeyword": "机场专线",
-      "count": 24,
+      "count": 25,
       "indexable": true,
       "path": "/tags/dedicated-line/"
     },
@@ -34,7 +34,7 @@
       "name": "网络场景",
       "title": "网络场景相关内容",
       "primaryKeyword": "网络使用场景与线路需求",
-      "count": 11,
+      "count": 12,
       "indexable": true,
       "path": "/tags/network-scenario/"
     },
@@ -75,6 +75,15 @@
       "path": "/tags/beginner/"
     },
     {
+      "slug": "ai",
+      "name": "AI",
+      "title": "AI 相关内容",
+      "primaryKeyword": "AI访问与机场节点需求",
+      "count": 6,
+      "indexable": true,
+      "path": "/tags/ai/"
+    },
+    {
       "slug": "compare",
       "name": "对比",
       "title": "对比主题相关内容",
@@ -100,15 +109,6 @@
       "count": 6,
       "indexable": true,
       "path": "/tags/streaming/"
-    },
-    {
-      "slug": "ai",
-      "name": "AI",
-      "title": "AI 相关内容",
-      "primaryKeyword": "AI访问与机场节点需求",
-      "count": 5,
-      "indexable": true,
-      "path": "/tags/ai/"
     },
     {
       "slug": "exit-ip",

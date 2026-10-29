@@ -148,7 +148,7 @@
   },
   {
     "id": "matrix-008",
-    "status": "pending",
+    "status": "published",
     "pillar": "ai",
     "slug": "enterprise-ai-developer-cross-border-network-blueprint",
     "targetKeyword": "企业出海AI研发网络方案",
@@ -164,8 +164,8 @@
       "专线"
     ],
     "coreProblem": "针对 AI 研发团队日常高频遭遇的 Docker 镜像拉取超时、HuggingFace 巨型模型下载断流与 API 并发限制，提供高可用网络蓝图。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-10-29",
+    "publishedUrl": "/ai/enterprise-ai-developer-cross-border-network-blueprint/"
   },
   {
     "id": "matrix-009",

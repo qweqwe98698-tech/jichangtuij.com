@@ -28,6 +28,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/ai/enterprise-ai-developer-cross-border-network-blueprint/",
+    "primaryKeyword": "企业出海AI研发网络方案",
+    "pillar": "/ai/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/ai/",
     "primaryKeyword": "AI机场",
     "pillar": "/ai/",
