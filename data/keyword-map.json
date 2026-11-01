@@ -483,6 +483,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/troubleshooting/packet-analysis-dns-pollution-sni-blocking-deep-dive/",
+    "primaryKeyword": "DNS污染与SNI阻断抓包分析",
+    "pillar": "/troubleshooting/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/troubleshooting/subscription-failed/",
     "primaryKeyword": "订阅更新失败",
     "pillar": "/troubleshooting/",

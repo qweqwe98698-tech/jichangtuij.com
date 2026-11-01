@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「基础概念」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「基础概念」标签聚合了全站 8 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "一定要先看完这个标签的内容才能买机场吗？"

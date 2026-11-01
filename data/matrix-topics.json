@@ -169,7 +169,7 @@
   },
   {
     "id": "matrix-009",
-    "status": "pending",
+    "status": "published",
     "pillar": "troubleshooting",
     "slug": "packet-analysis-dns-pollution-sni-blocking-deep-dive",
     "targetKeyword": "DNS污染与SNI阻断抓包分析",
@@ -185,8 +185,8 @@
       "基础概念"
     ],
     "coreProblem": "利用 Wireshark 与 tcpdump 工具对跨境通信中常见的 DNS 污染、SNI 握手重置与 TCP RST 报文进行实战抓包分析与根因定位排障。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-11-01",
+    "publishedUrl": "/troubleshooting/packet-analysis-dns-pollution-sni-blocking-deep-dive/"
   },
   {
     "id": "matrix-010",

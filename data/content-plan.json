@@ -483,6 +483,13 @@
     "status": "published"
   },
   {
+    "url": "/troubleshooting/packet-analysis-dns-pollution-sni-blocking-deep-dive/",
+    "title": "DNS污染与SNI阻断抓包分析：Wireshark与tcpdump定位TCP RST复位及跨境连接超时溯源",
+    "pillar": "/troubleshooting/",
+    "primaryKeyword": "DNS污染与SNI阻断抓包分析",
+    "status": "published"
+  },
+  {
     "url": "/troubleshooting/subscription-failed/",
     "title": "机场订阅更新失败怎么办？2026订阅链接无法更新与报错排障指南",
     "pillar": "/troubleshooting/",

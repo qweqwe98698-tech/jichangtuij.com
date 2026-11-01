@@ -61,7 +61,7 @@
       "name": "基础概念",
       "title": "基础概念相关内容",
       "primaryKeyword": "机场基础概念",
-      "count": 7,
+      "count": 8,
       "indexable": true,
       "path": "/tags/basics/"
     },
@@ -138,20 +138,11 @@
       "path": "/tags/route-type/"
     },
     {
-      "slug": "node",
-      "name": "节点",
-      "title": "节点相关内容",
-      "primaryKeyword": "机场节点",
-      "count": 4,
-      "indexable": true,
-      "path": "/tags/node/"
-    },
-    {
       "slug": "dns",
       "name": "DNS",
       "title": "DNS 相关内容",
       "primaryKeyword": "机场DNS问题",
-      "count": 3,
+      "count": 4,
       "indexable": true,
       "path": "/tags/dns/"
     },
@@ -160,9 +151,18 @@
       "name": "故障排查",
       "title": "故障排查相关内容",
       "primaryKeyword": "机场故障排查索引",
-      "count": 3,
+      "count": 4,
       "indexable": true,
       "path": "/tags/troubleshooting/"
+    },
+    {
+      "slug": "node",
+      "name": "节点",
+      "title": "节点相关内容",
+      "primaryKeyword": "机场节点",
+      "count": 4,
+      "indexable": true,
+      "path": "/tags/node/"
     },
     {
       "slug": "subscription",

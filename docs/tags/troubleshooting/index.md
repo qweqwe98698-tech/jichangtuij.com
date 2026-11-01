@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「故障排查」标签聚合了全站 3 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「故障排查」标签聚合了全站 4 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "节点突然全部显示超时，最快速的排查第一步是什么？"
