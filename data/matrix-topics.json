@@ -190,7 +190,7 @@
   },
   {
     "id": "matrix-010",
-    "status": "pending",
+    "status": "published",
     "pillar": "streaming",
     "slug": "ultra-hd-8k-video-streaming-cdn-throughput-architecture",
     "targetKeyword": "8K高清流媒体网络要求",
@@ -206,8 +206,8 @@
       "专线"
     ],
     "coreProblem": "剖析高码率 4K/8K 视频流媒体的分片加载机制、TCP 初始窗口尺寸（initcwnd）及播放器缓冲区对跨境网络带宽的严苛要求与优化方案。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-11-05",
+    "publishedUrl": "/streaming/ultra-hd-8k-video-streaming-cdn-throughput-architecture/"
   },
   {
     "id": "matrix-011",

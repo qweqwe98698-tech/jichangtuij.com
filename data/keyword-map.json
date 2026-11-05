@@ -455,6 +455,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/streaming/ultra-hd-8k-video-streaming-cdn-throughput-architecture/",
+    "primaryKeyword": "8K高清流媒体网络要求",
+    "pillar": "/streaming/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/terms/",
     "primaryKeyword": "服务条款",
     "pillar": "/terms/",

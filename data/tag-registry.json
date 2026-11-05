@@ -7,7 +7,7 @@
       "name": "专线",
       "title": "专线相关内容",
       "primaryKeyword": "机场专线",
-      "count": 25,
+      "count": 26,
       "indexable": true,
       "path": "/tags/dedicated-line/"
     },
@@ -75,6 +75,15 @@
       "path": "/tags/beginner/"
     },
     {
+      "slug": "streaming",
+      "name": "流媒体",
+      "title": "流媒体相关内容",
+      "primaryKeyword": "流媒体解锁与机场线路",
+      "count": 7,
+      "indexable": true,
+      "path": "/tags/streaming/"
+    },
+    {
       "slug": "ai",
       "name": "AI",
       "title": "AI 相关内容",
@@ -102,13 +111,13 @@
       "path": "/tags/tutorial/"
     },
     {
-      "slug": "streaming",
-      "name": "流媒体",
-      "title": "流媒体相关内容",
-      "primaryKeyword": "流媒体解锁与机场线路",
+      "slug": "peak-hours",
+      "name": "晚高峰",
+      "title": "晚高峰相关内容",
+      "primaryKeyword": "机场晚高峰",
       "count": 6,
       "indexable": true,
-      "path": "/tags/streaming/"
+      "path": "/tags/peak-hours/"
     },
     {
       "slug": "exit-ip",
@@ -118,15 +127,6 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/exit-ip/"
-    },
-    {
-      "slug": "peak-hours",
-      "name": "晚高峰",
-      "title": "晚高峰相关内容",
-      "primaryKeyword": "机场晚高峰",
-      "count": 5,
-      "indexable": true,
-      "path": "/tags/peak-hours/"
     },
     {
       "slug": "route-type",
