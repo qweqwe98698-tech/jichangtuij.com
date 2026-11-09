@@ -343,6 +343,13 @@
     "status": "published"
   },
   {
+    "url": "/network/quic-http3-transport-layer-loss-recovery-cross-border/",
+    "title": "QUIC协议跨境网络表现深度剖析：多路复用、连接迁移与FEC机制实测，兼论国内UDP QoS限速特性与HTTP3丢包恢复优化策略",
+    "pillar": "/network/",
+    "primaryKeyword": "QUIC协议跨境网络表现",
+    "status": "published"
+  },
+  {
     "url": "/network/tcp-congestion-control-bbr-cross-border-tuning/",
     "title": "BBR拥塞控制算法调优实战：BBRv1、BBRv3与Cubic在150ms~300ms跨洋弱网环境下的吞吐评测与Linux内核参数精调指南",
     "pillar": "/network/",

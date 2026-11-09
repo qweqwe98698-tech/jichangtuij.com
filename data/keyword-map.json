@@ -343,6 +343,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/network/quic-http3-transport-layer-loss-recovery-cross-border/",
+    "primaryKeyword": "QUIC协议跨境网络表现",
+    "pillar": "/network/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/network/tcp-congestion-control-bbr-cross-border-tuning/",
     "primaryKeyword": "BBR拥塞控制算法调优",
     "pillar": "/network/",

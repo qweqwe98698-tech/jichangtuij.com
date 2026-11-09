@@ -211,7 +211,7 @@
   },
   {
     "id": "matrix-011",
-    "status": "pending",
+    "status": "published",
     "pillar": "network",
     "slug": "quic-http3-transport-layer-loss-recovery-cross-border",
     "targetKeyword": "QUIC协议跨境网络表现",
@@ -227,8 +227,8 @@
       "晚高峰"
     ],
     "coreProblem": "深度剖析 QUIC 协议的多路复用、连接迁移与前向纠错机制，实测国内运营商对 UDP 协议的 QoS 限速特性与优化策略。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-11-09",
+    "publishedUrl": "/network/quic-http3-transport-layer-loss-recovery-cross-border/"
   },
   {
     "id": "matrix-012",

@@ -25,7 +25,7 @@
       "name": "协议",
       "title": "协议相关内容",
       "primaryKeyword": "机场协议对比",
-      "count": 12,
+      "count": 13,
       "indexable": true,
       "path": "/tags/protocol/"
     },
@@ -75,6 +75,15 @@
       "path": "/tags/beginner/"
     },
     {
+      "slug": "peak-hours",
+      "name": "晚高峰",
+      "title": "晚高峰相关内容",
+      "primaryKeyword": "机场晚高峰",
+      "count": 7,
+      "indexable": true,
+      "path": "/tags/peak-hours/"
+    },
+    {
       "slug": "streaming",
       "name": "流媒体",
       "title": "流媒体相关内容",
@@ -111,13 +120,13 @@
       "path": "/tags/tutorial/"
     },
     {
-      "slug": "peak-hours",
-      "name": "晚高峰",
-      "title": "晚高峰相关内容",
-      "primaryKeyword": "机场晚高峰",
+      "slug": "route-type",
+      "name": "线路类型",
+      "title": "线路类型相关内容",
+      "primaryKeyword": "机场线路类型",
       "count": 6,
       "indexable": true,
-      "path": "/tags/peak-hours/"
+      "path": "/tags/route-type/"
     },
     {
       "slug": "exit-ip",
@@ -127,15 +136,6 @@
       "count": 5,
       "indexable": true,
       "path": "/tags/exit-ip/"
-    },
-    {
-      "slug": "route-type",
-      "name": "线路类型",
-      "title": "线路类型相关内容",
-      "primaryKeyword": "机场线路类型",
-      "count": 5,
-      "indexable": true,
-      "path": "/tags/route-type/"
     },
     {
       "slug": "dns",
