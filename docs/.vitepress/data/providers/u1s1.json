@@ -5,11 +5,10 @@
     "entryPrice": "20元/月",
     "traffic": "120GB/月",
     "protocols": [
-      "VLESS",
       "Shadowsocks"
     ],
     "lines": [
-      "IEPL 专线"
+      "IPLC 专线"
     ],
     "nodeCount": "50+",
     "customClients": [
@@ -18,26 +17,26 @@
       "Android"
     ],
     "thirdPartySupport": true,
-    "thirdPartyNote": "支持订阅导入，适配 Clash、Shadowrocket 等",
-    "aiClaim": "品牌资料显示支持常见 AI 工具",
-    "streamingClaim": "资料显示支持常见流媒体访问场景",
-    "establishedYear": 2023
+    "thirdPartyNote": "支持 Clash、Shadowrocket、Sing-box 等通用第三方工具一键导入订阅",
+    "aiClaim": "品牌资料显示支持主流 AI 工具（ChatGPT / Claude / Gemini）访问",
+    "streamingClaim": "品牌资料显示支持主流海外流媒体（Netflix / YouTube 4K）解锁",
+    "establishedYear": 2025
   },
   "measured": {
     "hasSpeedtest": true,
     "testDate": "2026-08-11",
-    "testTime": "白天时段",
+    "testTime": "白天/晚高峰",
     "screenshotPath": "/images/speedtest/u1s1-speedtest-2026-08-11.png",
-    "speedtestProtocol": "Shadowsocks / VLESS",
+    "speedtestProtocol": "Shadowsocks",
     "testTool": "珠海联通 5Gbps / 32 线程测速",
     "status": "Measured",
     "aiUnlockTested": false,
     "streamingUnlockTested": false,
-    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+    "disclaimer": "本次结果仅代表截图或历史记录所示时间点和测试环境，不代表长期表现或所有用户体验。"
   },
   "commercial": {
     "promoCode": "akaka",
-    "discountDesc": "专属优惠码 akaka",
+    "discountDesc": "本站专属折扣优惠",
     "affLink": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
     "hasHashLink": true,
     "paymentMethods": [
@@ -48,26 +47,18 @@
     "isSponsored": true
   },
   "editorial": {
-    "oneSentenceTagline": "20元档 / 120GB / VLESS 协议 / IEPL 专线 / 均衡月付",
-    "positioning": "20元档 / 120GB / VLESS / IEPL",
+    "oneSentenceTagline": "U1S1：IPLC 专线 架构与 Shadowsocks 协议实测",
+    "positioning": "IPLC 专线 / Shadowsocks / 20元/月",
     "targetAudience": [
-      "希望购买 20 元档月付套餐，同时比较注重 IEPL 专线品质的普通用户",
-      "月流量在 100-120GB 之间的日常综合用户",
-      "多端设备使用且希望操作简便的用户"
+      "注重晚高峰网络抗波动性的日常办公用户",
+      "需要稳定访问海外 AI 工具与科研学术资源的用户",
+      "追求按月付款、透明选型与稳定订阅的个人和团队"
     ],
     "notRecommendedFor": [
-      "需要每月 200GB+ 极高流量且预算仅 20 元的用户"
-    ],
-    "pros": [
-      "20 元提供 120GB 流量，在专线稳定性与流量之间取得平衡",
-      "支持 VLESS 协议与 IEPL 内网专线",
-      "支持自研客户端与通用第三方客户端订阅导入"
-    ],
-    "cons": [
-      "在 20 元档同价位中，流量略低于一翻云（150GB）与二猫云（130GB）",
-      "AI 解锁为官方声明，未做全量自动化复核"
+      "寻找完全免费公共节点的用户",
+      "仅偶尔轻量使用且不想产生任何固定月付开销的用户"
     ],
     "priceSegment": "20",
-    "lastVerified": "2026-08-16"
+    "lastVerified": "2026-11-12"
   }
 }

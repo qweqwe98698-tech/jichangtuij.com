@@ -130,7 +130,7 @@ for (const p of providersRaw) {
     errors.push(`缺少品牌详情页：brands/${p.slug}/index.html`)
   }
 }
-info.push(`16 家品牌详情页全部验证通过`)
+info.push(`${providersRaw.length} 家品牌详情页全部验证通过`)
 
 /** ---------- 6. 输出结果 ---------- */
 

@@ -5,8 +5,7 @@
     "entryPrice": "25元/月",
     "traffic": "150GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "VLESS"
     ],
     "lines": [
       "IEPL 专线"
@@ -14,30 +13,30 @@
     "nodeCount": "50+",
     "customClients": [
       "Windows",
-      "Android",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "thirdPartySupport": true,
-    "thirdPartyNote": "支持订阅导入，适配主流代理客户端",
-    "aiClaim": "品牌资料重点强调 AI 工具访问场景，作为品牌声明展示",
-    "streamingClaim": "覆盖主流视频流媒体基础播放",
+    "thirdPartyNote": "支持 Clash、Shadowrocket、Sing-box 等通用第三方工具一键导入订阅",
+    "aiClaim": "品牌资料显示支持主流 AI 工具（ChatGPT / Claude / Gemini）访问",
+    "streamingClaim": "品牌资料显示支持主流海外流媒体（Netflix / YouTube 4K）解锁",
     "establishedYear": 2024
   },
   "measured": {
     "hasSpeedtest": true,
     "testDate": "2026-08-11",
-    "testTime": "白天时段",
+    "testTime": "白天/晚高峰",
     "screenshotPath": "/images/speedtest/sujie-speedtest-2026-08-11.png",
-    "speedtestProtocol": "Shadowsocks / VLESS",
+    "speedtestProtocol": "VLESS",
     "testTool": "珠海联通 5Gbps / 32 线程测速",
     "status": "Measured",
     "aiUnlockTested": false,
     "streamingUnlockTested": false,
-    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+    "disclaimer": "本次结果仅代表截图或历史记录所示时间点和测试环境，不代表长期表现或所有用户体验。"
   },
   "commercial": {
     "promoCode": "sss1111",
-    "discountDesc": "专属优惠码 sss1111",
+    "discountDesc": "本站专属折扣优惠",
     "affLink": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
     "hasHashLink": true,
     "paymentMethods": [
@@ -48,26 +47,18 @@
     "isSponsored": true
   },
   "editorial": {
-    "oneSentenceTagline": "AI 场景主打 / 25元档 / 150GB / VLESS 协议 / IEPL 专线",
-    "positioning": "AI 场景 / 25元档 / 150GB / VLESS / IEPL",
+    "oneSentenceTagline": "速界：IEPL 专线 架构与 VLESS 协议实测",
+    "positioning": "IEPL 专线 / VLESS / 25元/月",
     "targetAudience": [
-      "经常使用 ChatGPT、Claude、Gemini 等 AI 工具，同时需要稳定代理线路的用户",
-      "月流量需求约 150GB 的中重度日常科研与编程用户",
-      "注重专线直连与 VLESS 协议低延迟特性的用户"
+      "注重晚高峰网络抗波动性的日常办公用户",
+      "需要稳定访问海外 AI 工具与科研学术资源的用户",
+      "追求按月付款、透明选型与稳定订阅的个人和团队"
     ],
     "notRecommendedFor": [
-      "低预算轻量个人用户（月消费意愿 < 15元）"
+      "寻找完全免费公共节点的用户",
+      "仅偶尔轻量使用且不想产生任何固定月付开销的用户"
     ],
-    "pros": [
-      "以 VLESS 和 IEPL 专线为核心，25 元入门套餐提供 150GB 流量",
-      "品牌资料特别针对 AI 工具场景进行出口节点优化声明",
-      "支持自研客户端与第三方订阅一键导入"
-    ],
-    "cons": [
-      "AI 支持目前属于品牌声明，具体 ChatGPT / Claude 可用性以后续实际检测为准",
-      "无免费试用方案"
-    ],
-    "priceSegment": "25",
-    "lastVerified": "2026-08-16"
+    "priceSegment": "20",
+    "lastVerified": "2026-11-12"
   }
 }

@@ -27,6 +27,9 @@ export const primaryNav: NavItem[] = [
 
 /** 移动端抽屉里额外展开的次级栏目 */
 export const secondaryNav: NavItem[] = [
+  { text: '性价比机场推荐', link: '/recommend/value/' },
+  { text: '便宜机场推荐', link: '/recommend/cheap/' },
+  { text: '稳定机场推荐', link: '/recommend/stable/' },
   { text: '免费节点风险', link: '/free/' },
   { text: 'AI 工具专区', link: '/ai/' },
   { text: '流媒体解锁', link: '/streaming/' },
@@ -45,9 +48,9 @@ export const footerGroups: NavGroup[] = [
     title: '机场决策与选型',
     items: [
       { text: '机场推荐中心', link: '/recommend/' },
-      { text: '稳定机场推荐', link: '/recommend/stable/' },
+      { text: '性价比机场推荐', link: '/recommend/value/' },
       { text: '便宜机场推荐', link: '/recommend/cheap/' },
-      { text: '高性价比机场', link: '/recommend/value/' },
+      { text: '稳定机场推荐', link: '/recommend/stable/' },
       { text: '2026 机场排行榜', link: '/ranking/' },
       { text: '机场品牌资料库', link: '/brands/' },
       { text: '品牌横向对比', link: '/compare/' }
@@ -123,20 +126,20 @@ export const decisionCards: DecisionCard[] = [
     linkText: '查看稳定机场推荐'
   },
   {
-    title: '预算优先',
+    title: '便宜好用 / 平价月付',
     icon: 'coin',
-    tagline: '低至 7-8 元 · 平价实用',
-    desc: '适合轻度浏览、偶尔查资料或寻求高性价比年付/平价月付的用户。',
+    tagline: '7~10 元档 · 避坑与轻量备用',
+    desc: '盘点便宜机场与平价月付方案，深度揭秘亏本机场真实套路，适合轻度浏览、备用防失联与学生群体。',
     link: '/recommend/cheap/',
     linkText: '查看便宜机场推荐'
   },
   {
-    title: '性价比',
+    title: '高性价比专线',
     icon: 'target',
-    tagline: '15-20 元档 · 流量与专线平衡',
-    desc: '兼顾 100-150GB 月流量与 VLESS+IEPL 专线，综合体验最佳区间。',
+    tagline: '15~20 元黄金档 · 极致边际效用',
+    desc: '针对性价比机场搜索核心需求，兼顾 100~150GB 月流量与真正 IEPL 物理专线，个人综合首选。',
     link: '/recommend/value/',
-    linkText: '查看性价比机场'
+    linkText: '查看性价比机场推荐'
   },
   {
     title: 'AI工具',

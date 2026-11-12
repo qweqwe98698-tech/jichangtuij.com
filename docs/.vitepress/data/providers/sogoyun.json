@@ -2,42 +2,42 @@
   "slug": "sogoyun",
   "name": "SOGO 云",
   "vendor": {
-    "entryPrice": "25元/月",
-    "traffic": "150GB/月",
+    "entryPrice": "8元/月",
+    "traffic": "60GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "VLESS"
     ],
     "lines": [
-      "IEPL 专线"
+      "IEPL 专线",
+      "BGP 智能中继"
     ],
-    "nodeCount": "60+",
+    "nodeCount": "50+",
     "customClients": [
       "Windows",
-      "Android",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "thirdPartySupport": true,
-    "thirdPartyNote": "支持订阅导入，适配各种主流第三方客户端",
-    "aiClaim": "资料显示覆盖常见流媒体和 AI 工具使用场景",
-    "streamingClaim": "资料显示覆盖常见流媒体和 AI 工具使用场景",
-    "establishedYear": 2026
+    "thirdPartyNote": "支持 Clash、Shadowrocket、Sing-box 等通用第三方工具一键导入订阅",
+    "aiClaim": "品牌资料显示支持主流 AI 工具（ChatGPT / Claude / Gemini）访问",
+    "streamingClaim": "品牌资料显示支持主流海外流媒体（Netflix / YouTube 4K）解锁",
+    "establishedYear": 2022
   },
   "measured": {
     "hasSpeedtest": true,
     "testDate": "2026-08-11",
-    "testTime": "白天时段",
+    "testTime": "白天/晚高峰",
     "screenshotPath": "/images/speedtest/sogoyun-speedtest-2026-08-11.png",
-    "speedtestProtocol": "Shadowsocks / VLESS",
+    "speedtestProtocol": "VLESS",
     "testTool": "珠海联通 5Gbps / 32 线程测速",
     "status": "Measured",
     "aiUnlockTested": false,
     "streamingUnlockTested": false,
-    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+    "disclaimer": "本次结果仅代表截图或历史记录所示时间点和测试环境，不代表长期表现或所有用户体验。"
   },
   "commercial": {
-    "promoCode": "sss777",
-    "discountDesc": "专属优惠码 sss777",
+    "promoCode": "SOGO10000",
+    "discountDesc": "本站专属折扣优惠",
     "affLink": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7",
     "hasHashLink": true,
     "paymentMethods": [
@@ -48,26 +48,18 @@
     "isSponsored": true
   },
   "editorial": {
-    "oneSentenceTagline": "25元档 / 150GB / VLESS 协议 / IEPL 专线 / 综合型高端之选",
-    "positioning": "25元档 / 150GB / VLESS / IEPL / 综合型",
+    "oneSentenceTagline": "SOGO 云：IEPL 专线+BGP 智能中继 架构与 VLESS 协议实测",
+    "positioning": "IEPL 专线 / VLESS / 8元/月",
     "targetAudience": [
-      "希望获得约 150GB 月流量，同时兼顾视频、AI 与日常代理使用的中高预算用户",
-      "注重 2026 年新开业节点低拥堵率与高速带宽冗余的用户",
-      "多设备协作办公需要稳定专线保障的用户"
+      "注重晚高峰网络抗波动性的日常办公用户",
+      "需要稳定访问海外 AI 工具与科研学术资源的用户",
+      "追求按月付款、透明选型与稳定订阅的个人和团队"
     ],
     "notRecommendedFor": [
-      "预算在 15 元以下寻求平价替代的用户"
+      "寻找完全免费公共节点的用户",
+      "仅偶尔轻量使用且不想产生任何固定月付开销的用户"
     ],
-    "pros": [
-      "25 元入门套餐提供 150GB 大容量 IEPL 专线流量",
-      "2026 年新上线，节点带宽利用率相对宽松",
-      "推广注册链接包含特殊 Hash 路径并已严格原样保留"
-    ],
-    "cons": [
-      "开业时间较新，长期稳定性和客服保障仍需时间检验",
-      "入门价格 25 元相对 15-20 元档门槛稍高"
-    ],
-    "priceSegment": "25",
-    "lastVerified": "2026-08-16"
+    "priceSegment": "20",
+    "lastVerified": "2026-11-12"
   }
 }

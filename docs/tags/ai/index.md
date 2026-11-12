@@ -4,7 +4,7 @@ title: "AI 相关内容"
 description: "带「AI」标签的已发布内容：ChatGPT、Claude、Gemini、Midjourney 等 AI 工具对节点出口 IP、DNS 解析与防封策略的专项说明。"
 tag: "AI"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「AI」标签聚合了全站 6 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「AI」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "访问 ChatGPT 经常出现 1020 报错或 Access Denied 怎么解决？"

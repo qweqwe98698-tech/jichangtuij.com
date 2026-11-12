@@ -20,7 +20,7 @@ const disclosure =
 </script>
 
 <template>
-  <span class="jc-sponsored">
+  <span v-if="href" class="jc-sponsored">
     <a
       :href="href"
       :class="buttonClass || 'jc-btn jc-btn--primary jc-btn--sm'"
@@ -30,6 +30,9 @@ const disclosure =
       <slot>官网注册</slot>
     </a>
     <span v-if="!hideBadge" class="jc-sponsored__badge" :title="disclosure" aria-label="推广链接说明">推广</span>
+  </span>
+  <span v-else class="jc-sponsored-fallback">
+    <slot>官方核验渠道</slot>
   </span>
 </template>
 

@@ -117,15 +117,23 @@ const filteredProviders = computed(() => {
         <!-- 6. Actions (Fixed at bottom) -->
         <div class="jc-provider-item__actions">
           <a class="jc-btn jc-btn--quiet jc-btn--sm jc-action-link" :href="`/brands/${p.slug}/`">
-            查看资料与实测
+            查看{{ p.name }}评测档案
           </a>
           <SponsoredLink
+            v-if="p.site"
             :href="p.site"
             button-class="jc-btn jc-btn--primary jc-btn--sm jc-action-btn"
             class="jc-sponsored-cta"
           >
             官网注册
           </SponsoredLink>
+          <a
+            v-else
+            class="jc-btn jc-btn--quiet jc-btn--sm jc-action-btn"
+            :href="`/brands/${p.slug}/`"
+          >
+            待官方核验
+          </a>
         </div>
       </article>
     </div>

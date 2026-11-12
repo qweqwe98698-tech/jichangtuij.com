@@ -4,7 +4,7 @@ title: "推荐主题相关内容"
 description: "带「推荐」标签的全部已发布内容：如何根据场景、预算、设备与稳定性要求选择真正适合自己的机场服务。"
 tag: "推荐"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「推荐」标签聚合了全站 14 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「推荐」标签聚合了全站 48 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "这个标签下的推荐内容是按照什么标准筛选的？"

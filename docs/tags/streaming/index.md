@@ -4,7 +4,7 @@ title: "流媒体相关内容"
 description: "带「流媒体」标签的已发布内容：Netflix、YouTube 4K、Disney+、Hulu、HBO 等平台的解锁原理、画质保障与电视端观影配置。"
 tag: "流媒体"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「流媒体」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「流媒体」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "为什么 Netflix 只能看自制剧（Netflix Originals），看不了第三方版权剧？"

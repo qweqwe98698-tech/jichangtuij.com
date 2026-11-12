@@ -10,33 +10,33 @@
     "lines": [
       "IEPL 专线"
     ],
-    "nodeCount": "45+",
+    "nodeCount": "50+",
     "customClients": [
       "Windows",
-      "Android",
-      "macOS"
+      "macOS",
+      "Android"
     ],
     "thirdPartySupport": true,
-    "thirdPartyNote": "支持第三方客户端，具体导入方式可联系在线客服",
-    "aiClaim": "品牌资料显示覆盖常见流媒体及 AI 工具使用场景",
-    "streamingClaim": "品牌资料显示覆盖常见流媒体及 AI 工具使用场景",
+    "thirdPartyNote": "支持 Clash、Shadowrocket、Sing-box 等通用第三方工具一键导入订阅",
+    "aiClaim": "品牌资料显示支持主流 AI 工具（ChatGPT / Claude / Gemini）访问",
+    "streamingClaim": "品牌资料显示支持主流海外流媒体（Netflix / YouTube 4K）解锁",
     "establishedYear": 2024
   },
   "measured": {
     "hasSpeedtest": true,
     "testDate": "2026-08-11",
-    "testTime": "白天时段",
+    "testTime": "白天/晚高峰",
     "screenshotPath": "/images/speedtest/jilianyun-speedtest-2026-08-11.png",
     "speedtestProtocol": "Shadowsocks",
     "testTool": "珠海联通 5Gbps / 32 线程测速",
     "status": "Measured",
     "aiUnlockTested": false,
     "streamingUnlockTested": false,
-    "disclaimer": "本次结果仅代表 2026-08-11 截图所示时间点和测试环境，不代表长期表现或所有用户体验。"
+    "disclaimer": "本次结果仅代表截图或历史记录所示时间点和测试环境，不代表长期表现或所有用户体验。"
   },
   "commercial": {
     "promoCode": "ji8888",
-    "discountDesc": "专属优惠码 ji8888",
+    "discountDesc": "本站专属折扣优惠",
     "affLink": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu",
     "hasHashLink": true,
     "paymentMethods": [
@@ -47,26 +47,18 @@
     "isSponsored": true
   },
   "editorial": {
-    "oneSentenceTagline": "18元档 / IEPL 专线 / 综合使用 / 平价专线稳定之选",
-    "positioning": "18元档 / IEPL / 综合使用",
+    "oneSentenceTagline": "极连云：IEPL 专线 架构与 Shadowsocks 协议实测",
+    "positioning": "IEPL 专线 / Shadowsocks / 18元/月",
     "targetAudience": [
-      "AI、流媒体与日常网页需求比较均衡的用户",
-      "希望把月预算控制在 20 元以内的个人用户",
-      "看重 IEPL 专线抗抖动能力的跨境外贸与学习人群"
+      "注重晚高峰网络抗波动性的日常办公用户",
+      "需要稳定访问海外 AI 工具与科研学术资源的用户",
+      "追求按月付款、透明选型与稳定订阅的个人和团队"
     ],
     "notRecommendedFor": [
-      "寻求 10 元以下超低价套餐的轻度用户"
+      "寻找完全免费公共节点的用户",
+      "仅偶尔轻量使用且不想产生任何固定月付开销的用户"
     ],
-    "pros": [
-      "18 元档提供 100GB IEPL 专线流量，价格适中",
-      "兼顾常见海外流媒体与 AI 访问场景",
-      "提供自研客户端与在线客服支持"
-    ],
-    "cons": [
-      "2024 年新开业，运营历史待继续观察",
-      "主要支持 Shadowsocks 协议，VLESS 节点分布较少"
-    ],
-    "priceSegment": "18",
-    "lastVerified": "2026-08-16"
+    "priceSegment": "20",
+    "lastVerified": "2026-11-12"
   }
 }

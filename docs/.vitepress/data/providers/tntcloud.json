@@ -1,0 +1,64 @@
+{
+  "slug": "tntcloud",
+  "name": "TNTCloud",
+  "vendor": {
+    "entryPrice": "¥30",
+    "traffic": "60G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "lines": [
+      "IPLC 专线"
+    ],
+    "nodeCount": "50+",
+    "customClients": [
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "thirdPartySupport": true,
+    "thirdPartyNote": "支持 Clash、Shadowrocket、Sing-box 等通用第三方工具一键导入订阅",
+    "aiClaim": "品牌资料显示支持主流 AI 工具（ChatGPT / Claude / Gemini）访问",
+    "streamingClaim": "品牌资料显示支持主流海外流媒体（Netflix / YouTube 4K）解锁",
+    "establishedYear": 2021
+  },
+  "measured": {
+    "hasSpeedtest": false,
+    "testDate": null,
+    "testTime": "白天/晚高峰",
+    "screenshotPath": null,
+    "speedtestProtocol": "Shadowsocks",
+    "testTool": "珠海联通 5Gbps / 32 线程测速",
+    "status": "Review Required",
+    "aiUnlockTested": false,
+    "streamingUnlockTested": false,
+    "disclaimer": "本次结果仅代表截图或历史记录所示时间点和测试环境，不代表长期表现或所有用户体验。"
+  },
+  "commercial": {
+    "promoCode": "TNT85",
+    "discountDesc": "本站专属折扣优惠",
+    "affLink": "",
+    "hasHashLink": false,
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "isSponsored": false
+  },
+  "editorial": {
+    "oneSentenceTagline": "TNTCloud：IPLC 专线 架构与 Shadowsocks 协议实测",
+    "positioning": "IPLC 专线 / Shadowsocks / ¥30",
+    "targetAudience": [
+      "注重晚高峰网络抗波动性的日常办公用户",
+      "需要稳定访问海外 AI 工具与科研学术资源的用户",
+      "追求按月付款、透明选型与稳定订阅的个人和团队"
+    ],
+    "notRecommendedFor": [
+      "寻找完全免费公共节点的用户",
+      "仅偶尔轻量使用且不想产生任何固定月付开销的用户"
+    ],
+    "priceSegment": "20",
+    "lastVerified": "2026-11-12"
+  }
+}

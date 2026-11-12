@@ -4,7 +4,7 @@ title: "新手入门相关内容"
 description: "带「新手」标签的已发布内容：第一次买机场、概念区分、软件下载、套餐选择与防骗避坑的全流程入门指南。"
 tag: "新手入门"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
+updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]
@@ -16,7 +16,7 @@ status: published
 draft: false
 noindex: false
 cover: /og/default-og.webp
-answer: "「新手入门」标签聚合了全站 7 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
+answer: "「新手入门」标签聚合了全站 5 篇已发布内容，可以按同一主题横向浏览分散在不同栏目的文章。"
 updateCondition: "当带有该标签的已发布文章数量或范围发生变化时自动更新。"
 faq:
   - q: "新手第一次买机场，最重要的一条原则是什么？"

@@ -56,6 +56,34 @@
     "pageType": "hub"
   },
   {
+    "slug": "/brands/baiyueguang/",
+    "primaryKeyword": "白月光",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/cyberguard/",
+    "primaryKeyword": "CyberGuard",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/dalaoyun/",
+    "primaryKeyword": "大佬云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/edgenova/",
+    "primaryKeyword": "EdgeNova",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/ermaoyun/",
     "primaryKeyword": "二猫云",
     "pillar": "/brands/",
@@ -63,8 +91,29 @@
     "pageType": "article"
   },
   {
+    "slug": "/brands/fatcat/",
+    "primaryKeyword": "FATCAT",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/feimaoyun/",
     "primaryKeyword": "飞猫云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/firefly/",
+    "primaryKeyword": "Firefly",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/flyingbird/",
+    "primaryKeyword": "FlyingBird",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -79,6 +128,13 @@
   {
     "slug": "/brands/guangsuyun/",
     "primaryKeyword": "光速云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/huanqiuti/",
+    "primaryKeyword": "环球梯",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -112,8 +168,50 @@
     "pageType": "article"
   },
   {
+    "slug": "/brands/langwang/",
+    "primaryKeyword": "浪网",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/lingdongyun/",
+    "primaryKeyword": "灵动云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/lingmao/",
     "primaryKeyword": "灵猫网络",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/liulianyun/",
+    "primaryKeyword": "榴莲云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/longmaoyun/",
+    "primaryKeyword": "龙猫云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/muguang/",
+    "primaryKeyword": "暮光加速",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/qingyunti/",
+    "primaryKeyword": "青云梯",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -126,8 +224,43 @@
     "pageType": "article"
   },
   {
+    "slug": "/brands/shandianshu/",
+    "primaryKeyword": "闪电鼠",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/shanshuiyun/",
+    "primaryKeyword": "山水云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/shanyue/",
+    "primaryKeyword": "闪跃",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/shenxing/",
+    "primaryKeyword": "神行加速",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/sogoyun/",
     "primaryKeyword": "SOGO 云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/sslar/",
+    "primaryKeyword": "sslar",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -140,6 +273,20 @@
     "pageType": "article"
   },
   {
+    "slug": "/brands/tiziyun/",
+    "primaryKeyword": "梯子云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/tntcloud/",
+    "primaryKeyword": "TNTCloud",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/u1s1/",
     "primaryKeyword": "U1S1",
     "pillar": "/brands/",
@@ -147,8 +294,29 @@
     "pageType": "article"
   },
   {
+    "slug": "/brands/weifeng/",
+    "primaryKeyword": "微风网络",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/brands/weitu/",
     "primaryKeyword": "唯兔云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/wgetcloud/",
+    "primaryKeyword": "WgetCloud",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/wuyou/",
+    "primaryKeyword": "无忧链接",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -163,6 +331,27 @@
   {
     "slug": "/brands/yifanyun/",
     "primaryKeyword": "一翻云",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/yinghuochong/",
+    "primaryKeyword": "萤火虫",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/yinxingren/",
+    "primaryKeyword": "隐形人",
+    "pillar": "/brands/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
+    "slug": "/brands/yunjiexian/",
+    "primaryKeyword": "云界线",
     "pillar": "/brands/",
     "intent": "informational",
     "pageType": "article"
@@ -393,7 +582,7 @@
   },
   {
     "slug": "/recommend/cheap/",
-    "primaryKeyword": "便宜机场推荐",
+    "primaryKeyword": "便宜机场",
     "pillar": "/recommend/",
     "intent": "informational",
     "pageType": "article"
@@ -414,7 +603,7 @@
   },
   {
     "slug": "/recommend/value/",
-    "primaryKeyword": "高性价比机场推荐",
+    "primaryKeyword": "性价比机场",
     "pillar": "/recommend/",
     "intent": "informational",
     "pageType": "article"

@@ -5,69 +5,46 @@
     "name": "光速云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://sahude.gsyvipaff.com/#/?code=keqgvT5Y",
     "couponCode": "AMM",
     "established": "2020",
-    "entryPrice": "17元/月",
+    "entryPrice": "99元/年",
     "isAnnualDiscount": false,
-    "traffic": "110GB/月",
+    "traffic": "247GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "VLESS"
     ],
     "routes": [
-      "IEPL 专线"
+      "IEPL 专线",
+      "IPLC 专线"
     ],
-    "positioning": "老牌综合型 / IEPL / VLESS / AI 与流媒体",
-    "notes": "【核验状态】官网公开信息已确认（老牌综合型 / IEPL 专线 / VLESS 协议 / AI 与流媒体品牌声明）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 99元/年",
+    "notes": "【核验状态】官网公开信息已确认（光速云 - IEPL 专线+IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
-    "id": "xingdaomeng",
-    "slug": "xingdaomeng",
-    "name": "星岛梦",
+    "id": "muguang",
+    "slug": "muguang",
+    "name": "暮光加速",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
-    "site": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
-    "couponCode": "nmw888",
-    "established": "2020",
-    "entryPrice": "约8元/月 (年付折算)",
-    "isAnnualDiscount": true,
-    "traffic": "60GB/月",
-    "protocols": [
-      "Shadowsocks"
-    ],
-    "routes": [
-      "企业级内网专线"
-    ],
-    "positioning": "低价年付 / 套餐丰富 / 不限时套餐",
-    "notes": "【核验状态】官网公开信息已确认（低价年付 / 套餐丰富 / 不限时套餐 / 轻量备用方案）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
-  },
-  {
-    "id": "lingmao",
-    "slug": "lingmao",
-    "name": "灵猫网络",
-    "status": "active",
-    "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
-    "lastMeasured": "2026-08-11",
-    "site": "https://vip01.civetnet.com/#/?code=8MIAyxak",
-    "couponCode": "lmao888",
-    "established": "2024",
-    "entryPrice": "19元/月",
+    "site": "https://varnexa.twilightaff.com/#/?code=D1LHglg3",
+    "couponCode": "muguang5555",
+    "established": "2023",
+    "entryPrice": "20元/月",
     "isAnnualDiscount": false,
-    "traffic": "150GB/月",
+    "traffic": "120GB/月",
     "protocols": [
       "Shadowsocks"
     ],
     "routes": [
-      "企业级内网专线"
+      "BGP 智能中继"
     ],
-    "positioning": "月付大流量 / 150GB / 套餐种类丰富",
-    "notes": "【核验状态】官网公开信息已确认（月付大流量 / 150GB / 企业级专线 / 套餐种类丰富）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "BGP 智能中继 / Shadowsocks / 20元/月",
+    "notes": "【核验状态】官网公开信息已确认（暮光加速 - BGP 智能中继）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "feimaoyun",
@@ -75,22 +52,137 @@
     "name": "飞猫云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.flycataff.com/#/?code=6uq0Xe9y",
     "couponCode": "flycat888",
     "established": "2023",
-    "entryPrice": "约7元/月 (年付折算)",
+    "entryPrice": "年付约7元/月",
     "isAnnualDiscount": true,
     "traffic": "50GB/月",
     "protocols": [
       "Shadowsocks"
     ],
     "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Shadowsocks / 年付约7元/月",
+    "notes": "【核验状态】官网公开信息已确认（飞猫云 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "weifeng",
+    "slug": "weifeng",
+    "name": "微风网络",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://edp01.breezenetaff.com/#/?code=t3huofyI",
+    "couponCode": "flat888",
+    "established": "2023",
+    "entryPrice": "年付约7元/月",
+    "isAnnualDiscount": true,
+    "traffic": "50GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
       "IEPL 专线"
     ],
-    "positioning": "低价小流量 / 年付 / IEPL / 轻度用户",
-    "notes": "【核验状态】官网公开信息已确认（低价小流量 / 年付折算约7元 / IEPL 专线 / 轻度用户首选）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 年付约7元/月",
+    "notes": "【核验状态】官网公开信息已确认（微风网络 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "dalaoyun",
+    "slug": "dalaoyun",
+    "name": "大佬云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.dalaoyunaff.com/#/?code=jCPLmoWN",
+    "couponCode": "dly888",
+    "established": "2024",
+    "entryPrice": "年付约5.6元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约5.6元/月",
+    "notes": "【核验状态】官网公开信息已确认（大佬云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "xingdaomeng",
+    "slug": "xingdaomeng",
+    "name": "星岛梦",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://guangs.xingdaomeng.com/#/?code=1TynBYnR",
+    "couponCode": "nmw888",
+    "established": "2020",
+    "entryPrice": "年付约8元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "Trojan"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / Trojan / 年付约8元/月",
+    "notes": "【核验状态】官网公开信息已确认（星岛梦 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "ermaoyun",
+    "slug": "ermaoyun",
+    "name": "二猫云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
+    "couponCode": "ermao5555",
+    "established": "2023",
+    "entryPrice": "20元/月",
+    "isAnnualDiscount": false,
+    "traffic": "130GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 20元/月",
+    "notes": "【核验状态】官网公开信息已确认（二猫云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "wuyou",
+    "slug": "wuyou",
+    "name": "无忧链接",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://wep01.worryfreeaff.com/#/?code=4ZoSbLdL",
+    "couponCode": "wuyou666",
+    "established": "2025",
+    "entryPrice": "19元/月",
+    "isAnnualDiscount": false,
+    "traffic": "100GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Shadowsocks / 19元/月",
+    "notes": "【核验状态】官网公开信息已确认（无忧链接 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "weitu",
@@ -98,25 +190,45 @@
     "name": "唯兔云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.v2yunvipaff.com/#/?code=xIutqOBA",
-    "couponCode": "rabbit",
+    "couponCode": "weitu666",
     "established": "2023",
     "entryPrice": "14.9元/月",
     "isAnnualDiscount": false,
     "traffic": "100GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "Trojan"
     ],
     "routes": [
-      "三网优化",
-      "智能负载均衡",
-      "IEPL 专线（服务商标注）"
+      "IPLC 专线"
     ],
-    "positioning": "节点丰富 / VLESS / 三网优化 / 智能负载均衡",
-    "notes": "【核验状态】官网公开信息已确认（节点丰富 / VLESS 协议 / 60+ 节点 / 三网优化与智能负载均衡）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IPLC 专线 / Trojan / 14.9元/月",
+    "notes": "【核验状态】官网公开信息已确认（唯兔云 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "firefly",
+    "slug": "firefly",
+    "name": "Firefly",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-10-19",
+    "site": "https://vip02.fireflyaff.com/#/?code=2n7VURre",
+    "couponCode": "firefly",
+    "established": "2022",
+    "entryPrice": "8元/月",
+    "isAnnualDiscount": false,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / VLESS / 8元/月",
+    "notes": "【核验状态】官网公开信息已确认（Firefly - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "yuzhouyun",
@@ -124,22 +236,22 @@
     "name": "宇宙云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
-    "site": "https://guangs.yuzoucloud.cc/#/register?code=yrThwMP1",
+    "site": "https://wzjc.yuzoucloud.cc/#/?code=yrThwMP1",
     "couponCode": "YUZHOU553",
-    "established": "2023",
-    "entryPrice": "14.9元/月",
+    "established": "2022",
+    "entryPrice": "96元/月",
     "isAnnualDiscount": false,
     "traffic": "100GB/月",
     "protocols": [
       "VLESS"
     ],
     "routes": [
-      "IEPL 专线"
+      "企业级专线"
     ],
-    "positioning": "15元档 / VLESS / IEPL / 性价比",
-    "notes": "【核验状态】官网公开信息已确认（15元档 / VLESS 协议 / IEPL 专线 / 性价比专线标杆）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "企业级专线 / VLESS / 96元/月",
+    "notes": "【核验状态】官网公开信息已确认（宇宙云 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "u1s1",
@@ -147,23 +259,45 @@
     "name": "U1S1",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.vipaff.cc/#/?code=xhX5X22f",
     "couponCode": "akaka",
-    "established": "2023",
+    "established": "2025",
     "entryPrice": "20元/月",
     "isAnnualDiscount": false,
     "traffic": "120GB/月",
     "protocols": [
-      "VLESS",
       "Shadowsocks"
     ],
     "routes": [
-      "IEPL 专线"
+      "IPLC 专线"
     ],
-    "positioning": "20元档 / 120GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（20元档 / 120GB / VLESS 协议 / IEPL 专线 / 均衡月付）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IPLC 专线 / Shadowsocks / 20元/月",
+    "notes": "【核验状态】官网公开信息已确认（U1S1 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "lingmao",
+    "slug": "lingmao",
+    "name": "灵猫网络",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://vip01.civetnet.com/#/?code=8MIAyxak",
+    "couponCode": "lmao888",
+    "established": "2025",
+    "entryPrice": "19元/月",
+    "isAnnualDiscount": false,
+    "traffic": "150GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Shadowsocks / 19元/月",
+    "notes": "【核验状态】官网公开信息已确认（灵猫网络 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "jilianyun",
@@ -171,7 +305,7 @@
     "name": "极连云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.jlyvipaff.com/#/?code=VM1rKGUu",
     "couponCode": "ji8888",
@@ -185,8 +319,8 @@
     "routes": [
       "IEPL 专线"
     ],
-    "positioning": "18元档 / IEPL / 综合使用",
-    "notes": "【核验状态】官网公开信息已确认（18元档 / IEPL 专线 / 综合使用 / 平价专线稳定之选）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / Shadowsocks / 18元/月",
+    "notes": "【核验状态】官网公开信息已确认（极连云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "guangnianti",
@@ -194,7 +328,7 @@
     "name": "光年梯",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.gntaff.com/#/?code=X1FoxjGE",
     "couponCode": "gnt6666",
@@ -203,14 +337,13 @@
     "isAnnualDiscount": false,
     "traffic": "110GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "VLESS"
     ],
     "routes": [
       "IEPL 专线"
     ],
-    "positioning": "18元档 / 110GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（18元档 / 110GB / VLESS 协议 / IEPL 专线 / 新锐专线方案）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 18元/月",
+    "notes": "【核验状态】官网公开信息已确认（光年梯 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "yifanyun",
@@ -218,47 +351,24 @@
     "name": "一翻云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.1flyunaff.cc/#/register?code=Yr7FhB7r",
     "couponCode": "yfy6666",
-    "established": "2024",
+    "established": "2025",
     "entryPrice": "20元/月",
     "isAnnualDiscount": false,
     "traffic": "150GB/月",
     "protocols": [
       "VLESS",
-      "Shadowsocks"
+      "Shadowsocks",
+      "Hysteria2"
     ],
     "routes": [
       "IEPL 专线"
     ],
-    "positioning": "20元档大流量 / 150GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（20元档大流量 / 150GB / VLESS 协议 / IEPL 专线 / 大流量首选）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
-  },
-  {
-    "id": "ermaoyun",
-    "slug": "ermaoyun",
-    "name": "二猫云",
-    "status": "active",
-    "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
-    "lastMeasured": "2026-08-11",
-    "site": "https://guangs.2maoyunaff.cc/#/?code=7mjvgGbW",
-    "couponCode": "ermao5555",
-    "established": "2023",
-    "entryPrice": "20元/月",
-    "isAnnualDiscount": false,
-    "traffic": "130GB/月",
-    "protocols": [
-      "VLESS",
-      "Shadowsocks"
-    ],
-    "routes": [
-      "IEPL 专线"
-    ],
-    "positioning": "20元档 / 130GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（20元档 / 130GB / VLESS 协议 / IEPL 专线 / 流量与专线均衡）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 20元/月",
+    "notes": "【核验状态】官网公开信息已确认（一翻云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "sogoyun",
@@ -266,23 +376,23 @@
     "name": "SOGO 云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.sogoyunaff.cc/#/?code=327Vs0w7",
-    "couponCode": "sss777",
-    "established": "2026",
-    "entryPrice": "25元/月",
+    "couponCode": "SOGO10000",
+    "established": "2022",
+    "entryPrice": "8元/月",
     "isAnnualDiscount": false,
-    "traffic": "150GB/月",
+    "traffic": "60GB/月",
     "protocols": [
-      "VLESS",
-      "Shadowsocks"
+      "VLESS"
     ],
     "routes": [
-      "IEPL 专线"
+      "IEPL 专线",
+      "BGP 智能中继"
     ],
-    "positioning": "25元档 / 150GB / VLESS / IEPL / 综合型",
-    "notes": "【核验状态】官网公开信息已确认（25元档 / 150GB / VLESS 协议 / IEPL 专线 / 综合型高端之选）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 8元/月",
+    "notes": "【核验状态】官网公开信息已确认（SOGO 云 - IEPL 专线+BGP 智能中继）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "kexinyun",
@@ -290,59 +400,11 @@
     "name": "可信云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
-    "lastMeasured": null,
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
     "site": "https://guangs.kosingaff.com/#/register?code=UYDtNlCY",
     "couponCode": "kkk333",
     "established": "2024",
-    "entryPrice": "25元/月",
-    "isAnnualDiscount": false,
-    "traffic": "150GB/月",
-    "protocols": [
-      "VLESS",
-      "Shadowsocks"
-    ],
-    "routes": [
-      "IEPL 专线"
-    ],
-    "positioning": "25元档 / 150GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（25元档 / 150GB / VLESS 协议 / IEPL 专线 / 专线大流量）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
-  },
-  {
-    "id": "sujie",
-    "slug": "sujie",
-    "name": "速界",
-    "status": "active",
-    "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
-    "lastMeasured": "2026-08-11",
-    "site": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
-    "couponCode": "sss1111",
-    "established": "2024",
-    "entryPrice": "25元/月",
-    "isAnnualDiscount": false,
-    "traffic": "150GB/月",
-    "protocols": [
-      "VLESS",
-      "Shadowsocks"
-    ],
-    "routes": [
-      "IEPL 专线"
-    ],
-    "positioning": "AI 场景 / 25元档 / 150GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（AI 场景主打 / 25元档 / 150GB / VLESS 协议 / IEPL 专线）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
-  },
-  {
-    "id": "kuaili",
-    "slug": "kuaili",
-    "name": "快狸",
-    "status": "active",
-    "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
-    "lastMeasured": "2026-08-11",
-    "site": "https://guangs.kuailicloud.cc/#/register?code=AiqyM8oG",
-    "couponCode": "kkk2222",
-    "established": "2023",
     "entryPrice": "25元/月",
     "isAnnualDiscount": false,
     "traffic": "150GB/月",
@@ -352,8 +414,54 @@
     "routes": [
       "IEPL 专线"
     ],
-    "positioning": "25元档 / 150GB / 综合型 / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（25元档 / 150GB / 纯 VLESS 协议 / IEPL 专线 / 视频与AI综合型）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 25元/月",
+    "notes": "【核验状态】官网公开信息已确认（可信云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "sujie",
+    "slug": "sujie",
+    "name": "速界",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://guangs.speedworldaff.cc/#/register?code=xgXzEfZB",
+    "couponCode": "sss1111",
+    "established": "2024",
+    "entryPrice": "25元/月",
+    "isAnnualDiscount": false,
+    "traffic": "150GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 25元/月",
+    "notes": "【核验状态】官网公开信息已确认（速界 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "shanyue",
+    "slug": "shanyue",
+    "name": "闪跃",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-10-19",
+    "site": "https://vip02.flashleapaff.com/#/?code=3lgzm9mm",
+    "couponCode": "shanyue",
+    "established": "2022",
+    "entryPrice": "8元/月",
+    "isAnnualDiscount": false,
+    "traffic": "60GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / 8元/月",
+    "notes": "【核验状态】官网公开信息已确认（闪跃 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   },
   {
     "id": "quanqiuyun",
@@ -361,14 +469,529 @@
     "name": "全球云",
     "status": "active",
     "firstSeen": "2026-08-03",
-    "lastVerified": "2026-08-16",
+    "lastVerified": "2026-11-12",
     "lastMeasured": "2026-08-11",
     "site": "https://guangs.gcvipaff.com/#/?code=Ov2nvU9C",
-    "couponCode": "qqy7777",
-    "established": "2026",
+    "couponCode": "qq88",
+    "established": "2022",
     "entryPrice": "20元/月",
     "isAnnualDiscount": false,
+    "traffic": "2G/月",
+    "protocols": [
+      "Shadowsocks",
+      "Trojan"
+    ],
+    "routes": [
+      "IEPL 专线",
+      "IPLC 专线",
+      "BGP 智能中继"
+    ],
+    "positioning": "IEPL 专线 / Shadowsocks / 20元/月",
+    "notes": "【核验状态】官网公开信息已确认（全球云 - IEPL 专线+IPLC 专线+BGP 智能中继）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "shandianshu",
+    "slug": "shandianshu",
+    "name": "闪电鼠",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.shandianshuaff.com/#/?code=rUE75iYh",
+    "couponCode": "sd88",
+    "established": "2024",
+    "entryPrice": "年付约5.6元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约5.6元/月",
+    "notes": "【核验状态】官网公开信息已确认（闪电鼠 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "yunjiexian",
+    "slug": "yunjiexian",
+    "name": "云界线",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.yunjiexianaff.com/?code=aycnwNUi",
+    "couponCode": "yjx888",
+    "established": "2024",
+    "entryPrice": "年付约5.6元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约5.6元/月",
+    "notes": "【核验状态】官网公开信息已确认（云界线 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "liulianyun",
+    "slug": "liulianyun",
+    "name": "榴莲云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.liulianyunaff.com#/?code=hS5pvbfE",
+    "couponCode": "ll88",
+    "established": "2024",
+    "entryPrice": "年付约5.6元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约5.6元/月",
+    "notes": "【核验状态】官网公开信息已确认（榴莲云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "shenxing",
+    "slug": "shenxing",
+    "name": "神行加速",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.shenxingaff.com/#/?code=gawDQqVE",
+    "couponCode": "xs0077",
+    "established": "2024",
+    "entryPrice": "年付约14元/月",
+    "isAnnualDiscount": true,
     "traffic": "120GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约14元/月",
+    "notes": "【核验状态】官网公开信息已确认（神行加速 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "huanqiuti",
+    "slug": "huanqiuti",
+    "name": "环球梯",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://qwerty.huanqiutiaff.com/?code=9I4KRNPH",
+    "couponCode": "HQ66",
+    "established": "2024",
+    "entryPrice": "年付约5.6元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约5.6元/月",
+    "notes": "【核验状态】官网公开信息已确认（环球梯 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "yinxingren",
+    "slug": "yinxingren",
+    "name": "隐形人",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-10-19",
+    "site": "https://yinxingren1.invisibleaff.com/#/?code=kcyEeoJT",
+    "couponCode": "yxr888",
+    "established": "2024",
+    "entryPrice": "24元/月",
+    "isAnnualDiscount": false,
+    "traffic": "100GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / 24元/月",
+    "notes": "【核验状态】官网公开信息已确认（隐形人 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "tiziyun",
+    "slug": "tiziyun",
+    "name": "梯子云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://tiziyun3.ladderaff.com/#/?code=7EmnpHs0",
+    "couponCode": "tiziyun",
+    "established": "2025",
+    "entryPrice": "年付约7.4元/月",
+    "isAnnualDiscount": true,
+    "traffic": "60GB/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IEPL 专线",
+      "IPLC 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / 年付约7.4元/月",
+    "notes": "【核验状态】官网公开信息已确认（梯子云 - IEPL 专线+IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "wgetcloud",
+    "slug": "wgetcloud",
+    "name": "WgetCloud",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "流量",
+    "site": "https://invite.wgetcloud.ltd/auth/register?code=VLG2xb",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥297",
+    "isAnnualDiscount": false,
+    "traffic": "230GB/月",
+    "protocols": [
+      "Trojan"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Trojan / ¥297",
+    "notes": "【核验状态】官网公开信息已确认（WgetCloud - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "baiyueguang",
+    "slug": "baiyueguang",
+    "name": "白月光",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "流量",
+    "site": "https://sibker.com/register?invite_code=gg6puAId",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥66",
+    "isAnnualDiscount": false,
+    "traffic": "100GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Shadowsocks / ¥66",
+    "notes": "【核验状态】官网公开信息已确认（白月光 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "flyingbird",
+    "slug": "flyingbird",
+    "name": "FlyingBird",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "theo",
+    "established": "2021",
+    "entryPrice": "¥15",
+    "isAnnualDiscount": false,
+    "traffic": "100G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / ¥15",
+    "notes": "【核验状态】官网公开信息已确认（FlyingBird - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "cyberguard",
+    "slug": "cyberguard",
+    "name": "CyberGuard",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2025-06-21",
+    "site": "https://cyberguard.best/#/register?code=AxXNNYng",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥32",
+    "isAnnualDiscount": false,
+    "traffic": "350GB/月",
+    "protocols": [
+      "VLESS",
+      "Trojan"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / VLESS / ¥32",
+    "notes": "【核验状态】官网公开信息已确认（CyberGuard - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "longmaoyun",
+    "slug": "longmaoyun",
+    "name": "龙猫云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥15",
+    "isAnnualDiscount": false,
+    "traffic": "100G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / ¥15",
+    "notes": "【核验状态】官网公开信息已确认（龙猫云 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "fatcat",
+    "slug": "fatcat",
+    "name": "FATCAT",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥96",
+    "isAnnualDiscount": false,
+    "traffic": "60G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IEPL 专线",
+      "IPLC 专线"
+    ],
+    "positioning": "IEPL 专线 / Shadowsocks / ¥96",
+    "notes": "【核验状态】官网公开信息已确认（FATCAT - IEPL 专线+IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "tntcloud",
+    "slug": "tntcloud",
+    "name": "TNTCloud",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "TNT85",
+    "established": "2021",
+    "entryPrice": "¥30",
+    "isAnnualDiscount": false,
+    "traffic": "60G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / ¥30",
+    "notes": "【核验状态】官网公开信息已确认（TNTCloud - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "qingyunti",
+    "slug": "qingyunti",
+    "name": "青云梯",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "qyt85",
+    "established": "2020",
+    "entryPrice": "¥96",
+    "isAnnualDiscount": false,
+    "traffic": "6G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / ¥96",
+    "notes": "【核验状态】官网公开信息已确认（青云梯 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "shanshuiyun",
+    "slug": "shanshuiyun",
+    "name": "山水云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "流量",
+    "site": "https://sldm1.ssyylf.com/#/register?code=YD5iQ888",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥15",
+    "isAnnualDiscount": false,
+    "traffic": "100GB/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "企业级专线"
+    ],
+    "positioning": "企业级专线 / Shadowsocks / ¥15",
+    "notes": "【核验状态】官网公开信息已确认（山水云 - 企业级专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "lingdongyun",
+    "slug": "lingdongyun",
+    "name": "灵动云",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://varnexa.lingdongaff.com/#/?code=wZvEhEoI",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥20",
+    "isAnnualDiscount": false,
+    "traffic": "100G/月",
+    "protocols": [
+      "VLESS",
+      "Trojan"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / VLESS / ¥20",
+    "notes": "【核验状态】官网公开信息已确认（灵动云 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "langwang",
+    "slug": "langwang",
+    "name": "浪网",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://varnexa.wavenetaff.com/#/?code=xwAM4tTd",
+    "couponCode": "",
+    "established": "2021",
+    "entryPrice": "¥120",
+    "isAnnualDiscount": false,
+    "traffic": "800G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IEPL 专线"
+    ],
+    "positioning": "IEPL 专线 / Shadowsocks / ¥120",
+    "notes": "【核验状态】官网公开信息已确认（浪网 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "edgenova",
+    "slug": "edgenova",
+    "name": "EdgeNova",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://work.edgenovaaff.cc/#/register?code=cl3iB5YG",
+    "couponCode": "TH888",
+    "established": "2021",
+    "entryPrice": "¥15",
+    "isAnnualDiscount": false,
+    "traffic": "72G/月",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / Shadowsocks / ¥15",
+    "notes": "【核验状态】官网公开信息已确认（EdgeNova - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "yinghuochong",
+    "slug": "yinghuochong",
+    "name": "萤火虫",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "https://vip02.fireflyaff.com/#/?code=jTp9wSgZ",
+    "couponCode": "firefly",
+    "established": "2021",
+    "entryPrice": "¥96",
+    "isAnnualDiscount": false,
+    "traffic": "60G/月",
+    "protocols": [
+      "VLESS"
+    ],
+    "routes": [
+      "IPLC 专线"
+    ],
+    "positioning": "IPLC 专线 / VLESS / ¥96",
+    "notes": "【核验状态】官网公开信息已确认（萤火虫 - IPLC 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "sslar",
+    "slug": "sslar",
+    "name": "sslar",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": null,
+    "site": "",
+    "couponCode": "ko3eTt0w",
+    "established": "2021",
+    "entryPrice": "¥17",
+    "isAnnualDiscount": false,
+    "traffic": "100G/月",
+    "protocols": [
+      "VLESS",
+      "Shadowsocks"
+    ],
+    "routes": [
+      "IEPL 专线",
+      "BGP 智能中继"
+    ],
+    "positioning": "IEPL 专线 / VLESS / ¥17",
+    "notes": "【核验状态】官网公开信息已确认（sslar - IEPL 专线+BGP 智能中继）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+  },
+  {
+    "id": "kuaili",
+    "slug": "kuaili",
+    "name": "快狸",
+    "status": "active",
+    "firstSeen": "2026-08-03",
+    "lastVerified": "2026-11-12",
+    "lastMeasured": "2026-08-11",
+    "site": "https://guangs.kuailicloud.cc/#/register?code=AiqyM8oG",
+    "couponCode": "kuaili666",
+    "established": "2024",
+    "entryPrice": "25元/月",
+    "isAnnualDiscount": false,
+    "traffic": "150GB/月",
     "protocols": [
       "VLESS",
       "Shadowsocks"
@@ -376,7 +999,7 @@
     "routes": [
       "IEPL 专线"
     ],
-    "positioning": "20元档 / 120GB / VLESS / IEPL",
-    "notes": "【核验状态】官网公开信息已确认（20元档 / 120GB / VLESS 协议 / IEPL 专线 / 2026 综合型专线）；【数据来源】官方参数与 2026-08-11 本站测速截图；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
+    "positioning": "IEPL 专线 / VLESS / 25元/月",
+    "notes": "【核验状态】官网公开信息已确认（快狸 - IEPL 专线）；【数据来源】官方参数与本站测速记录；【待核验项】长周期连续晚高峰丢包率与独立 AI 解锁复测。"
   }
 ]

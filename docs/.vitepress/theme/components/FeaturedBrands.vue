@@ -4,8 +4,19 @@ import JcIcon from './JcIcon.vue'
 import SponsoredLink from './SponsoredLink.vue'
 import { providersData } from '../data/providersData'
 
-// 首页精选 6 家具有典型代表性的品牌
-const FEATURED_SLUGS = ['guangsuyun', 'feimaoyun', 'xingdaomeng', 'lingmao', 'ermaoyun', 'sogoyun']
+// 首页精选前 10 核心品牌（第一主推光速云）
+const FEATURED_SLUGS = [
+  'guangsuyun',
+  'muguang',
+  'feimaoyun',
+  'weifeng',
+  'dalaoyun',
+  'xingdaomeng',
+  'ermaoyun',
+  'wuyou',
+  'weitu',
+  'firefly'
+]
 
 const featuredList = computed(() => {
   return FEATURED_SLUGS.map((slug) => providersData.find((p) => p.slug === slug || p.id === slug)).filter(Boolean)
@@ -65,27 +76,35 @@ const featuredList = computed(() => {
         <!-- 5. Actions -->
         <div class="jc-provider-item__actions">
           <a :href="`/brands/${p!.slug}/`" class="jc-btn jc-btn--ghost jc-btn--sm">
-            查看档案
+            查看{{ p!.name }}评测档案
           </a>
           <a :href="`/brands/${p!.slug}/#本站测速记录-measured-evidence`" class="jc-btn jc-btn--ghost jc-btn--sm">
-            查看测速
+            查看{{ p!.name }}测速证据
           </a>
           <SponsoredLink
+            v-if="p!.site"
             :href="p!.site"
             class="jc-btn jc-btn--primary jc-btn--sm"
           >
             前往官网
             <JcIcon name="arrow-right" :size="12" />
           </SponsoredLink>
+          <a
+            v-else
+            :href="`/brands/${p!.slug}/`"
+            class="jc-btn jc-btn--secondary jc-btn--sm"
+          >
+            查看档案
+          </a>
         </div>
       </article>
     </div>
 
-    <!-- 查看全部 16 家品牌入口 -->
+    <!-- 查看全部 42+ 家品牌入口 -->
     <div class="jc-featured-footer">
       <a href="/brands/" class="jc-btn jc-btn--primary jc-btn--lg">
         <JcIcon name="layers" :size="18" />
-        查看全部 16 家机场品牌资料与测速证据库
+        查看全部 42+ 家机场品牌资料与测速证据库
         <JcIcon name="arrow-right" :size="16" />
       </a>
     </div>
