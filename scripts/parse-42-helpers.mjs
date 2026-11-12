@@ -16,8 +16,15 @@ if (!fs.existsSync(BRANDS_DIR)) {
   fs.mkdirSync(BRANDS_DIR, { recursive: true })
 }
 
-const rawText = fs.readFileSync('c:/Users/Pro User/Desktop/机场品牌信息/42家机场品牌清单.txt', 'utf-8')
-const allLines = rawText.split(/\r?\n/)
+const localSource = path.join(ROOT, 'data', '42-brands.txt')
+const fallbackSource = 'c:/Users/Pro User/Desktop/机场品牌信息/42家机场品牌清单.txt'
+const sourcePath = fs.existsSync(localSource) ? localSource : (fs.existsSync(fallbackSource) ? fallbackSource : null)
+
+let rawText = ''
+if (sourcePath && fs.existsSync(sourcePath)) {
+  rawText = fs.readFileSync(sourcePath, 'utf-8')
+}
+const allLines = rawText ? rawText.split(/\r?\n/) : []
 
 // 1. Slugs & Image Assets
 const SPEEDTEST_IMAGES = {
