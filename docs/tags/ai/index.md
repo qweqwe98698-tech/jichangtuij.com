@@ -4,7 +4,7 @@ title: "AI 相关内容"
 description: "带「AI」标签的已发布内容：ChatGPT、Claude、Gemini、Midjourney 等 AI 工具对节点出口 IP、DNS 解析与防封策略的专项说明。"
 tag: "AI"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

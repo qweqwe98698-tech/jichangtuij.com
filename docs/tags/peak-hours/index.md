@@ -4,7 +4,7 @@ title: "晚高峰相关内容"
 description: "带「晚高峰」标签的已发布内容：晚高峰为什么是唯一有判别力的观察窗口，以及掉速的成因与记录方法。"
 tag: "晚高峰"
 date: "2026-08-02"
-updated: "Thu Nov 05 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Nov 05 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

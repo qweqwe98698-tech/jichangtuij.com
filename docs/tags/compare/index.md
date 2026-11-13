@@ -4,7 +4,7 @@ title: "对比主题相关内容"
 description: "带「对比」标签的全部已发布内容：专线与直连、IEPL 与 IPLC、Shadowsocks 与 Trojan、月付与年付等核心概念的横向对比与决策表。"
 tag: "对比"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

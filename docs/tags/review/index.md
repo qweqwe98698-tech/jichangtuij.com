@@ -4,7 +4,7 @@ title: "机场品牌深度评测档案"
 description: "带「评测」标签的全部已发布内容：主流代理机场官方参数核验、实测证据比对与选型指南。"
 tag: "评测"
 date: "2026-08-02"
-updated: "Thu Nov 12 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Nov 12 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

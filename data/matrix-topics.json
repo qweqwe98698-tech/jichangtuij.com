@@ -232,7 +232,7 @@
   },
   {
     "id": "matrix-012",
-    "status": "pending",
+    "status": "published",
     "pillar": "guides",
     "slug": "high-availability-proxy-failover-health-check-design",
     "targetKeyword": "代理节点高可用自动容灾",
@@ -248,8 +248,8 @@
       "教程"
     ],
     "coreProblem": "设计科学的节点健康检查探测算法（Passive vs Active Check），在客户端配置毫秒级无感漂移策略组，杜绝单点服务器故障断网。",
-    "publishedAt": null,
-    "publishedUrl": null
+    "publishedAt": "2026-11-13",
+    "publishedUrl": "/guides/high-availability-proxy-failover-health-check-design/"
   },
   {
     "id": "matrix-013",

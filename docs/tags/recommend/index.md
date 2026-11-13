@@ -4,7 +4,7 @@ title: "推荐主题相关内容"
 description: "带「推荐」标签的全部已发布内容：如何根据场景、预算、设备与稳定性要求选择真正适合自己的机场服务。"
 tag: "推荐"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

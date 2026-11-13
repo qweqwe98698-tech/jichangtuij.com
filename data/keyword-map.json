@@ -469,6 +469,13 @@
     "pageType": "article"
   },
   {
+    "slug": "/guides/high-availability-proxy-failover-health-check-design/",
+    "primaryKeyword": "代理节点高可用自动容灾",
+    "pillar": "/guides/",
+    "intent": "informational",
+    "pageType": "article"
+  },
+  {
     "slug": "/guides/how-to-choose/",
     "primaryKeyword": "机场怎么选",
     "pillar": "/guides/",

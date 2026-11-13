@@ -4,7 +4,7 @@ title: "DNS 相关内容"
 description: "带「DNS」标签的已发布内容：解析在代理链路中的位置、污染与泄漏的区别、fake-ip 与远端解析机制，以及解析问题在排查与测试中的识别方法。"
 tag: "DNS"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

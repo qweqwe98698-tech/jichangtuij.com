@@ -4,7 +4,7 @@ title: "故障排查相关内容"
 description: "带「故障排查」标签的已发布内容：节点超时、订阅更新失败、WiFi能用流量不能用、特定网站打不开等故障的阶梯式排查指南。"
 tag: "故障排查"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

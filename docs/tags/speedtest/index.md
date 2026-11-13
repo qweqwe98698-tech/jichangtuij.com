@@ -4,7 +4,7 @@ title: "机场节点测速实测专栏"
 description: "带「测速」标签的全部已发布内容：真实节点延迟、晚高峰吞吐带宽、丢包率与测速截图复核。"
 tag: "测速"
 date: "2026-08-02"
-updated: "Thu Nov 12 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Nov 12 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

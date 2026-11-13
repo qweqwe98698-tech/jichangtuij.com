@@ -4,7 +4,7 @@ title: "成本结构相关内容"
 description: "带「成本结构」标签的已发布内容：带宽与线路成本分别产生在哪一段、价格差异对应什么取舍，以及一个报价是否具备成本可行性。"
 tag: "成本结构"
 date: "2026-08-02"
-updated: "Thu Sep 03 2026 08:00:00 GMT+0800 (中国标准时间)"
+updated: "Thu Sep 03 2026 00:00:00 GMT+0000 (Coordinated Universal Time)"
 author: 机场推荐评测实验室
 category: 标签索引
 tags: ["标签索引"]

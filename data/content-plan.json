@@ -469,6 +469,13 @@
     "status": "published"
   },
   {
+    "url": "/guides/high-availability-proxy-failover-health-check-design/",
+    "title": "代理节点高可用自动容灾：被动与主动健康检查探测算法及毫秒级无感漂移策略组工程实践",
+    "pillar": "/guides/",
+    "primaryKeyword": "代理节点高可用自动容灾",
+    "status": "published"
+  },
+  {
     "url": "/guides/how-to-choose/",
     "title": "机场怎么选？2026新手选型避坑法则与四大硬性指标",
     "pillar": "/guides/",
